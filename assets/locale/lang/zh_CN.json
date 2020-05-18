@@ -1028,7 +1028,9 @@
           }
         },
         "UpdationEvent": {
-          "due_on": "修改了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.due_on.__t__)"
+          "due_on": "修改了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.due_on.__t__)",
+          "clear_due_on": "清空了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.due_on.__t__)",
+          "update_due_on": "更改时间为 {{time}}"
         },
         "CommentEvent": {
           "create": "评论了$t(Attribute.Project.task.__t__)",

@@ -646,8 +646,14 @@ msgstr "完成了任务"
 msgid "Page.Activity.Notification.TaskEvent.uncomplete"
 msgstr "重新打开了任务"
 
+msgid "Page.Activity.Notification.UpdationEvent.clear_due_on"
+msgstr "清空了任务截止时间"
+
 msgid "Page.Activity.Notification.UpdationEvent.due_on"
 msgstr "修改了任务截止时间"
+
+msgid "Page.Activity.Notification.UpdationEvent.update_due_on"
+msgstr "更改时间为 %{time}"
 
 msgid "Page.Activity.Notification.all"
 msgstr "全部"
