@@ -262,6 +262,9 @@ msgstr "评论"
 msgid "Attribute.Project.task.completed"
 msgstr "完成"
 
+msgid "Attribute.Project.task.completed_time"
+msgstr "完成时间"
+
 msgid "Attribute.Project.task.description"
 msgstr "任务描述"
 
@@ -273,6 +276,18 @@ msgstr "未设置"
 
 msgid "Attribute.Project.task.due_on.empty"
 msgstr "无"
+
+msgid "Attribute.Project.task.overdue.__t__"
+msgstr "逾期天数"
+
+msgid "Attribute.Project.task.overdue.full"
+msgstr "%{days}天 %{hours}小时"
+
+msgid "Attribute.Project.task.overdue.in_days"
+msgstr "%{days}天"
+
+msgid "Attribute.Project.task.overdue.in_hours"
+msgstr "%{hours}小时"
 
 msgid "Attribute.Project.task.parent"
 msgstr "上级任务"
@@ -306,6 +321,9 @@ msgstr "标签"
 
 msgid "Attribute.Project.task.task_label.blank"
 msgstr "未添加"
+
+msgid "Attribute.Project.task.task_label.full"
+msgstr "任务标签"
 
 msgid "Attribute.Project.task.task_label.name"
 msgstr "标签名称"

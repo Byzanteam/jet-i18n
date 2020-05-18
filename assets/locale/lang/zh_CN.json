@@ -38,11 +38,13 @@
         "title": "$t(Attribute.Project.task.__t__)标题",
         "description": "$t(Attribute.Project.task.__t__)描述",
         "completed": "完成",
+        "completed_time": "$t(Attribute.Project.task.completed)时间",
         "assignee": { "__t__": "负责人", "blank": "未指派" },
         "due_on": { "__t__": "截止时间", "blank": "未设置", "empty": "无" },
         "collaborator": { "__t__": "协作者", "blank": "未指派" },
         "task_label": {
           "__t__": "标签",
+          "full": "$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.task_label.__t__)",
           "blank": "未添加",
           "name": "$t(Attribute.Project.task.task_label.__t__)名称"
         },
@@ -59,6 +61,12 @@
         "sub_task": "子任务",
         "comment": "评论",
         "activities": "动态",
+        "overdue": {
+          "__t__": "逾期天数",
+          "in_days": "{{days}}天",
+          "in_hours": "{{hours}}小时",
+          "full": "{{days}}天 {{hours}}小时"
+        },
         "parent": "上级$t(Attribute.Project.task.__t__)"
       },
       "task_group": {
