@@ -1,8 +1,4 @@
-defmodule JetShareTest do
+defmodule JetI18nTest do
   use ExUnit.Case
-  doctest JetShare
-
-  test "greets the world" do
-    assert JetShare.hello() == :world
-  end
+  doctest JetI18n
 end

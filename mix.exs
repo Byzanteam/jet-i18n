@@ -1,9 +1,9 @@
-defmodule JetShare.MixProject do
+defmodule JetI18n.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :jet_share,
+      app: :jet_i18n,
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
@@ -24,7 +24,7 @@ defmodule JetShare.MixProject do
   defp deps do
     [
       {:i18next_to_gettext,
-       git: "git@github.com:Byzanteam-Labs/i18next_to_gettext.git",
+       git: "https://github.com/Byzanteam-Labs/i18next_to_gettext.git",
        branch: "zhengjie/feature/json-to-po"},
       {:gettext, ">= 0.0.0"}
     ]
