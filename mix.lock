@@ -1,0 +1,4 @@
+%{
+  "i18next_to_gettext": {:git, "git@github.com:ZhengQingchen/i18next-to-gettext.git", "1da56097992f00a9a2e93670b3e02e6239955fba", [branch: "zhengjie/feature/json-to-po"]},
+  "jason": {:hex, :jason, "1.2.1", "12b22825e22f468c02eb3e4b9985f3d0cb8dc40b9bd704730efa11abd2708c44", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
+}
