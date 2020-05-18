@@ -1,5 +1,5 @@
 %{
   "gettext": {:hex, :gettext, "0.18.0", "406d6b9e0e3278162c2ae1de0a60270452c553536772167e2d701f028116f870", [:mix], [], "hexpm"},
-  "i18next_to_gettext": {:git, "git@github.com:ZhengQingchen/i18next-to-gettext.git", "61866f0a6b226bcb5a9e1dc4f37a84dc63fa789e", [branch: "zhengjie/feature/json-to-po"]},
+  "i18next_to_gettext": {:git, "git@github.com:Byzanteam-Labs/i18next_to_gettext.git", "61866f0a6b226bcb5a9e1dc4f37a84dc63fa789e", [branch: "zhengjie/feature/json-to-po"]},
   "jason": {:hex, :jason, "1.2.1", "12b22825e22f468c02eb3e4b9985f3d0cb8dc40b9bd704730efa11abd2708c44", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
 }
