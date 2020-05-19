@@ -26,5 +26,5 @@ jobs:
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        file_pattern: ./pri/gettext/**
+        file_pattern: ./priv/gettext/**
         commit_message: Update po file
