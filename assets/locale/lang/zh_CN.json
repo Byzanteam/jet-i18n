@@ -1,4 +1,5 @@
-{
+{ 
+  "testAction": "测试actions",
   "Attribute": {
     "Auth": { "verification_code": "验证码" },
     "IdentityAccess": {
