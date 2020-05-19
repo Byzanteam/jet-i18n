@@ -19,12 +19,10 @@ jobs:
         otp-version: 22.2 # Define the OTP version [required]
     - name: Install Dependencies
       run: mix deps.get
-    - name: Run Tests
+    - name: Run Convert
       run: mix i18n.converte
-    - name: Commit changes
-      uses: EndBug/add-and-commit@v4
+
+    - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        message: "Update po file"
-        add: "*.po"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        file_pattern: **.po
+        commit_message: Update po file
