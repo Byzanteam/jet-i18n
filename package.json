@@ -1,6 +1,6 @@
 {
   "name": "jet_i18n",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Jet i18n file dependencies",
   "main": "index.js",
   "directories": {
