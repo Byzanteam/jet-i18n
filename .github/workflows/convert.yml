@@ -2,9 +2,11 @@ name: Convert CI
 
 on:
   push:
-    branches: [ master ]
+    paths:
+      - 'assets/locale/lang/*.json'
   pull_request:
-    branches: [ master ]
+    paths:
+      - 'assets/locale/lang/*.json'
 
 jobs:
   converte:
