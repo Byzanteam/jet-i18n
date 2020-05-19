@@ -1,12 +1,15 @@
 {
   "name": "jet_i18n",
-  "version": "1.0.0",
-  "description": "**TODO: Add description**",
+  "version": "0.1.0",
+  "description": "Jet i18n file dependencies",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
+  "files": [
+    "./assets"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
