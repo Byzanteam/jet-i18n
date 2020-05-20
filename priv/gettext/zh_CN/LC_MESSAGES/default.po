@@ -1822,6 +1822,9 @@ msgstr "已关注任务的成员"
 msgid "Page.Project.task_subscription.update_subscriber_error"
 msgstr "更新关注者失败"
 
+msgid "Page.Project.task_table.cell.disabled_tooltip"
+msgstr "该字段被逻辑控制，不能填写"
+
 msgid "Page.Project.task_table.cell.empty_text.unset"
 msgstr "请设置"
 
