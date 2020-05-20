@@ -957,7 +957,12 @@
         "blank": "暂无相关结果。"
       },
       "task_table": {
-        "visible_columns": "显示字段"
+        "visible_columns": "显示字段",
+        "cell": {
+          "empty_text": {
+            "unset": "请设置"
+          }
+        }
       },
       "task_subscription": {
         "__t__": "关注任务",
