@@ -1,5 +1,5 @@
 {
-  "name": "jet_i18n",
+  "name": "jet-i18n",
   "version": "0.1.0",
   "description": "Jet i18n file dependencies",
   "main": "index.js",
