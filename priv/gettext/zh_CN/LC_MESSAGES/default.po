@@ -1822,6 +1822,9 @@ msgstr "已关注任务的成员"
 msgid "Page.Project.task_subscription.update_subscriber_error"
 msgstr "更新关注者失败"
 
+msgid "Page.Project.task_table.cell.empty_text.unset"
+msgstr "请设置"
+
 msgid "Page.Project.task_table.visible_columns"
 msgstr "显示字段"
 
