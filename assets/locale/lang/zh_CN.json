@@ -961,7 +961,8 @@
         "cell": {
           "empty_text": {
             "unset": "请设置"
-          }
+          },
+          "disabled_tooltip": "该字段被逻辑控制，不能填写"
         }
       },
       "task_subscription": {
