@@ -20,6 +20,29 @@
         "name": "$t(Attribute.IdentityAccess.workspace.__t__)名称"
       }
     },
+    "Workflow": {
+      "workflow": {
+        "__t__": "流程",
+        "name": "$t(Attribute.Workflow.workflow.__t__)名称"
+      },
+      "node": {
+        "__t__": "节点",
+        "Start": "开始$t(Attribute.Workflow.node.__t__)",
+        "End": "结束$t(Attribute.Workflow.node.__t__)",
+        "Condition": "条件$t(Attribute.Workflow.node.__t__)",
+        "Approval": "审批$t(Attribute.Workflow.node.__t__)",
+        "ExclusiveChoice": "单条流转",
+        "MultiChoice": "多条流转",
+        "SimpleMerge": "单条聚合",
+        "MultiMerge": "多条聚合",
+        "TaskUserOperationTrigger": "用户操作(任务)",
+        "TaskAutomaticOperation": "系统操作(任务)",
+        "UserAutomaticOperation": "系统操作(用户)",
+        "Form": "填写$t(Attribute.Workflow.node.__t__)",
+        "Timer": "定时器",
+        "TaskUserOperationLocker": "锁定节点(任务)"
+      }
+    },
     "Project": {
       "project": {
         "__t__": "项目",
@@ -536,6 +559,13 @@
           "email": {
             "format": "$t(Attribute.IdentityAccess.user.email)格式错误"
           }
+        }
+      }
+    },
+    "Workflow": {
+      "workflow": {
+        "editor": {
+          "back_to_workflow_list": "返回$t(Attribute.Workflow.workflow.__t__)列表"
         }
       }
     },
