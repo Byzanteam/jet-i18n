@@ -343,6 +343,63 @@ msgstr "分组"
 msgid "Attribute.Project.task_group.title"
 msgstr "分组名称"
 
+msgid "Attribute.Workflow.node.Approval"
+msgstr "审批节点"
+
+msgid "Attribute.Workflow.node.Condition"
+msgstr "条件节点"
+
+msgid "Attribute.Workflow.node.End"
+msgstr "结束节点"
+
+msgid "Attribute.Workflow.node.ExclusiveChoice"
+msgstr "单条流转"
+
+msgid "Attribute.Workflow.node.Form"
+msgstr "填写节点"
+
+msgid "Attribute.Workflow.node.MultiChoice"
+msgstr "多条流转"
+
+msgid "Attribute.Workflow.node.MultiMerge"
+msgstr "多条聚合"
+
+msgid "Attribute.Workflow.node.SimpleMerge"
+msgstr "单条聚合"
+
+msgid "Attribute.Workflow.node.Start"
+msgstr "开始节点"
+
+msgid "Attribute.Workflow.node.TaskAutomaticOperation"
+msgstr "系统操作(任务)"
+
+msgid "Attribute.Workflow.node.TaskUserOperationLocker"
+msgstr "锁定节点(任务)"
+
+msgid "Attribute.Workflow.node.TaskUserOperationTrigger"
+msgstr "用户操作(任务)"
+
+msgid "Attribute.Workflow.node.Timer"
+msgstr "定时器"
+
+msgid "Attribute.Workflow.node.UserAutomaticOperation"
+msgstr "系统操作(用户)"
+
+msgid "Attribute.Workflow.node.__t__"
+msgstr "节点"
+
+msgid "Attribute.Workflow.node.subClass.Task"
+msgstr "任务"
+
+msgid "Attribute.Workflow.node.subClass.User"
+msgstr "用户"
+
+msgid "Attribute.Workflow.workflow.__t__"
+msgstr "流程"
+
+msgid "Attribute.Workflow.workflow.name"
+msgstr "流程名称"
+
 msgid "Common.collapse.less"
 msgstr "点击收起"
 
@@ -1893,6 +1950,9 @@ msgstr "添加附件"
 
 msgid "Page.Project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
+
+msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
+msgstr "返回流程列表"
 
 msgid "Page.application"
 msgstr "Jet"
