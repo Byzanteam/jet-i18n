@@ -388,6 +388,12 @@ msgstr "系统操作(用户)"
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
 
+msgid "Attribute.Workflow.node.subClass.Task"
+msgstr "任务"
+
+msgid "Attribute.Workflow.node.subClass.User"
+msgstr "用户"
+
 msgid "Attribute.Workflow.workflow.__t__"
 msgstr "流程"
 
