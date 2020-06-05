@@ -27,6 +27,10 @@
       },
       "node": {
         "__t__": "节点",
+        "subClass": {
+          "Task": "任务",
+          "User": "用户"
+        },
         "Start": "开始$t(Attribute.Workflow.node.__t__)",
         "End": "结束$t(Attribute.Workflow.node.__t__)",
         "Condition": "条件$t(Attribute.Workflow.node.__t__)",
@@ -35,12 +39,12 @@
         "MultiChoice": "多条流转",
         "SimpleMerge": "单条聚合",
         "MultiMerge": "多条聚合",
-        "TaskUserOperationTrigger": "用户操作(任务)",
-        "TaskAutomaticOperation": "系统操作(任务)",
-        "UserAutomaticOperation": "系统操作(用户)",
+        "TaskUserOperationTrigger": "用户操作($t(Attribute.Workflow.node.subClass.Task))",
+        "TaskAutomaticOperation": "系统操作($t(Attribute.Workflow.node.subClass.Task))",
+        "UserAutomaticOperation": "系统操作($t(Attribute.Workflow.node.subClass.User))",
         "Form": "填写$t(Attribute.Workflow.node.__t__)",
         "Timer": "定时器",
-        "TaskUserOperationLocker": "锁定节点(任务)"
+        "TaskUserOperationLocker": "锁定节点($t(Attribute.Workflow.node.subClass.Task))"
       }
     },
     "Project": {
