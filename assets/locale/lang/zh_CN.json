@@ -90,8 +90,7 @@
           "name": "$t(Attribute.Project.task.task_label.__t__)名称"
         },
         "priority": {
-          "__t__": "$t(Attribute.Project.task.__t__)优先级",
-          "short": "优先级",
+          "__t__": "优先级",
           "highest": "非常紧急",
           "high": "紧急",
           "medium": "普通",
@@ -696,6 +695,7 @@
       "task_labels_amount_exceeds_max_limitation": "$t(Attribute.Project.task.task_label.__t__)数量达到上限",
       "task_schema": {
         "__t__": "$t(Attribute.Project.task.__t__)自定义字段",
+        "internal_field": "系统字段",
         "blankslate": "点击表单字段以编辑自定义$t(Attribute.Project.task.__t__)字段"
       },
       "report": {
