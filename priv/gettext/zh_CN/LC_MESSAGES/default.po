@@ -293,7 +293,7 @@ msgid "Attribute.Project.task.parent"
 msgstr "上级任务"
 
 msgid "Attribute.Project.task.priority.__t__"
-msgstr "任务优先级"
+msgstr "优先级"
 
 msgid "Attribute.Project.task.priority.blank"
 msgstr "未设置"
@@ -309,9 +309,6 @@ msgstr "低"
 
 msgid "Attribute.Project.task.priority.medium"
 msgstr "普通"
-
-msgid "Attribute.Project.task.priority.short"
-msgstr "优先级"
 
 msgid "Attribute.Project.task.sub_task"
 msgstr "子任务"
@@ -851,10 +848,10 @@ msgid "Page.Activity.TaskActivity.UpdationEvent.update_due_on"
 msgstr "修改了任务截止时间"
 
 msgid "Page.Activity.TaskActivity.UpdationEvent.update_priority.add"
-msgstr "设置任务优先级为"
+msgstr "设置优先级为"
 
 msgid "Page.Activity.TaskActivity.UpdationEvent.update_priority.change"
-msgstr "将任务优先级由 %{old_priority} 修改为 %{new_priority}"
+msgstr "将优先级由 %{old_priority} 修改为 %{new_priority}"
 
 msgid "Page.Activity.TaskActivity.UpdationEvent.update_title"
 msgstr "修改了任务标题"
@@ -1854,6 +1851,9 @@ msgstr "任务自定义字段"
 
 msgid "Page.Project.task_schema.blankslate"
 msgstr "点击表单字段以编辑自定义任务字段"
+
+msgid "Page.Project.task_schema.internal_field"
+msgstr "系统字段"
 
 msgid "Page.Project.task_subscription.__t__"
 msgstr "关注任务"
