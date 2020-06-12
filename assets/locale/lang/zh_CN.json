@@ -966,7 +966,7 @@
             "conflict": "$t(Attribute.Project.task.parent)和$t(Attribute.Project.task_group.__t__)只需要填写其中之一"
           },
           "priority": {
-            "not_match": "$t(Attribute.Project.task.priority.short)填写错误"
+            "not_match": "$t(Attribute.Project.task.priority.__t__)填写错误"
           },
           "assignee_user_boundary": {
             "not_match": "找不到匹配的$t(Attribute.IdentityAccess.user.__t__)"
