@@ -28,7 +28,7 @@
       "node": {
         "__t__": "节点",
         "subClass": {
-          "Task": "任务",
+          "Task": "$t(Attribute.Project.task.__t__)",
           "User": "用户"
         },
         "Start": "开始$t(Attribute.Workflow.node.__t__)",
@@ -98,7 +98,7 @@
           "blank": "未设置"
         },
         "attachment": "附件",
-        "sub_task": "子任务",
+        "sub_task": "子$t(Attribute.Project.task.__t__)",
         "comment": "评论",
         "activities": "动态",
         "overdue": {
@@ -749,14 +749,14 @@
         }
       },
       "export_task": {
-        "__t__": "导出任务",
+        "__t__": "导出$t(Attribute.Project.task.__t__)",
         "exporting": {
-          "title": "正在导出任务",
+          "title": "正在导出$t(Attribute.Project.task.__t__)",
           "description": "也许需要几分钟，稍后将直接下载"
         },
         "config": {
           "included_archived": {
-            "__t__": "是否包含已归档的任务",
+            "__t__": "是否包含已归档的$t(Attribute.Project.task.__t__)",
             "include": "包含",
             "exclude": "不包含"
           },
@@ -809,7 +809,7 @@
       "completed_task": "已完成$t(Attribute.Project.task.__t__)",
       "completed_task_count": "已完成$t(Attribute.Project.task.__t__) ∙ {{count}}",
       "completed_sub_task_count": "已完成$t(Attribute.Project.task.sub_task) ∙ {{count}}",
-      "task_description_content": "描述内容",
+      "task_description_content": "$t(Attribute.Project.task.description)内容",
       "update_task_fail": "更新失败",
       "task_comment": {
         "reply": {
@@ -892,19 +892,19 @@
         "description": "$t(Attribute.Project.task.__t__)可能没有权限或者已被删除"
       },
       "my_tasks": {
-        "__t__": "我的任务",
+        "__t__": "我的$t(Attribute.Project.task.__t__)",
         "assigned": "我负责的",
         "subscribed": "我关注的",
         "created": "我创建的",
         "collaborated": "我协作的",
-        "blank": "还没有任务",
+        "blank": "还没有$t(Attribute.Project.task.__t__)",
         "filter": {
           "completed": "已完成",
           "uncomplete": "未完成"
         },
         "filter_group": {
-          "completed": "已完成任务",
-          "uncomplete": "待办任务"
+          "completed": "已完成$t(Attribute.Project.task.__t__)",
+          "uncomplete": "待办$t(Attribute.Project.task.__t__)"
         }
       },
       "import_tasks": {
@@ -913,9 +913,9 @@
           "__t__": "上传 Excel",
           "input_file": "选择 Excel 文件",
           "file_accept": "支持 xlsx 文件",
-          "resolve_exceed": "一次最多导入 {{count}} 条任务",
+          "resolve_exceed": "一次最多导入 {{count}} 条$t(Attribute.Project.task.__t__)",
           "template": {
-            "name": "任务导入模板",
+            "name": "$t(Attribute.Project.task.__t__)导入模板",
             "download": {
               "button": "点击下载导入模板",
               "fail": "下载导入模板失败"
@@ -1000,9 +1000,9 @@
         }
       },
       "task_subscription": {
-        "__t__": "关注任务",
+        "__t__": "关注$t(Attribute.Project.task.__t__)",
         "add_subscribers": "添加关注成员",
-        "subscribed_member": "已关注任务的成员",
+        "subscribed_member": "已关注$t(Attribute.Project.task.__t__)的成员",
         "add": "加关注",
         "remove": "取消关注",
         "subscribed": "已关注",
@@ -1037,7 +1037,7 @@
         "fail": "删除$t(Attribute.Project.task_group.__t__)失败，请重试",
         "confirm": {
           "title": "$t(Page.Project.discard_task_group.__t__)？",
-          "description": "分组及分组内任务都将被删除，此操作不可撤销"
+          "description": "分组及分组内$t(Attribute.Project.task.__t__)都将被删除，此操作不可撤销"
         }
       },
       "update_task_group_fail": "更新$t(Attribute.Project.task_group.__t__)失败",
@@ -1105,9 +1105,9 @@
           "uncomplete": "重新打开了$t(Attribute.Project.task.__t__)",
           "archive": "归档了$t(Attribute.Project.task.__t__)",
           "unarchive": "取消了归档",
-          "clone": "复制了任务",
+          "clone": "复制了$t(Attribute.Project.task.__t__)",
           "change_belonger": {
-            "__t__": "移动了任务",
+            "__t__": "移动了$t(Attribute.Project.task.__t__)",
             "full": "将$t(Attribute.Project.task.__t__)从 {{from}} 移动到 {{to}}"
           }
         },

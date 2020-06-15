@@ -10,7 +10,7 @@ on:
       - 'assets/locale/lang/*.json'
 
 jobs:
-  converte:
+  convert:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +25,7 @@ jobs:
     - name: Install Dependencies
       run: mix deps.get
     - name: Run Convert
-      run: mix i18n.converte
+      run: mix jet_i18n.convert
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:

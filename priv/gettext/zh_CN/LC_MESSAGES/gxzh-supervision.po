@@ -236,13 +236,13 @@ msgid "Attribute.Project.project.title"
 msgstr "项目名称"
 
 msgid "Attribute.Project.task.__t__"
-msgstr "任务"
+msgstr "事项"
 
 msgid "Attribute.Project.task.activities"
 msgstr "动态"
 
 msgid "Attribute.Project.task.assignee.__t__"
-msgstr "负责人"
+msgstr "牵头单位"
 
 msgid "Attribute.Project.task.assignee.blank"
 msgstr "未指派"
@@ -251,7 +251,7 @@ msgid "Attribute.Project.task.attachment"
 msgstr "附件"
 
 msgid "Attribute.Project.task.collaborator.__t__"
-msgstr "协作者"
+msgstr "协办单位"
 
 msgid "Attribute.Project.task.collaborator.blank"
 msgstr "未指派"
@@ -266,10 +266,10 @@ msgid "Attribute.Project.task.completed_time"
 msgstr "完成时间"
 
 msgid "Attribute.Project.task.description"
-msgstr "任务描述"
+msgstr "领导批示及要求"
 
 msgid "Attribute.Project.task.due_on.__t__"
-msgstr "截止时间"
+msgstr "办理时限要求"
 
 msgid "Attribute.Project.task.due_on.blank"
 msgstr "未设置"
@@ -290,7 +290,7 @@ msgid "Attribute.Project.task.overdue.in_hours"
 msgstr "%{hours}小时"
 
 msgid "Attribute.Project.task.parent"
-msgstr "上级任务"
+msgstr "上级事项"
 
 msgid "Attribute.Project.task.priority.__t__"
 msgstr "优先级"
@@ -311,7 +311,7 @@ msgid "Attribute.Project.task.priority.medium"
 msgstr "普通"
 
 msgid "Attribute.Project.task.sub_task"
-msgstr "子任务"
+msgstr "子事项"
 
 msgid "Attribute.Project.task.task_label.__t__"
 msgstr "标签"
@@ -320,16 +320,16 @@ msgid "Attribute.Project.task.task_label.blank"
 msgstr "未添加"
 
 msgid "Attribute.Project.task.task_label.full"
-msgstr "任务标签"
+msgstr "事项标签"
 
 msgid "Attribute.Project.task.task_label.name"
 msgstr "标签名称"
 
 msgid "Attribute.Project.task.title"
-msgstr "任务标题"
+msgstr "事项标题"
 
 msgid "Attribute.Project.task_group.__t__"
-msgstr "任务分组"
+msgstr "事项分组"
 
 msgid "Attribute.Project.task_group.description"
 msgstr "分组描述"
@@ -368,13 +368,13 @@ msgid "Attribute.Workflow.node.Start"
 msgstr "开始节点"
 
 msgid "Attribute.Workflow.node.TaskAutomaticOperation"
-msgstr "系统操作(任务)"
+msgstr "系统操作(事项)"
 
 msgid "Attribute.Workflow.node.TaskUserOperationLocker"
-msgstr "锁定节点(任务)"
+msgstr "锁定节点(事项)"
 
 msgid "Attribute.Workflow.node.TaskUserOperationTrigger"
-msgstr "用户操作(任务)"
+msgstr "用户操作(事项)"
 
 msgid "Attribute.Workflow.node.Timer"
 msgstr "定时器"
@@ -386,7 +386,7 @@ msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
 
 msgid "Attribute.Workflow.node.subClass.Task"
-msgstr "任务"
+msgstr "事项"
 
 msgid "Attribute.Workflow.node.subClass.User"
 msgstr "用户"
@@ -692,37 +692,37 @@ msgid "Page.Account.user_schema"
 msgstr "自定义成员属性"
 
 msgid "Page.Activity.Notification.AssignmentEvent.assign.department"
-msgstr "将%{department}设置为任务负责人"
+msgstr "将%{department}设置为事项牵头单位"
 
 msgid "Page.Activity.Notification.AssignmentEvent.assign.user"
-msgstr "将你设置为任务负责人"
+msgstr "将你设置为事项牵头单位"
 
 msgid "Page.Activity.Notification.AssignmentEvent.reassign.department"
-msgstr "将%{department}设置为任务负责人"
+msgstr "将%{department}设置为事项牵头单位"
 
 msgid "Page.Activity.Notification.AssignmentEvent.reassign.user"
-msgstr "将你设置为任务负责人"
+msgstr "将你设置为事项牵头单位"
 
 msgid "Page.Activity.Notification.CollaborationEvent"
-msgstr "将你设置为任务协作者"
+msgstr "将你设置为事项协办单位"
 
 msgid "Page.Activity.Notification.CommentEvent.create"
-msgstr "评论了任务"
+msgstr "评论了事项"
 
 msgid "Page.Activity.Notification.CommentEvent.mention"
-msgstr "在任务评论提及了你"
+msgstr "在事项评论提及了你"
 
 msgid "Page.Activity.Notification.TaskEvent.complete"
-msgstr "完成了任务"
+msgstr "完成了事项"
 
 msgid "Page.Activity.Notification.TaskEvent.uncomplete"
-msgstr "重新打开了任务"
+msgstr "重新打开了事项"
 
 msgid "Page.Activity.Notification.UpdationEvent.clear_due_on"
-msgstr "清空了任务截止时间"
+msgstr "清空了事项办理时限要求"
 
 msgid "Page.Activity.Notification.UpdationEvent.due_on"
-msgstr "修改了任务截止时间"
+msgstr "修改了事项办理时限要求"
 
 msgid "Page.Activity.Notification.UpdationEvent.update_due_on"
 msgstr "更改时间为 %{time}"
@@ -755,13 +755,13 @@ msgid "Page.Activity.Notification.view_all"
 msgstr "查看全部"
 
 msgid "Page.Activity.TaskActivity.AssignmentEvent.assign"
-msgstr "设置了任务负责人"
+msgstr "设置了事项牵头单位"
 
 msgid "Page.Activity.TaskActivity.AssignmentEvent.reassign"
-msgstr "修改了任务负责人"
+msgstr "修改了事项牵头单位"
 
 msgid "Page.Activity.TaskActivity.AssignmentEvent.unassign"
-msgstr "移除了任务负责人"
+msgstr "移除了事项牵头单位"
 
 msgid "Page.Activity.TaskActivity.AttachmentEvent.create"
 msgstr "上传了附件"
@@ -770,70 +770,70 @@ msgid "Page.Activity.TaskActivity.AttachmentEvent.delete"
 msgstr "删除了附件"
 
 msgid "Page.Activity.TaskActivity.CollaborationEvent.add"
-msgstr "添加了任务协作者"
+msgstr "添加了事项协办单位"
 
 msgid "Page.Activity.TaskActivity.CollaborationEvent.remove"
-msgstr "移除了任务协作者"
+msgstr "移除了事项协办单位"
 
 msgid "Page.Activity.TaskActivity.CollaborationEvent.update"
-msgstr "添加了任务协作者 %{added_collaborators} 同时移除了任务协作者 %{removed_collaborators}"
+msgstr "添加了事项协办单位 %{added_collaborators} 同时移除了事项协办单位 %{removed_collaborators}"
 
 msgid "Page.Activity.TaskActivity.SubTaskEvent.complete"
-msgstr "完成了子任务"
+msgstr "完成了子事项"
 
 msgid "Page.Activity.TaskActivity.SubTaskEvent.create"
-msgstr "创建了子任务"
+msgstr "创建了子事项"
 
 msgid "Page.Activity.TaskActivity.SubTaskEvent.discard"
-msgstr "删除了子任务"
+msgstr "删除了子事项"
 
 msgid "Page.Activity.TaskActivity.SubTaskEvent.uncomplete"
-msgstr "重新打开了子任务"
+msgstr "重新打开了子事项"
 
 msgid "Page.Activity.TaskActivity.SubscriptionEvent.add.__t__"
-msgstr "添加了任务关注者"
+msgstr "添加了事项关注者"
 
 msgid "Page.Activity.TaskActivity.SubscriptionEvent.add.self"
-msgstr "关注了任务"
+msgstr "关注了事项"
 
 msgid "Page.Activity.TaskActivity.SubscriptionEvent.remove.__t__"
-msgstr "移除了任务关注者"
+msgstr "移除了事项关注者"
 
 msgid "Page.Activity.TaskActivity.SubscriptionEvent.remove.self"
-msgstr "取消关注任务"
+msgstr "取消关注事项"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.archive"
-msgstr "归档了任务"
+msgstr "归档了事项"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.change_belonger.__t__"
-msgstr "移动了任务"
+msgstr "移动了事项"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.change_belonger.full"
-msgstr "将任务从 %{from} 移动到 %{to}"
+msgstr "将事项从 %{from} 移动到 %{to}"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.clone"
-msgstr "复制了任务"
+msgstr "复制了事项"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.complete"
-msgstr "完成了任务"
+msgstr "完成了事项"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.create"
-msgstr "创建了任务"
+msgstr "创建了事项"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.unarchive"
 msgstr "取消了归档"
 
 msgid "Page.Activity.TaskActivity.TaskEvent.uncomplete"
-msgstr "重新打开了任务"
+msgstr "重新打开了事项"
 
 msgid "Page.Activity.TaskActivity.TaskLabelEvent.add"
-msgstr "添加了任务标签"
+msgstr "添加了事项标签"
 
 msgid "Page.Activity.TaskActivity.TaskLabelEvent.remove"
-msgstr "移除了任务标签"
+msgstr "移除了事项标签"
 
 msgid "Page.Activity.TaskActivity.TaskLabelEvent.update"
-msgstr "添加了任务标签  %{added_task_labels} 同时移除了任务标签  %{removed_task_labels}"
+msgstr "添加了事项标签  %{added_task_labels} 同时移除了事项标签  %{removed_task_labels}"
 
 msgid "Page.Activity.TaskActivity.TaskProfileUpdationEvent.__t__"
 msgstr "修改了%{field_label}  %{field_value}"
@@ -842,10 +842,10 @@ msgid "Page.Activity.TaskActivity.TaskProfileUpdationEvent.blank"
 msgstr "无"
 
 msgid "Page.Activity.TaskActivity.UpdationEvent.update_description"
-msgstr "修改了任务描述"
+msgstr "修改了领导批示及要求"
 
 msgid "Page.Activity.TaskActivity.UpdationEvent.update_due_on"
-msgstr "修改了任务截止时间"
+msgstr "修改了事项办理时限要求"
 
 msgid "Page.Activity.TaskActivity.UpdationEvent.update_priority.add"
 msgstr "设置优先级为"
@@ -854,7 +854,7 @@ msgid "Page.Activity.TaskActivity.UpdationEvent.update_priority.change"
 msgstr "将优先级由 %{old_priority} 修改为 %{new_priority}"
 
 msgid "Page.Activity.TaskActivity.UpdationEvent.update_title"
-msgstr "修改了任务标题"
+msgstr "修改了事项标题"
 
 msgid "Page.Auth.authorize_failed"
 msgstr "登录失败"
@@ -1193,7 +1193,7 @@ msgid "Page.Index.title"
 msgstr "🎉 用 JET 工作，高效、灵活 🎉"
 
 msgid "Page.Project.add_collaborators"
-msgstr "添加协作者"
+msgstr "添加协办单位"
 
 msgid "Page.Project.add_task_label"
 msgstr "添加标签"
@@ -1208,40 +1208,40 @@ msgid "Page.Project.archive_project.success"
 msgstr "已归档项目"
 
 msgid "Page.Project.archive_task.__t__"
-msgstr "归档任务"
+msgstr "归档事项"
 
 msgid "Page.Project.archive_task.fail"
-msgstr "归档任务失败"
+msgstr "归档事项失败"
 
 msgid "Page.Project.archive_task_group.__t__"
 msgstr "归档分组"
 
 msgid "Page.Project.archive_task_group.fail"
-msgstr "归档任务分组失败，请重试"
+msgstr "归档事项分组失败，请重试"
 
 msgid "Page.Project.archive_task_group.success"
-msgstr "已归档任务分组"
+msgstr "已归档事项分组"
 
 msgid "Page.Project.archive_task_group.view_archived_task_group"
 msgstr "查看"
 
 msgid "Page.Project.archived_task_description"
-msgstr "任务已归档，不可修改"
+msgstr "事项已归档，不可修改"
 
 msgid "Page.Project.archived_task_group_description"
-msgstr "任务分组已归档，不可修改"
+msgstr "事项分组已归档，不可修改"
 
 msgid "Page.Project.archived_tasks.__t__"
-msgstr "已归档任务"
+msgstr "已归档事项"
 
 msgid "Page.Project.archived_tasks.empty"
-msgstr "没有已归档的任务"
+msgstr "没有已归档的事项"
 
 msgid "Page.Project.archived_tasks.return_active_tasks"
 msgstr "你可以返回 %{project_name}"
 
 msgid "Page.Project.clone_task.__t__"
-msgstr "复制任务"
+msgstr "复制事项"
 
 msgid "Page.Project.clone_task.clone_to.__t__"
 msgstr "复制到"
@@ -1250,22 +1250,22 @@ msgid "Page.Project.clone_task.clone_to.error.blank"
 msgstr "请选择复制到的位置"
 
 msgid "Page.Project.clone_task.invalid_target"
-msgstr "不能复制到当前任务下"
+msgstr "不能复制到当前事项下"
 
 msgid "Page.Project.clone_task.success"
-msgstr "复制任务成功"
+msgstr "复制事项成功"
 
 msgid "Page.Project.clone_task.view_cloned_task"
 msgstr "查看"
 
 msgid "Page.Project.completed_sub_task_count"
-msgstr "已完成子任务 ∙ %{count}"
+msgstr "已完成子事项 ∙ %{count}"
 
 msgid "Page.Project.completed_task"
-msgstr "已完成任务"
+msgstr "已完成事项"
 
 msgid "Page.Project.completed_task_count"
-msgstr "已完成任务 ∙ %{count}"
+msgstr "已完成事项 ∙ %{count}"
 
 msgid "Page.Project.create_project.__t__"
 msgstr "新建项目"
@@ -1277,22 +1277,22 @@ msgid "Page.Project.create_project.upload_cover"
 msgstr "上传封面"
 
 msgid "Page.Project.create_sub_task.__t__"
-msgstr "新建子任务"
+msgstr "新建子事项"
 
 msgid "Page.Project.create_task.__t__"
-msgstr "新建任务"
+msgstr "新建事项"
 
 msgid "Page.Project.create_task.guidance"
-msgstr "来为项目创建第一个任务吧"
+msgstr "来为项目创建第一个事项吧"
 
 msgid "Page.Project.create_task.tip"
-msgstr "在任务前面加上感叹号， 标注重要或者紧急的任务"
+msgstr "在事项前面加上感叹号， 标注重要或者紧急的事项"
 
 msgid "Page.Project.create_task_group.__t__"
 msgstr "新建分组"
 
 msgid "Page.Project.create_task_group.button"
-msgstr "确认，新建任务"
+msgstr "确认，新建事项"
 
 msgid "Page.Project.create_task_group.fail"
 msgstr "创建失败"
@@ -1301,7 +1301,7 @@ msgid "Page.Project.create_task_group.success"
 msgstr "创建成功"
 
 msgid "Page.Project.default_task_group_title"
-msgstr "待办任务"
+msgstr "待办事项"
 
 msgid "Page.Project.delete_attachment.__t__"
 msgstr "删除附件 %{attachment}？"
@@ -1325,16 +1325,16 @@ msgid "Page.Project.discard_project.success"
 msgstr "项目已删除"
 
 msgid "Page.Project.discard_task.__t__"
-msgstr "删除任务"
+msgstr "删除事项"
 
 msgid "Page.Project.discard_task.confirm"
-msgstr "确定要删除这条任务吗?"
+msgstr "确定要删除这条事项吗?"
 
 msgid "Page.Project.discard_task.description"
-msgstr "此任务及以下子任务将被删除"
+msgstr "此事项及以下子事项将被删除"
 
 msgid "Page.Project.discard_task.fail"
-msgstr "删除任务失败"
+msgstr "删除事项失败"
 
 msgid "Page.Project.discard_task.short"
 msgstr "删除"
@@ -1343,16 +1343,16 @@ msgid "Page.Project.discard_task_group.__t__"
 msgstr "删除分组"
 
 msgid "Page.Project.discard_task_group.confirm.description"
-msgstr "分组及分组内任务都将被删除，此操作不可撤销"
+msgstr "分组及分组内事项都将被删除，此操作不可撤销"
 
 msgid "Page.Project.discard_task_group.confirm.title"
 msgstr "删除分组？"
 
 msgid "Page.Project.discard_task_group.fail"
-msgstr "删除任务分组失败，请重试"
+msgstr "删除事项分组失败，请重试"
 
 msgid "Page.Project.discard_task_group.success"
-msgstr "删除任务分组成功"
+msgstr "删除事项分组成功"
 
 msgid "Page.Project.discard_task_label.__t__"
 msgstr "删除标签"
@@ -1382,13 +1382,13 @@ msgid "Page.Project.draft_task.errors.due_on.format"
 msgstr "日期格式错误"
 
 msgid "Page.Project.draft_task.errors.parent.not_match"
-msgstr "找不到匹配的任务"
+msgstr "找不到匹配的事项"
 
 msgid "Page.Project.draft_task.errors.parent_or_task_group.conflict"
-msgstr "上级任务和任务分组只需要填写其中之一"
+msgstr "上级事项和事项分组只需要填写其中之一"
 
 msgid "Page.Project.draft_task.errors.parent_or_task_group.presence"
-msgstr "上级任务和任务分组必须填写一个"
+msgstr "上级事项和事项分组必须填写一个"
 
 msgid "Page.Project.draft_task.errors.priority.not_match"
 msgstr "优先级填写错误"
@@ -1400,19 +1400,19 @@ msgid "Page.Project.draft_task.errors.task_labels.not_match"
 msgstr "有未匹配的标签"
 
 msgid "Page.Project.draft_task.errors.title.presence"
-msgstr "任务标题不能为空"
+msgstr "事项标题不能为空"
 
 msgid "Page.Project.edit_task_group"
 msgstr "编辑分组"
 
 msgid "Page.Project.empty_task"
-msgstr "还没有任务"
+msgstr "还没有事项"
 
 msgid "Page.Project.exit_project.__t__"
 msgstr "退出项目"
 
 msgid "Page.Project.export_task.__t__"
-msgstr "导出任务"
+msgstr "导出事项"
 
 msgid "Page.Project.export_task.config.export_fields.__t__"
 msgstr "请选择导出的列"
@@ -1424,7 +1424,7 @@ msgid "Page.Project.export_task.config.export_fields.visible"
 msgstr "显示的列"
 
 msgid "Page.Project.export_task.config.included_archived.__t__"
-msgstr "是否包含已归档的任务"
+msgstr "是否包含已归档的事项"
 
 msgid "Page.Project.export_task.config.included_archived.exclude"
 msgstr "不包含"
@@ -1436,13 +1436,13 @@ msgid "Page.Project.export_task.exporting.description"
 msgstr "也许需要几分钟，稍后将直接下载"
 
 msgid "Page.Project.export_task.exporting.title"
-msgstr "正在导出任务"
+msgstr "正在导出事项"
 
 msgid "Page.Project.fetch_project.fail"
 msgstr "获取项目失败"
 
 msgid "Page.Project.fetch_task.fail"
-msgstr "获取任务详情失败"
+msgstr "获取事项详情失败"
 
 msgid "Page.Project.grant_project_admin.__t__"
 msgstr "设置管理员"
@@ -1454,25 +1454,25 @@ msgid "Page.Project.hide_completed_task"
 msgstr "隐藏"
 
 msgid "Page.Project.import_tasks.__t__"
-msgstr "导入任务"
+msgstr "导入事项"
 
 msgid "Page.Project.import_tasks.import_draft_tasks.__t__"
 msgstr "导入数据"
 
 msgid "Page.Project.import_tasks.import_draft_tasks.back_to_task_list"
-msgstr "返回任务列表"
+msgstr "返回事项列表"
 
 msgid "Page.Project.import_tasks.import_draft_tasks.import_tasks_successful"
-msgstr "成功导入 %{count} 条任务"
+msgstr "成功导入 %{count} 条事项"
 
 msgid "Page.Project.import_tasks.import_draft_tasks.status.importing"
 msgstr "正在导入"
 
 msgid "Page.Project.import_tasks.import_draft_tasks.status.success"
-msgstr "任务导入成功"
+msgstr "事项导入成功"
 
 msgid "Page.Project.import_tasks.import_draft_tasks.will_notify_after_import"
-msgstr "正在导入任务，您可以离开此页面，完成后我们将通知您"
+msgstr "正在导入事项，您可以离开此页面，完成后我们将通知您"
 
 msgid "Page.Project.import_tasks.invalid_count"
 msgstr "错误数据 %{count} 条"
@@ -1517,7 +1517,7 @@ msgid "Page.Project.import_tasks.upload_file.input_file"
 msgstr "选择 Excel 文件"
 
 msgid "Page.Project.import_tasks.upload_file.resolve_exceed"
-msgstr "一次最多导入 %{count} 条任务"
+msgstr "一次最多导入 %{count} 条事项"
 
 msgid "Page.Project.import_tasks.upload_file.template.download.button"
 msgstr "点击下载导入模板"
@@ -1526,7 +1526,7 @@ msgid "Page.Project.import_tasks.upload_file.template.download.fail"
 msgstr "下载导入模板失败"
 
 msgid "Page.Project.import_tasks.upload_file.template.name"
-msgstr "任务导入模板"
+msgstr "事项导入模板"
 
 msgid "Page.Project.invite_member.__t__"
 msgstr "邀请新成员"
@@ -1538,10 +1538,10 @@ msgid "Page.Project.manage_task_label"
 msgstr "标签管理"
 
 msgid "Page.Project.move_task.__t__"
-msgstr "移动任务"
+msgstr "移动事项"
 
 msgid "Page.Project.move_task.invalid_target"
-msgstr "不能移动到当前任务下"
+msgstr "不能移动到当前事项下"
 
 msgid "Page.Project.move_task.move_to.__t__"
 msgstr "移动到"
@@ -1550,19 +1550,19 @@ msgid "Page.Project.move_task.move_to.error.blank"
 msgstr "请选择移动到的位置"
 
 msgid "Page.Project.move_task.success"
-msgstr "移动任务成功"
+msgstr "移动事项成功"
 
 msgid "Page.Project.move_task.view_moved_task"
 msgstr "查看"
 
 msgid "Page.Project.my_tasks.__t__"
-msgstr "我的任务"
+msgstr "我的事项"
 
 msgid "Page.Project.my_tasks.assigned"
 msgstr "我负责的"
 
 msgid "Page.Project.my_tasks.blank"
-msgstr "还没有任务"
+msgstr "还没有事项"
 
 msgid "Page.Project.my_tasks.collaborated"
 msgstr "我协作的"
@@ -1577,10 +1577,10 @@ msgid "Page.Project.my_tasks.filter.uncomplete"
 msgstr "未完成"
 
 msgid "Page.Project.my_tasks.filter_group.completed"
-msgstr "已完成任务"
+msgstr "已完成事项"
 
 msgid "Page.Project.my_tasks.filter_group.uncomplete"
-msgstr "待办任务"
+msgstr "待办事项"
 
 msgid "Page.Project.my_tasks.subscribed"
 msgstr "我关注的"
@@ -1607,13 +1607,13 @@ msgid "Page.Project.project_configuration.success"
 msgstr "保存成功"
 
 msgid "Page.Project.project_configuration.task.__t__"
-msgstr "任务设置"
+msgstr "事项设置"
 
 msgid "Page.Project.project_configuration.task.index_key.description"
-msgstr "设置任务唯一 ID 前缀，默认前缀为项目名称前四位首字母，长度限制 2 ~ 8 个字母。"
+msgstr "设置事项唯一 ID 前缀，默认前缀为项目名称前四位首字母，长度限制 2 ~ 8 个字母。"
 
 msgid "Page.Project.project_configuration.task.index_key.title"
-msgstr "任务ID"
+msgstr "事项ID"
 
 msgid "Page.Project.project_list.favorite.__t__"
 msgstr "星标项目"
@@ -1643,28 +1643,28 @@ msgid "Page.Project.project_nav.report"
 msgstr "统计"
 
 msgid "Page.Project.project_nav.task"
-msgstr "任务"
+msgstr "事项"
 
 msgid "Page.Project.report.cumulative_flow_diagram_report.__t__"
 msgstr "项目进展"
 
 msgid "Page.Project.report.cumulative_flow_diagram_report.task_cumulative_flow_diagram_state.completedCount"
-msgstr "任务完成数"
+msgstr "事项完成数"
 
 msgid "Page.Project.report.cumulative_flow_diagram_report.task_cumulative_flow_diagram_state.totalCount"
-msgstr "任务总数"
+msgstr "事项总数"
 
 msgid "Page.Project.report.member_report.__t__"
-msgstr "成员任务统计"
+msgstr "成员事项统计"
 
 msgid "Page.Project.report.member_report.completed_tasks.label"
-msgstr "已完成任务"
+msgstr "已完成事项"
 
 msgid "Page.Project.report.member_report.completed_tasks.legend"
 msgstr "已完成"
 
 msgid "Page.Project.report.member_report.incompleted_tasks.label"
-msgstr "未完成任务"
+msgstr "未完成事项"
 
 msgid "Page.Project.report.member_report.incompleted_tasks.legend"
 msgstr "未完成"
@@ -1673,7 +1673,7 @@ msgid "Page.Project.report.member_report.load_more"
 msgstr "加载更多成员"
 
 msgid "Page.Project.report.member_report.overdue_and_incompleted_tasks.label"
-msgstr "已逾期任务"
+msgstr "已逾期事项"
 
 msgid "Page.Project.report.member_report.overdue_and_incompleted_tasks.legend"
 msgstr "已逾期"
@@ -1682,34 +1682,34 @@ msgid "Page.Project.report.member_report.unassigned"
 msgstr "未指派"
 
 msgid "Page.Project.report.overview.__t__"
-msgstr "总体任务统计"
+msgstr "总体事项统计"
 
 msgid "Page.Project.report.overview.completed_tasks"
-msgstr "已完成任务"
+msgstr "已完成事项"
 
 msgid "Page.Project.report.overview.incompleted_tasks"
-msgstr "未完成任务"
+msgstr "未完成事项"
 
 msgid "Page.Project.report.overview.info_boxes.due_and_completed_tasks.__t__"
-msgstr "按时完成任务"
+msgstr "按时完成事项"
 
 msgid "Page.Project.report.overview.info_boxes.due_and_completed_tasks.short"
 msgstr "完"
 
 msgid "Page.Project.report.overview.info_boxes.due_today_tasks.__t__"
-msgstr "今日到期任务"
+msgstr "今日到期事项"
 
 msgid "Page.Project.report.overview.info_boxes.due_today_tasks.short"
 msgstr "到"
 
 msgid "Page.Project.report.overview.info_boxes.overdue_and_completed_tasks.__t__"
-msgstr "逾期完成任务"
+msgstr "逾期完成事项"
 
 msgid "Page.Project.report.overview.info_boxes.overdue_and_completed_tasks.short"
 msgstr "完"
 
 msgid "Page.Project.report.overview.info_boxes.overdue_and_incompleted_tasks.__t__"
-msgstr "已逾期任务"
+msgstr "已逾期事项"
 
 msgid "Page.Project.report.overview.info_boxes.overdue_and_incompleted_tasks.short"
 msgstr "逾"
@@ -1718,10 +1718,10 @@ msgid "Page.Project.report.overview.ratio"
 msgstr "完成数"
 
 msgid "Page.Project.reposition_task.fail"
-msgstr "移动任务失败"
+msgstr "移动事项失败"
 
 msgid "Page.Project.reposition_task_group.fail"
-msgstr "移动任务分组失败"
+msgstr "移动事项分组失败"
 
 msgid "Page.Project.revoke_project_admin.__t__"
 msgstr "取消管理员"
@@ -1748,10 +1748,10 @@ msgid "Page.Project.search_task_label"
 msgstr "搜索标签"
 
 msgid "Page.Project.separately_archived_task_group.title"
-msgstr "归档任务"
+msgstr "归档事项"
 
 msgid "Page.Project.share_task.__t__"
-msgstr "分享任务"
+msgstr "分享事项"
 
 msgid "Page.Project.show_completed_task"
 msgstr "显示"
@@ -1793,10 +1793,10 @@ msgid "Page.Project.task_comment.updated"
 msgstr "已编辑"
 
 msgid "Page.Project.task_description_content"
-msgstr "任务描述内容"
+msgstr "领导批示及要求内容"
 
 msgid "Page.Project.task_filter.__t__"
-msgstr "任务筛选"
+msgstr "事项筛选"
 
 msgid "Page.Project.task_filter.blank"
 msgstr "暂无当前筛选结果"
@@ -1823,10 +1823,10 @@ msgid "Page.Project.task_filter.due_on.unset"
 msgstr "未设置"
 
 msgid "Page.Project.task_filter.placeholder.assignee"
-msgstr "请选择负责人"
+msgstr "请选择牵头单位"
 
 msgid "Page.Project.task_filter.placeholder.due_on"
-msgstr "请选择截止时间"
+msgstr "请选择办理时限要求"
 
 msgid "Page.Project.task_filter.placeholder.task_label"
 msgstr "请选择标签"
@@ -1841,22 +1841,22 @@ msgid "Page.Project.task_labels_amount_exceeds_max_limitation"
 msgstr "标签数量达到上限"
 
 msgid "Page.Project.task_not_found.__t__"
-msgstr "对不起，找不到此任务"
+msgstr "对不起，找不到此事项"
 
 msgid "Page.Project.task_not_found.description"
-msgstr "任务可能没有权限或者已被删除"
+msgstr "事项可能没有权限或者已被删除"
 
 msgid "Page.Project.task_schema.__t__"
-msgstr "任务自定义字段"
+msgstr "事项自定义字段"
 
 msgid "Page.Project.task_schema.blankslate"
-msgstr "点击表单字段以编辑自定义任务字段"
+msgstr "点击表单字段以编辑自定义事项字段"
 
 msgid "Page.Project.task_schema.internal_field"
 msgstr "系统字段"
 
 msgid "Page.Project.task_subscription.__t__"
-msgstr "关注任务"
+msgstr "关注事项"
 
 msgid "Page.Project.task_subscription.add"
 msgstr "加关注"
@@ -1874,7 +1874,7 @@ msgid "Page.Project.task_subscription.subscribed"
 msgstr "已关注"
 
 msgid "Page.Project.task_subscription.subscribed_member"
-msgstr "已关注任务的成员"
+msgstr "已关注事项的成员"
 
 msgid "Page.Project.task_subscription.update_subscriber_error"
 msgstr "更新关注者失败"
@@ -1907,22 +1907,22 @@ msgid "Page.Project.unarchive_project.success"
 msgstr "取消归档项目"
 
 msgid "Page.Project.unarchive_task.__t__"
-msgstr "恢复任务"
+msgstr "恢复事项"
 
 msgid "Page.Project.unarchive_task.fail"
-msgstr "恢复任务失败"
+msgstr "恢复事项失败"
 
 msgid "Page.Project.unarchive_task_group.__t__"
 msgstr "取消归档"
 
 msgid "Page.Project.unarchive_task_group.fail"
-msgstr "取消归档任务分组失败，请重试"
+msgstr "取消归档事项分组失败，请重试"
 
 msgid "Page.Project.unarchive_task_group.success"
-msgstr "取消归档任务分组"
+msgstr "取消归档事项分组"
 
 msgid "Page.Project.update_collaborators_fail"
-msgstr "修改协作者失败"
+msgstr "修改协办单位失败"
 
 msgid "Page.Project.update_project_member.domain_rule_violation"
 msgstr "至少需要一个管理员"
@@ -1943,7 +1943,7 @@ msgid "Page.Project.update_task_fail"
 msgstr "更新失败"
 
 msgid "Page.Project.update_task_group_fail"
-msgstr "更新任务分组失败"
+msgstr "更新事项分组失败"
 
 msgid "Page.Project.upload_task_attachment.__t__"
 msgstr "添加附件"

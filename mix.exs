@@ -8,8 +8,7 @@ defmodule JetI18n.MixProject do
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      compilers: [:gettext] ++ Mix.compilers(),
-      aliases: aliases()
+      compilers: [:gettext] ++ Mix.compilers()
     ]
   end
 
@@ -24,17 +23,10 @@ defmodule JetI18n.MixProject do
   defp deps do
     [
       {:i18next_to_gettext,
-       git: "https://github.com/Byzanteam-Labs/i18next_to_gettext.git",
-       branch: "zhengjie/feature/json-to-po"},
-      {:gettext, ">= 0.0.0"}
-    ]
-  end
-
-  defp aliases() do
-    [
-      "i18n.converte": [
-        "i18next_to_gettext.converte assets/locale/lang/zh_CN.json priv/gettext/zh_CN/LC_MESSAGES/default.po"
-      ]
+       git: "https://github.com/Byzanteam-Labs/i18next_to_gettext.git", branch: "master"},
+      {:gettext, ">= 0.0.0"},
+      {:jason, "~> 1.2"},
+      {:deep_merge, "~> 1.0"}
     ]
   end
 end
