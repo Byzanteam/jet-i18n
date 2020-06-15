@@ -1,6 +1,6 @@
 %{
   "deep_merge": {:hex, :deep_merge, "1.0.0", "b4aa1a0d1acac393bdf38b2291af38cb1d4a52806cf7a4906f718e1feb5ee961", [:mix], [], "hexpm", "ce708e5f094b9cd4e8f2be4f00d2f4250c4095be93f8cd6d018c753894885430"},
   "gettext": {:hex, :gettext, "0.18.0", "406d6b9e0e3278162c2ae1de0a60270452c553536772167e2d701f028116f870", [:mix], [], "hexpm", "c3f850be6367ebe1a08616c2158affe4a23231c70391050bf359d5f92f66a571"},
-  "i18next_to_gettext": {:git, "https://github.com/Byzanteam-Labs/i18next_to_gettext.git", "23b2efe85eb0954f1b750e0bc7a41269af727fd8", [branch: "master"]},
+  "i18next_to_gettext": {:git, "https://github.com/Byzanteam-Labs/i18next_to_gettext.git", "49b555d878da896458767f8874b499d8f92bbed8", [branch: "master"]},
   "jason": {:hex, :jason, "1.2.1", "12b22825e22f468c02eb3e4b9985f3d0cb8dc40b9bd704730efa11abd2708c44", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "b659b8571deedf60f79c5a608e15414085fa141344e2716fbd6988a084b5f993"},
 }

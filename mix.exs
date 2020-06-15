@@ -8,8 +8,7 @@ defmodule JetI18n.MixProject do
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      compilers: [:gettext] ++ Mix.compilers(),
-      aliases: aliases()
+      compilers: [:gettext] ++ Mix.compilers()
     ]
   end
 
@@ -28,14 +27,6 @@ defmodule JetI18n.MixProject do
       {:gettext, ">= 0.0.0"},
       {:jason, "~> 1.2"},
       {:deep_merge, "~> 1.0"}
-    ]
-  end
-
-  defp aliases() do
-    [
-      "i18n.convert": [
-        "i18next_to_gettext.convert assets/locale/lang/zh_CN.json priv/gettext/zh_CN/LC_MESSAGES/zh_CN.po"
-      ]
     ]
   end
 end
