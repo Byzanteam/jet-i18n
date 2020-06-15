@@ -24,8 +24,7 @@ defmodule JetI18n.MixProject do
   defp deps do
     [
       {:i18next_to_gettext,
-       git: "https://github.com/Byzanteam-Labs/i18next_to_gettext.git",
-       branch: "zhengjie/feature/json-to-po"},
+       git: "https://github.com/Byzanteam-Labs/i18next_to_gettext.git", branch: "master"},
       {:gettext, ">= 0.0.0"}
     ]
   end
