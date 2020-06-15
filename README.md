@@ -1,7 +1,7 @@
 # JetI18n
 
 ```elixir
-mix i18n.converte
+mix jet_i18n.convert
 ```
 
 ## Installation
