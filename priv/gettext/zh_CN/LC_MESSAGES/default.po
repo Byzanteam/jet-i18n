@@ -1793,7 +1793,7 @@ msgid "Page.Project.task_comment.updated"
 msgstr "已编辑"
 
 msgid "Page.Project.task_description_content"
-msgstr "描述内容"
+msgstr "任务描述内容"
 
 msgid "Page.Project.task_filter.__t__"
 msgstr "任务筛选"

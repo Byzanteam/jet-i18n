@@ -1,0 +1,22 @@
+{
+  "Attribute": {
+    "Project": {
+      "task": {
+        "__t__": "事项",
+        "description": "领导批示及要求",
+        "assignee": {
+          "__t__": "牵头单位"
+        },
+        "due_on": {
+          "__t__": "办理时限要求"
+        },
+        "collaborator": {
+          "__t__": "协办单位"
+        }
+      }
+    }
+  },
+  "Page": {
+    "application": "Jet"
+  }
+}
