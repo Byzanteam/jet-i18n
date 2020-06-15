@@ -31,8 +31,8 @@ defmodule JetI18n.MixProject do
 
   defp aliases() do
     [
-      "i18n.converte": [
-        "i18next_to_gettext.converte assets/locale/lang/zh_CN.json priv/gettext/zh_CN/LC_MESSAGES/default.po"
+      "i18n.convert": [
+        "i18next_to_gettext.convert assets/locale/lang/zh_CN.json priv/gettext/zh_CN/LC_MESSAGES/default.po"
       ]
     ]
   end
