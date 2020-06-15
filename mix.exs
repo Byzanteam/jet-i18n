@@ -26,6 +26,7 @@ defmodule JetI18n.MixProject do
       {:i18next_to_gettext,
        git: "https://github.com/Byzanteam-Labs/i18next_to_gettext.git", branch: "master"},
       {:gettext, ">= 0.0.0"},
+      {:jason, "~> 1.2"},
       {:deep_merge, "~> 1.0"}
     ]
   end
