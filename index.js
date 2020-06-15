@@ -1,2 +1,7 @@
-const zh_CN = require("./assets/locale/lang/zh_CN.json");
-exports.zh_CN = zh_CN;
+const defaultDomain = require("./assets/locale/lang/zh_CN.json");
+const gxzhSupervisionDomain = require("./assets/locale/lang/zh_CN.gxzh-supervision.json");
+
+exports.zh_CN = {
+  defaultDomain,
+  gxzhSupervisionDomain,
+}
