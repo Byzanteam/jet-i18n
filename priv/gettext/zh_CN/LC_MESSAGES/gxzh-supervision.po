@@ -1835,13 +1835,13 @@ msgid "Page.Project.task_filter.due_on.unset"
 msgstr "未设置"
 
 msgid "Page.Project.task_filter.placeholder.assignee"
-msgstr "请选择牵头单位"
+msgstr "牵头单位"
 
 msgid "Page.Project.task_filter.placeholder.due_on"
-msgstr "请选择办理时限要求"
+msgstr "办理时限要求"
 
 msgid "Page.Project.task_filter.placeholder.task_label"
-msgstr "请选择标签"
+msgstr "标签"
 
 msgid "Page.Project.task_filter.reset"
 msgstr "重置"
