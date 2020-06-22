@@ -776,9 +776,9 @@
         "short": "筛选",
         "reset": "重置",
         "placeholder": {
-          "assignee": "请选择$t(Attribute.Project.task.assignee.__t__)",
-          "due_on": "请选择$t(Attribute.Project.task.due_on.__t__)",
-          "task_label": "请选择$t(Attribute.Project.task.task_label.__t__)"
+          "assignee": "$t(Attribute.Project.task.assignee.__t__)",
+          "due_on": "$t(Attribute.Project.task.due_on.__t__)",
+          "task_label": "$t(Attribute.Project.task.task_label.__t__)"
         },
         "due_on": {
           "today": "今天",
