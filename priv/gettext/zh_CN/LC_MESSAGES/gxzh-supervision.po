@@ -1399,6 +1399,9 @@ msgstr "填写不符合规则"
 msgid "Page.Project.draft_task.errors.profile.invalid"
 msgstr "格式错误"
 
+msgid "Page.Project.draft_task.errors.profile.length"
+msgstr "填写不符合规则"
+
 msgid "Page.Project.draft_task.errors.profile.other_option_not_permitted"
 msgstr "找不到匹配的选项"
 
