@@ -984,7 +984,8 @@
             "invalid": "格式错误",
             "other_option_not_permitted": "找不到匹配的选项",
             "format": "填写不符合规则",
-            "range": "填写不符合规则"
+            "range": "填写不符合规则",
+            "length": "填写不符合规则"
           }
         }
       },
