@@ -1969,6 +1969,15 @@ msgstr "将文件拖动到这里直接上传"
 msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
 msgstr "返回流程列表"
 
+msgid "Page.Workflow.workflow.validation.in_of_merge"
+msgstr "只有单条聚合或者多条聚合才可以有多个连入的线"
+
+msgid "Page.Workflow.workflow.validation.out_of_choice"
+msgstr "只有单条流转或者多条流转才可以有多个连出的线"
+
+msgid "Page.Workflow.workflow.validation.previous_of_conditon"
+msgstr "条件节点的前一个节点只能是单条流转或者多条流转"
+
 msgid "Page.application"
 msgstr "Jet"
 
