@@ -1969,6 +1969,27 @@ msgstr "将文件拖动到这里直接上传"
 msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
 msgstr "返回流程列表"
 
+msgid "Page.Workflow.workflow.workflow_schema.__t__"
+msgstr "流程表单"
+
+msgid "Page.Workflow.workflow.workflow_schema.blankslate"
+msgstr "点击表单字段以编辑流程表单"
+
+msgid "Page.Workflow.workflow.workflow_schema.delete_field_confirm.description"
+msgstr "删除后节点中此字段将被删除"
+
+msgid "Page.Workflow.workflow.workflow_schema.fields.SubmitButtonField.__t__"
+msgstr "按钮"
+
+msgid "Page.Workflow.workflow.workflow_schema.fields.SubmitButtonField.default_value"
+msgstr "提交"
+
+msgid "Page.Workflow.workflow.workflow_schema.fields.SubmitButtonField.name"
+msgstr "按钮名称"
+
+msgid "Page.Workflow.workflow.workflow_schema.modal.title"
+msgstr "编辑表单"
+
 msgid "Page.application"
 msgstr "Jet"
 
