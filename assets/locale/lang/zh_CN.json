@@ -569,6 +569,23 @@
       "workflow": {
         "editor": {
           "back_to_workflow_list": "返回$t(Attribute.Workflow.workflow.__t__)列表"
+        },
+        "workflow_schema": {
+          "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
+          "blankslate": "点击表单字段以编辑$t(Page.Workflow.workflow.workflow_schema.__t__)",
+          "fields": {
+            "SubmitButtonField": {
+              "__t__": "按钮",
+              "name": "按钮名称",
+              "default_value": "提交"
+            }
+          },
+          "delete_field_confirm": {
+            "description": "删除后节点中此字段将被删除"
+          },
+          "modal": {
+            "title": "编辑表单"
+          }
         }
       }
     },
