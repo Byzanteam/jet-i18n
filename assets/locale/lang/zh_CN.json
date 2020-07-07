@@ -569,6 +569,12 @@
       "workflow": {
         "editor": {
           "back_to_workflow_list": "返回$t(Attribute.Workflow.workflow.__t__)列表"
+          }
+        },
+        "outputs_search": {
+          "blankslate": {
+            "default": "暂无相关数据"
+          }
         },
         "workflow_schema": {
           "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
@@ -587,7 +593,6 @@
             "title": "编辑表单"
           }
         }
-      }
     },
     "Project": {
       "title": {
