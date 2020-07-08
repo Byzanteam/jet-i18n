@@ -1966,9 +1966,6 @@ msgstr "添加附件"
 msgid "Page.Project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
 
-msgid "Page.Workflow.outputs_search.blankslate.default"
-msgstr "暂无相关数据"
-
 msgid "Page.Workflow.schema.__t__"
 msgstr "流程表单"
 
@@ -2037,6 +2034,9 @@ msgstr "有不符合规则的连线"
 
 msgid "Page.Workflow.validation.redundant_links"
 msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.value_presenter_search.blankslate.default"
+msgstr "暂无相关数据"
 
 msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
 msgstr "返回流程列表"
