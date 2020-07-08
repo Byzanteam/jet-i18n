@@ -1,4 +1,4 @@
-name: Alpha release
+name: NPM Alpha release
 
 on:
   push:
