@@ -594,9 +594,9 @@
         "nonexisting_from_node": "有不符合规则的连线",
         "redundant_links": "有不符合规则的连线"
       },
-      "workflow_schema": {
+      "schema": {
         "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
-        "blankslate": "点击表单字段以编辑$t(Page.Workflow.workflow.workflow_schema.__t__)",
+        "blankslate": "点击表单字段以编辑$t(Page.Workflow.workflow.schema.__t__)",
         "fields": {
           "SubmitButtonField": {
             "__t__": "按钮",
