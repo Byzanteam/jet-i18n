@@ -569,23 +569,46 @@
       "workflow": {
         "editor": {
           "back_to_workflow_list": "返回$t(Attribute.Workflow.workflow.__t__)列表"
-        },
-        "workflow_schema": {
-          "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
-          "blankslate": "点击表单字段以编辑$t(Page.Workflow.workflow.workflow_schema.__t__)",
-          "fields": {
-            "SubmitButtonField": {
-              "__t__": "按钮",
-              "name": "按钮名称",
-              "default_value": "提交"
-            }
-          },
-          "delete_field_confirm": {
-            "description": "删除后节点中此字段将被删除"
-          },
-          "modal": {
-            "title": "编辑表单"
+        }
+      },
+      "value_presenter_search": {
+        "blankslate": {
+          "default": "暂无相关数据"
+        }
+      },
+      "validation": {
+        "buckle": "有不符合规则的连线",
+        "dangling_link": "有不符合规则的连线",
+        "dangling_node": "有不符合规则的节点",
+        "duplicated_end_nodes": "结束节点只能有一个",
+        "duplicated_links": "有不符合规则的连线",
+        "duplicated_start_nodes": "开始节点只能有一个",
+        "miss_choice_node": "请在条件节点前添加流转方式",
+        "missing_end_node": "结束节点必须存在",
+        "missing_from_node": "有不符合规则的连线",
+        "missing_start_node": "开始节点必须存在",
+        "missing_task_node": "请添加更多节点以便流程运行",
+        "missing_to_node": "有不符合规则的连线",
+        "non_pair_choice_and_merge": "多条流转和多条聚合必须成对出现",
+        "nonexisting_end_node": "有不符合规则的连线",
+        "nonexisting_from_node": "有不符合规则的连线",
+        "redundant_links": "有不符合规则的连线"
+      },
+      "schema": {
+        "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
+        "blankslate": "点击表单字段以编辑$t(Page.Workflow.workflow.schema.__t__)",
+        "fields": {
+          "SubmitButtonField": {
+            "__t__": "按钮",
+            "name": "按钮名称",
+            "default_value": "提交"
           }
+        },
+        "delete_field_confirm": {
+          "description": "删除后节点中此字段将被删除"
+        },
+        "modal": {
+          "title": "编辑表单"
         }
       }
     },

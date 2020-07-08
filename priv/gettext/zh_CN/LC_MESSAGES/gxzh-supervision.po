@@ -1966,29 +1966,80 @@ msgstr "添加附件"
 msgid "Page.Project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
 
-msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
-msgstr "返回流程列表"
-
-msgid "Page.Workflow.workflow.workflow_schema.__t__"
+msgid "Page.Workflow.schema.__t__"
 msgstr "流程表单"
 
-msgid "Page.Workflow.workflow.workflow_schema.blankslate"
-msgstr "点击表单字段以编辑流程表单"
+msgid "Page.Workflow.schema.blankslate"
+msgstr "点击表单字段以编辑"
 
-msgid "Page.Workflow.workflow.workflow_schema.delete_field_confirm.description"
+msgid "Page.Workflow.schema.delete_field_confirm.description"
 msgstr "删除后节点中此字段将被删除"
 
-msgid "Page.Workflow.workflow.workflow_schema.fields.SubmitButtonField.__t__"
+msgid "Page.Workflow.schema.fields.SubmitButtonField.__t__"
 msgstr "按钮"
 
-msgid "Page.Workflow.workflow.workflow_schema.fields.SubmitButtonField.default_value"
+msgid "Page.Workflow.schema.fields.SubmitButtonField.default_value"
 msgstr "提交"
 
-msgid "Page.Workflow.workflow.workflow_schema.fields.SubmitButtonField.name"
+msgid "Page.Workflow.schema.fields.SubmitButtonField.name"
 msgstr "按钮名称"
 
-msgid "Page.Workflow.workflow.workflow_schema.modal.title"
+msgid "Page.Workflow.schema.modal.title"
 msgstr "编辑表单"
+
+msgid "Page.Workflow.validation.buckle"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.validation.dangling_link"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.validation.dangling_node"
+msgstr "有不符合规则的节点"
+
+msgid "Page.Workflow.validation.duplicated_end_nodes"
+msgstr "结束节点只能有一个"
+
+msgid "Page.Workflow.validation.duplicated_links"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.validation.duplicated_start_nodes"
+msgstr "开始节点只能有一个"
+
+msgid "Page.Workflow.validation.miss_choice_node"
+msgstr "请在条件节点前添加流转方式"
+
+msgid "Page.Workflow.validation.missing_end_node"
+msgstr "结束节点必须存在"
+
+msgid "Page.Workflow.validation.missing_from_node"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.validation.missing_start_node"
+msgstr "开始节点必须存在"
+
+msgid "Page.Workflow.validation.missing_task_node"
+msgstr "请添加更多节点以便流程运行"
+
+msgid "Page.Workflow.validation.missing_to_node"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.validation.non_pair_choice_and_merge"
+msgstr "多条流转和多条聚合必须成对出现"
+
+msgid "Page.Workflow.validation.nonexisting_end_node"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.validation.nonexisting_from_node"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.validation.redundant_links"
+msgstr "有不符合规则的连线"
+
+msgid "Page.Workflow.value_presenter_search.blankslate.default"
+msgstr "暂无相关数据"
+
+msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
+msgstr "返回流程列表"
 
 msgid "Page.application"
 msgstr "Jet"
