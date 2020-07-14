@@ -4,16 +4,20 @@
       "verification_code": "验证码"
     },
     "IdentityAccess": {
+      "department": {
+        "__t__": "部门",
+        "name": "$t(Attribute.IdentityAccess.department.__t__)名称",
+        "member": "$t(Attribute.IdentityAccess.department.__t__)成员"
+      },
+      "role": {
+        "__t__": "角色",
+        "dynamic": "动态$t(Attribute.IdentityAccess.role.__t__)"
+      },
       "user": {
         "__t__": "成员",
         "name": "姓名",
         "phone": "手机号码",
         "email": "邮箱"
-      },
-      "department": {
-        "__t__": "部门",
-        "name": "$t(Attribute.IdentityAccess.department.__t__)名称",
-        "member": "$t(Attribute.IdentityAccess.department.__t__)成员"
       },
       "workspace": {
         "__t__": "空间",
