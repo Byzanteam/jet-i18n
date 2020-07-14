@@ -193,6 +193,12 @@ msgstr "部门成员"
 msgid "Attribute.IdentityAccess.department.name"
 msgstr "部门名称"
 
+msgid "Attribute.IdentityAccess.role.__t__"
+msgstr "角色"
+
+msgid "Attribute.IdentityAccess.role.dynamic"
+msgstr "动态角色"
+
 msgid "Attribute.IdentityAccess.user.__t__"
 msgstr "成员"
 
