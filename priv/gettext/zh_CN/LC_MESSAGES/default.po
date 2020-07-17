@@ -346,47 +346,38 @@ msgstr "分组"
 msgid "Attribute.Project.task_group.title"
 msgstr "分组名称"
 
-msgid "Attribute.Workflow.node.Approval"
-msgstr "审批节点"
-
-msgid "Attribute.Workflow.node.Condition"
+msgid "Attribute.Workflow.node.CONDITION"
 msgstr "条件节点"
 
-msgid "Attribute.Workflow.node.End"
-msgstr "结束节点"
+msgid "Attribute.Workflow.node.CUSTOM"
+msgstr "自定义节点"
 
-msgid "Attribute.Workflow.node.ExclusiveChoice"
+msgid "Attribute.Workflow.node.DEFERRED_CHOICE"
 msgstr "单条流转"
 
-msgid "Attribute.Workflow.node.Form"
+msgid "Attribute.Workflow.node.END"
+msgstr "结束节点"
+
+msgid "Attribute.Workflow.node.EXCLUSIVE_CHOICE"
+msgstr "单条流转"
+
+msgid "Attribute.Workflow.node.FORM"
 msgstr "填写节点"
 
-msgid "Attribute.Workflow.node.MultiChoice"
-msgstr "多条流转"
-
-msgid "Attribute.Workflow.node.MultiMerge"
+msgid "Attribute.Workflow.node.MULTI_MERGE"
 msgstr "多条聚合"
 
-msgid "Attribute.Workflow.node.SimpleMerge"
+msgid "Attribute.Workflow.node.SIMPLE_MERGE"
 msgstr "单条聚合"
 
-msgid "Attribute.Workflow.node.Start"
+msgid "Attribute.Workflow.node.START"
 msgstr "开始节点"
 
-msgid "Attribute.Workflow.node.TaskAutomaticOperation"
-msgstr "系统操作(任务)"
-
-msgid "Attribute.Workflow.node.TaskUserOperationLocker"
-msgstr "锁定节点(任务)"
-
-msgid "Attribute.Workflow.node.TaskUserOperationTrigger"
-msgstr "用户操作(任务)"
-
-msgid "Attribute.Workflow.node.Timer"
+msgid "Attribute.Workflow.node.TIMER"
 msgstr "定时器"
 
-msgid "Attribute.Workflow.node.UserAutomaticOperation"
-msgstr "系统操作(用户)"
+msgid "Attribute.Workflow.node.WORKFLOW_CASE_TRIGGER"
+msgstr "流程触发节点"
 
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
