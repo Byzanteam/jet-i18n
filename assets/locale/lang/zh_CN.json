@@ -35,20 +35,17 @@
           "Task": "$t(Attribute.Project.task.__t__)",
           "User": "用户"
         },
-        "Start": "开始$t(Attribute.Workflow.node.__t__)",
-        "End": "结束$t(Attribute.Workflow.node.__t__)",
-        "Condition": "条件$t(Attribute.Workflow.node.__t__)",
-        "Approval": "审批$t(Attribute.Workflow.node.__t__)",
-        "ExclusiveChoice": "单条流转",
-        "MultiChoice": "多条流转",
-        "SimpleMerge": "单条聚合",
-        "MultiMerge": "多条聚合",
-        "TaskUserOperationTrigger": "用户操作($t(Attribute.Workflow.node.subClass.Task))",
-        "TaskAutomaticOperation": "系统操作($t(Attribute.Workflow.node.subClass.Task))",
-        "UserAutomaticOperation": "系统操作($t(Attribute.Workflow.node.subClass.User))",
-        "Form": "填写$t(Attribute.Workflow.node.__t__)",
-        "Timer": "定时器",
-        "TaskUserOperationLocker": "锁定节点($t(Attribute.Workflow.node.subClass.Task))"
+        "CONDITION": "条件$t(Attribute.Workflow.node.__t__)",
+        "CUSTOM": "自定义$t(Attribute.Workflow.node.__t__)",
+        "END": "结束$t(Attribute.Workflow.node.__t__)",
+        "DEFERRED_CHOICE": "单条流转",
+        "EXCLUSIVE_CHOICE": "单条流转",
+        "FORM": "填写$t(Attribute.Workflow.node.__t__)",
+        "MULTI_MERGE": "多条聚合",
+        "START": "开始$t(Attribute.Workflow.node.__t__)",
+        "SIMPLE_MERGE": "单条聚合",
+        "TIMER": "定时器",
+        "WORKFLOW_CASE_TRIGGER": "流程触发$t(Attribute.Workflow.node.__t__)"
       }
     },
     "Project": {
