@@ -597,7 +597,7 @@
       },
       "schema": {
         "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
-        "blankslate": "点击表单字段以编辑$t(Page.Workflow.workflow.schema.__t__)",
+        "blankslate": "点击表单字段进行添加",
         "fields": {
           "SubmitButtonField": {
             "__t__": "按钮",
@@ -610,6 +610,19 @@
         },
         "modal": {
           "title": "编辑表单"
+        }
+      },
+      "nodes": {
+        "form": {
+          "settings": {
+            "basic": "基本设置",
+            "form": "表单设置"
+          },
+          "filler": "填写人",
+          "fields": {
+            "edit": "编辑表单",
+            "blank": "暂无内容"
+          }
         }
       }
     },
