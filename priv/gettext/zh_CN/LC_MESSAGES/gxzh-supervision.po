@@ -1963,11 +1963,26 @@ msgstr "添加附件"
 msgid "Page.Project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
 
+msgid "Page.Workflow.nodes.form.fields.blank"
+msgstr "暂无内容"
+
+msgid "Page.Workflow.nodes.form.fields.edit"
+msgstr "编辑表单"
+
+msgid "Page.Workflow.nodes.form.filler"
+msgstr "填写人"
+
+msgid "Page.Workflow.nodes.form.settings.basic"
+msgstr "基本设置"
+
+msgid "Page.Workflow.nodes.form.settings.form"
+msgstr "表单设置"
+
 msgid "Page.Workflow.schema.__t__"
 msgstr "流程表单"
 
 msgid "Page.Workflow.schema.blankslate"
-msgstr "点击表单字段以编辑"
+msgstr "点击表单字段进行添加"
 
 msgid "Page.Workflow.schema.delete_field_confirm.description"
 msgstr "删除后节点中此字段将被删除"
