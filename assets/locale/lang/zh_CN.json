@@ -631,6 +631,22 @@
             "edit": "编辑表单",
             "blank": "暂无内容"
           }
+        },
+        "custom": {
+          "program": {
+            "label": "运行文件",
+            "upload": {
+              "title": "文件上传",
+              "accept": "限制格式为 .wasm",
+              "button": "上传文件"
+            }
+          },
+          "source": {
+            "label": "需要使用的信息"
+          },
+          "output": {
+            "label": "需要输出的信息"
+          }
         }
       }
     },

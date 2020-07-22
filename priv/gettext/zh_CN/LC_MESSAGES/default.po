@@ -1981,6 +1981,24 @@ msgstr "添加附件"
 msgid "Page.Project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
 
+msgid "Page.Workflow.nodes.custom.output.label"
+msgstr "需要输出的信息"
+
+msgid "Page.Workflow.nodes.custom.program.label"
+msgstr "运行文件"
+
+msgid "Page.Workflow.nodes.custom.program.upload.accept"
+msgstr "限制格式为 .wasm"
+
+msgid "Page.Workflow.nodes.custom.program.upload.button"
+msgstr "上传文件"
+
+msgid "Page.Workflow.nodes.custom.program.upload.title"
+msgstr "文件上传"
+
+msgid "Page.Workflow.nodes.custom.source.label"
+msgstr "需要使用的信息"
+
 msgid "Page.Workflow.nodes.form.fields.blank"
 msgstr "暂无内容"
 
