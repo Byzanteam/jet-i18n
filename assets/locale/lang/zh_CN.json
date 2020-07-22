@@ -362,6 +362,14 @@
           "href": "链接地址"
         }
       }
+    },
+    "operator": {
+      "before": "早于",
+      "after": "晚于",
+      "is": "等于",
+      "between": "包含",
+      "is_empty": "为空",
+      "is_not_empty": "不为空"
     }
   },
   "Page": {
