@@ -538,6 +538,24 @@ msgstr "编辑"
 msgid "Common.operation.save"
 msgstr "保存"
 
+msgid "Common.operator.after"
+msgstr "晚于"
+
+msgid "Common.operator.before"
+msgstr "早于"
+
+msgid "Common.operator.between"
+msgstr "包含"
+
+msgid "Common.operator.is"
+msgstr "等于"
+
+msgid "Common.operator.is_empty"
+msgstr "为空"
+
+msgid "Common.operator.is_not_empty"
+msgstr "不为空"
+
 msgid "Common.paginator.load_fail"
 msgstr "加载失败"
 
