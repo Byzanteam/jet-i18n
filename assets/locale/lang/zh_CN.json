@@ -362,14 +362,61 @@
           "href": "链接地址"
         }
       }
+    }
+  },
+  "Filter": {
+    "CheckboxField": {
+      "operator": {
+        "exclude": "不包含",
+        "include": "包含"
+      }
     },
-    "operator": {
-      "before": "早于",
-      "after": "晚于",
-      "is": "等于",
-      "between": "包含",
-      "is_empty": "为空",
-      "is_not_empty": "不为空"
+    "DateTimeField": {
+      "operator": {
+        "after": "晚于",
+        "before": "早于",
+        "between": "包含",
+        "is": "等于",
+        "is_empty": "为空",
+        "is_not_empty": "不为空"
+      }
+    },
+    "DropdownField": {
+      "operator": {
+        "is": "等于",
+        "is_empty": "为空",
+        "is_not": "不等于",
+        "is_not_empty": "不为空"
+      }
+    },
+    "MultipleLineField": {
+      "operator": {
+        "contain": "包含"
+      }
+    },
+    "NumericField": {
+      "operator": {
+        "eq": "等于",
+        "gt": "大于",
+        "gteq": "大于等于",
+        "lt": "小于",
+        "lteq": "小于等于",
+        "range": "包含"
+      }
+    },
+    "RadioButtonField": {
+      "operator": {
+        "is": "等于",
+        "is_empty": "为空",
+        "is_not": "不等于",
+        "is_not_empty": "不为空"
+      }
+    },
+    "SingleLineField": {
+      "operator": {
+        "contain": "包含",
+        "is": "等于"
+      }
     }
   },
   "Page": {

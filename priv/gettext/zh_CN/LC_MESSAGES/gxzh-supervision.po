@@ -538,24 +538,6 @@ msgstr "编辑"
 msgid "Common.operation.save"
 msgstr "保存"
 
-msgid "Common.operator.after"
-msgstr "晚于"
-
-msgid "Common.operator.before"
-msgstr "早于"
-
-msgid "Common.operator.between"
-msgstr "包含"
-
-msgid "Common.operator.is"
-msgstr "等于"
-
-msgid "Common.operator.is_empty"
-msgstr "为空"
-
-msgid "Common.operator.is_not_empty"
-msgstr "不为空"
-
 msgid "Common.paginator.load_fail"
 msgstr "加载失败"
 
@@ -624,6 +606,81 @@ msgstr "上传失败，文件大小不得超过 %{max_size}"
 
 msgid "Common.uploader.uploading"
 msgstr "上传中"
+
+msgid "Filter.CheckboxField.operator.exclude"
+msgstr "不包含"
+
+msgid "Filter.CheckboxField.operator.include"
+msgstr "包含"
+
+msgid "Filter.DateTimeField.operator.after"
+msgstr "晚于"
+
+msgid "Filter.DateTimeField.operator.before"
+msgstr "早于"
+
+msgid "Filter.DateTimeField.operator.between"
+msgstr "包含"
+
+msgid "Filter.DateTimeField.operator.is"
+msgstr "等于"
+
+msgid "Filter.DateTimeField.operator.is_empty"
+msgstr "为空"
+
+msgid "Filter.DateTimeField.operator.is_not_empty"
+msgstr "不为空"
+
+msgid "Filter.DropdownField.operator.is"
+msgstr "等于"
+
+msgid "Filter.DropdownField.operator.is_empty"
+msgstr "为空"
+
+msgid "Filter.DropdownField.operator.is_not"
+msgstr "不等于"
+
+msgid "Filter.DropdownField.operator.is_not_empty"
+msgstr "不为空"
+
+msgid "Filter.MultipleLineField.operator.contain"
+msgstr "包含"
+
+msgid "Filter.NumericField.operator.eq"
+msgstr "等于"
+
+msgid "Filter.NumericField.operator.gt"
+msgstr "大于"
+
+msgid "Filter.NumericField.operator.gteq"
+msgstr "大于等于"
+
+msgid "Filter.NumericField.operator.lt"
+msgstr "小于"
+
+msgid "Filter.NumericField.operator.lteq"
+msgstr "小于等于"
+
+msgid "Filter.NumericField.operator.range"
+msgstr "包含"
+
+msgid "Filter.RadioButtonField.operator.is"
+msgstr "等于"
+
+msgid "Filter.RadioButtonField.operator.is_empty"
+msgstr "为空"
+
+msgid "Filter.RadioButtonField.operator.is_not"
+msgstr "不等于"
+
+msgid "Filter.RadioButtonField.operator.is_not_empty"
+msgstr "不为空"
+
+msgid "Filter.SingleLineField.operator.contain"
+msgstr "包含"
+
+msgid "Filter.SingleLineField.operator.is"
+msgstr "等于"
 
 msgid "Page.AccessControl.application_configuration"
 msgstr "应用管理"
