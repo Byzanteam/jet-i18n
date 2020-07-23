@@ -646,22 +646,22 @@ msgstr "不为空"
 msgid "Filter.MultipleLineField.operator.contain"
 msgstr "包含"
 
-msgid "Filter.NumericFieldb.operator.eq"
+msgid "Filter.NumericField.operator.eq"
 msgstr "等于"
 
-msgid "Filter.NumericFieldb.operator.gt"
+msgid "Filter.NumericField.operator.gt"
 msgstr "大于"
 
-msgid "Filter.NumericFieldb.operator.gteq"
+msgid "Filter.NumericField.operator.gteq"
 msgstr "大于等于"
 
-msgid "Filter.NumericFieldb.operator.lt"
+msgid "Filter.NumericField.operator.lt"
 msgstr "小于"
 
-msgid "Filter.NumericFieldb.operator.lteq"
+msgid "Filter.NumericField.operator.lteq"
 msgstr "小于等于"
 
-msgid "Filter.NumericFieldb.operator.range"
+msgid "Filter.NumericField.operator.range"
 msgstr "包含"
 
 msgid "Filter.RadioButtonField.operator.is"
