@@ -394,7 +394,7 @@
         "contain": "包含"
       }
     },
-    "NumericFieldb": {
+    "NumericField": {
       "operator": {
         "eq": "等于",
         "gt": "大于",
