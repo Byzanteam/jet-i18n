@@ -31,21 +31,61 @@
       },
       "node": {
         "__t__": "节点",
-        "subClass": {
-          "Task": "$t(Attribute.Project.task.__t__)",
-          "User": "用户"
+        "CONDITION": {
+          "__t__": "条件$t(Attribute.Workflow.node.__t__)",
+          "intrinsic_output": {
+            "satisfied": {
+              "__t__": "满足条件",
+              "candidateValues": {
+                "true": "满足",
+                "false": "不满足"
+              }
+            }
+          }
         },
-        "CONDITION": "条件$t(Attribute.Workflow.node.__t__)",
-        "CUSTOM": "自定义$t(Attribute.Workflow.node.__t__)",
-        "END": "结束$t(Attribute.Workflow.node.__t__)",
-        "DEFERRED_CHOICE": "单条流转",
-        "EXCLUSIVE_CHOICE": "单条流转",
-        "FORM": "填写$t(Attribute.Workflow.node.__t__)",
-        "MULTI_MERGE": "多条聚合",
-        "START": "开始$t(Attribute.Workflow.node.__t__)",
-        "SIMPLE_MERGE": "单条聚合",
-        "TIMER": "定时器",
-        "WORKFLOW_CASE_TRIGGER": "流程触发$t(Attribute.Workflow.node.__t__)"
+        "CUSTOM": {
+          "__t__": "自定义$t(Attribute.Workflow.node.__t__)"
+        },
+        "END": {
+          "__t__": "结束$t(Attribute.Workflow.node.__t__)"
+        },
+        "DEFERRED_CHOICE": {
+          "__t__": "单条流转"
+        },
+        "EXCLUSIVE_CHOICE": {
+          "__t__": "单条流转"
+        },
+        "FORM": {
+          "__t__": "填写$t(Attribute.Workflow.node.__t__)",
+          "intrinsic_output": {
+            "filler": {
+              "__t__": "填写人"
+            },
+            "filled_at": {
+              "__t__": "填写时间"
+            }
+          }
+        },
+        "MULTI_MERGE": {
+          "__t__": "多条聚合"
+        },
+        "START": {
+          "__t__": "开始$t(Attribute.Workflow.node.__t__)"
+        },
+        "SIMPLE_MERGE": {
+          "__t__": "单条聚合"
+        },
+        "TIMER": {
+          "__t__": "定时器",
+          "intrinsic_output": {
+            "end_at": {
+              "__t__": "执行时间"
+            }
+          }
+        },
+        "WORKFLOW_CASE_TRIGGER": {
+          "__t__": "触发$t(Attribute.Workflow.node.__t__)"
+        }
       }
     },
     "Project": {

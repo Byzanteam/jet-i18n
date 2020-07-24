@@ -346,47 +346,59 @@ msgstr "分组"
 msgid "Attribute.Project.task_group.title"
 msgstr "分组名称"
 
-msgid "Attribute.Workflow.node.CONDITION"
+msgid "Attribute.Workflow.node.CONDITION.__t__"
 msgstr "条件节点"
 
-msgid "Attribute.Workflow.node.CUSTOM"
+msgid "Attribute.Workflow.node.CONDITION.intrinsic_output.satisfied.__t__"
+msgstr "满足条件"
+
+msgid "Attribute.Workflow.node.CONDITION.intrinsic_output.satisfied.candidateValues.false"
+msgstr "不满足"
+
+msgid "Attribute.Workflow.node.CONDITION.intrinsic_output.satisfied.candidateValues.true"
+msgstr "满足"
+
+msgid "Attribute.Workflow.node.CUSTOM.__t__"
 msgstr "自定义节点"
 
-msgid "Attribute.Workflow.node.DEFERRED_CHOICE"
+msgid "Attribute.Workflow.node.DEFERRED_CHOICE.__t__"
 msgstr "单条流转"
 
-msgid "Attribute.Workflow.node.END"
+msgid "Attribute.Workflow.node.END.__t__"
 msgstr "结束节点"
 
-msgid "Attribute.Workflow.node.EXCLUSIVE_CHOICE"
+msgid "Attribute.Workflow.node.EXCLUSIVE_CHOICE.__t__"
 msgstr "单条流转"
 
-msgid "Attribute.Workflow.node.FORM"
+msgid "Attribute.Workflow.node.FORM.__t__"
 msgstr "填写节点"
 
-msgid "Attribute.Workflow.node.MULTI_MERGE"
+msgid "Attribute.Workflow.node.FORM.intrinsic_output.filled_at.__t__"
+msgstr "填写时间"
+
+msgid "Attribute.Workflow.node.FORM.intrinsic_output.filler.__t__"
+msgstr "填写人"
+
+msgid "Attribute.Workflow.node.MULTI_MERGE.__t__"
 msgstr "多条聚合"
 
-msgid "Attribute.Workflow.node.SIMPLE_MERGE"
+msgid "Attribute.Workflow.node.SIMPLE_MERGE.__t__"
 msgstr "单条聚合"
 
-msgid "Attribute.Workflow.node.START"
+msgid "Attribute.Workflow.node.START.__t__"
 msgstr "开始节点"
 
-msgid "Attribute.Workflow.node.TIMER"
+msgid "Attribute.Workflow.node.TIMER.__t__"
 msgstr "定时器"
 
-msgid "Attribute.Workflow.node.WORKFLOW_CASE_TRIGGER"
-msgstr "流程触发节点"
+msgid "Attribute.Workflow.node.TIMER.intrinsic_output.end_at.__t__"
+msgstr "执行时间"
+
+msgid "Attribute.Workflow.node.WORKFLOW_CASE_TRIGGER.__t__"
+msgstr "触发节点"
 
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
-
-msgid "Attribute.Workflow.node.subClass.Task"
-msgstr "事项"
-
-msgid "Attribute.Workflow.node.subClass.User"
-msgstr "用户"
 
 msgid "Attribute.Workflow.workflow.__t__"
 msgstr "流程"
