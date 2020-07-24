@@ -694,6 +694,19 @@
           "output": {
             "label": "需要输出的信息"
           }
+        },
+        "timer": {
+          "relativity": {
+            "after": "后",
+            "before": "前",
+            "is": "当时"
+          },
+          "unit": {
+            "day": "天",
+            "hour": "小时",
+            "minute": "分钟"
+          },
+          "not_set": "未设置"
         }
       }
     },
