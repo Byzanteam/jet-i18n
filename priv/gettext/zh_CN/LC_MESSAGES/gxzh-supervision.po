@@ -2038,6 +2038,21 @@ msgstr "添加附件"
 msgid "Page.Project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
 
+msgid "Page.Workflow.nodes.condition.add_filter"
+msgstr "添加条件"
+
+msgid "Page.Workflow.nodes.condition.add_filter_group"
+msgstr "添加条件组"
+
+msgid "Page.Workflow.nodes.condition.no_available_filter"
+msgstr "没有可添加的条件"
+
+msgid "Page.Workflow.nodes.condition.no_filter"
+msgstr "暂无条件"
+
+msgid "Page.Workflow.nodes.custom.output.edit"
+msgstr "编辑表单"
+
 msgid "Page.Workflow.nodes.custom.output.label"
 msgstr "需要输出的信息"
 
@@ -2056,6 +2071,21 @@ msgstr "文件上传"
 msgid "Page.Workflow.nodes.custom.source.label"
 msgstr "需要使用的信息"
 
+msgid "Page.Workflow.nodes.deferred_choice.__t__"
+msgstr "延迟流转"
+
+msgid "Page.Workflow.nodes.deferred_choice.description"
+msgstr "流转方式下连接的动作需要一定时间的等待"
+
+msgid "Page.Workflow.nodes.exclusive_choice.__t__"
+msgstr "立即流转"
+
+msgid "Page.Workflow.nodes.exclusive_choice.config.label"
+msgstr "选择流转的方式"
+
+msgid "Page.Workflow.nodes.exclusive_choice.description"
+msgstr "流转方式下连接的条件可以被立即判断"
+
 msgid "Page.Workflow.nodes.form.fields.blank"
 msgstr "暂无内容"
 
@@ -2065,11 +2095,17 @@ msgstr "编辑表单"
 msgid "Page.Workflow.nodes.form.filler"
 msgstr "填写人"
 
+msgid "Page.Workflow.nodes.form.not_set"
+msgstr "未设置"
+
 msgid "Page.Workflow.nodes.form.settings.basic"
 msgstr "基本设置"
 
 msgid "Page.Workflow.nodes.form.settings.form"
 msgstr "表单设置"
+
+msgid "Page.Workflow.nodes.timer.config.label"
+msgstr "设置定时器"
 
 msgid "Page.Workflow.nodes.timer.not_set"
 msgstr "未设置"
@@ -2091,6 +2127,18 @@ msgstr "小时"
 
 msgid "Page.Workflow.nodes.timer.unit.minute"
 msgstr "分钟"
+
+msgid "Page.Workflow.nodes.workflow_case_trigger.schema.add"
+msgstr "添加信息"
+
+msgid "Page.Workflow.nodes.workflow_case_trigger.schema.blank"
+msgstr "暂无信息"
+
+msgid "Page.Workflow.nodes.workflow_case_trigger.schema.label"
+msgstr "需要使用的信息"
+
+msgid "Page.Workflow.nodes.workflow_case_trigger.schema.update"
+msgstr "更改信息"
 
 msgid "Page.Workflow.schema.__t__"
 msgstr "流程表单"

@@ -677,7 +677,8 @@
           "fields": {
             "edit": "编辑表单",
             "blank": "暂无内容"
-          }
+          },
+          "not_set": "未设置"
         },
         "custom": {
           "program": {
@@ -692,10 +693,28 @@
             "label": "需要使用的信息"
           },
           "output": {
-            "label": "需要输出的信息"
+            "label": "需要输出的信息",
+            "edit": "编辑表单"
+          }
+        },
+        "condition": {
+          "add_filter": "添加条件",
+          "add_filter_group": "添加条件组",
+          "no_filter": "暂无条件",
+          "no_available_filter": "没有可添加的条件"
+        },
+        "workflow_case_trigger": {
+          "schema": {
+            "label": "需要使用的信息",
+            "add": "添加信息",
+            "update": "更改信息",
+            "blank": "暂无信息"
           }
         },
         "timer": {
+          "config": {
+            "label": "设置定时器"
+          },
           "relativity": {
             "after": "后",
             "before": "前",
@@ -707,6 +726,17 @@
             "minute": "分钟"
           },
           "not_set": "未设置"
+        },
+        "exclusive_choice": {
+          "__t__": "立即流转",
+          "description": "流转方式下连接的条件可以被立即判断",
+          "config": {
+            "label": "选择流转的方式"
+          }
+        },
+        "deferred_choice": {
+          "__t__": "延迟流转",
+          "description": "流转方式下连接的动作需要一定时间的等待"
         }
       }
     },
