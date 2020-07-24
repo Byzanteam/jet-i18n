@@ -698,10 +698,16 @@
           }
         },
         "condition": {
+          "operator": {
+            "AND": "且",
+            "OR": "或"
+          },
           "add_filter": "添加条件",
+          "or": "或",
           "add_filter_group": "添加条件组",
           "no_filter": "暂无条件",
-          "no_available_filter": "没有可添加的条件"
+          "no_available_filter": "没有可添加的条件",
+          "not_set": "未设置"
         },
         "workflow_case_trigger": {
           "schema": {
