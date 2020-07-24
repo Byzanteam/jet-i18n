@@ -2071,6 +2071,27 @@ msgstr "基本设置"
 msgid "Page.Workflow.nodes.form.settings.form"
 msgstr "表单设置"
 
+msgid "Page.Workflow.nodes.timer.not_set"
+msgstr "未设置"
+
+msgid "Page.Workflow.nodes.timer.relativity.after"
+msgstr "后"
+
+msgid "Page.Workflow.nodes.timer.relativity.before"
+msgstr "前"
+
+msgid "Page.Workflow.nodes.timer.relativity.is"
+msgstr "当时"
+
+msgid "Page.Workflow.nodes.timer.unit.day"
+msgstr "天"
+
+msgid "Page.Workflow.nodes.timer.unit.hour"
+msgstr "小时"
+
+msgid "Page.Workflow.nodes.timer.unit.minute"
+msgstr "分钟"
+
 msgid "Page.Workflow.schema.__t__"
 msgstr "流程表单"
 
