@@ -2050,6 +2050,18 @@ msgstr "没有可添加的条件"
 msgid "Page.Workflow.nodes.condition.no_filter"
 msgstr "暂无条件"
 
+msgid "Page.Workflow.nodes.condition.not_set"
+msgstr "未设置"
+
+msgid "Page.Workflow.nodes.condition.operator.AND"
+msgstr "且"
+
+msgid "Page.Workflow.nodes.condition.operator.OR"
+msgstr "或"
+
+msgid "Page.Workflow.nodes.condition.or"
+msgstr "或"
+
 msgid "Page.Workflow.nodes.custom.output.edit"
 msgstr "编辑表单"
 
