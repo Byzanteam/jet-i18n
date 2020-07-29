@@ -27,7 +27,13 @@
     "Workflow": {
       "workflow": {
         "__t__": "流程",
-        "name": "$t(Attribute.Workflow.workflow.__t__)名称"
+        "title": "$t(Attribute.Workflow.workflow.__t__)名称",
+        "case_count": "$t(Attribute.Workflow.workflow.__t__)记录",
+        "state": {
+          "__t__": "$t(Attribute.Workflow.workflow.__t__)状态",
+          "processing": "进行中",
+          "terminated": "已停用"
+        }
       },
       "node": {
         "__t__": "节点",
@@ -663,9 +669,15 @@
     },
     "Workflow": {
       "workflow": {
+        "create": "新建$t(Attribute.Workflow.workflow.__t__)",
         "editor": {
-          "back_to_workflow_list": "返回$t(Attribute.Workflow.workflow.__t__)列表"
-        }
+          "back_to_workflow_list": "返回$t(Page.Workflow.workflow.list.__t__)"
+        },
+        "list": {
+          "__t__": "$t(Attribute.Workflow.workflow.__t__)列表",
+          "blank": "暂无数据"
+        },
+        "case_count_is_executing": "{{ executing_case_count }} 条正在运行中"
       },
       "value_presenter_search": {
         "blankslate": {
@@ -845,6 +857,7 @@
       },
       "project_nav": {
         "task": "$t(Attribute.Project.task.__t__)",
+        "workflow": "$t(Attribute.Workflow.workflow.__t__)",
         "report": "$t(Attribute.Project.project.report.short)"
       },
       "manage_project_member": {

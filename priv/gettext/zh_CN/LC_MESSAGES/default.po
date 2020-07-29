@@ -403,7 +403,19 @@ msgstr "节点"
 msgid "Attribute.Workflow.workflow.__t__"
 msgstr "流程"
 
-msgid "Attribute.Workflow.workflow.name"
+msgid "Attribute.Workflow.workflow.case_count"
+msgstr "流程记录"
+
+msgid "Attribute.Workflow.workflow.state.__t__"
+msgstr "流程状态"
+
+msgid "Attribute.Workflow.workflow.state.processing"
+msgstr "进行中"
+
+msgid "Attribute.Workflow.workflow.state.terminated"
+msgstr "已停用"
+
+msgid "Attribute.Workflow.workflow.title"
 msgstr "流程名称"
 
 msgid "Common.collapse.less"
@@ -1744,6 +1756,9 @@ msgstr "统计"
 msgid "Page.Project.project_nav.task"
 msgstr "任务"
 
+msgid "Page.Project.project_nav.workflow"
+msgstr "流程"
+
 msgid "Page.Project.report.cumulative_flow_diagram_report.__t__"
 msgstr "项目进展"
 
@@ -2236,8 +2251,20 @@ msgstr "有不符合规则的连线"
 msgid "Page.Workflow.value_presenter_search.blankslate.default"
 msgstr "暂无相关数据"
 
+msgid "Page.Workflow.workflow.case_count_is_executing"
+msgstr "%{ executing_case_count } 条正在运行中"
+
+msgid "Page.Workflow.workflow.create"
+msgstr "新建流程"
+
 msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
 msgstr "返回流程列表"
+
+msgid "Page.Workflow.workflow.list.__t__"
+msgstr "流程列表"
+
+msgid "Page.Workflow.workflow.list.blank"
+msgstr "暂无数据"
 
 msgid "Page.application"
 msgstr "Jet"
