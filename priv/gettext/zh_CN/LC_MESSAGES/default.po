@@ -2266,6 +2266,9 @@ msgstr "流程列表"
 msgid "Page.Workflow.workflow.list.blank"
 msgstr "暂无数据"
 
+msgid "Page.Workflow.workflow.operation"
+msgstr "流程操作"
+
 msgid "Page.application"
 msgstr "Jet"
 
