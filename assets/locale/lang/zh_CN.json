@@ -677,7 +677,8 @@
           "__t__": "$t(Attribute.Workflow.workflow.__t__)列表",
           "blank": "暂无数据"
         },
-        "case_count_is_executing": "{{ executing_case_count }} 条正在运行中"
+        "case_count_is_executing": "{{ executing_case_count }} 条正在运行中",
+        "operation": "流程操作"
       },
       "value_presenter_search": {
         "blankslate": {
