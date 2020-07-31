@@ -91,6 +91,9 @@
         },
         "WORKFLOW_CASE_TRIGGER": {
           "__t__": "触发$t(Attribute.Workflow.node.__t__)"
+        },
+        "DATABASE_AUTOMATIC_OPERATION_ADD_ROW": {
+          "__t__": "系统执行"
         }
       }
     },
@@ -796,6 +799,16 @@
         "deferred_choice": {
           "__t__": "延迟流转",
           "description": "流转方式下连接的动作需要一定时间的等待"
+        },
+        "automatic_operation": {
+          "change_operation": "替换",
+          "database_add_row": {
+            "__t__": "新建数据",
+            "choose_table": "选择要执行的数据表格",
+            "field": "字段",
+            "no_columns": "没有可用字段",
+            "no_tables": "暂无数据表格"
+          }
         }
       }
     },
