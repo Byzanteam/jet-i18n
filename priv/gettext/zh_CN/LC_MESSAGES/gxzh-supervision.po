@@ -364,6 +364,15 @@ msgstr "自定义节点"
 msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_ADD_ROW.__t__"
 msgstr "系统执行"
 
+msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_ADD_ROW.operation"
+msgstr "新建数据"
+
+msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW.__t__"
+msgstr "系统执行"
+
+msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW.operation"
+msgstr "修改字段"
+
 msgid "Attribute.Workflow.node.DEFERRED_CHOICE.__t__"
 msgstr "单条流转"
 
@@ -2071,6 +2080,12 @@ msgstr "将文件拖动到这里直接上传"
 msgid "Page.Workflow.nodes.automatic_operation.change_operation"
 msgstr "替换"
 
+msgid "Page.Workflow.nodes.automatic_operation.change_operation_confirmation"
+msgstr "替换操作？"
+
+msgid "Page.Workflow.nodes.automatic_operation.change_operation_description"
+msgstr "替换后所有设置不可恢复"
+
 msgid "Page.Workflow.nodes.automatic_operation.database_add_row.__t__"
 msgstr "新建数据"
 
@@ -2085,6 +2100,21 @@ msgstr "没有可用字段"
 
 msgid "Page.Workflow.nodes.automatic_operation.database_add_row.no_tables"
 msgstr "暂无数据表格"
+
+msgid "Page.Workflow.nodes.automatic_operation.database_update_row.__t__"
+msgstr "修改字段"
+
+msgid "Page.Workflow.nodes.automatic_operation.database_update_row.choose_row"
+msgstr "选择要执行的填写记录"
+
+msgid "Page.Workflow.nodes.automatic_operation.database_update_row.field"
+msgstr "字段"
+
+msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_columns"
+msgstr "没有可用字段"
+
+msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_rows"
+msgstr "暂无数据"
 
 msgid "Page.Workflow.nodes.condition.add_filter"
 msgstr "添加条件"

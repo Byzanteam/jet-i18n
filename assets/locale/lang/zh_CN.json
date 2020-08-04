@@ -93,7 +93,12 @@
           "__t__": "触发$t(Attribute.Workflow.node.__t__)"
         },
         "DATABASE_AUTOMATIC_OPERATION_ADD_ROW": {
-          "__t__": "系统执行"
+          "__t__": "系统执行",
+          "operation": "新建数据"
+        },
+        "DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW": {
+          "__t__": "系统执行",
+          "operation": "修改字段"
         }
       }
     },
@@ -802,12 +807,21 @@
         },
         "automatic_operation": {
           "change_operation": "替换",
+          "change_operation_confirmation": "替换操作？",
+          "change_operation_description": "替换后所有设置不可恢复",
           "database_add_row": {
             "__t__": "新建数据",
             "choose_table": "选择要执行的数据表格",
             "field": "字段",
             "no_columns": "没有可用字段",
             "no_tables": "暂无数据表格"
+          },
+          "database_update_row": {
+            "__t__": "修改字段",
+            "choose_row": "选择要执行的填写记录",
+            "field": "字段",
+            "no_columns": "没有可用字段",
+            "no_rows": "暂无数据"
           }
         }
       }
