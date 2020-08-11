@@ -100,6 +100,14 @@
           "__t__": "系统执行",
           "operation": "修改字段"
         }
+      },
+      "trigger": {
+        "add_filter": "添加条件",
+        "add_filter_group": "添加条件组",
+        "events": {
+          "PROJECT_TASK_CREATED": "创建任务",
+          "WORKFLOW_TRIGGER_NODE_EXECUTED": "触发节点"
+        }
       }
     },
     "Project": {
