@@ -701,6 +701,13 @@
           "default": "暂无相关数据"
         }
       },
+      "output_schema": {
+        "fields": {
+          "priority": "$t(Attribute.Project.task.priority.__t__)",
+          "due_on": "$t(Attribute.Project.task.due_on.__t__)",
+          "created_via": "创建方式"
+        }
+      },
       "validation": {
         "buckle": "有不符合规则的连线",
         "dangling_link": "有不符合规则的连线",
