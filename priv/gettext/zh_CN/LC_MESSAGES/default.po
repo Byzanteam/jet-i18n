@@ -412,6 +412,18 @@ msgstr "触发节点"
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
 
+msgid "Attribute.Workflow.trigger.add_filter"
+msgstr "添加条件"
+
+msgid "Attribute.Workflow.trigger.add_filter_group"
+msgstr "添加条件组"
+
+msgid "Attribute.Workflow.trigger.events.PROJECT_TASK_CREATED"
+msgstr "创建任务"
+
+msgid "Attribute.Workflow.trigger.events.WORKFLOW_TRIGGER_NODE_EXECUTED"
+msgstr "触发节点"
+
 msgid "Attribute.Workflow.workflow.__t__"
 msgstr "流程"
 
@@ -2229,6 +2241,15 @@ msgstr "需要使用的信息"
 
 msgid "Page.Workflow.nodes.workflow_case_trigger.schema.update"
 msgstr "更改信息"
+
+msgid "Page.Workflow.output_schema.fields.created_via"
+msgstr "创建方式"
+
+msgid "Page.Workflow.output_schema.fields.due_on"
+msgstr "截止时间"
+
+msgid "Page.Workflow.output_schema.fields.priority"
+msgstr "优先级"
 
 msgid "Page.Workflow.schema.__t__"
 msgstr "流程表单"
