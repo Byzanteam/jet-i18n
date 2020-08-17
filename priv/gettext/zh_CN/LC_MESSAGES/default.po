@@ -418,12 +418,6 @@ msgstr "触发节点"
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
 
-msgid "Attribute.Workflow.trigger.add_filter"
-msgstr "添加条件"
-
-msgid "Attribute.Workflow.trigger.add_filter_group"
-msgstr "添加条件组"
-
 msgid "Attribute.Workflow.trigger.events.PROJECT_TASK_CREATED"
 msgstr "创建任务"
 
@@ -2292,6 +2286,12 @@ msgstr "按钮名称"
 
 msgid "Page.Workflow.schema.modal.title"
 msgstr "编辑表单"
+
+msgid "Page.Workflow.trigger.add_filter"
+msgstr "添加条件"
+
+msgid "Page.Workflow.trigger.add_filter_group"
+msgstr "添加条件组"
 
 msgid "Page.Workflow.validation.buckle"
 msgstr "有不符合规则的连线"
