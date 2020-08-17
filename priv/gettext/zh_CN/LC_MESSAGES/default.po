@@ -406,6 +406,12 @@ msgstr "定时器"
 msgid "Attribute.Workflow.node.TIMER.intrinsic_output.end_at.__t__"
 msgstr "执行时间"
 
+msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_SUBJECT.__t__"
+msgstr "系统执行"
+
+msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_SUBJECT.operation"
+msgstr "修改字段"
+
 msgid "Attribute.Workflow.node.WORKFLOW_CASE_TRIGGER.__t__"
 msgstr "触发节点"
 
@@ -2113,6 +2119,9 @@ msgstr "没有可用字段"
 msgid "Page.Workflow.nodes.automatic_operation.database_add_row.no_tables"
 msgstr "暂无数据表格"
 
+msgid "Page.Workflow.nodes.automatic_operation.database_operations"
+msgstr "数据表格"
+
 msgid "Page.Workflow.nodes.automatic_operation.database_update_row.__t__"
 msgstr "修改字段"
 
@@ -2127,6 +2136,18 @@ msgstr "没有可用字段"
 
 msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_rows"
 msgstr "暂无数据"
+
+msgid "Page.Workflow.nodes.automatic_operation.workflow_operations"
+msgstr "流程数据"
+
+msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.__t__"
+msgstr "修改字段"
+
+msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.choose_case"
+msgstr "选择要执行的流程数据"
+
+msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.field"
+msgstr "字段"
 
 msgid "Page.Workflow.nodes.condition.add_filter"
 msgstr "添加条件"
