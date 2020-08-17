@@ -99,6 +99,10 @@
         "DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW": {
           "__t__": "系统执行",
           "operation": "修改字段"
+        },
+        "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_SUBJECT": {
+          "__t__": "系统执行",
+          "operation": "修改字段"
         }
       },
       "trigger": {
@@ -826,6 +830,8 @@
           "change_operation": "替换",
           "change_operation_confirmation": "替换操作？",
           "change_operation_description": "替换后所有设置不可恢复",
+          "database_operations": "数据表格",
+          "workflow_operations": "流程数据",
           "database_add_row": {
             "__t__": "新建数据",
             "choose_table": "选择要执行的数据表格",
@@ -839,6 +845,11 @@
             "field": "字段",
             "no_columns": "没有可用字段",
             "no_rows": "暂无数据"
+          },
+          "workflow_update_subject": {
+            "__t__": "修改字段",
+            "choose_case": "选择要执行的流程数据",
+            "field": "字段"
           }
         }
       }
