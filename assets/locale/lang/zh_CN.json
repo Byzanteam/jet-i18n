@@ -850,7 +850,7 @@
             "__t__": "修改字段",
             "choose_case": "选择要执行的流程数据",
             "current_case": "当前流程数据",
-            "current_task": "当前任务",
+            "subject": "所属主体",
             "field": "字段"
           }
         }
