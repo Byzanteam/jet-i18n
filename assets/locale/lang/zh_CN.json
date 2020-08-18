@@ -849,6 +849,8 @@
           "workflow_update_subject": {
             "__t__": "修改字段",
             "choose_case": "选择要执行的流程数据",
+            "current_case": "当前流程数据",
+            "current_task": "当前任务",
             "field": "字段"
           }
         }
