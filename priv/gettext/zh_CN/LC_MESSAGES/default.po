@@ -2140,6 +2140,12 @@ msgstr "修改字段"
 msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.choose_case"
 msgstr "选择要执行的流程数据"
 
+msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.current_case"
+msgstr "当前流程数据"
+
+msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.current_task"
+msgstr "当前任务"
+
 msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.field"
 msgstr "字段"
 
