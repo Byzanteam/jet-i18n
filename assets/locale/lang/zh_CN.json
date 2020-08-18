@@ -100,7 +100,7 @@
           "__t__": "系统执行",
           "operation": "修改字段"
         },
-        "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_SUBJECT": {
+        "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT": {
           "__t__": "系统执行",
           "operation": "修改字段"
         }
