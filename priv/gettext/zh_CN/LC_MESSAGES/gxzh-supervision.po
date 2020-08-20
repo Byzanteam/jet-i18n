@@ -2278,13 +2278,13 @@ msgstr "前"
 msgid "Page.Workflow.nodes.timer.relativity.IS"
 msgstr "当时"
 
-msgid "Page.Workflow.nodes.timer.unit.day"
+msgid "Page.Workflow.nodes.timer.unit.DAY"
 msgstr "天"
 
-msgid "Page.Workflow.nodes.timer.unit.hour"
+msgid "Page.Workflow.nodes.timer.unit.HOUR"
 msgstr "小时"
 
-msgid "Page.Workflow.nodes.timer.unit.minute"
+msgid "Page.Workflow.nodes.timer.unit.MINUTE"
 msgstr "分钟"
 
 msgid "Page.Workflow.nodes.workflow_case_trigger.schema.add"
