@@ -419,7 +419,7 @@ msgid "Attribute.Workflow.node.START.schema_field.due_on.__t__"
 msgstr "截止时间"
 
 msgid "Attribute.Workflow.node.START.schema_field.priority.__t__"
-msgstr ""
+msgstr "优先级"
 
 msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.high"
 msgstr "紧急"
