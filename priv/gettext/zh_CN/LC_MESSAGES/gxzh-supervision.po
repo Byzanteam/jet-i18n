@@ -349,13 +349,13 @@ msgstr "分组名称"
 msgid "Attribute.Workflow.node.CONDITION.__t__"
 msgstr "条件节点"
 
-msgid "Attribute.Workflow.node.CONDITION.intrinsic_output.satisfied.__t__"
+msgid "Attribute.Workflow.node.CONDITION.schema_field.satisfied.__t__"
 msgstr "满足条件"
 
-msgid "Attribute.Workflow.node.CONDITION.intrinsic_output.satisfied.candidateValues.false"
+msgid "Attribute.Workflow.node.CONDITION.schema_field.satisfied.candidateValues.false"
 msgstr "不满足"
 
-msgid "Attribute.Workflow.node.CONDITION.intrinsic_output.satisfied.candidateValues.true"
+msgid "Attribute.Workflow.node.CONDITION.schema_field.satisfied.candidateValues.true"
 msgstr "满足"
 
 msgid "Attribute.Workflow.node.CUSTOM.__t__"
@@ -377,7 +377,7 @@ msgid "Attribute.Workflow.node.DEFERRED_CHOICE.__t__"
 msgstr "单条流转"
 
 msgid "Attribute.Workflow.node.END.__t__"
-msgstr "结束节点"
+msgstr "结束"
 
 msgid "Attribute.Workflow.node.EXCLUSIVE_CHOICE.__t__"
 msgstr "单条流转"
@@ -385,10 +385,10 @@ msgstr "单条流转"
 msgid "Attribute.Workflow.node.FORM.__t__"
 msgstr "填写节点"
 
-msgid "Attribute.Workflow.node.FORM.intrinsic_output.filled_at.__t__"
+msgid "Attribute.Workflow.node.FORM.schema_field.filled_at.__t__"
 msgstr "填写时间"
 
-msgid "Attribute.Workflow.node.FORM.intrinsic_output.filler.__t__"
+msgid "Attribute.Workflow.node.FORM.schema_field.filler.__t__"
 msgstr "填写人"
 
 msgid "Attribute.Workflow.node.MULTI_MERGE.__t__"
@@ -398,12 +398,48 @@ msgid "Attribute.Workflow.node.SIMPLE_MERGE.__t__"
 msgstr "单条聚合"
 
 msgid "Attribute.Workflow.node.START.__t__"
-msgstr "开始节点"
+msgstr "开始"
+
+msgid "Attribute.Workflow.node.START.schema_field.created_via.__t__"
+msgstr "创建方式"
+
+msgid "Attribute.Workflow.node.START.schema_field.created_via.candidateValues.clone"
+msgstr "复制"
+
+msgid "Attribute.Workflow.node.START.schema_field.created_via.candidateValues.import"
+msgstr "导入"
+
+msgid "Attribute.Workflow.node.START.schema_field.created_via.candidateValues.user"
+msgstr "用户创建"
+
+msgid "Attribute.Workflow.node.START.schema_field.description.__t__"
+msgstr "领导批示及要求"
+
+msgid "Attribute.Workflow.node.START.schema_field.due_on.__t__"
+msgstr "办理时限要求"
+
+msgid "Attribute.Workflow.node.START.schema_field.priority.__t__"
+msgstr ""
+
+msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.high"
+msgstr "紧急"
+
+msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.highest"
+msgstr "非常紧急"
+
+msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.low"
+msgstr "低"
+
+msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.medium"
+msgstr "普通"
+
+msgid "Attribute.Workflow.node.START.schema_field.title.__t__"
+msgstr "事项标题"
 
 msgid "Attribute.Workflow.node.TIMER.__t__"
 msgstr "定时器"
 
-msgid "Attribute.Workflow.node.TIMER.intrinsic_output.end_at.__t__"
+msgid "Attribute.Workflow.node.TIMER.schema_field.end_at.__t__"
 msgstr "执行时间"
 
 msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT.__t__"
@@ -2262,15 +2298,6 @@ msgstr "需要使用的信息"
 
 msgid "Page.Workflow.nodes.workflow_case_trigger.schema.update"
 msgstr "更改信息"
-
-msgid "Page.Workflow.output_schema.fields.created_via"
-msgstr "创建方式"
-
-msgid "Page.Workflow.output_schema.fields.due_on"
-msgstr "办理时限要求"
-
-msgid "Page.Workflow.output_schema.fields.priority"
-msgstr "优先级"
 
 msgid "Page.Workflow.schema.__t__"
 msgstr "流程表单"
