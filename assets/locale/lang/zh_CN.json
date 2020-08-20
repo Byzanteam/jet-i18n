@@ -39,7 +39,7 @@
         "__t__": "节点",
         "CONDITION": {
           "__t__": "条件$t(Attribute.Workflow.node.__t__)",
-          "intrinsic_output": {
+          "schema_field": {
             "satisfied": {
               "__t__": "满足条件",
               "candidateValues": {
@@ -53,7 +53,7 @@
           "__t__": "自定义$t(Attribute.Workflow.node.__t__)"
         },
         "END": {
-          "__t__": "结束$t(Attribute.Workflow.node.__t__)"
+          "__t__": "结束"
         },
         "DEFERRED_CHOICE": {
           "__t__": "单条流转"
@@ -63,7 +63,7 @@
         },
         "FORM": {
           "__t__": "填写$t(Attribute.Workflow.node.__t__)",
-          "intrinsic_output": {
+          "schema_field": {
             "filler": {
               "__t__": "填写人"
             },
@@ -76,14 +76,42 @@
           "__t__": "多条聚合"
         },
         "START": {
-          "__t__": "开始$t(Attribute.Workflow.node.__t__)"
+          "__t__": "开始",
+          "schema_field": {
+            "created_via": {
+              "__t__": "创建方式",
+              "candidateValues": {
+                "user": "用户创建",
+                "import": "导入",
+                "clone": "复制"
+              }
+            },
+            "description": {
+              "__t__": "$t(Attribute.Project.task.description)"
+            },
+            "due_on": {
+              "__t__": "$t(Attribute.Project.task.due_on.__t__)"
+            },
+            "priority": {
+              "__t__": "$t(Attribute.Project.task.priority)",
+              "candidateValues": {
+                "medium": "$t(Attribute.Project.task.priority.medium)",
+                "highest": "$t(Attribute.Project.task.priority.highest)",
+                "high": "$t(Attribute.Project.task.priority.high)",
+                "low": "$t(Attribute.Project.task.priority.low)"
+              }
+            },
+            "title": {
+              "__t__": "$t(Attribute.Project.task.title)"
+            }
+          }
         },
         "SIMPLE_MERGE": {
           "__t__": "单条聚合"
         },
         "TIMER": {
           "__t__": "定时器",
-          "intrinsic_output": {
+          "schema_field": {
             "end_at": {
               "__t__": "执行时间"
             }
@@ -701,13 +729,6 @@
       "value_presenter_search": {
         "blankslate": {
           "default": "暂无相关数据"
-        }
-      },
-      "output_schema": {
-        "fields": {
-          "priority": "$t(Attribute.Project.task.priority.__t__)",
-          "due_on": "$t(Attribute.Project.task.due_on.__t__)",
-          "created_via": "创建方式"
         }
       },
       "validation": {
