@@ -825,9 +825,9 @@
             "label": "设置定时器"
           },
           "relativity": {
-            "after": "后",
-            "before": "前",
-            "is": "当时"
+            "AFTER": "后",
+            "BEFORE": "前",
+            "IS": "当时"
           },
           "unit": {
             "day": "天",
