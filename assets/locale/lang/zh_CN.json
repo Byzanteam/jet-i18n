@@ -93,7 +93,7 @@
               "__t__": "$t(Attribute.Project.task.due_on.__t__)"
             },
             "priority": {
-              "__t__": "$t(Attribute.Project.task.priority)",
+              "__t__": "$t(Attribute.Project.task.priority.__t__)",
               "candidateValues": {
                 "medium": "$t(Attribute.Project.task.priority.medium)",
                 "highest": "$t(Attribute.Project.task.priority.highest)",
