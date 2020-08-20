@@ -2269,13 +2269,13 @@ msgstr "设置定时器"
 msgid "Page.Workflow.nodes.timer.not_set"
 msgstr "未设置"
 
-msgid "Page.Workflow.nodes.timer.relativity.after"
+msgid "Page.Workflow.nodes.timer.relativity.AFTER"
 msgstr "后"
 
-msgid "Page.Workflow.nodes.timer.relativity.before"
+msgid "Page.Workflow.nodes.timer.relativity.BEFORE"
 msgstr "前"
 
-msgid "Page.Workflow.nodes.timer.relativity.is"
+msgid "Page.Workflow.nodes.timer.relativity.IS"
 msgstr "当时"
 
 msgid "Page.Workflow.nodes.timer.unit.day"
