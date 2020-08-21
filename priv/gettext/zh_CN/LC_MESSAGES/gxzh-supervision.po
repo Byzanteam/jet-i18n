@@ -376,6 +376,9 @@ msgstr "系统执行"
 msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW.operation"
 msgstr "修改字段"
 
+msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW.schema_field.row.__t__"
+msgstr "填写记录"
+
 msgid "Attribute.Workflow.node.DEFERRED_CHOICE.__t__"
 msgstr "单条流转"
 
