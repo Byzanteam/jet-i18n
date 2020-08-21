@@ -131,7 +131,12 @@
         },
         "DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW": {
           "__t__": "系统执行",
-          "operation": "修改字段"
+          "operation": "修改字段",
+          "schema_field": {
+            "row": {
+              "__t__": "填写记录"
+            }
+          }
         },
         "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT": {
           "__t__": "系统执行",
