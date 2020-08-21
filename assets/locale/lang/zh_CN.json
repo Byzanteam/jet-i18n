@@ -122,7 +122,12 @@
         },
         "DATABASE_AUTOMATIC_OPERATION_ADD_ROW": {
           "__t__": "系统执行",
-          "operation": "新建数据"
+          "operation": "新建数据",
+          "schema_field": {
+            "row": {
+              "__t__": "填写记录"
+            }
+          }
         },
         "DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW": {
           "__t__": "系统执行",
