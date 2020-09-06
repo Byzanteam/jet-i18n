@@ -25,6 +25,13 @@
       }
     },
     "Workflow": {
+      "case": {
+        "state": {
+          "ABANDONED": "异常",
+          "COMPLETED": "已完成",
+          "RUNNING": "进行中"
+        }
+      },
       "workflow": {
         "__t__": "流程",
         "title": "$t(Attribute.Workflow.workflow.__t__)名称",
@@ -37,6 +44,10 @@
       },
       "node": {
         "__t__": "节点",
+        "state": {
+          "COMPLETED": "执行",
+          "STARTED": "等待"
+        },
         "CONDITION": {
           "__t__": "条件$t(Attribute.Workflow.node.__t__)",
           "schema_field": {
