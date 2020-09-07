@@ -346,6 +346,15 @@ msgstr "分组"
 msgid "Attribute.Project.task_group.title"
 msgstr "分组名称"
 
+msgid "Attribute.Workflow.case.state.ABANDONED"
+msgstr "异常"
+
+msgid "Attribute.Workflow.case.state.COMPLETED"
+msgstr "已完成"
+
+msgid "Attribute.Workflow.case.state.RUNNING"
+msgstr "进行中"
+
 msgid "Attribute.Workflow.node.CONDITION.__t__"
 msgstr "条件节点"
 
@@ -459,6 +468,12 @@ msgstr "触发节点"
 
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
+
+msgid "Attribute.Workflow.node.state.COMPLETED"
+msgstr "执行"
+
+msgid "Attribute.Workflow.node.state.STARTED"
+msgstr "等待"
 
 msgid "Attribute.Workflow.trigger.events.PROJECT_TASK_CREATED"
 msgstr "创建任务"
