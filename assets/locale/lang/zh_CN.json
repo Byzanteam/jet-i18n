@@ -157,7 +157,7 @@
       "trigger": {
         "events": {
           "PROJECT_TASK_CREATED": "创建任务",
-          "WORKFLOW_TRIGGER_NODE_EXECUTED": "触发节点"
+          "WORKFLOW_CASE_TRIGGER_NODE_EXECUTED": "触发节点"
         }
       }
     },

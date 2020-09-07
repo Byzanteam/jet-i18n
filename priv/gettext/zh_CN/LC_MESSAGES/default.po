@@ -478,7 +478,7 @@ msgstr "等待"
 msgid "Attribute.Workflow.trigger.events.PROJECT_TASK_CREATED"
 msgstr "创建任务"
 
-msgid "Attribute.Workflow.trigger.events.WORKFLOW_TRIGGER_NODE_EXECUTED"
+msgid "Attribute.Workflow.trigger.events.WORKFLOW_CASE_TRIGGER_NODE_EXECUTED"
 msgstr "触发节点"
 
 msgid "Attribute.Workflow.workflow.__t__"
