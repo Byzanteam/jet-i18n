@@ -735,6 +735,12 @@
       }
     },
     "Workflow": {
+      "case": {
+        "view": "查看$t(Attribute.Workflow.workflow.__t__)",
+        "executions": {
+          "completed": "已执行"
+        }
+      },
       "workflow": {
         "create": "新建$t(Attribute.Workflow.workflow.__t__)",
         "editor": {
