@@ -2146,6 +2146,12 @@ msgstr "添加附件"
 msgid "Page.Project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
 
+msgid "Page.Workflow.case.executions.completed"
+msgstr "已执行"
+
+msgid "Page.Workflow.case.view"
+msgstr "查看流程"
+
 msgid "Page.Workflow.nodes.automatic_operation.change_operation"
 msgstr "替换"
 
