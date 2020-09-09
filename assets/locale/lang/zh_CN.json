@@ -803,7 +803,7 @@
         },
         "delete_field_confirm": {
           "description": "删除后节点中此字段将被删除"
-        },
+        }
       },
       "nodes": {
         "form": {
