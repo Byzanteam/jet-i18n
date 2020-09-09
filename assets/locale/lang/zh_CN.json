@@ -475,6 +475,17 @@
           "href": "链接地址"
         }
       }
+    },
+    "form": {
+      "__t__": "表单",
+      "edit": {
+        "__t__": "编辑$t(Common.form.__t__)"
+      },
+      "fill": {
+        "__t__": "填写$t(Common.form.__t__)",
+        "confirm": "提交",
+        "success": "{{confirm}}成功"
+      }
     }
   },
   "Filter": {
@@ -792,9 +803,6 @@
         },
         "delete_field_confirm": {
           "description": "删除后节点中此字段将被删除"
-        },
-        "modal": {
-          "title": "编辑表单"
         }
       },
       "nodes": {
@@ -805,7 +813,6 @@
           },
           "filler": "填写人",
           "fields": {
-            "edit": "编辑表单",
             "blank": "暂无内容"
           },
           "not_set": "未设置"
@@ -823,8 +830,7 @@
             "label": "需要使用的信息"
           },
           "output": {
-            "label": "需要输出的信息",
-            "edit": "编辑表单"
+            "label": "需要输出的信息"
           }
         },
         "condition": {
