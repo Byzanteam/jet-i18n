@@ -610,6 +610,21 @@ msgstr "文档"
 msgid "Common.file.not_support_preview"
 msgstr "暂不支持此类型预览"
 
+msgid "Common.form.__t__"
+msgstr "表单"
+
+msgid "Common.form.edit.__t__"
+msgstr "编辑表单"
+
+msgid "Common.form.fill.__t__"
+msgstr "填写表单"
+
+msgid "Common.form.fill.confirm"
+msgstr "提交"
+
+msgid "Common.form.fill.success"
+msgstr "%{confirm}成功"
+
 msgid "Common.input.placeholder.default"
 msgstr "请输入"
 
@@ -2236,9 +2251,6 @@ msgstr "或"
 msgid "Page.Workflow.nodes.condition.or"
 msgstr "或"
 
-msgid "Page.Workflow.nodes.custom.output.edit"
-msgstr "编辑表单"
-
 msgid "Page.Workflow.nodes.custom.output.label"
 msgstr "需要输出的信息"
 
@@ -2274,9 +2286,6 @@ msgstr "流转方式下连接的条件可以被立即判断"
 
 msgid "Page.Workflow.nodes.form.fields.blank"
 msgstr "暂无内容"
-
-msgid "Page.Workflow.nodes.form.fields.edit"
-msgstr "编辑表单"
 
 msgid "Page.Workflow.nodes.form.filler"
 msgstr "填写人"
@@ -2343,9 +2352,6 @@ msgstr "提交"
 
 msgid "Page.Workflow.schema.fields.SubmitButtonField.name"
 msgstr "按钮名称"
-
-msgid "Page.Workflow.schema.modal.title"
-msgstr "编辑表单"
 
 msgid "Page.Workflow.trigger.add_filter"
 msgstr "添加条件"
