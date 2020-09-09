@@ -81,6 +81,10 @@
             "filled_at": {
               "__t__": "填写时间"
             }
+          },
+          "state": {
+            "COMPLETED": "提交",
+            "STARTED": "等待处理"
           }
         },
         "MULTI_MERGE": {
