@@ -406,6 +406,12 @@ msgstr "填写时间"
 msgid "Attribute.Workflow.node.FORM.schema_field.filler.__t__"
 msgstr "填写人"
 
+msgid "Attribute.Workflow.node.FORM.state.COMPLETED"
+msgstr "提交"
+
+msgid "Attribute.Workflow.node.FORM.state.STARTED"
+msgstr "等待处理"
+
 msgid "Attribute.Workflow.node.MULTI_MERGE.__t__"
 msgstr "多条聚合"
 
