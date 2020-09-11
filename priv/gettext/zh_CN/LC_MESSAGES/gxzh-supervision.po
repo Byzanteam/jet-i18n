@@ -358,13 +358,13 @@ msgstr "进行中"
 msgid "Attribute.Workflow.node.CONDITION.__t__"
 msgstr "条件节点"
 
-msgid "Attribute.Workflow.node.CONDITION.schema_field.satisfied.__t__"
+msgid "Attribute.Workflow.node.CONDITION.schema_field.sufficient.__t__"
 msgstr "满足条件"
 
-msgid "Attribute.Workflow.node.CONDITION.schema_field.satisfied.candidateValues.false"
+msgid "Attribute.Workflow.node.CONDITION.schema_field.sufficient.candidateValues.false"
 msgstr "不满足"
 
-msgid "Attribute.Workflow.node.CONDITION.schema_field.satisfied.candidateValues.true"
+msgid "Attribute.Workflow.node.CONDITION.schema_field.sufficient.candidateValues.true"
 msgstr "满足"
 
 msgid "Attribute.Workflow.node.CUSTOM.__t__"

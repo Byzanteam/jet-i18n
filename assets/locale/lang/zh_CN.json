@@ -51,7 +51,7 @@
         "CONDITION": {
           "__t__": "条件$t(Attribute.Workflow.node.__t__)",
           "schema_field": {
-            "satisfied": {
+            "sufficient": {
               "__t__": "满足条件",
               "candidateValues": {
                 "true": "满足",
