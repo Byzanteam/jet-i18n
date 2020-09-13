@@ -40,13 +40,19 @@
           "__t__": "$t(Attribute.Workflow.workflow.__t__)状态",
           "processing": "进行中",
           "terminated": "已停用"
-        }
+        },
+        "variables": "$t(Attribute.Workflow.workflow.__t__)数据"
       },
       "node": {
         "__t__": "节点",
         "state": {
           "COMPLETED": "执行",
           "STARTED": "等待"
+        },
+        "outputs": "$t(Attribute.Workflow.node.__t__)输出",
+        "associations": {
+          "__t__": "关联关系",
+          "attributes": "字段"
         },
         "CONDITION": {
           "__t__": "条件$t(Attribute.Workflow.node.__t__)",
@@ -156,6 +162,12 @@
         "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT": {
           "__t__": "系统执行",
           "operation": "修改字段"
+        }
+      },
+      "resource": {
+        "PROJECT_TASK": {
+          "__t__": "$t(Attribute.Project.task.__t__)",
+          "title": "$t(Attribute.Project.task.title)"
         }
       },
       "trigger": {
