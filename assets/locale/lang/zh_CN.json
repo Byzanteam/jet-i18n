@@ -102,9 +102,9 @@
             "created_via": {
               "__t__": "创建方式",
               "candidateValues": {
-                "user": "用户创建",
-                "import": "导入",
-                "clone": "复制"
+                "user": "$t(Attribute.Project.task.created_via.user)",
+                "import": "$t(Attribute.Project.task.created_via.import)",
+                "clone": "$t(Attribute.Project.task.created_via.clone)"
               }
             },
             "description": {
@@ -167,7 +167,16 @@
       "resource": {
         "PROJECT_TASK": {
           "__t__": "$t(Attribute.Project.task.__t__)",
-          "title": "$t(Attribute.Project.task.title)"
+          "title": "$t(Attribute.Project.task.title)",
+          "description": "$t(Attribute.Project.task.description)",
+          "priority": "$t(Attribute.Project.task.priority.__t__)",
+          "due_on": "$t(Attribute.Project.task.due_on.__t__)",
+          "created_via": "$t(Attribute.Project.task.created_via.__t__)",
+          "assignee": "$t(Attribute.Project.task.assignee.__t__)"
+        },
+        "PROJECT_PROJECT": {
+          "__t__": "$t(Attribute.Project.project.__t__)",
+          "title": "$t(Attribute.Project.project.title)"
         }
       },
       "trigger": {
@@ -200,6 +209,12 @@
         "description": "$t(Attribute.Project.task.__t__)描述",
         "completed": "完成",
         "completed_time": "$t(Attribute.Project.task.completed)时间",
+        "created_via": {
+          "__t__": "创建方式",
+          "user": "用户创建",
+          "import": "导入",
+          "clone": "复制"
+        },
         "assignee": {
           "__t__": "负责人",
           "blank": "未指派"
