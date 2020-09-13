@@ -475,11 +475,26 @@ msgstr "触发节点"
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
 
+msgid "Attribute.Workflow.node.associations.__t__"
+msgstr "关联关系"
+
+msgid "Attribute.Workflow.node.associations.attributes"
+msgstr "字段"
+
+msgid "Attribute.Workflow.node.outputs"
+msgstr "节点输出"
+
 msgid "Attribute.Workflow.node.state.COMPLETED"
 msgstr "执行"
 
 msgid "Attribute.Workflow.node.state.STARTED"
 msgstr "等待"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.__t__"
+msgstr "任务"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.title"
+msgstr "任务标题"
 
 msgid "Attribute.Workflow.trigger.events.PROJECT_TASK_CREATED"
 msgstr "创建任务"
@@ -504,6 +519,9 @@ msgstr "已停用"
 
 msgid "Attribute.Workflow.workflow.title"
 msgstr "流程名称"
+
+msgid "Attribute.Workflow.workflow.variables"
+msgstr "流程数据"
 
 msgid "Common.collapse.less"
 msgstr "点击收起"
