@@ -40,13 +40,19 @@
           "__t__": "$t(Attribute.Workflow.workflow.__t__)状态",
           "processing": "进行中",
           "terminated": "已停用"
-        }
+        },
+        "variables": "$t(Attribute.Workflow.workflow.__t__)数据"
       },
       "node": {
         "__t__": "节点",
         "state": {
           "COMPLETED": "执行",
           "STARTED": "等待"
+        },
+        "outputs": "$t(Attribute.Workflow.node.__t__)输出",
+        "associations": {
+          "__t__": "关联关系",
+          "attributes": "字段"
         },
         "CONDITION": {
           "__t__": "条件$t(Attribute.Workflow.node.__t__)",
@@ -96,9 +102,9 @@
             "created_via": {
               "__t__": "创建方式",
               "candidateValues": {
-                "user": "用户创建",
-                "import": "导入",
-                "clone": "复制"
+                "user": "$t(Attribute.Project.task.created_via.user)",
+                "import": "$t(Attribute.Project.task.created_via.import)",
+                "clone": "$t(Attribute.Project.task.created_via.clone)"
               }
             },
             "description": {
@@ -158,6 +164,21 @@
           "operation": "修改字段"
         }
       },
+      "resource": {
+        "PROJECT_TASK": {
+          "__t__": "$t(Attribute.Project.task.__t__)",
+          "title": "$t(Attribute.Project.task.title)",
+          "description": "$t(Attribute.Project.task.description)",
+          "priority": "$t(Attribute.Project.task.priority.__t__)",
+          "due_on": "$t(Attribute.Project.task.due_on.__t__)",
+          "created_via": "$t(Attribute.Project.task.created_via.__t__)",
+          "assignee": "$t(Attribute.Project.task.assignee.__t__)"
+        },
+        "PROJECT_PROJECT": {
+          "__t__": "$t(Attribute.Project.project.__t__)",
+          "title": "$t(Attribute.Project.project.title)"
+        }
+      },
       "trigger": {
         "events": {
           "PROJECT_TASK_CREATED": "创建任务",
@@ -188,6 +209,12 @@
         "description": "$t(Attribute.Project.task.__t__)描述",
         "completed": "完成",
         "completed_time": "$t(Attribute.Project.task.completed)时间",
+        "created_via": {
+          "__t__": "创建方式",
+          "user": "用户创建",
+          "import": "导入",
+          "clone": "复制"
+        },
         "assignee": {
           "__t__": "负责人",
           "blank": "未指派"

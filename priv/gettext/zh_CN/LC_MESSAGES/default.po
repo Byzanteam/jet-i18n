@@ -271,6 +271,18 @@ msgstr "完成"
 msgid "Attribute.Project.task.completed_time"
 msgstr "完成时间"
 
+msgid "Attribute.Project.task.created_via.__t__"
+msgstr "创建方式"
+
+msgid "Attribute.Project.task.created_via.clone"
+msgstr "复制"
+
+msgid "Attribute.Project.task.created_via.import"
+msgstr "导入"
+
+msgid "Attribute.Project.task.created_via.user"
+msgstr "用户创建"
+
 msgid "Attribute.Project.task.description"
 msgstr "任务描述"
 
@@ -475,11 +487,47 @@ msgstr "触发节点"
 msgid "Attribute.Workflow.node.__t__"
 msgstr "节点"
 
+msgid "Attribute.Workflow.node.associations.__t__"
+msgstr "关联关系"
+
+msgid "Attribute.Workflow.node.associations.attributes"
+msgstr "字段"
+
+msgid "Attribute.Workflow.node.outputs"
+msgstr "节点输出"
+
 msgid "Attribute.Workflow.node.state.COMPLETED"
 msgstr "执行"
 
 msgid "Attribute.Workflow.node.state.STARTED"
 msgstr "等待"
+
+msgid "Attribute.Workflow.resource.PROJECT_PROJECT.__t__"
+msgstr "项目"
+
+msgid "Attribute.Workflow.resource.PROJECT_PROJECT.title"
+msgstr "项目名称"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.__t__"
+msgstr "任务"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.assignee"
+msgstr "负责人"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.created_via"
+msgstr "创建方式"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.description"
+msgstr "任务描述"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.due_on"
+msgstr "截止时间"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.priority"
+msgstr "优先级"
+
+msgid "Attribute.Workflow.resource.PROJECT_TASK.title"
+msgstr "任务标题"
 
 msgid "Attribute.Workflow.trigger.events.PROJECT_TASK_CREATED"
 msgstr "创建任务"
@@ -504,6 +552,9 @@ msgstr "已停用"
 
 msgid "Attribute.Workflow.workflow.title"
 msgstr "流程名称"
+
+msgid "Attribute.Workflow.workflow.variables"
+msgstr "流程数据"
 
 msgid "Common.collapse.less"
 msgstr "点击收起"
