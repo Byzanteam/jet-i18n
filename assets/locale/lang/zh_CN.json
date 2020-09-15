@@ -801,7 +801,16 @@
           "blank": "暂无数据"
         },
         "case_count_is_executing": "{{ executing_case_count }} 条正在运行中",
-        "operation": "流程操作"
+        "operation": "$t(Attribute.Workflow.workflow.__t__)操作",
+        "settings": {
+          "__t__": "$t(Attribute.Workflow.workflow.__t__)扩展设置",
+          "workflow_variables": {
+            "__t__": "$t(Attribute.Workflow.workflow.variables)设置",
+            "add": "点击$t(Attribute.Workflow.workflow.variables)字段进行添加",
+            "edit": "编辑$t(Attribute.Workflow.workflow.variables)",
+            "tooltip": "你可以为$t(Attribute.Workflow.workflow.variables)添加字段"
+          }
+        }
       },
       "value_presenter_search": {
         "blankslate": {
