@@ -64,6 +64,9 @@ msgstr "超级管理员"
 msgid "Attribute.Auth.verification_code"
 msgstr "验证码"
 
+msgid "Attribute.Database.table.__t__"
+msgstr "数据表格"
+
 msgid "Attribute.FormMetal.__t__"
 msgstr "表单字段"
 
@@ -693,6 +696,9 @@ msgstr "搜索"
 
 msgid "Common.input.placeholder.verification_code"
 msgstr "请输入验证码"
+
+msgid "Common.list.blank"
+msgstr "暂无{target}"
 
 msgid "Common.operation.cancel"
 msgstr "取消"
@@ -1864,6 +1870,12 @@ msgstr "项目设置"
 msgid "Page.Project.project_configuration.basic.__t__"
 msgstr "项目基本信息"
 
+msgid "Page.Project.project_configuration.database.__t__"
+msgstr "数据表格设置"
+
+msgid "Page.Project.project_configuration.database.title"
+msgstr "关联数据表格"
+
 msgid "Page.Project.project_configuration.fail"
 msgstr "保存失败"
 
@@ -1878,6 +1890,12 @@ msgstr "设置任务唯一 ID 前缀，默认前缀为项目名称前四位首�
 
 msgid "Page.Project.project_configuration.task.index_key.title"
 msgstr "任务ID"
+
+msgid "Page.Project.project_configuration.workflow.__t__"
+msgstr "流程设置"
+
+msgid "Page.Project.project_configuration.workflow.title"
+msgstr "任务中显示的流程"
 
 msgid "Page.Project.project_list.favorite.__t__"
 msgstr "星标项目"
