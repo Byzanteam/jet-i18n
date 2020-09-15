@@ -2503,6 +2503,21 @@ msgstr "暂无数据"
 msgid "Page.Workflow.workflow.operation"
 msgstr "流程操作"
 
+msgid "Page.Workflow.workflow.settings.__t__"
+msgstr "流程扩展设置"
+
+msgid "Page.Workflow.workflow.settings.workflow_variables.__t__"
+msgstr "流程数据设置"
+
+msgid "Page.Workflow.workflow.settings.workflow_variables.add"
+msgstr "点击流程数据字段进行添加"
+
+msgid "Page.Workflow.workflow.settings.workflow_variables.edit"
+msgstr "编辑流程数据"
+
+msgid "Page.Workflow.workflow.settings.workflow_variables.tooltip"
+msgstr "你可以为流程数据添加字段"
+
 msgid "Page.application"
 msgstr "Jet"
 
