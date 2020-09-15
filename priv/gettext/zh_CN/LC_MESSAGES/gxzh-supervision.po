@@ -698,7 +698,7 @@ msgid "Common.input.placeholder.verification_code"
 msgstr "请输入验证码"
 
 msgid "Common.list.blank"
-msgstr "暂无{target}"
+msgstr "暂无%{target}"
 
 msgid "Common.operation.cancel"
 msgstr "取消"
