@@ -412,7 +412,7 @@
       }
     },
     "list": {
-      "blank": "暂无{target}"
+      "blank": "暂无{{target}}"
     },
     "uploader": {
       "button_text": "文件上传",
