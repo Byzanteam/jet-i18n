@@ -261,6 +261,11 @@
         "description": "$t(Attribute.Project.task_group.short)描述"
       }
     },
+    "Database": {
+      "table": {
+        "__t__": "数据表格"
+      }
+    },
     "AccessControl": {
       "role": {
         "__t__": "角色",
@@ -405,6 +410,9 @@
         "operation_failed": "操作失败",
         "network": "请检查网络连接"
       }
+    },
+    "list": {
+      "blank": "暂无{{target}}"
     },
     "uploader": {
       "button_text": "文件上传",
@@ -1041,6 +1049,14 @@
             "title": "$t(Attribute.Project.task.__t__)ID",
             "description": "设置$t(Attribute.Project.task.__t__)唯一 ID 前缀，默认前缀为$t(Attribute.Project.project.title)前四位首字母，长度限制 2 ~ 8 个字母。"
           }
+        },
+        "workflow": {
+          "__t__": "$t(Attribute.Workflow.workflow.__t__)设置",
+          "title": "$t(Attribute.Project.task.__t__)中显示的$t(Attribute.Workflow.workflow.__t__)"
+        },
+        "database": {
+          "__t__": "$t(Attribute.Database.table.__t__)设置",
+          "title": "关联$t(Attribute.Database.table.__t__)"
         },
         "success": "保存成功",
         "fail": "保存失败"
