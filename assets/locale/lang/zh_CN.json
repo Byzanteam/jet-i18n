@@ -161,7 +161,11 @@
         },
         "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT": {
           "__t__": "系统执行",
-          "operation": "修改字段"
+          "operation": "修改所属主体"
+        },
+        "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_VARIABLES": {
+          "__t__": "系统执行",
+          "operation": "修改流程数据"
         }
       },
       "resource": {
