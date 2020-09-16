@@ -476,7 +476,13 @@ msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT.
 msgstr "系统执行"
 
 msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT.operation"
-msgstr "修改字段"
+msgstr "修改所属主体"
+
+msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_VARIABLES.__t__"
+msgstr "系统执行"
+
+msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_VARIABLES.operation"
+msgstr "修改流程数据"
 
 msgid "Attribute.Workflow.node.WORKFLOW_CASE_TRIGGER.__t__"
 msgstr "触发节点"
