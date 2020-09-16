@@ -67,9 +67,6 @@ msgstr "验证码"
 msgid "Attribute.Database.table.__t__"
 msgstr "数据表格"
 
-msgid "Attribute.FormMetal.__t__"
-msgstr "表单字段"
-
 msgid "Attribute.FormMetal.basic_field"
 msgstr "基本字段"
 
@@ -183,9 +180,6 @@ msgstr "填写范围"
 
 msgid "Attribute.FormMetal.field.validation.presence"
 msgstr "必填"
-
-msgid "Attribute.FormMetal.special_field"
-msgstr "更多字段"
 
 msgid "Attribute.IdentityAccess.department.__t__"
 msgstr "部门"
@@ -675,6 +669,9 @@ msgstr "表单"
 
 msgid "Common.form.edit.__t__"
 msgstr "编辑表单"
+
+msgid "Common.form.field"
+msgstr "%{context}字段"
 
 msgid "Common.form.fill.__t__"
 msgstr "填写表单"
@@ -2257,9 +2254,6 @@ msgstr "新建数据"
 msgid "Page.Workflow.nodes.automatic_operation.database_add_row.choose_table"
 msgstr "选择要执行的数据表格"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_add_row.field"
-msgstr "字段"
-
 msgid "Page.Workflow.nodes.automatic_operation.database_add_row.no_columns"
 msgstr "没有可用字段"
 
@@ -2275,29 +2269,26 @@ msgstr "修改字段"
 msgid "Page.Workflow.nodes.automatic_operation.database_update_row.choose_row"
 msgstr "选择要执行的填写记录"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_update_row.field"
-msgstr "字段"
-
 msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_columns"
 msgstr "没有可用字段"
 
 msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_rows"
 msgstr "暂无数据"
 
+msgid "Page.Workflow.nodes.automatic_operation.update_case_variables.__t__"
+msgstr "修改流程数据"
+
 msgid "Page.Workflow.nodes.automatic_operation.workflow_operations"
-msgstr "流程数据"
+msgstr "流程"
 
 msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.__t__"
-msgstr "修改字段"
+msgstr "修改所属主体"
 
 msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.choose_case"
 msgstr "选择要执行的流程数据"
 
 msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.current_case"
 msgstr "当前流程数据"
-
-msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.field"
-msgstr "字段"
 
 msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.subject"
 msgstr "所属主体"
