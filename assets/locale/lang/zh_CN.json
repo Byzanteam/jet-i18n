@@ -961,6 +961,18 @@
         }
       }
     },
+    "value_presenter": {
+      "select": {
+        "single_line_field": {
+          "literal": {
+            "title": "文本"
+          },
+          "reference": {
+            "title": "动态文本"
+          }
+        }
+      }
+    },
     "Project": {
       "title": {
         "list": "$t(Attribute.Project.project.__t__)",
