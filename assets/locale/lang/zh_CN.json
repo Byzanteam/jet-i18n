@@ -187,7 +187,8 @@
         "events": {
           "PROJECT_TASK_CREATED": "创建任务",
           "WORKFLOW_CASE_TRIGGER_NODE_EXECUTED": "触发节点"
-        }
+        },
+        "outputs": "事件输出"
       }
     },
     "Project": {
