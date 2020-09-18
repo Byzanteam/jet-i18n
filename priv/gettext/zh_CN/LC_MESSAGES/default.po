@@ -538,6 +538,9 @@ msgstr "创建任务"
 msgid "Attribute.Workflow.trigger.events.WORKFLOW_CASE_TRIGGER_NODE_EXECUTED"
 msgstr "触发节点"
 
+msgid "Attribute.Workflow.trigger.outputs"
+msgstr "事件输出"
+
 msgid "Attribute.Workflow.workflow.__t__"
 msgstr "流程"
 
