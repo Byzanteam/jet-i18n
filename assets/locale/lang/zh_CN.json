@@ -971,6 +971,14 @@
           "reference": {
             "title": "动态文本"
           }
+        },
+        "date_time_field": {
+          "literal": {
+            "title": "时间"
+          },
+          "reference": {
+            "title": "动态时间"
+          }
         }
       }
     },
