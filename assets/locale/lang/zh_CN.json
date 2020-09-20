@@ -185,34 +185,6 @@
           "WORKFLOW_CASE_TRIGGER_NODE_EXECUTED": "触发节点"
         },
         "outputs": "事件输出"
-      },
-      "filter_group": {
-        "__t__": "条件组",
-        "operator": {
-          "and": "且",
-          "or": "或"
-        }
-      },
-      "filter": {
-        "__t__": "条件",
-        "operator": {
-          "after": "晚于",
-          "before": "早于",
-          "between": "包含",
-          "contain": "包含",
-          "is_empty": "为空",
-          "is": "等于",
-          "is_not": "不等于",
-          "is_not_empty": "不为空",
-          "exclude": "不包含",
-          "include": "包含",
-          "eq": "等于",
-          "gt": "大于",
-          "gteq": "大于等于",
-          "lt": "小于",
-          "lteq": "小于等于",
-          "range": "包含"
-        }
       }
     },
     "Project": {
@@ -405,6 +377,74 @@
           }
         }
       },
+      "filter_group": {
+        "__t__": "条件组",
+        "operator": {
+          "and": "且",
+          "or": "或"
+        }
+      },
+      "filter": {
+        "__t__": "条件",
+        "checkbox_filter": {
+          "operator": {
+            "exclude": "不包含",
+            "include": "包含"
+          }
+        },
+        "date_time_filter": {
+          "operator": {
+            "after": "晚于",
+            "before": "早于",
+            "between": "包含",
+            "is": "等于",
+            "is_empty": "为空",
+            "is_not_empty": "不为空"
+          }
+        },
+        "dropdown_filter": {
+          "operator": {
+            "is": "等于",
+            "is_empty": "为空",
+            "is_not": "不等于",
+            "is_not_empty": "不为空"
+          }
+        },
+        "multiple_line_filter": {
+          "operator": {
+            "contain": "包含"
+          }
+        },
+        "numeric_filter": {
+          "operator": {
+            "eq": "等于",
+            "gt": "大于",
+            "gteq": "大于等于",
+            "lt": "小于",
+            "lteq": "小于等于",
+            "range": "包含"
+          }
+        },
+        "radio_button_filter": {
+          "operator": {
+            "is": "等于",
+            "is_empty": "为空",
+            "is_not": "不等于",
+            "is_not_empty": "不为空"
+          }
+        },
+        "single_line_filter": {
+          "operator": {
+            "contain": "包含",
+            "is": "等于"
+          }
+        },
+        "relation_filter": {
+          "is": "等于",
+          "is_not": "不等于"
+        },
+        "user_boundary_filter": {}
+      },
       "dependency": {
         "__t__": "逻辑"
       }
@@ -552,61 +592,6 @@
         "__t__": "填写$t(Common.form.__t__)",
         "confirm": "提交",
         "success": "{{confirm}}成功"
-      }
-    }
-  },
-  "Filter": {
-    "CheckboxField": {
-      "operator": {
-        "exclude": "不包含",
-        "include": "包含"
-      }
-    },
-    "DateTimeField": {
-      "operator": {
-        "after": "晚于",
-        "before": "早于",
-        "between": "包含",
-        "is": "等于",
-        "is_empty": "为空",
-        "is_not_empty": "不为空"
-      }
-    },
-    "DropdownField": {
-      "operator": {
-        "is": "等于",
-        "is_empty": "为空",
-        "is_not": "不等于",
-        "is_not_empty": "不为空"
-      }
-    },
-    "MultipleLineField": {
-      "operator": {
-        "contain": "包含"
-      }
-    },
-    "NumericField": {
-      "operator": {
-        "eq": "等于",
-        "gt": "大于",
-        "gteq": "大于等于",
-        "lt": "小于",
-        "lteq": "小于等于",
-        "range": "包含"
-      }
-    },
-    "RadioButtonField": {
-      "operator": {
-        "is": "等于",
-        "is_empty": "为空",
-        "is_not": "不等于",
-        "is_not_empty": "不为空"
-      }
-    },
-    "SingleLineField": {
-      "operator": {
-        "contain": "包含",
-        "is": "等于"
       }
     }
   },
