@@ -358,6 +358,66 @@ msgstr "已完成"
 msgid "Attribute.Workflow.case.state.RUNNING"
 msgstr "进行中"
 
+msgid "Attribute.Workflow.filter.__t__"
+msgstr "条件"
+
+msgid "Attribute.Workflow.filter.operator.after"
+msgstr "晚于"
+
+msgid "Attribute.Workflow.filter.operator.before"
+msgstr "早于"
+
+msgid "Attribute.Workflow.filter.operator.between"
+msgstr "包含"
+
+msgid "Attribute.Workflow.filter.operator.contain"
+msgstr "包含"
+
+msgid "Attribute.Workflow.filter.operator.eq"
+msgstr "等于"
+
+msgid "Attribute.Workflow.filter.operator.exclude"
+msgstr "不包含"
+
+msgid "Attribute.Workflow.filter.operator.gt"
+msgstr "大于"
+
+msgid "Attribute.Workflow.filter.operator.gteq"
+msgstr "大于等于"
+
+msgid "Attribute.Workflow.filter.operator.include"
+msgstr "包含"
+
+msgid "Attribute.Workflow.filter.operator.is"
+msgstr "等于"
+
+msgid "Attribute.Workflow.filter.operator.is_empty"
+msgstr "为空"
+
+msgid "Attribute.Workflow.filter.operator.is_not"
+msgstr "不等于"
+
+msgid "Attribute.Workflow.filter.operator.is_not_empty"
+msgstr "不为空"
+
+msgid "Attribute.Workflow.filter.operator.lt"
+msgstr "小于"
+
+msgid "Attribute.Workflow.filter.operator.lteq"
+msgstr "小于等于"
+
+msgid "Attribute.Workflow.filter.operator.range"
+msgstr "包含"
+
+msgid "Attribute.Workflow.filter_group.__t__"
+msgstr "条件组"
+
+msgid "Attribute.Workflow.filter_group.operator.and"
+msgstr "且"
+
+msgid "Attribute.Workflow.filter_group.operator.or"
+msgstr "或"
+
 msgid "Attribute.Workflow.node.CONDITION.__t__"
 msgstr "条件节点"
 
