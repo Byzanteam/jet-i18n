@@ -181,6 +181,99 @@ msgstr "填写范围"
 msgid "Attribute.FormMetal.field.validation.presence"
 msgstr "必填"
 
+msgid "Attribute.FormMetal.filter.__t__"
+msgstr "条件"
+
+msgid "Attribute.FormMetal.filter.checkbox_filter.operator.exclude"
+msgstr "不包含"
+
+msgid "Attribute.FormMetal.filter.checkbox_filter.operator.include"
+msgstr "包含"
+
+msgid "Attribute.FormMetal.filter.date_time_filter.operator.after"
+msgstr "晚于"
+
+msgid "Attribute.FormMetal.filter.date_time_filter.operator.before"
+msgstr "早于"
+
+msgid "Attribute.FormMetal.filter.date_time_filter.operator.between"
+msgstr "包含"
+
+msgid "Attribute.FormMetal.filter.date_time_filter.operator.is"
+msgstr "等于"
+
+msgid "Attribute.FormMetal.filter.date_time_filter.operator.is_empty"
+msgstr "为空"
+
+msgid "Attribute.FormMetal.filter.date_time_filter.operator.is_not_empty"
+msgstr "不为空"
+
+msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is"
+msgstr "等于"
+
+msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is_empty"
+msgstr "为空"
+
+msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is_not"
+msgstr "不等于"
+
+msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is_not_empty"
+msgstr "不为空"
+
+msgid "Attribute.FormMetal.filter.multiple_line_filter.operator.contain"
+msgstr "包含"
+
+msgid "Attribute.FormMetal.filter.numeric_filter.operator.eq"
+msgstr "等于"
+
+msgid "Attribute.FormMetal.filter.numeric_filter.operator.gt"
+msgstr "大于"
+
+msgid "Attribute.FormMetal.filter.numeric_filter.operator.gteq"
+msgstr "大于等于"
+
+msgid "Attribute.FormMetal.filter.numeric_filter.operator.lt"
+msgstr "小于"
+
+msgid "Attribute.FormMetal.filter.numeric_filter.operator.lteq"
+msgstr "小于等于"
+
+msgid "Attribute.FormMetal.filter.numeric_filter.operator.range"
+msgstr "包含"
+
+msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is"
+msgstr "等于"
+
+msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is_empty"
+msgstr "为空"
+
+msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is_not"
+msgstr "不等于"
+
+msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is_not_empty"
+msgstr "不为空"
+
+msgid "Attribute.FormMetal.filter.relation_filter.is"
+msgstr "等于"
+
+msgid "Attribute.FormMetal.filter.relation_filter.is_not"
+msgstr "不等于"
+
+msgid "Attribute.FormMetal.filter.single_line_filter.operator.contain"
+msgstr "包含"
+
+msgid "Attribute.FormMetal.filter.single_line_filter.operator.is"
+msgstr "等于"
+
+msgid "Attribute.FormMetal.filter_group.__t__"
+msgstr "条件组"
+
+msgid "Attribute.FormMetal.filter_group.operator.and"
+msgstr "且"
+
+msgid "Attribute.FormMetal.filter_group.operator.or"
+msgstr "或"
+
 msgid "Attribute.IdentityAccess.department.__t__"
 msgstr "部门"
 
@@ -357,66 +450,6 @@ msgstr "已完成"
 
 msgid "Attribute.Workflow.case.state.RUNNING"
 msgstr "进行中"
-
-msgid "Attribute.Workflow.filter.__t__"
-msgstr "条件"
-
-msgid "Attribute.Workflow.filter.operator.after"
-msgstr "晚于"
-
-msgid "Attribute.Workflow.filter.operator.before"
-msgstr "早于"
-
-msgid "Attribute.Workflow.filter.operator.between"
-msgstr "包含"
-
-msgid "Attribute.Workflow.filter.operator.contain"
-msgstr "包含"
-
-msgid "Attribute.Workflow.filter.operator.eq"
-msgstr "等于"
-
-msgid "Attribute.Workflow.filter.operator.exclude"
-msgstr "不包含"
-
-msgid "Attribute.Workflow.filter.operator.gt"
-msgstr "大于"
-
-msgid "Attribute.Workflow.filter.operator.gteq"
-msgstr "大于等于"
-
-msgid "Attribute.Workflow.filter.operator.include"
-msgstr "包含"
-
-msgid "Attribute.Workflow.filter.operator.is"
-msgstr "等于"
-
-msgid "Attribute.Workflow.filter.operator.is_empty"
-msgstr "为空"
-
-msgid "Attribute.Workflow.filter.operator.is_not"
-msgstr "不等于"
-
-msgid "Attribute.Workflow.filter.operator.is_not_empty"
-msgstr "不为空"
-
-msgid "Attribute.Workflow.filter.operator.lt"
-msgstr "小于"
-
-msgid "Attribute.Workflow.filter.operator.lteq"
-msgstr "小于等于"
-
-msgid "Attribute.Workflow.filter.operator.range"
-msgstr "包含"
-
-msgid "Attribute.Workflow.filter_group.__t__"
-msgstr "条件组"
-
-msgid "Attribute.Workflow.filter_group.operator.and"
-msgstr "且"
-
-msgid "Attribute.Workflow.filter_group.operator.or"
-msgstr "或"
 
 msgid "Attribute.Workflow.node.CONDITION.__t__"
 msgstr "条件节点"
@@ -849,81 +882,6 @@ msgstr "上传失败，文件大小不得超过 %{max_size}"
 
 msgid "Common.uploader.uploading"
 msgstr "上传中"
-
-msgid "Filter.CheckboxField.operator.exclude"
-msgstr "不包含"
-
-msgid "Filter.CheckboxField.operator.include"
-msgstr "包含"
-
-msgid "Filter.DateTimeField.operator.after"
-msgstr "晚于"
-
-msgid "Filter.DateTimeField.operator.before"
-msgstr "早于"
-
-msgid "Filter.DateTimeField.operator.between"
-msgstr "包含"
-
-msgid "Filter.DateTimeField.operator.is"
-msgstr "等于"
-
-msgid "Filter.DateTimeField.operator.is_empty"
-msgstr "为空"
-
-msgid "Filter.DateTimeField.operator.is_not_empty"
-msgstr "不为空"
-
-msgid "Filter.DropdownField.operator.is"
-msgstr "等于"
-
-msgid "Filter.DropdownField.operator.is_empty"
-msgstr "为空"
-
-msgid "Filter.DropdownField.operator.is_not"
-msgstr "不等于"
-
-msgid "Filter.DropdownField.operator.is_not_empty"
-msgstr "不为空"
-
-msgid "Filter.MultipleLineField.operator.contain"
-msgstr "包含"
-
-msgid "Filter.NumericField.operator.eq"
-msgstr "等于"
-
-msgid "Filter.NumericField.operator.gt"
-msgstr "大于"
-
-msgid "Filter.NumericField.operator.gteq"
-msgstr "大于等于"
-
-msgid "Filter.NumericField.operator.lt"
-msgstr "小于"
-
-msgid "Filter.NumericField.operator.lteq"
-msgstr "小于等于"
-
-msgid "Filter.NumericField.operator.range"
-msgstr "包含"
-
-msgid "Filter.RadioButtonField.operator.is"
-msgstr "等于"
-
-msgid "Filter.RadioButtonField.operator.is_empty"
-msgstr "为空"
-
-msgid "Filter.RadioButtonField.operator.is_not"
-msgstr "不等于"
-
-msgid "Filter.RadioButtonField.operator.is_not_empty"
-msgstr "不为空"
-
-msgid "Filter.SingleLineField.operator.contain"
-msgstr "包含"
-
-msgid "Filter.SingleLineField.operator.is"
-msgstr "等于"
 
 msgid "Page.AccessControl.application_configuration"
 msgstr "应用管理"
