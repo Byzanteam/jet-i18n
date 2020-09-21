@@ -204,6 +204,9 @@
             "assignee": "$t(Attribute.Project.task.assignee.__t__)"
           }
         },
+        "workflow_case": {
+          "__t__": "$t(Attribute.Workflow.workflow.__t__)记录"
+        },
         "trigger_event": {
           "__t__": "事件输出",
           "fields": {
