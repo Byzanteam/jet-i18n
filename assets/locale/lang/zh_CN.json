@@ -45,7 +45,10 @@
           "COMPLETED": "执行",
           "STARTED": "等待"
         },
-        "outputs": "$t(Attribute.Workflow.node.__t__)输出",
+        "outputs": {
+          "__t__": "$t(Attribute.Workflow.node.__t__)输出",
+          "common_field_completed_at": "执行时间"
+        },
         "associations": {
           "__t__": "关联关系",
           "attributes": "字段"
@@ -185,6 +188,32 @@
           "WORKFLOW_CASE_TRIGGER_NODE_EXECUTED": "触发节点"
         },
         "outputs": "事件输出"
+      },
+      "case_data": {
+        "project_project": {
+          "__t__": "$t(Attribute.Project.project.__t__)"
+        },
+        "project_task": {
+          "__t__": "$t(Attribute.Project.task.__t__)",
+          "attributes": {
+            "title": "$t(Attribute.Project.task.title)",
+            "description": "$t(Attribute.Project.task.description)",
+            "priority": "$t(Attribute.Project.task.priority.__t__)",
+            "due_on": "$t(Attribute.Project.task.due_on.__t__)",
+            "created_via": "$t(Attribute.Project.task.created_via.__t__)",
+            "assignee": "$t(Attribute.Project.task.assignee.__t__)"
+          }
+        },
+        "trigger_event": {
+          "__t__": "事件输出",
+          "fields": {
+            "created_via": "$t(Attribute.Project.task.created_via.__t__)",
+            "title": "$t(Attribute.Project.task.title)",
+            "description": "$t(Attribute.Project.task.description)",
+            "priority": "$t(Attribute.Project.task.priority.__t__)",
+            "due_on": "$t(Attribute.Project.task.due_on.__t__)"
+          }
+        }
       }
     },
     "Project": {
@@ -969,35 +998,35 @@
             "__t__": "修改流程数据"
           }
         }
-      }
-    },
-    "value_presenter": {
-      "select": {
-        "single_line_field": {
-          "literal": {
-            "title": "文本"
+      },
+      "value_presenter": {
+        "select": {
+          "single_line_field": {
+            "literal": {
+              "title": "文本"
+            },
+            "reference": {
+              "title": "动态文本"
+            }
           },
-          "reference": {
-            "title": "动态文本"
-          }
-        },
-        "date_time_field": {
-          "literal": {
-            "title": "时间"
+          "date_time_field": {
+            "literal": {
+              "title": "时间"
+            },
+            "reference": {
+              "title": "动态时间"
+            }
           },
-          "reference": {
-            "title": "动态时间"
-          }
-        },
-        "user_boundary_field": {
-          "user": {
-            "title": "成员"
-          },
-          "department": {
-            "title": "部门"
-          },
-          "reference": {
-            "title": "动态角色"
+          "user_boundary_field": {
+            "user": {
+              "title": "成员"
+            },
+            "department": {
+              "title": "部门"
+            },
+            "reference": {
+              "title": "动态角色"
+            }
           }
         }
       }
