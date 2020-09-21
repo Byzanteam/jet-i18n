@@ -451,6 +451,48 @@ msgstr "已完成"
 msgid "Attribute.Workflow.case.state.RUNNING"
 msgstr "进行中"
 
+msgid "Attribute.Workflow.case_data.project_project.__t__"
+msgstr "项目"
+
+msgid "Attribute.Workflow.case_data.project_task.__t__"
+msgstr "任务"
+
+msgid "Attribute.Workflow.case_data.project_task.attributes.assignee"
+msgstr "负责人"
+
+msgid "Attribute.Workflow.case_data.project_task.attributes.created_via"
+msgstr "创建方式"
+
+msgid "Attribute.Workflow.case_data.project_task.attributes.description"
+msgstr "任务描述"
+
+msgid "Attribute.Workflow.case_data.project_task.attributes.due_on"
+msgstr "截止时间"
+
+msgid "Attribute.Workflow.case_data.project_task.attributes.priority"
+msgstr "优先级"
+
+msgid "Attribute.Workflow.case_data.project_task.attributes.title"
+msgstr "任务标题"
+
+msgid "Attribute.Workflow.case_data.trigger_event.__t__"
+msgstr "事件输出"
+
+msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via"
+msgstr "创建方式"
+
+msgid "Attribute.Workflow.case_data.trigger_event.fields.description"
+msgstr "任务描述"
+
+msgid "Attribute.Workflow.case_data.trigger_event.fields.due_on"
+msgstr "截止时间"
+
+msgid "Attribute.Workflow.case_data.trigger_event.fields.priority"
+msgstr "优先级"
+
+msgid "Attribute.Workflow.case_data.trigger_event.fields.title"
+msgstr "任务标题"
+
 msgid "Attribute.Workflow.node.CONDITION.__t__"
 msgstr "条件节点"
 
@@ -583,8 +625,11 @@ msgstr "关联关系"
 msgid "Attribute.Workflow.node.associations.attributes"
 msgstr "字段"
 
-msgid "Attribute.Workflow.node.outputs"
+msgid "Attribute.Workflow.node.outputs.__t__"
 msgstr "节点输出"
+
+msgid "Attribute.Workflow.node.outputs.common_field_completed_at"
+msgstr "执行时间"
 
 msgid "Attribute.Workflow.node.state.COMPLETED"
 msgstr "执行"
@@ -2494,6 +2539,27 @@ msgstr "有不符合规则的连线"
 msgid "Page.Workflow.validation.redundant_links"
 msgstr "有不符合规则的连线"
 
+msgid "Page.Workflow.value_presenter.select.date_time_field.literal.title"
+msgstr "时间"
+
+msgid "Page.Workflow.value_presenter.select.date_time_field.reference.title"
+msgstr "动态时间"
+
+msgid "Page.Workflow.value_presenter.select.single_line_field.literal.title"
+msgstr "文本"
+
+msgid "Page.Workflow.value_presenter.select.single_line_field.reference.title"
+msgstr "动态文本"
+
+msgid "Page.Workflow.value_presenter.select.user_boundary_field.department.title"
+msgstr "部门"
+
+msgid "Page.Workflow.value_presenter.select.user_boundary_field.reference.title"
+msgstr "动态角色"
+
+msgid "Page.Workflow.value_presenter.select.user_boundary_field.user.title"
+msgstr "成员"
+
 msgid "Page.Workflow.value_presenter_search.blankslate.default"
 msgstr "暂无相关数据"
 
@@ -2535,25 +2601,4 @@ msgstr "Jet"
 
 msgid "Page.loading"
 msgstr "正在加载中"
-
-msgid "Page.value_presenter.select.date_time_field.literal.title"
-msgstr "时间"
-
-msgid "Page.value_presenter.select.date_time_field.reference.title"
-msgstr "动态时间"
-
-msgid "Page.value_presenter.select.single_line_field.literal.title"
-msgstr "文本"
-
-msgid "Page.value_presenter.select.single_line_field.reference.title"
-msgstr "动态文本"
-
-msgid "Page.value_presenter.select.user_boundary_field.department.title"
-msgstr "部门"
-
-msgid "Page.value_presenter.select.user_boundary_field.reference.title"
-msgstr "动态角色"
-
-msgid "Page.value_presenter.select.user_boundary_field.user.title"
-msgstr "成员"
 
