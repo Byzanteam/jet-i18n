@@ -64,6 +64,9 @@ msgstr "超级管理员"
 msgid "Attribute.Auth.verification_code"
 msgstr "验证码"
 
+msgid "Attribute.Database.row.__t__"
+msgstr "数据"
+
 msgid "Attribute.Database.table.__t__"
 msgstr "数据表格"
 
@@ -477,6 +480,12 @@ msgstr "事项标题"
 
 msgid "Attribute.Workflow.case_data.trigger_event.__t__"
 msgstr "事件输出"
+
+msgid "Attribute.Workflow.case_data.trigger_event.fields.assignee"
+msgstr "牵头单位"
+
+msgid "Attribute.Workflow.case_data.trigger_event.fields.completed"
+msgstr "完成状态"
 
 msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via"
 msgstr "创建方式"
