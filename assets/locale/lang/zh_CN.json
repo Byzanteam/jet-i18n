@@ -472,8 +472,10 @@
           }
         },
         "relation_filter": {
-          "is": "等于",
-          "is_not": "不等于"
+          "operator": {
+            "is": "等于",
+            "is_not": "不等于"
+          }
         },
         "user_boundary_filter": {}
       },
