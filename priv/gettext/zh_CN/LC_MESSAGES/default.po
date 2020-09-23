@@ -253,10 +253,10 @@ msgstr "不等于"
 msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is_not_empty"
 msgstr "不为空"
 
-msgid "Attribute.FormMetal.filter.relation_filter.is"
+msgid "Attribute.FormMetal.filter.relation_filter.operator.is"
 msgstr "等于"
 
-msgid "Attribute.FormMetal.filter.relation_filter.is_not"
+msgid "Attribute.FormMetal.filter.relation_filter.operator.is_not"
 msgstr "不等于"
 
 msgid "Attribute.FormMetal.filter.single_line_filter.operator.contain"
