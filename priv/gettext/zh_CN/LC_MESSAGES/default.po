@@ -850,6 +850,9 @@ msgstr "请输入验证码"
 msgid "Common.list.blank"
 msgstr "暂无%{target}"
 
+msgid "Common.operation.add"
+msgstr "添加"
+
 msgid "Common.operation.cancel"
 msgstr "取消"
 
@@ -2493,12 +2496,6 @@ msgstr "提交"
 
 msgid "Page.Workflow.schema.fields.SubmitButtonField.name"
 msgstr "按钮名称"
-
-msgid "Page.Workflow.trigger.add_filter"
-msgstr "添加条件"
-
-msgid "Page.Workflow.trigger.add_filter_group"
-msgstr "添加条件组"
 
 msgid "Page.Workflow.validation.buckle"
 msgstr "有不符合规则的连线"
