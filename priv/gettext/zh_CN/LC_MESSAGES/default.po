@@ -868,6 +868,9 @@ msgstr "删除"
 msgid "Common.operation.edit"
 msgstr "编辑"
 
+msgid "Common.operation.reset"
+msgstr "重置"
+
 msgid "Common.operation.save"
 msgstr "保存"
 
@@ -1948,6 +1951,9 @@ msgstr "项目基本信息"
 msgid "Page.Project.project_configuration.database.__t__"
 msgstr "数据表格设置"
 
+msgid "Page.Project.project_configuration.database.filter.__t__"
+msgstr "数据筛选"
+
 msgid "Page.Project.project_configuration.database.title"
 msgstr "关联数据表格"
 
@@ -2191,9 +2197,6 @@ msgstr "截止时间"
 msgid "Page.Project.task_filter.placeholder.task_label"
 msgstr "标签"
 
-msgid "Page.Project.task_filter.reset"
-msgstr "重置"
-
 msgid "Page.Project.task_filter.short"
 msgstr "筛选"
 
@@ -2335,9 +2338,6 @@ msgstr "选择要执行的数据表格"
 msgid "Page.Workflow.nodes.automatic_operation.database_add_row.no_columns"
 msgstr "没有可用字段"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_add_row.no_tables"
-msgstr "暂无数据表格"
-
 msgid "Page.Workflow.nodes.automatic_operation.database_operations"
 msgstr "数据表格"
 
@@ -2349,9 +2349,6 @@ msgstr "选择要执行的填写记录"
 
 msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_columns"
 msgstr "没有可用字段"
-
-msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_rows"
-msgstr "暂无数据"
 
 msgid "Page.Workflow.nodes.automatic_operation.update_case_variables.__t__"
 msgstr "修改流程数据"

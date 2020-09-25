@@ -558,7 +558,8 @@
       "cancel": "取消",
       "delete": "删除",
       "complete": "完成",
-      "create": "新建"
+      "create": "新建",
+      "reset": "重置"
     },
     "input": {
       "placeholder": {
@@ -984,19 +985,17 @@
           "change_operation": "替换",
           "change_operation_confirmation": "替换操作？",
           "change_operation_description": "替换后所有设置不可恢复",
-          "database_operations": "数据表格",
+          "database_operations": "$t(Attribute.Database.table.__t__)",
           "workflow_operations": "流程",
           "database_add_row": {
             "__t__": "新建数据",
-            "choose_table": "选择要执行的数据表格",
-            "no_columns": "没有可用字段",
-            "no_tables": "暂无数据表格"
+            "choose_table": "选择要执行的$t(Attribute.Database.table.__t__)",
+            "no_columns": "没有可用字段"
           },
           "database_update_row": {
             "__t__": "修改字段",
             "choose_row": "选择要执行的填写记录",
-            "no_columns": "没有可用字段",
-            "no_rows": "暂无数据"
+            "no_columns": "没有可用字段"
           },
           "workflow_update_subject": {
             "__t__": "修改所属主体",
@@ -1148,7 +1147,10 @@
         },
         "database": {
           "__t__": "$t(Attribute.Database.table.__t__)设置",
-          "title": "关联$t(Attribute.Database.table.__t__)"
+          "title": "关联$t(Attribute.Database.table.__t__)",
+          "filter": {
+            "__t__": "数据筛选"
+          }
         },
         "success": "保存成功",
         "fail": "保存失败"
@@ -1252,7 +1254,6 @@
       "task_filter": {
         "__t__": "$t(Attribute.Project.task.__t__)筛选",
         "short": "筛选",
-        "reset": "重置",
         "placeholder": {
           "assignee": "$t(Attribute.Project.task.assignee.__t__)",
           "due_on": "$t(Attribute.Project.task.due_on.__t__)",
