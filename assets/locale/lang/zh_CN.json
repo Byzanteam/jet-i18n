@@ -196,6 +196,7 @@
         "project_task": {
           "__t__": "$t(Attribute.Project.task.__t__)",
           "attributes": {
+            "completed": "完成情况",
             "title": "$t(Attribute.Project.task.title)",
             "description": "$t(Attribute.Project.task.description)",
             "priority": "$t(Attribute.Project.task.priority.__t__)",
@@ -216,7 +217,7 @@
             "priority": "$t(Attribute.Project.task.priority.__t__)",
             "due_on": "$t(Attribute.Project.task.due_on.__t__)",
             "assignee": "$t(Attribute.Project.task.assignee.__t__)",
-            "completed": "完成状态"
+            "completed": "完成情况"
           }
         }
       }
