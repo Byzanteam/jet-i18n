@@ -2518,7 +2518,10 @@ msgstr "有不符合规则的连线"
 msgid "Page.Workflow.validation.duplicated_start_nodes"
 msgstr "开始节点只能有一个"
 
-msgid "Page.Workflow.validation.miss_choice_node"
+msgid "Page.Workflow.validation.loop_link"
+msgstr "连线的端点不能相同"
+
+msgid "Page.Workflow.validation.missing_choice_node"
 msgstr "请在条件节点前添加流转方式"
 
 msgid "Page.Workflow.validation.missing_end_node"

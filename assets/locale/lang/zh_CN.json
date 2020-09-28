@@ -879,7 +879,7 @@
         "duplicated_end_nodes": "结束节点只能有一个",
         "duplicated_links": "有不符合规则的连线",
         "duplicated_start_nodes": "开始节点只能有一个",
-        "miss_choice_node": "请在条件节点前添加流转方式",
+        "missing_choice_node": "请在条件节点前添加流转方式",
         "missing_end_node": "结束节点必须存在",
         "missing_from_node": "有不符合规则的连线",
         "missing_start_node": "开始节点必须存在",
@@ -888,7 +888,8 @@
         "non_pair_choice_and_merge": "多条流转和多条聚合必须成对出现",
         "nonexisting_end_node": "有不符合规则的连线",
         "nonexisting_from_node": "有不符合规则的连线",
-        "redundant_links": "有不符合规则的连线"
+        "redundant_links": "有不符合规则的连线",
+        "loop_link": "连线的端点不能相同"
       },
       "schema": {
         "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
