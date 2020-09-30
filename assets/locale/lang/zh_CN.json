@@ -855,8 +855,14 @@
           "__t__": "$t(Attribute.Workflow.workflow.__t__)列表",
           "blank": "暂无数据"
         },
+        "unpublished": "未发布",
+        "state_hint": "有新的修改未发布",
         "case_count_is_executing": "{{ executing_case_count }} 条正在运行中",
-        "operation": "$t(Attribute.Workflow.workflow.__t__)操作",
+        "operation": {
+          "__t__": "$t(Attribute.Workflow.workflow.__t__)操作",
+          "suspend": "停用$t(Attribute.Workflow.workflow.__t__)",
+          "activate": "开启$t(Attribute.Workflow.workflow.__t__)"
+        },
         "settings": {
           "__t__": "$t(Attribute.Workflow.workflow.__t__)扩展设置",
           "workflow_variables": {

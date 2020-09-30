@@ -2590,8 +2590,14 @@ msgstr "流程列表"
 msgid "Page.Workflow.workflow.list.blank"
 msgstr "暂无数据"
 
-msgid "Page.Workflow.workflow.operation"
+msgid "Page.Workflow.workflow.operation.__t__"
 msgstr "流程操作"
+
+msgid "Page.Workflow.workflow.operation.activate"
+msgstr "开启流程"
+
+msgid "Page.Workflow.workflow.operation.suspend"
+msgstr "停用流程"
 
 msgid "Page.Workflow.workflow.settings.__t__"
 msgstr "流程扩展设置"
@@ -2607,6 +2613,12 @@ msgstr "编辑流程数据"
 
 msgid "Page.Workflow.workflow.settings.workflow_variables.tooltip"
 msgstr "你可以为流程数据添加字段"
+
+msgid "Page.Workflow.workflow.state_hint"
+msgstr "有新的修改未发布"
+
+msgid "Page.Workflow.workflow.unpublished"
+msgstr "未发布"
 
 msgid "Page.application"
 msgstr "Jet"
