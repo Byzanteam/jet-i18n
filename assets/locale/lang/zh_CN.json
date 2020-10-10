@@ -211,13 +211,34 @@
         "trigger_event": {
           "__t__": "事件输出",
           "fields": {
-            "created_via": "$t(Attribute.Project.task.created_via.__t__)",
+            "created_via": {
+              "__t__": "$t(Attribute.Project.task.created_via.__t__)",
+              "candidateValues": {
+                "user": "$t(Attribute.Project.task.created_via.user)",
+                "import": "$t(Attribute.Project.task.created_via.import)",
+                "clone": "$t(Attribute.Project.task.created_via.clone)"
+              }
+            },
             "title": "$t(Attribute.Project.task.title)",
             "description": "$t(Attribute.Project.task.description)",
-            "priority": "$t(Attribute.Project.task.priority.__t__)",
+            "priority": {
+              "__t__": "$t(Attribute.Project.task.priority.__t__)",
+              "candidateValues": {
+                "medium": "$t(Attribute.Project.task.priority.medium)",
+                "highest": "$t(Attribute.Project.task.priority.highest)",
+                "high": "$t(Attribute.Project.task.priority.high)",
+                "low": "$t(Attribute.Project.task.priority.low)"
+              }
+            },
             "due_on": "$t(Attribute.Project.task.due_on.__t__)",
             "assignee": "$t(Attribute.Project.task.assignee.__t__)",
-            "completed": "完成情况"
+            "completed": {
+              "__t__": "完成情况",
+              "candidateValues": {
+                "true": "已完成",
+                "false": "未完成"
+              }
+            }
           }
         }
       }
@@ -363,15 +384,8 @@
         "position": {
           "col": "字段占比",
           "col_options": {
-            "2": [
-              "50%",
-              "100%"
-            ],
-            "3": [
-              "1 / 3",
-              "2 / 3",
-              "整行"
-            ]
+            "2": ["50%", "100%"],
+            "3": ["1 / 3", "2 / 3", "整行"]
           }
         },
         "candidate_option": {
@@ -576,15 +590,7 @@
         "second": "秒",
         "month": "月"
       },
-      "weeks": [
-        "日",
-        "一",
-        "二",
-        "三",
-        "四",
-        "五",
-        "六"
-      ]
+      "weeks": ["日", "一", "二", "三", "四", "五", "六"]
     },
     "feedback": {
       "title": "标题",
