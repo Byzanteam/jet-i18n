@@ -2632,3 +2632,39 @@ msgstr "有新的修改未发布"
 msgid "page.workflow.workflow.unpublished"
 msgstr "未发布"
 
+msgid "server.activity.notification.assignment_event.assign.department"
+msgstr "将%{department}设置为事项牵头单位"
+
+msgid "server.activity.notification.assignment_event.assign.user"
+msgstr "将你设置为事项牵头单位"
+
+msgid "server.activity.notification.assignment_event.reassign.department"
+msgstr "将%{department}设置为事项牵头单位"
+
+msgid "server.activity.notification.assignment_event.reassign.user"
+msgstr "将你设置为事项牵头单位"
+
+msgid "server.activity.notification.collaboration_event"
+msgstr "将你设置为事项协办单位"
+
+msgid "server.activity.notification.comment_event.create"
+msgstr "评论了事项"
+
+msgid "server.activity.notification.comment_event.mention"
+msgstr "在事项评论提及了你"
+
+msgid "server.activity.notification.task_event.complete"
+msgstr "完成了事项"
+
+msgid "server.activity.notification.task_event.uncomplete"
+msgstr "重新打开了事项"
+
+msgid "server.activity.notification.updation_event.clear_due_on"
+msgstr "清空了事项办理时限要求"
+
+msgid "server.activity.notification.updation_event.due_on"
+msgstr "修改了事项办理时限要求"
+
+msgid "server.activity.notification.updation_event.update_due_on"
+msgstr "更改时间为 %{time}"
+
