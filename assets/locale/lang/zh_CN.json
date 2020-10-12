@@ -243,7 +243,11 @@
         "__t__": "任务",
         "title": "$t(Attribute.Project.task.__t__)标题",
         "description": "$t(Attribute.Project.task.__t__)描述",
-        "completed": "完成",
+        "completed": {
+          "__t__": "完成",
+          "true": "已完成",
+          "false": "未完成"
+        },
         "completed_time": "$t(Attribute.Project.task.completed)时间",
         "created_via": {
           "__t__": "创建方式",
