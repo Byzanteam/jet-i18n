@@ -352,11 +352,17 @@ msgstr "未指派"
 msgid "Attribute.Project.task.comment"
 msgstr "评论"
 
-msgid "Attribute.Project.task.completed"
+msgid "Attribute.Project.task.completed.__t__"
 msgstr "完成"
 
+msgid "Attribute.Project.task.completed.false"
+msgstr "未完成"
+
+msgid "Attribute.Project.task.completed.true"
+msgstr "已完成"
+
 msgid "Attribute.Project.task.completed_time"
-msgstr "完成时间"
+msgstr "时间"
 
 msgid "Attribute.Project.task.created_via.__t__"
 msgstr "创建方式"
@@ -487,26 +493,11 @@ msgstr "事件输出"
 msgid "Attribute.Workflow.case_data.trigger_event.fields.assignee"
 msgstr "负责人"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.completed.__t__"
+msgid "Attribute.Workflow.case_data.trigger_event.fields.completed"
 msgstr "完成情况"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.completed.candidateValues.false"
-msgstr "未完成"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.completed.candidateValues.true"
-msgstr "已完成"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via.__t__"
+msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via"
 msgstr "创建方式"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via.candidateValues.clone"
-msgstr "复制"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via.candidateValues.import"
-msgstr "导入"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via.candidateValues.user"
-msgstr "用户创建"
 
 msgid "Attribute.Workflow.case_data.trigger_event.fields.description"
 msgstr "任务描述"
@@ -514,20 +505,8 @@ msgstr "任务描述"
 msgid "Attribute.Workflow.case_data.trigger_event.fields.due_on"
 msgstr "截止时间"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.priority.__t__"
+msgid "Attribute.Workflow.case_data.trigger_event.fields.priority"
 msgstr "优先级"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.priority.candidateValues.high"
-msgstr "紧急"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.priority.candidateValues.highest"
-msgstr "非常紧急"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.priority.candidateValues.low"
-msgstr "低"
-
-msgid "Attribute.Workflow.case_data.trigger_event.fields.priority.candidateValues.medium"
-msgstr "普通"
 
 msgid "Attribute.Workflow.case_data.trigger_event.fields.title"
 msgstr "任务标题"
