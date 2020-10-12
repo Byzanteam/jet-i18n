@@ -80,7 +80,7 @@
         "FORM": {
           "__t__": "填写$t(Attribute.Workflow.node.__t__)",
           "schema_field": {
-            "filler": {
+            "fillers": {
               "__t__": "填写人"
             },
             "filled_at": {
