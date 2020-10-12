@@ -562,7 +562,7 @@ msgstr "填写节点"
 msgid "Attribute.Workflow.node.FORM.schema_field.filled_at.__t__"
 msgstr "填写时间"
 
-msgid "Attribute.Workflow.node.FORM.schema_field.filler.__t__"
+msgid "Attribute.Workflow.node.FORM.schema_field.fillers.__t__"
 msgstr "填写人"
 
 msgid "Attribute.Workflow.node.FORM.state.COMPLETED"
