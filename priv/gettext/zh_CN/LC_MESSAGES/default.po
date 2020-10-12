@@ -1,2634 +1,2634 @@
-msgid "Attribute.AccessControl.role.__t__"
+msgid "attribute.access_control.role.__t__"
 msgstr "角色"
 
-msgid "Attribute.AccessControl.role.actor"
+msgid "attribute.access_control.role.actor"
 msgstr "角色成员"
 
-msgid "Attribute.AccessControl.role.admin"
+msgid "attribute.access_control.role.admin"
 msgstr "管理员"
 
-msgid "Attribute.AccessControl.role.name"
+msgid "attribute.access_control.role.name"
 msgstr "角色名称"
 
-msgid "Attribute.AccessControl.role.permission.__t__"
+msgid "attribute.access_control.role.permission.__t__"
 msgstr "角色权限"
 
-msgid "Attribute.AccessControl.role.permission.all"
+msgid "attribute.access_control.role.permission.all"
 msgstr "后台管理"
 
-msgid "Attribute.AccessControl.role.permission.department_management.__t__"
+msgid "attribute.access_control.role.permission.department_management.__t__"
 msgstr "部门管理"
 
-msgid "Attribute.AccessControl.role.permission.department_management.department_edition"
+msgid "attribute.access_control.role.permission.department_management.department_edition"
 msgstr "编辑部门"
 
-msgid "Attribute.AccessControl.role.permission.department_management.department_management_full"
+msgid "attribute.access_control.role.permission.department_management.department_management_full"
 msgstr "全部门"
 
-msgid "Attribute.AccessControl.role.permission.department_management.department_management_self_and_descendants"
+msgid "attribute.access_control.role.permission.department_management.department_management_self_and_descendants"
 msgstr "所在及以下部门"
 
-msgid "Attribute.AccessControl.role.permission.department_management.members_management"
+msgid "attribute.access_control.role.permission.department_management.members_management"
 msgstr "部门成员管理"
 
-msgid "Attribute.AccessControl.role.permission.permissions_management.__t__"
+msgid "attribute.access_control.role.permission.permissions_management.__t__"
 msgstr "权限管理"
 
-msgid "Attribute.AccessControl.role.permission.permissions_management.role_management"
+msgid "attribute.access_control.role.permission.permissions_management.role_management"
 msgstr "角色管理"
 
-msgid "Attribute.AccessControl.role.permission.role_management"
+msgid "attribute.access_control.role.permission.role_management"
 msgstr "角色管理"
 
-msgid "Attribute.AccessControl.role.permission.user_management"
+msgid "attribute.access_control.role.permission.user_management"
 msgstr "成员管理"
 
-msgid "Attribute.AccessControl.role.permission.workspace_configuration"
+msgid "attribute.access_control.role.permission.workspace_configuration"
 msgstr "空间设置"
 
-msgid "Attribute.AccessControl.role.permission.workspace_management.__t__"
+msgid "attribute.access_control.role.permission.workspace_management.__t__"
 msgstr "空间管理"
 
-msgid "Attribute.AccessControl.role.permission.workspace_management.base_info_management"
+msgid "attribute.access_control.role.permission.workspace_management.base_info_management"
 msgstr "管理空间基本信息"
 
-msgid "Attribute.AccessControl.role.permission.workspace_management.user_profile_management"
+msgid "attribute.access_control.role.permission.workspace_management.user_profile_management"
 msgstr "管理成员自定义属性"
 
-msgid "Attribute.AccessControl.role.permission.workspace_management.workspace_settings.remove_workspace"
+msgid "attribute.access_control.role.permission.workspace_management.workspace_settings.remove_workspace"
 msgstr "删除团队"
 
-msgid "Attribute.AccessControl.role.root"
+msgid "attribute.access_control.role.root"
 msgstr "超级管理员"
 
-msgid "Attribute.Auth.verification_code"
+msgid "attribute.auth.verification_code"
 msgstr "验证码"
 
-msgid "Attribute.Database.row.__t__"
+msgid "attribute.database.row.__t__"
 msgstr "数据"
 
-msgid "Attribute.Database.table.__t__"
+msgid "attribute.database.table.__t__"
 msgstr "数据表格"
 
-msgid "Attribute.FormMetal.basic_field"
+msgid "attribute.form_metal.basic_field"
 msgstr "基本字段"
 
-msgid "Attribute.FormMetal.dependency.__t__"
+msgid "attribute.form_metal.dependency.__t__"
 msgstr "逻辑"
 
-msgid "Attribute.FormMetal.field.candidate_option.option.__t__"
+msgid "attribute.form_metal.field.candidate_option.option.__t__"
 msgstr "选项"
 
-msgid "Attribute.FormMetal.field.candidate_option.option.label"
+msgid "attribute.form_metal.field.candidate_option.option.label"
 msgstr "新选项"
 
-msgid "Attribute.FormMetal.field.candidate_option.other_option.__t__"
+msgid "attribute.form_metal.field.candidate_option.other_option.__t__"
 msgstr "其他选项"
 
-msgid "Attribute.FormMetal.field.candidate_option.other_option.label"
+msgid "attribute.form_metal.field.candidate_option.other_option.label"
 msgstr "其他"
 
-msgid "Attribute.FormMetal.field.default_value"
+msgid "attribute.form_metal.field.default_value"
 msgstr "默认值"
 
-msgid "Attribute.FormMetal.field.description.__t__"
+msgid "attribute.form_metal.field.description.__t__"
 msgstr "描述"
 
-msgid "Attribute.FormMetal.field.description.blank"
+msgid "attribute.form_metal.field.description.blank"
 msgstr "暂无"
 
-msgid "Attribute.FormMetal.field.field_type.CheckboxField"
-msgstr "多项选择"
-
-msgid "Attribute.FormMetal.field.field_type.DateTimeField"
-msgstr "日期"
-
-msgid "Attribute.FormMetal.field.field_type.DropdownField"
-msgstr "下拉选择"
-
-msgid "Attribute.FormMetal.field.field_type.FileField"
-msgstr "文件上传"
-
-msgid "Attribute.FormMetal.field.field_type.MultipleLineField"
-msgstr "多行文本"
-
-msgid "Attribute.FormMetal.field.field_type.NumericField"
-msgstr "数字"
-
-msgid "Attribute.FormMetal.field.field_type.RadioButtonField"
-msgstr "单项选择"
-
-msgid "Attribute.FormMetal.field.field_type.SingleLineField"
-msgstr "单行文本"
-
-msgid "Attribute.FormMetal.field.field_type.__t__"
+msgid "attribute.form_metal.field.field_type.__t__"
 msgstr "字段类型"
 
-msgid "Attribute.FormMetal.field.label"
+msgid "attribute.form_metal.field.field_type.checkbox_field"
+msgstr "多项选择"
+
+msgid "attribute.form_metal.field.field_type.date_time_field"
+msgstr "日期"
+
+msgid "attribute.form_metal.field.field_type.dropdown_field"
+msgstr "下拉选择"
+
+msgid "attribute.form_metal.field.field_type.file_field"
+msgstr "文件上传"
+
+msgid "attribute.form_metal.field.field_type.multiple_line_field"
+msgstr "多行文本"
+
+msgid "attribute.form_metal.field.field_type.numeric_field"
+msgstr "数字"
+
+msgid "attribute.form_metal.field.field_type.radio_button_field"
+msgstr "单项选择"
+
+msgid "attribute.form_metal.field.field_type.single_line_field"
+msgstr "单行文本"
+
+msgid "attribute.form_metal.field.label"
 msgstr "标题"
 
-msgid "Attribute.FormMetal.field.position.col"
+msgid "attribute.form_metal.field.position.col"
 msgstr "字段占比"
 
-msgid "Attribute.FormMetal.field.settings.date_time_type.is_date_time"
+msgid "attribute.form_metal.field.settings.date_time_type.is_date_time"
 msgstr "精确到时分"
 
-msgid "Attribute.FormMetal.field.settings.enable_editor"
+msgid "attribute.form_metal.field.settings.enable_editor"
 msgstr "使用富文本编辑器"
 
-msgid "Attribute.FormMetal.field.settings.layout.columns_1"
+msgid "attribute.form_metal.field.settings.layout.columns_1"
 msgstr "一排一个"
 
-msgid "Attribute.FormMetal.field.settings.layout.columns_2"
+msgid "attribute.form_metal.field.settings.layout.columns_2"
 msgstr "一排两个"
 
-msgid "Attribute.FormMetal.field.settings.layout.columns_4"
+msgid "attribute.form_metal.field.settings.layout.columns_4"
 msgstr "一排四个"
 
-msgid "Attribute.FormMetal.field.settings.layout.side_by_side"
+msgid "attribute.form_metal.field.settings.layout.side_by_side"
 msgstr "紧凑"
 
-msgid "Attribute.FormMetal.field.settings.layout.title"
+msgid "attribute.form_metal.field.settings.layout.title"
 msgstr "排版"
 
-msgid "Attribute.FormMetal.field.settings.numeric_type.__t__"
+msgid "attribute.form_metal.field.settings.numeric_type.__t__"
 msgstr "类型"
 
-msgid "Attribute.FormMetal.field.settings.numeric_type.decimal"
+msgid "attribute.form_metal.field.settings.numeric_type.decimal"
 msgstr "小数"
 
-msgid "Attribute.FormMetal.field.settings.numeric_type.integer"
+msgid "attribute.form_metal.field.settings.numeric_type.integer"
 msgstr "整数"
 
-msgid "Attribute.FormMetal.field.settings.numeric_type.percent"
+msgid "attribute.form_metal.field.settings.numeric_type.percent"
 msgstr "百分数"
 
-msgid "Attribute.FormMetal.field.settings.scale"
+msgid "attribute.form_metal.field.settings.scale"
 msgstr "保留小数点后%{scale}位"
 
-msgid "Attribute.FormMetal.field.validation.length.CheckboxField"
+msgid "attribute.form_metal.field.validation.length.checkbox_field"
 msgstr "限制个数"
 
-msgid "Attribute.FormMetal.field.validation.length.MultipleLineField"
+msgid "attribute.form_metal.field.validation.length.multiple_line_field"
 msgstr "限制字数"
 
-msgid "Attribute.FormMetal.field.validation.length.ProjectIndexKeyField"
+msgid "attribute.form_metal.field.validation.length.project_index_key_field"
 msgstr "限制字数"
 
-msgid "Attribute.FormMetal.field.validation.length.SingleLineField"
+msgid "attribute.form_metal.field.validation.length.single_line_field"
 msgstr "限制字数"
 
-msgid "Attribute.FormMetal.field.validation.number"
+msgid "attribute.form_metal.field.validation.number"
 msgstr "填写范围"
 
-msgid "Attribute.FormMetal.field.validation.presence"
+msgid "attribute.form_metal.field.validation.presence"
 msgstr "必填"
 
-msgid "Attribute.FormMetal.filter.__t__"
+msgid "attribute.form_metal.filter.__t__"
 msgstr "条件"
 
-msgid "Attribute.FormMetal.filter.checkbox_filter.operator.exclude"
+msgid "attribute.form_metal.filter.checkbox_filter.operator.exclude"
 msgstr "不包含"
 
-msgid "Attribute.FormMetal.filter.checkbox_filter.operator.include"
+msgid "attribute.form_metal.filter.checkbox_filter.operator.include"
 msgstr "包含"
 
-msgid "Attribute.FormMetal.filter.date_time_filter.operator.after"
+msgid "attribute.form_metal.filter.date_time_filter.operator.after"
 msgstr "晚于"
 
-msgid "Attribute.FormMetal.filter.date_time_filter.operator.before"
+msgid "attribute.form_metal.filter.date_time_filter.operator.before"
 msgstr "早于"
 
-msgid "Attribute.FormMetal.filter.date_time_filter.operator.between"
+msgid "attribute.form_metal.filter.date_time_filter.operator.between"
 msgstr "包含"
 
-msgid "Attribute.FormMetal.filter.date_time_filter.operator.is"
+msgid "attribute.form_metal.filter.date_time_filter.operator.is"
 msgstr "等于"
 
-msgid "Attribute.FormMetal.filter.date_time_filter.operator.is_empty"
+msgid "attribute.form_metal.filter.date_time_filter.operator.is_empty"
 msgstr "为空"
 
-msgid "Attribute.FormMetal.filter.date_time_filter.operator.is_not_empty"
+msgid "attribute.form_metal.filter.date_time_filter.operator.is_not_empty"
 msgstr "不为空"
 
-msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is"
+msgid "attribute.form_metal.filter.dropdown_filter.operator.is"
 msgstr "等于"
 
-msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is_empty"
+msgid "attribute.form_metal.filter.dropdown_filter.operator.is_empty"
 msgstr "为空"
 
-msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is_not"
+msgid "attribute.form_metal.filter.dropdown_filter.operator.is_not"
 msgstr "不等于"
 
-msgid "Attribute.FormMetal.filter.dropdown_filter.operator.is_not_empty"
+msgid "attribute.form_metal.filter.dropdown_filter.operator.is_not_empty"
 msgstr "不为空"
 
-msgid "Attribute.FormMetal.filter.multiple_line_filter.operator.contain"
+msgid "attribute.form_metal.filter.multiple_line_filter.operator.contain"
 msgstr "包含"
 
-msgid "Attribute.FormMetal.filter.numeric_filter.operator.eq"
+msgid "attribute.form_metal.filter.numeric_filter.operator.eq"
 msgstr "等于"
 
-msgid "Attribute.FormMetal.filter.numeric_filter.operator.gt"
+msgid "attribute.form_metal.filter.numeric_filter.operator.gt"
 msgstr "大于"
 
-msgid "Attribute.FormMetal.filter.numeric_filter.operator.gteq"
+msgid "attribute.form_metal.filter.numeric_filter.operator.gteq"
 msgstr "大于等于"
 
-msgid "Attribute.FormMetal.filter.numeric_filter.operator.lt"
+msgid "attribute.form_metal.filter.numeric_filter.operator.lt"
 msgstr "小于"
 
-msgid "Attribute.FormMetal.filter.numeric_filter.operator.lteq"
+msgid "attribute.form_metal.filter.numeric_filter.operator.lteq"
 msgstr "小于等于"
 
-msgid "Attribute.FormMetal.filter.numeric_filter.operator.range"
+msgid "attribute.form_metal.filter.numeric_filter.operator.range"
 msgstr "包含"
 
-msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is"
+msgid "attribute.form_metal.filter.radio_button_filter.operator.is"
 msgstr "等于"
 
-msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is_empty"
+msgid "attribute.form_metal.filter.radio_button_filter.operator.is_empty"
 msgstr "为空"
 
-msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is_not"
+msgid "attribute.form_metal.filter.radio_button_filter.operator.is_not"
 msgstr "不等于"
 
-msgid "Attribute.FormMetal.filter.radio_button_filter.operator.is_not_empty"
+msgid "attribute.form_metal.filter.radio_button_filter.operator.is_not_empty"
 msgstr "不为空"
 
-msgid "Attribute.FormMetal.filter.relation_filter.operator.is"
+msgid "attribute.form_metal.filter.relation_filter.operator.is"
 msgstr "等于"
 
-msgid "Attribute.FormMetal.filter.relation_filter.operator.is_not"
+msgid "attribute.form_metal.filter.relation_filter.operator.is_not"
 msgstr "不等于"
 
-msgid "Attribute.FormMetal.filter.single_line_filter.operator.contain"
+msgid "attribute.form_metal.filter.single_line_filter.operator.contain"
 msgstr "包含"
 
-msgid "Attribute.FormMetal.filter.single_line_filter.operator.is"
+msgid "attribute.form_metal.filter.single_line_filter.operator.is"
 msgstr "等于"
 
-msgid "Attribute.FormMetal.filter_group.__t__"
+msgid "attribute.form_metal.filter_group.__t__"
 msgstr "条件组"
 
-msgid "Attribute.FormMetal.filter_group.operator.and"
+msgid "attribute.form_metal.filter_group.operator.and"
 msgstr "且"
 
-msgid "Attribute.FormMetal.filter_group.operator.or"
+msgid "attribute.form_metal.filter_group.operator.or"
 msgstr "或"
 
-msgid "Attribute.IdentityAccess.department.__t__"
+msgid "attribute.identity_access.department.__t__"
 msgstr "部门"
 
-msgid "Attribute.IdentityAccess.department.member"
+msgid "attribute.identity_access.department.member"
 msgstr "部门成员"
 
-msgid "Attribute.IdentityAccess.department.name"
+msgid "attribute.identity_access.department.name"
 msgstr "部门名称"
 
-msgid "Attribute.IdentityAccess.user.__t__"
+msgid "attribute.identity_access.user.__t__"
 msgstr "成员"
 
-msgid "Attribute.IdentityAccess.user.email"
+msgid "attribute.identity_access.user.email"
 msgstr "邮箱"
 
-msgid "Attribute.IdentityAccess.user.name"
+msgid "attribute.identity_access.user.name"
 msgstr "姓名"
 
-msgid "Attribute.IdentityAccess.user.phone"
+msgid "attribute.identity_access.user.phone"
 msgstr "手机号码"
 
-msgid "Attribute.IdentityAccess.workspace.__t__"
+msgid "attribute.identity_access.workspace.__t__"
 msgstr "空间"
 
-msgid "Attribute.IdentityAccess.workspace.name"
+msgid "attribute.identity_access.workspace.name"
 msgstr "空间名称"
 
-msgid "Attribute.Project.project.__t__"
+msgid "attribute.project.project.__t__"
 msgstr "项目"
 
-msgid "Attribute.Project.project.description"
+msgid "attribute.project.project.description"
 msgstr "项目描述"
 
-msgid "Attribute.Project.project.member.__t__"
+msgid "attribute.project.project.member.__t__"
 msgstr "项目成员"
 
-msgid "Attribute.Project.project.member.short"
+msgid "attribute.project.project.member.short"
 msgstr "成员"
 
-msgid "Attribute.Project.project.report.__t__"
+msgid "attribute.project.project.report.__t__"
 msgstr "项目统计"
 
-msgid "Attribute.Project.project.report.short"
+msgid "attribute.project.project.report.short"
 msgstr "统计"
 
-msgid "Attribute.Project.project.status.archived"
+msgid "attribute.project.project.status.archived"
 msgstr "已归档"
 
-msgid "Attribute.Project.project.title"
+msgid "attribute.project.project.title"
 msgstr "项目名称"
 
-msgid "Attribute.Project.task.__t__"
+msgid "attribute.project.task.__t__"
 msgstr "任务"
 
-msgid "Attribute.Project.task.activities"
+msgid "attribute.project.task.activities"
 msgstr "动态"
 
-msgid "Attribute.Project.task.assignee.__t__"
+msgid "attribute.project.task.assignee.__t__"
 msgstr "负责人"
 
-msgid "Attribute.Project.task.assignee.blank"
+msgid "attribute.project.task.assignee.blank"
 msgstr "未指派"
 
-msgid "Attribute.Project.task.attachment"
+msgid "attribute.project.task.attachment"
 msgstr "附件"
 
-msgid "Attribute.Project.task.collaborator.__t__"
+msgid "attribute.project.task.collaborator.__t__"
 msgstr "协作者"
 
-msgid "Attribute.Project.task.collaborator.blank"
+msgid "attribute.project.task.collaborator.blank"
 msgstr "未指派"
 
-msgid "Attribute.Project.task.comment"
+msgid "attribute.project.task.comment"
 msgstr "评论"
 
-msgid "Attribute.Project.task.completed.__t__"
+msgid "attribute.project.task.completed.__t__"
 msgstr "完成"
 
-msgid "Attribute.Project.task.completed.false"
+msgid "attribute.project.task.completed.false"
 msgstr "未完成"
 
-msgid "Attribute.Project.task.completed.true"
+msgid "attribute.project.task.completed.true"
 msgstr "已完成"
 
-msgid "Attribute.Project.task.completed_time"
+msgid "attribute.project.task.completed_time"
 msgstr "完成时间"
 
-msgid "Attribute.Project.task.created_via.__t__"
+msgid "attribute.project.task.created_via.__t__"
 msgstr "创建方式"
 
-msgid "Attribute.Project.task.created_via.clone"
+msgid "attribute.project.task.created_via.clone"
 msgstr "复制"
 
-msgid "Attribute.Project.task.created_via.import"
+msgid "attribute.project.task.created_via.import"
 msgstr "导入"
 
-msgid "Attribute.Project.task.created_via.user"
+msgid "attribute.project.task.created_via.user"
 msgstr "用户创建"
 
-msgid "Attribute.Project.task.description"
+msgid "attribute.project.task.description"
 msgstr "任务描述"
 
-msgid "Attribute.Project.task.due_on.__t__"
+msgid "attribute.project.task.due_on.__t__"
 msgstr "截止时间"
 
-msgid "Attribute.Project.task.due_on.blank"
+msgid "attribute.project.task.due_on.blank"
 msgstr "未设置"
 
-msgid "Attribute.Project.task.due_on.empty"
+msgid "attribute.project.task.due_on.empty"
 msgstr "无"
 
-msgid "Attribute.Project.task.overdue.__t__"
+msgid "attribute.project.task.overdue.__t__"
 msgstr "逾期天数"
 
-msgid "Attribute.Project.task.overdue.full"
+msgid "attribute.project.task.overdue.full"
 msgstr "%{days}天 %{hours}小时"
 
-msgid "Attribute.Project.task.overdue.in_days"
+msgid "attribute.project.task.overdue.in_days"
 msgstr "%{days}天"
 
-msgid "Attribute.Project.task.overdue.in_hours"
+msgid "attribute.project.task.overdue.in_hours"
 msgstr "%{hours}小时"
 
-msgid "Attribute.Project.task.parent"
+msgid "attribute.project.task.parent"
 msgstr "上级任务"
 
-msgid "Attribute.Project.task.priority.__t__"
+msgid "attribute.project.task.priority.__t__"
 msgstr "优先级"
 
-msgid "Attribute.Project.task.priority.blank"
+msgid "attribute.project.task.priority.blank"
 msgstr "未设置"
 
-msgid "Attribute.Project.task.priority.high"
+msgid "attribute.project.task.priority.high"
 msgstr "紧急"
 
-msgid "Attribute.Project.task.priority.highest"
+msgid "attribute.project.task.priority.highest"
 msgstr "非常紧急"
 
-msgid "Attribute.Project.task.priority.low"
+msgid "attribute.project.task.priority.low"
 msgstr "低"
 
-msgid "Attribute.Project.task.priority.medium"
+msgid "attribute.project.task.priority.medium"
 msgstr "普通"
 
-msgid "Attribute.Project.task.sub_task"
+msgid "attribute.project.task.sub_task"
 msgstr "子任务"
 
-msgid "Attribute.Project.task.task_label.__t__"
+msgid "attribute.project.task.task_label.__t__"
 msgstr "标签"
 
-msgid "Attribute.Project.task.task_label.blank"
+msgid "attribute.project.task.task_label.blank"
 msgstr "未添加"
 
-msgid "Attribute.Project.task.task_label.full"
+msgid "attribute.project.task.task_label.full"
 msgstr "任务标签"
 
-msgid "Attribute.Project.task.task_label.name"
+msgid "attribute.project.task.task_label.name"
 msgstr "标签名称"
 
-msgid "Attribute.Project.task.title"
+msgid "attribute.project.task.title"
 msgstr "任务标题"
 
-msgid "Attribute.Project.task_group.__t__"
+msgid "attribute.project.task_group.__t__"
 msgstr "任务分组"
 
-msgid "Attribute.Project.task_group.description"
+msgid "attribute.project.task_group.description"
 msgstr "分组描述"
 
-msgid "Attribute.Project.task_group.short"
+msgid "attribute.project.task_group.short"
 msgstr "分组"
 
-msgid "Attribute.Project.task_group.title"
+msgid "attribute.project.task_group.title"
 msgstr "分组名称"
 
-msgid "Attribute.Workflow.case.state.ABANDONED"
+msgid "attribute.workflow.case.state.abandoned"
 msgstr "异常"
 
-msgid "Attribute.Workflow.case.state.COMPLETED"
+msgid "attribute.workflow.case.state.completed"
 msgstr "已完成"
 
-msgid "Attribute.Workflow.case.state.RUNNING"
+msgid "attribute.workflow.case.state.running"
 msgstr "进行中"
 
-msgid "Attribute.Workflow.case_data.project_project.__t__"
+msgid "attribute.workflow.case_data.project_project.__t__"
 msgstr "项目"
 
-msgid "Attribute.Workflow.case_data.project_task.__t__"
+msgid "attribute.workflow.case_data.project_task.__t__"
 msgstr "任务"
 
-msgid "Attribute.Workflow.case_data.project_task.attributes.assignee"
+msgid "attribute.workflow.case_data.project_task.attributes.assignee"
 msgstr "负责人"
 
-msgid "Attribute.Workflow.case_data.project_task.attributes.completed"
+msgid "attribute.workflow.case_data.project_task.attributes.completed"
 msgstr "完成情况"
 
-msgid "Attribute.Workflow.case_data.project_task.attributes.created_via"
+msgid "attribute.workflow.case_data.project_task.attributes.created_via"
 msgstr "创建方式"
 
-msgid "Attribute.Workflow.case_data.project_task.attributes.description"
+msgid "attribute.workflow.case_data.project_task.attributes.description"
 msgstr "任务描述"
 
-msgid "Attribute.Workflow.case_data.project_task.attributes.due_on"
+msgid "attribute.workflow.case_data.project_task.attributes.due_on"
 msgstr "截止时间"
 
-msgid "Attribute.Workflow.case_data.project_task.attributes.priority"
+msgid "attribute.workflow.case_data.project_task.attributes.priority"
 msgstr "优先级"
 
-msgid "Attribute.Workflow.case_data.project_task.attributes.title"
+msgid "attribute.workflow.case_data.project_task.attributes.title"
 msgstr "任务标题"
 
-msgid "Attribute.Workflow.case_data.trigger_event.__t__"
+msgid "attribute.workflow.case_data.trigger_event.__t__"
 msgstr "事件输出"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.assignee"
+msgid "attribute.workflow.case_data.trigger_event.fields.assignee"
 msgstr "负责人"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.completed"
+msgid "attribute.workflow.case_data.trigger_event.fields.completed"
 msgstr "完成情况"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.created_via"
+msgid "attribute.workflow.case_data.trigger_event.fields.created_via"
 msgstr "创建方式"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.description"
+msgid "attribute.workflow.case_data.trigger_event.fields.description"
 msgstr "任务描述"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.due_on"
+msgid "attribute.workflow.case_data.trigger_event.fields.due_on"
 msgstr "截止时间"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.priority"
+msgid "attribute.workflow.case_data.trigger_event.fields.priority"
 msgstr "优先级"
 
-msgid "Attribute.Workflow.case_data.trigger_event.fields.title"
+msgid "attribute.workflow.case_data.trigger_event.fields.title"
 msgstr "任务标题"
 
-msgid "Attribute.Workflow.case_data.workflow_case.__t__"
+msgid "attribute.workflow.case_data.workflow_case.__t__"
 msgstr "流程记录"
 
-msgid "Attribute.Workflow.node.CONDITION.__t__"
-msgstr "条件节点"
-
-msgid "Attribute.Workflow.node.CONDITION.schema_field.sufficient.__t__"
-msgstr "满足条件"
-
-msgid "Attribute.Workflow.node.CONDITION.schema_field.sufficient.candidateValues.false"
-msgstr "不满足"
-
-msgid "Attribute.Workflow.node.CONDITION.schema_field.sufficient.candidateValues.true"
-msgstr "满足"
-
-msgid "Attribute.Workflow.node.CUSTOM.__t__"
-msgstr "自定义节点"
-
-msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_ADD_ROW.__t__"
-msgstr "系统执行"
-
-msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_ADD_ROW.operation"
-msgstr "新建数据"
-
-msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_ADD_ROW.schema_field.row.__t__"
-msgstr "填写记录"
-
-msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW.__t__"
-msgstr "系统执行"
-
-msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW.operation"
-msgstr "修改字段"
-
-msgid "Attribute.Workflow.node.DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW.schema_field.row.__t__"
-msgstr "填写记录"
-
-msgid "Attribute.Workflow.node.DEFERRED_CHOICE.__t__"
-msgstr "单条流转"
-
-msgid "Attribute.Workflow.node.END.__t__"
-msgstr "结束"
-
-msgid "Attribute.Workflow.node.EXCLUSIVE_CHOICE.__t__"
-msgstr "单条流转"
-
-msgid "Attribute.Workflow.node.FORM.__t__"
-msgstr "填写节点"
-
-msgid "Attribute.Workflow.node.FORM.schema_field.filled_at.__t__"
-msgstr "填写时间"
-
-msgid "Attribute.Workflow.node.FORM.schema_field.fillers.__t__"
-msgstr "填写人"
-
-msgid "Attribute.Workflow.node.FORM.state.COMPLETED"
-msgstr "提交"
-
-msgid "Attribute.Workflow.node.FORM.state.STARTED"
-msgstr "等待处理"
-
-msgid "Attribute.Workflow.node.MULTI_MERGE.__t__"
-msgstr "多条聚合"
-
-msgid "Attribute.Workflow.node.SIMPLE_MERGE.__t__"
-msgstr "单条聚合"
-
-msgid "Attribute.Workflow.node.START.__t__"
-msgstr "开始"
-
-msgid "Attribute.Workflow.node.START.schema_field.created_via.__t__"
-msgstr "创建方式"
-
-msgid "Attribute.Workflow.node.START.schema_field.created_via.candidateValues.clone"
-msgstr "复制"
-
-msgid "Attribute.Workflow.node.START.schema_field.created_via.candidateValues.import"
-msgstr "导入"
-
-msgid "Attribute.Workflow.node.START.schema_field.created_via.candidateValues.user"
-msgstr "用户创建"
-
-msgid "Attribute.Workflow.node.START.schema_field.description.__t__"
-msgstr "任务描述"
-
-msgid "Attribute.Workflow.node.START.schema_field.due_on.__t__"
-msgstr "截止时间"
-
-msgid "Attribute.Workflow.node.START.schema_field.priority.__t__"
-msgstr "优先级"
-
-msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.high"
-msgstr "紧急"
-
-msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.highest"
-msgstr "非常紧急"
-
-msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.low"
-msgstr "低"
-
-msgid "Attribute.Workflow.node.START.schema_field.priority.candidateValues.medium"
-msgstr "普通"
-
-msgid "Attribute.Workflow.node.START.schema_field.title.__t__"
-msgstr "任务标题"
-
-msgid "Attribute.Workflow.node.TIMER.__t__"
-msgstr "定时器"
-
-msgid "Attribute.Workflow.node.TIMER.schema_field.end_at.__t__"
-msgstr "执行时间"
-
-msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT.__t__"
-msgstr "系统执行"
-
-msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT.operation"
-msgstr "修改所属主体"
-
-msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_VARIABLES.__t__"
-msgstr "系统执行"
-
-msgid "Attribute.Workflow.node.WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_VARIABLES.operation"
-msgstr "修改流程数据"
-
-msgid "Attribute.Workflow.node.WORKFLOW_CASE_TRIGGER.__t__"
-msgstr "触发节点"
-
-msgid "Attribute.Workflow.node.__t__"
+msgid "attribute.workflow.node.__t__"
 msgstr "节点"
 
-msgid "Attribute.Workflow.node.associations.__t__"
+msgid "attribute.workflow.node.associations.__t__"
 msgstr "关联关系"
 
-msgid "Attribute.Workflow.node.associations.attributes"
+msgid "attribute.workflow.node.associations.attributes"
 msgstr "字段"
 
-msgid "Attribute.Workflow.node.outputs.__t__"
-msgstr "节点输出"
+msgid "attribute.workflow.node.condition.__t__"
+msgstr "条件节点"
 
-msgid "Attribute.Workflow.node.outputs.common_field_completed_at"
-msgstr "执行时间"
+msgid "attribute.workflow.node.condition.schema_field.sufficient.__t__"
+msgstr "满足条件"
 
-msgid "Attribute.Workflow.node.state.COMPLETED"
-msgstr "执行"
+msgid "attribute.workflow.node.condition.schema_field.sufficient.candidate_values.false"
+msgstr "不满足"
 
-msgid "Attribute.Workflow.node.state.STARTED"
-msgstr "等待"
+msgid "attribute.workflow.node.condition.schema_field.sufficient.candidate_values.true"
+msgstr "满足"
 
-msgid "Attribute.Workflow.resource.PROJECT_PROJECT.__t__"
-msgstr "项目"
+msgid "attribute.workflow.node.custom.__t__"
+msgstr "自定义节点"
 
-msgid "Attribute.Workflow.resource.PROJECT_PROJECT.title"
-msgstr "项目名称"
+msgid "attribute.workflow.node.database_automatic_operation_add_row.__t__"
+msgstr "系统执行"
 
-msgid "Attribute.Workflow.resource.PROJECT_TASK.__t__"
-msgstr "任务"
-
-msgid "Attribute.Workflow.resource.PROJECT_TASK.assignee"
-msgstr "负责人"
-
-msgid "Attribute.Workflow.resource.PROJECT_TASK.created_via"
-msgstr "创建方式"
-
-msgid "Attribute.Workflow.resource.PROJECT_TASK.description"
-msgstr "任务描述"
-
-msgid "Attribute.Workflow.resource.PROJECT_TASK.due_on"
-msgstr "截止时间"
-
-msgid "Attribute.Workflow.resource.PROJECT_TASK.priority"
-msgstr "优先级"
-
-msgid "Attribute.Workflow.resource.PROJECT_TASK.title"
-msgstr "任务标题"
-
-msgid "Attribute.Workflow.trigger.events.PROJECT_TASK_CREATED"
-msgstr "创建任务"
-
-msgid "Attribute.Workflow.trigger.events.WORKFLOW_CASE_TRIGGER_NODE_EXECUTED"
-msgstr "触发节点"
-
-msgid "Attribute.Workflow.trigger.outputs"
-msgstr "事件输出"
-
-msgid "Attribute.Workflow.workflow.__t__"
-msgstr "流程"
-
-msgid "Attribute.Workflow.workflow.case_count"
-msgstr "流程记录"
-
-msgid "Attribute.Workflow.workflow.state.__t__"
-msgstr "流程状态"
-
-msgid "Attribute.Workflow.workflow.state.processing"
-msgstr "进行中"
-
-msgid "Attribute.Workflow.workflow.state.terminated"
-msgstr "已停用"
-
-msgid "Attribute.Workflow.workflow.title"
-msgstr "流程名称"
-
-msgid "Attribute.Workflow.workflow.variables"
-msgstr "流程数据"
-
-msgid "Common.collapse.less"
-msgstr "点击收起"
-
-msgid "Common.collapse.more"
-msgstr "显示更多"
-
-msgid "Common.editor.extension.link.href"
-msgstr "链接地址"
-
-msgid "Common.editor.extension.link.text"
-msgstr "链接文字"
-
-msgid "Common.errors.format"
-msgstr "%{attribute}%{message}"
-
-msgid "Common.errors.messages.absence"
-msgstr "必须为空"
-
-msgid "Common.errors.messages.email"
-msgstr "邮箱格式不正确"
-
-msgid "Common.errors.messages.format"
-msgstr "格式错误"
-
-msgid "Common.errors.messages.inclusion"
-msgstr "必须为 %{list} 其中的一个"
-
-msgid "Common.errors.messages.length.in"
-msgstr "%{min} ~ %{max}"
-
-msgid "Common.errors.messages.length.is"
-msgstr "%{is}"
-
-msgid "Common.errors.messages.length.max"
-msgstr "小于 %{max}"
-
-msgid "Common.errors.messages.length.min"
-msgstr "大于 %{min}"
-
-msgid "Common.errors.messages.network"
-msgstr "请检查网络连接"
-
-msgid "Common.errors.messages.operation_failed"
-msgstr "操作失败"
-
-msgid "Common.errors.messages.phone"
-msgstr "请检查手机号码是否正确"
-
-msgid "Common.errors.messages.presence"
-msgstr "不能为空"
-
-msgid "Common.errors.messages.range.equal_to"
-msgstr "必须等于 %{equal_to}"
-
-msgid "Common.errors.messages.range.greater_than_or_equal_to"
-msgstr "必须大于等于 %{lower}"
-
-msgid "Common.errors.messages.range.in"
-msgstr "必须处于 %{lower} ~ %{upper} 之间"
-
-msgid "Common.errors.messages.range.less_than_or_equal_to"
-msgstr "必须小于等于 %{upper}"
-
-msgid "Common.errors.messages.uniqueness"
-msgstr "已存在"
-
-msgid "Common.feedback.cancel"
-msgstr "取消"
-
-msgid "Common.feedback.confirm"
-msgstr "确定"
-
-msgid "Common.feedback.title"
-msgstr "标题"
-
-msgid "Common.file.click_to_download"
-msgstr "点击下载"
-
-msgid "Common.file.extension.archive"
-msgstr "压缩文件"
-
-msgid "Common.file.extension.audio"
-msgstr "音频"
-
-msgid "Common.file.extension.excel"
-msgstr "电子表格"
-
-msgid "Common.file.extension.image"
-msgstr "图片"
-
-msgid "Common.file.extension.pdf"
-msgstr "便携文档"
-
-msgid "Common.file.extension.powerpoint"
-msgstr "演示文稿"
-
-msgid "Common.file.extension.text"
-msgstr "文稿"
-
-msgid "Common.file.extension.unknown"
-msgstr "其他格式"
-
-msgid "Common.file.extension.video"
-msgstr "视频"
-
-msgid "Common.file.extension.word"
-msgstr "文档"
-
-msgid "Common.file.not_support_preview"
-msgstr "暂不支持此类型预览"
-
-msgid "Common.form.__t__"
-msgstr "表单"
-
-msgid "Common.form.edit.__t__"
-msgstr "编辑表单"
-
-msgid "Common.form.field"
-msgstr "%{context}字段"
-
-msgid "Common.form.fill.__t__"
-msgstr "填写表单"
-
-msgid "Common.form.fill.confirm"
-msgstr "提交"
-
-msgid "Common.form.fill.success"
-msgstr "%{confirm}成功"
-
-msgid "Common.input.placeholder.default"
-msgstr "请输入"
-
-msgid "Common.input.placeholder.phone"
-msgstr "请输入手机号码"
-
-msgid "Common.input.placeholder.search"
-msgstr "搜索"
-
-msgid "Common.input.placeholder.verification_code"
-msgstr "请输入验证码"
-
-msgid "Common.list.blank"
-msgstr "暂无%{target}"
-
-msgid "Common.operation.add"
-msgstr "添加"
-
-msgid "Common.operation.cancel"
-msgstr "取消"
-
-msgid "Common.operation.complete"
-msgstr "完成"
-
-msgid "Common.operation.confirm"
-msgstr "确认"
-
-msgid "Common.operation.create"
-msgstr "新建"
-
-msgid "Common.operation.delete"
-msgstr "删除"
-
-msgid "Common.operation.edit"
-msgstr "编辑"
-
-msgid "Common.operation.reset"
-msgstr "重置"
-
-msgid "Common.operation.save"
-msgstr "保存"
-
-msgid "Common.paginator.load_fail"
-msgstr "加载失败"
-
-msgid "Common.paginator.load_more"
-msgstr "加载更多"
-
-msgid "Common.paginator.reload"
-msgstr "请点击重新加载"
-
-msgid "Common.select.clear"
-msgstr "清除所选"
-
-msgid "Common.select.date_time.clear"
-msgstr "清除"
-
-msgid "Common.select.date_time.confirm"
-msgstr "确定"
-
-msgid "Common.select.date_time.mode.date"
-msgstr "选日期"
-
-msgid "Common.select.date_time.mode.time"
-msgstr "选时间"
-
-msgid "Common.select.date_time.select_now"
-msgstr "立即"
-
-msgid "Common.select.placeholder.date"
-msgstr "请选择日期"
-
-msgid "Common.select.placeholder.date_time"
-msgstr "请选择日期时间"
-
-msgid "Common.select.placeholder.default"
-msgstr "请选择"
-
-msgid "Common.select.placeholder.time"
-msgstr "请选择时间"
-
-msgid "Common.select.search.blank.default"
-msgstr "暂无搜索结果。"
-
-msgid "Common.select.search.blank.department"
-msgstr "暂无匹配的部门"
-
-msgid "Common.separator"
-msgstr "、"
-
-msgid "Common.unit.time.month"
-msgstr "月"
-
-msgid "Common.unit.time.second"
-msgstr "秒"
-
-msgid "Common.uploader.again"
-msgstr "重新加载"
-
-msgid "Common.uploader.button_text"
-msgstr "文件上传"
-
-msgid "Common.uploader.failure"
-msgstr "上传失败"
-
-msgid "Common.uploader.too_large"
-msgstr "上传失败，文件大小不得超过 %{max_size}"
-
-msgid "Common.uploader.uploading"
-msgstr "上传中"
-
-msgid "Page.AccessControl.application_configuration"
-msgstr "应用管理"
-
-msgid "Page.AccessControl.assign_role.__t__"
-msgstr "添加成员"
-
-msgid "Page.AccessControl.change_permission_fail"
-msgstr "权限更改失败"
-
-msgid "Page.AccessControl.create_role.__t__"
-msgstr "新建角色"
-
-msgid "Page.AccessControl.delete_role.__t__"
-msgstr "删除角色"
-
-msgid "Page.AccessControl.delete_role.description"
-msgstr "删除后不能恢复"
-
-msgid "Page.AccessControl.delete_role.fail"
-msgstr "删除失败"
-
-msgid "Page.AccessControl.delete_role.success"
-msgstr "删除成功"
-
-msgid "Page.AccessControl.empty_actor"
-msgstr "暂无成员。"
-
-msgid "Page.AccessControl.role_management"
-msgstr "角色管理"
-
-msgid "Page.AccessControl.title.role"
-msgstr "角色管理"
-
-msgid "Page.AccessControl.unassign_role.__t__"
-msgstr "移除成员"
-
-msgid "Page.AccessControl.unassign_role.fail"
-msgstr "移除失败"
-
-msgid "Page.AccessControl.unassign_role.short"
-msgstr "移除"
-
-msgid "Page.AccessControl.unassign_role.success"
-msgstr "移除成功"
-
-msgid "Page.AccessControl.update_role.__t__"
-msgstr "修改角色"
-
-msgid "Page.AccessControl.update_role.name"
-msgstr "编辑名称"
-
-msgid "Page.Account.add_user_field_guidance"
-msgstr "点击表单字段或拖动到此区域以编辑自定义成员属性"
-
-msgid "Page.Account.my_profile.__t__"
-msgstr "个人设置"
-
-msgid "Page.Account.my_profile.update_avatar.__t__"
-msgstr "修改头像"
-
-msgid "Page.Account.my_profile.update_avatar.confirm"
-msgstr "确认修改"
-
-msgid "Page.Account.my_profile.update_avatar.custom_avatar"
-msgstr "自定义"
-
-msgid "Page.Account.my_profile.update_avatar.internal_avatar"
-msgstr "系统头像"
-
-msgid "Page.Account.my_profile.update_avatar.upload"
-msgstr "点击上传"
-
-msgid "Page.Account.title.my_profile"
-msgstr "个人设置"
-
-msgid "Page.Account.title.user_schema"
-msgstr "自定义成员属性"
-
-msgid "Page.Account.user_schema"
-msgstr "自定义成员属性"
-
-msgid "Page.Activity.Notification.AssignmentEvent.assign.department"
-msgstr "将%{department}设置为任务负责人"
-
-msgid "Page.Activity.Notification.AssignmentEvent.assign.user"
-msgstr "将你设置为任务负责人"
-
-msgid "Page.Activity.Notification.AssignmentEvent.reassign.department"
-msgstr "将%{department}设置为任务负责人"
-
-msgid "Page.Activity.Notification.AssignmentEvent.reassign.user"
-msgstr "将你设置为任务负责人"
-
-msgid "Page.Activity.Notification.CollaborationEvent"
-msgstr "将你设置为任务协作者"
-
-msgid "Page.Activity.Notification.CommentEvent.create"
-msgstr "评论了任务"
-
-msgid "Page.Activity.Notification.CommentEvent.mention"
-msgstr "在任务评论提及了你"
-
-msgid "Page.Activity.Notification.TaskEvent.complete"
-msgstr "完成了任务"
-
-msgid "Page.Activity.Notification.TaskEvent.uncomplete"
-msgstr "重新打开了任务"
-
-msgid "Page.Activity.Notification.UpdationEvent.clear_due_on"
-msgstr "清空了任务截止时间"
-
-msgid "Page.Activity.Notification.UpdationEvent.due_on"
-msgstr "修改了任务截止时间"
-
-msgid "Page.Activity.Notification.UpdationEvent.update_due_on"
-msgstr "更改时间为 %{time}"
-
-msgid "Page.Activity.Notification.all"
-msgstr "全部"
-
-msgid "Page.Activity.Notification.mark_all_read.__t__"
-msgstr "全部标记为已读"
-
-msgid "Page.Activity.Notification.mark_all_read.fail"
-msgstr "操作失败"
-
-msgid "Page.Activity.Notification.new_notification_created"
-msgstr "有新的提醒，点击查看"
-
-msgid "Page.Activity.Notification.no_new_notification"
-msgstr "没有新的提醒"
-
-msgid "Page.Activity.Notification.no_notifications"
-msgstr "暂无提醒"
-
-msgid "Page.Activity.Notification.title"
-msgstr "提醒中心"
-
-msgid "Page.Activity.Notification.unread"
-msgstr "未读"
-
-msgid "Page.Activity.Notification.view_all"
-msgstr "查看全部"
-
-msgid "Page.Activity.TaskActivity.AssignmentEvent.assign"
-msgstr "设置了任务负责人"
-
-msgid "Page.Activity.TaskActivity.AssignmentEvent.reassign"
-msgstr "修改了任务负责人"
-
-msgid "Page.Activity.TaskActivity.AssignmentEvent.unassign"
-msgstr "移除了任务负责人"
-
-msgid "Page.Activity.TaskActivity.AttachmentEvent.create"
-msgstr "上传了附件"
-
-msgid "Page.Activity.TaskActivity.AttachmentEvent.delete"
-msgstr "删除了附件"
-
-msgid "Page.Activity.TaskActivity.CollaborationEvent.add"
-msgstr "添加了任务协作者"
-
-msgid "Page.Activity.TaskActivity.CollaborationEvent.remove"
-msgstr "移除了任务协作者"
-
-msgid "Page.Activity.TaskActivity.CollaborationEvent.update"
-msgstr "添加了任务协作者 %{added_collaborators} 同时移除了任务协作者 %{removed_collaborators}"
-
-msgid "Page.Activity.TaskActivity.SubTaskEvent.complete"
-msgstr "完成了子任务"
-
-msgid "Page.Activity.TaskActivity.SubTaskEvent.create"
-msgstr "创建了子任务"
-
-msgid "Page.Activity.TaskActivity.SubTaskEvent.discard"
-msgstr "删除了子任务"
-
-msgid "Page.Activity.TaskActivity.SubTaskEvent.uncomplete"
-msgstr "重新打开了子任务"
-
-msgid "Page.Activity.TaskActivity.SubscriptionEvent.add.__t__"
-msgstr "添加了任务关注者"
-
-msgid "Page.Activity.TaskActivity.SubscriptionEvent.add.self"
-msgstr "关注了任务"
-
-msgid "Page.Activity.TaskActivity.SubscriptionEvent.remove.__t__"
-msgstr "移除了任务关注者"
-
-msgid "Page.Activity.TaskActivity.SubscriptionEvent.remove.self"
-msgstr "取消关注任务"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.archive"
-msgstr "归档了任务"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.change_belonger.__t__"
-msgstr "移动了任务"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.change_belonger.full"
-msgstr "将任务从 %{from} 移动到 %{to}"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.clone"
-msgstr "复制了任务"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.complete"
-msgstr "完成了任务"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.create"
-msgstr "创建了任务"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.unarchive"
-msgstr "取消了归档"
-
-msgid "Page.Activity.TaskActivity.TaskEvent.uncomplete"
-msgstr "重新打开了任务"
-
-msgid "Page.Activity.TaskActivity.TaskLabelEvent.add"
-msgstr "添加了任务标签"
-
-msgid "Page.Activity.TaskActivity.TaskLabelEvent.remove"
-msgstr "移除了任务标签"
-
-msgid "Page.Activity.TaskActivity.TaskLabelEvent.update"
-msgstr "添加了任务标签  %{added_task_labels} 同时移除了任务标签  %{removed_task_labels}"
-
-msgid "Page.Activity.TaskActivity.TaskProfileUpdationEvent.__t__"
-msgstr "修改了%{field_label}  %{field_value}"
-
-msgid "Page.Activity.TaskActivity.TaskProfileUpdationEvent.blank"
-msgstr "无"
-
-msgid "Page.Activity.TaskActivity.UpdationEvent.update_description"
-msgstr "修改了任务描述"
-
-msgid "Page.Activity.TaskActivity.UpdationEvent.update_due_on"
-msgstr "修改了任务截止时间"
-
-msgid "Page.Activity.TaskActivity.UpdationEvent.update_priority.add"
-msgstr "设置优先级为"
-
-msgid "Page.Activity.TaskActivity.UpdationEvent.update_priority.change"
-msgstr "将优先级由 %{old_priority} 修改为 %{new_priority}"
-
-msgid "Page.Activity.TaskActivity.UpdationEvent.update_title"
-msgstr "修改了任务标题"
-
-msgid "Page.Auth.authorize_failed"
-msgstr "登录失败"
-
-msgid "Page.Auth.generate_verification_code"
-msgstr "获取验证码"
-
-msgid "Page.Auth.logout.__t__"
-msgstr "退出登录"
-
-msgid "Page.Auth.logout.fail"
-msgstr "操作失败"
-
-msgid "Page.Auth.please_check_phone"
-msgstr "请检查手机号码是否正确"
-
-msgid "Page.Auth.sign_in"
-msgstr "登录"
-
-msgid "Page.Auth.sign_up"
-msgstr "注册"
-
-msgid "Page.Auth.sign_up_workspace"
-msgstr "注册团队"
-
-msgid "Page.Auth.sms_rate_limit_exceeded"
-msgstr "短信发送过于频繁，请稍后再试"
-
-msgid "Page.Auth.switch_workspace.fail"
-msgstr "操作失败"
-
-msgid "Page.Auth.terms_of_service.message"
-msgstr "我已阅读并同意%{tos}"
-
-msgid "Page.Auth.terms_of_service.title"
-msgstr "任务管理隐私条款"
-
-msgid "Page.Auth.title.sign_in"
-msgstr "登录"
-
-msgid "Page.Auth.title.sign_up"
-msgstr "注册"
-
-msgid "Page.Auth.title.sign_up_workspace"
-msgstr "注册团队"
-
-msgid "Page.Auth.user_name"
-msgstr "您的名字"
-
-msgid "Page.Auth.user_not_found"
-msgstr "手机号码不存在"
-
-msgid "Page.Auth.verification_code_receiving"
-msgstr "获取中..."
-
-msgid "Page.Auth.verification_not_match"
-msgstr "验证码错误"
-
-msgid "Page.Auth.welcome_to"
-msgstr "欢迎 %{user}"
-
-msgid "Page.Auth.workspace_name"
-msgstr "团队名称"
-
-msgid "Page.Error.403.description"
-msgstr "你可以联系管理员授权给你"
-
-msgid "Page.Error.403.title"
-msgstr "对不起，没有权限访问此页面"
-
-msgid "Page.Error.404.description"
-msgstr "请检查输入网址后再试"
-
-msgid "Page.Error.404.title"
-msgstr "对不起，找不到这个页面"
-
-msgid "Page.Error.back_to_homepage"
-msgstr "返回首页"
-
-msgid "Page.FormMetal.add_option"
-msgstr "添加选项"
-
-msgid "Page.FormMetal.add_option_tip"
-msgstr "%{add_other_option} 或者 %{bulk_insert}"
-
-msgid "Page.FormMetal.add_other_option"
-msgstr "添加其他选项"
-
-msgid "Page.FormMetal.bulk_insert.__t__"
-msgstr "批量添加"
-
-msgid "Page.FormMetal.bulk_insert.placeholder"
-msgstr "输入选项"
-
-msgid "Page.FormMetal.bulk_insert.tip"
-msgstr "请输入选项，使用换行来分割选项"
-
-msgid "Page.FormMetal.delete_schema_field_confirm.confirm"
-msgstr "删除"
-
-msgid "Page.FormMetal.delete_schema_field_confirm.description"
-msgstr "删除后%{owner}的此属性将被删除"
-
-msgid "Page.FormMetal.delete_schema_field_confirm.title"
-msgstr "删除字段？"
-
-msgid "Page.FormMetal.dependencies.add"
-msgstr "添加逻辑"
-
-msgid "Page.FormMetal.dependencies.circularDependenciesErrorMessage"
-msgstr "%{fields}相互控制，可能影响用户填写"
-
-msgid "Page.FormMetal.dependencies.edit"
-msgstr "编辑"
-
-msgid "Page.FormMetal.dependencies.radio_button.disable_tip"
-msgstr "请添加更多字段来设置逻辑"
-
-msgid "Page.FormMetal.dependencies.radio_button.modal.option_dependency.placeholder"
-msgstr "请选择"
-
-msgid "Page.FormMetal.dependencies.radio_button.modal.title"
-msgstr "逻辑"
-
-msgid "Page.FormMetal.dependencies.remove"
-msgstr "删除"
-
-msgid "Page.FormMetal.leave_schema_page_confirm.confirm"
-msgstr "离开"
-
-msgid "Page.FormMetal.leave_schema_page_confirm.description"
-msgstr "有更改未保存，离开不会保存更改"
-
-msgid "Page.FormMetal.leave_schema_page_confirm.title"
-msgstr "离开此页？"
-
-msgid "Page.IdentityAccess.create_child_department"
-msgstr "新建子部门"
-
-msgid "Page.IdentityAccess.create_department"
-msgstr "新建部门"
-
-msgid "Page.IdentityAccess.create_user"
-msgstr "新建成员"
-
-msgid "Page.IdentityAccess.department.index"
-msgstr "所有成员"
-
-msgid "Page.IdentityAccess.department.show"
-msgstr "%{department_name}"
-
-msgid "Page.IdentityAccess.department.suspended"
-msgstr "无部门成员"
-
-msgid "Page.IdentityAccess.discard_department.__t__"
-msgstr "删除部门"
-
-msgid "Page.IdentityAccess.discard_department.confirm.description"
-msgstr "此部门下所有子部门将被删除"
-
-msgid "Page.IdentityAccess.discard_department.confirm.title"
-msgstr "删除部门？"
-
-msgid "Page.IdentityAccess.discard_user.__t__"
-msgstr "删除成员"
-
-msgid "Page.IdentityAccess.discard_user.error.root_can_not_discard"
-msgstr "此成员为空间超级管理员，请先移除超级管理员后再尝试删除"
-
-msgid "Page.IdentityAccess.discard_user.fail"
-msgstr "删除成员失败"
-
-msgid "Page.IdentityAccess.discard_user.success"
-msgstr "成员删除成功"
-
-msgid "Page.IdentityAccess.discard_user.tip"
-msgstr "此成员将不能访问空间内任何信息，此操作不可撤销"
-
-msgid "Page.IdentityAccess.draft_user.errors.department.not_match"
-msgstr "找不到匹配的部门"
-
-msgid "Page.IdentityAccess.draft_user.errors.email.format"
-msgstr "邮箱格式错误"
-
-msgid "Page.IdentityAccess.draft_user.errors.name.presence"
-msgstr "姓名不能为空"
-
-msgid "Page.IdentityAccess.draft_user.errors.phone.conflict"
-msgstr "手机号码重复"
-
-msgid "Page.IdentityAccess.draft_user.errors.phone.format"
-msgstr "手机号码格式错误"
-
-msgid "Page.IdentityAccess.draft_user.errors.phone.presence"
-msgstr "手机号码不能为空"
-
-msgid "Page.IdentityAccess.edit_department"
-msgstr "编辑部门"
-
-msgid "Page.IdentityAccess.empty_user"
-msgstr "没有成员。"
-
-msgid "Page.IdentityAccess.import_users.__t__"
-msgstr "导入成员"
-
-msgid "Page.IdentityAccess.import_users.import_draft_users.__t__"
-msgstr "导入数据"
-
-msgid "Page.IdentityAccess.import_users.import_draft_users.back_to_user_list"
-msgstr "返回成员列表"
-
-msgid "Page.IdentityAccess.import_users.import_draft_users.import_users_successful"
-msgstr "成功导入 %{count} 条成员"
-
-msgid "Page.IdentityAccess.import_users.import_draft_users.status.importing"
-msgstr "正在导入"
-
-msgid "Page.IdentityAccess.import_users.import_draft_users.status.success"
-msgstr "成员导入成功"
-
-msgid "Page.IdentityAccess.import_users.import_draft_users.will_notify_after_import"
-msgstr "正在导入成员，您可以离开此页面，完成后我们将通知您"
-
-msgid "Page.IdentityAccess.import_users.invalid_count"
-msgstr "错误数据 %{count} 条"
-
-msgid "Page.IdentityAccess.import_users.next_step"
-msgstr "下一步"
-
-msgid "Page.IdentityAccess.import_users.prev_step"
-msgstr "上一步"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.__t__"
-msgstr "数据预览"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.discard_uploaded_file_confirm.confirm_text"
-msgstr "上一步"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.discard_uploaded_file_confirm.description"
-msgstr "返回上一步将删除已经上传的文件"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.discard_uploaded_file_confirm.title"
-msgstr "是否放弃已上传的文件"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.extract_failed"
-msgstr "解析文件失败"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.skip_invalid_data_confirm.confirm_text"
-msgstr "继续导入"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.skip_invalid_data_confirm.description"
-msgstr "有 %{invalid_count} 条错误数据，继续导入将放弃错误数据"
-
-msgid "Page.IdentityAccess.import_users.review_draft_users.skip_invalid_data_confirm.title"
-msgstr "是否放弃错误的数据"
-
-msgid "Page.IdentityAccess.import_users.upload_file.__t__"
-msgstr "上传 Excel"
-
-msgid "Page.IdentityAccess.import_users.upload_file.file_accept"
-msgstr "支持 xlsx 文件"
-
-msgid "Page.IdentityAccess.import_users.upload_file.input_file"
-msgstr "选择 Excel 文件"
-
-msgid "Page.IdentityAccess.import_users.upload_file.resolve_exceed"
-msgstr "一次最多导入 %{count} 名成员"
-
-msgid "Page.IdentityAccess.import_users.upload_file.template.download.button"
-msgstr "点击下载导入模板"
-
-msgid "Page.IdentityAccess.import_users.upload_file.template.download.fail"
-msgstr "下载导入模板失败"
-
-msgid "Page.IdentityAccess.import_users.upload_file.template.name"
-msgstr "成员导入模板"
-
-msgid "Page.IdentityAccess.manage_department_users"
-msgstr "管理部门成员"
-
-msgid "Page.IdentityAccess.manage_user"
-msgstr "管理部门成员"
-
-msgid "Page.IdentityAccess.more_actions_for_department"
-msgstr "更多"
-
-msgid "Page.IdentityAccess.more_actions_for_user"
-msgstr "更多"
-
-msgid "Page.IdentityAccess.receive_user.__t__"
-msgstr "添加成员"
-
-msgid "Page.IdentityAccess.receive_user.short"
-msgstr "添加"
-
-msgid "Page.IdentityAccess.repel_user.confirm"
-msgstr "确定将%{user}从%{department}移除?"
-
-msgid "Page.IdentityAccess.repel_user.short"
-msgstr "移除"
-
-msgid "Page.IdentityAccess.repel_user.title"
-msgstr "从部门移除"
-
-msgid "Page.IdentityAccess.search_department"
-msgstr "搜索部门"
-
-msgid "Page.IdentityAccess.search_user"
-msgstr "搜索成员"
-
-msgid "Page.IdentityAccess.title.department.index"
-msgstr "所有成员"
-
-msgid "Page.IdentityAccess.title.department.show"
-msgstr "%{department_name}"
-
-msgid "Page.IdentityAccess.title.department.suspended"
-msgstr "无部门成员"
-
-msgid "Page.IdentityAccess.user_in_department"
-msgstr "已添加成员"
-
-msgid "Page.IdentityAccess.user_table_guidance"
-msgstr "你可以%{create_user}或者%{manage_user}"
-
-msgid "Page.IdentityAccess.view_department_members"
-msgstr "查看部门成员"
-
-msgid "Page.IdentityAccess.workspace"
-msgstr "团队"
-
-msgid "Page.Index.subtitle"
-msgstr "JET 用简单的方式，让你完全掌控你的工作"
-
-msgid "Page.Index.title"
-msgstr "🎉 用 JET 工作，高效、灵活 🎉"
-
-msgid "Page.Project.add_collaborators"
-msgstr "添加协作者"
-
-msgid "Page.Project.add_task_label"
-msgstr "添加标签"
-
-msgid "Page.Project.archive_project.__t__"
-msgstr "归档项目"
-
-msgid "Page.Project.archive_project.fail"
-msgstr "归档项目失败，请重试"
-
-msgid "Page.Project.archive_project.success"
-msgstr "已归档项目"
-
-msgid "Page.Project.archive_task.__t__"
-msgstr "归档任务"
-
-msgid "Page.Project.archive_task.fail"
-msgstr "归档任务失败"
-
-msgid "Page.Project.archive_task_group.__t__"
-msgstr "归档分组"
-
-msgid "Page.Project.archive_task_group.fail"
-msgstr "归档任务分组失败，请重试"
-
-msgid "Page.Project.archive_task_group.success"
-msgstr "已归档任务分组"
-
-msgid "Page.Project.archive_task_group.view_archived_task_group"
-msgstr "查看"
-
-msgid "Page.Project.archived_task_description"
-msgstr "任务已归档，不可修改"
-
-msgid "Page.Project.archived_task_group_description"
-msgstr "任务分组已归档，不可修改"
-
-msgid "Page.Project.archived_tasks.__t__"
-msgstr "已归档任务"
-
-msgid "Page.Project.archived_tasks.empty"
-msgstr "没有已归档的任务"
-
-msgid "Page.Project.archived_tasks.return_active_tasks"
-msgstr "你可以返回 %{project_name}"
-
-msgid "Page.Project.clone_task.__t__"
-msgstr "复制任务"
-
-msgid "Page.Project.clone_task.clone_to.__t__"
-msgstr "复制到"
-
-msgid "Page.Project.clone_task.clone_to.error.blank"
-msgstr "请选择复制到的位置"
-
-msgid "Page.Project.clone_task.invalid_target"
-msgstr "不能复制到当前任务下"
-
-msgid "Page.Project.clone_task.success"
-msgstr "复制任务成功"
-
-msgid "Page.Project.clone_task.view_cloned_task"
-msgstr "查看"
-
-msgid "Page.Project.completed_sub_task_count"
-msgstr "已完成子任务 ∙ %{count}"
-
-msgid "Page.Project.completed_task"
-msgstr "已完成任务"
-
-msgid "Page.Project.completed_task_count"
-msgstr "已完成任务 ∙ %{count}"
-
-msgid "Page.Project.create_project.__t__"
-msgstr "新建项目"
-
-msgid "Page.Project.create_project.short"
-msgstr "新建"
-
-msgid "Page.Project.create_project.upload_cover"
-msgstr "上传封面"
-
-msgid "Page.Project.create_sub_task.__t__"
-msgstr "新建子任务"
-
-msgid "Page.Project.create_task.__t__"
-msgstr "新建任务"
-
-msgid "Page.Project.create_task.guidance"
-msgstr "来为项目创建第一个任务吧"
-
-msgid "Page.Project.create_task.tip"
-msgstr "在任务前面加上感叹号， 标注重要或者紧急的任务"
-
-msgid "Page.Project.create_task_group.__t__"
-msgstr "新建分组"
-
-msgid "Page.Project.create_task_group.button"
-msgstr "确认，新建任务"
-
-msgid "Page.Project.create_task_group.fail"
-msgstr "创建失败"
-
-msgid "Page.Project.create_task_group.success"
-msgstr "创建成功"
-
-msgid "Page.Project.default_task_group_title"
-msgstr "待办任务"
-
-msgid "Page.Project.delete_attachment.__t__"
-msgstr "删除附件 %{attachment}？"
-
-msgid "Page.Project.delete_attachment.fail"
-msgstr "附件删除失败"
-
-msgid "Page.Project.discard_project.__t__"
-msgstr "删除项目"
-
-msgid "Page.Project.discard_project.confirm.description"
-msgstr "删除项目后，项目及项目有关的信息都将被删除，此操作不可撤销"
-
-msgid "Page.Project.discard_project.confirm.title"
-msgstr "删除项目？"
-
-msgid "Page.Project.discard_project.fail"
-msgstr "删除项目失败，请重试"
-
-msgid "Page.Project.discard_project.success"
-msgstr "项目已删除"
-
-msgid "Page.Project.discard_task.__t__"
-msgstr "删除任务"
-
-msgid "Page.Project.discard_task.confirm"
-msgstr "确定要删除这条任务吗?"
-
-msgid "Page.Project.discard_task.description"
-msgstr "此任务及以下子任务将被删除"
-
-msgid "Page.Project.discard_task.fail"
-msgstr "删除任务失败"
-
-msgid "Page.Project.discard_task.short"
-msgstr "删除"
-
-msgid "Page.Project.discard_task_group.__t__"
-msgstr "删除分组"
-
-msgid "Page.Project.discard_task_group.confirm.description"
-msgstr "分组及分组内任务都将被删除，此操作不可撤销"
-
-msgid "Page.Project.discard_task_group.confirm.title"
-msgstr "删除分组？"
-
-msgid "Page.Project.discard_task_group.fail"
-msgstr "删除任务分组失败，请重试"
-
-msgid "Page.Project.discard_task_group.success"
-msgstr "删除任务分组成功"
-
-msgid "Page.Project.discard_task_label.__t__"
-msgstr "删除标签"
-
-msgid "Page.Project.discard_task_label.confirm.description"
-msgstr "项目中所有的此标签都将被移除"
-
-msgid "Page.Project.discard_task_label.confirm.title"
-msgstr "删除标签？"
-
-msgid "Page.Project.discard_task_label.fail"
-msgstr "删除标签失败"
-
-msgid "Page.Project.discard_task_label.success"
-msgstr "删除标签成功"
-
-msgid "Page.Project.download_attachment.get_url_fail"
-msgstr "获取附件下载地址失败"
-
-msgid "Page.Project.draft_task.errors.assignee_user_boundary.not_match"
-msgstr "找不到匹配的成员"
-
-msgid "Page.Project.draft_task.errors.collaborator_user_boundary.not_match"
-msgstr "有未匹配的成员"
-
-msgid "Page.Project.draft_task.errors.due_on.format"
-msgstr "日期格式错误"
-
-msgid "Page.Project.draft_task.errors.parent.not_match"
-msgstr "找不到匹配的任务"
-
-msgid "Page.Project.draft_task.errors.parent_or_task_group.conflict"
-msgstr "上级任务和任务分组只需要填写其中之一"
-
-msgid "Page.Project.draft_task.errors.parent_or_task_group.presence"
-msgstr "上级任务和任务分组必须填写一个"
-
-msgid "Page.Project.draft_task.errors.priority.not_match"
-msgstr "优先级填写错误"
-
-msgid "Page.Project.draft_task.errors.profile.format"
-msgstr "填写不符合规则"
-
-msgid "Page.Project.draft_task.errors.profile.invalid"
-msgstr "格式错误"
-
-msgid "Page.Project.draft_task.errors.profile.length"
-msgstr "填写不符合规则"
-
-msgid "Page.Project.draft_task.errors.profile.other_option_not_permitted"
-msgstr "找不到匹配的选项"
-
-msgid "Page.Project.draft_task.errors.profile.range"
-msgstr "填写不符合规则"
-
-msgid "Page.Project.draft_task.errors.task_group.not_match"
-msgstr "找不到匹配的分组"
-
-msgid "Page.Project.draft_task.errors.task_labels.not_match"
-msgstr "有未匹配的标签"
-
-msgid "Page.Project.draft_task.errors.title.presence"
-msgstr "任务标题不能为空"
-
-msgid "Page.Project.edit_task_group"
-msgstr "编辑分组"
-
-msgid "Page.Project.empty_task"
-msgstr "还没有任务"
-
-msgid "Page.Project.exit_project.__t__"
-msgstr "退出项目"
-
-msgid "Page.Project.export_task.__t__"
-msgstr "导出任务"
-
-msgid "Page.Project.export_task.config.export_fields.__t__"
-msgstr "请选择导出的列"
-
-msgid "Page.Project.export_task.config.export_fields.all"
-msgstr "全部列"
-
-msgid "Page.Project.export_task.config.export_fields.visible"
-msgstr "显示的列"
-
-msgid "Page.Project.export_task.config.included_archived.__t__"
-msgstr "是否包含已归档的任务"
-
-msgid "Page.Project.export_task.config.included_archived.exclude"
-msgstr "不包含"
-
-msgid "Page.Project.export_task.config.included_archived.include"
-msgstr "包含"
-
-msgid "Page.Project.export_task.exporting.description"
-msgstr "也许需要几分钟，稍后将直接下载"
-
-msgid "Page.Project.export_task.exporting.title"
-msgstr "正在导出任务"
-
-msgid "Page.Project.fetch_project.fail"
-msgstr "获取项目失败"
-
-msgid "Page.Project.fetch_task.fail"
-msgstr "获取任务详情失败"
-
-msgid "Page.Project.grant_project_admin.__t__"
-msgstr "设置管理员"
-
-msgid "Page.Project.grant_project_admin.fail"
-msgstr "设置管理员失败"
-
-msgid "Page.Project.hide_completed_task"
-msgstr "隐藏"
-
-msgid "Page.Project.import_tasks.__t__"
-msgstr "导入任务"
-
-msgid "Page.Project.import_tasks.import_draft_tasks.__t__"
-msgstr "导入数据"
-
-msgid "Page.Project.import_tasks.import_draft_tasks.back_to_task_list"
-msgstr "返回任务列表"
-
-msgid "Page.Project.import_tasks.import_draft_tasks.import_tasks_successful"
-msgstr "成功导入 %{count} 条任务"
-
-msgid "Page.Project.import_tasks.import_draft_tasks.status.importing"
-msgstr "正在导入"
-
-msgid "Page.Project.import_tasks.import_draft_tasks.status.success"
-msgstr "任务导入成功"
-
-msgid "Page.Project.import_tasks.import_draft_tasks.will_notify_after_import"
-msgstr "正在导入任务，您可以离开此页面，完成后我们将通知您"
-
-msgid "Page.Project.import_tasks.invalid_count"
-msgstr "错误数据 %{count} 条"
-
-msgid "Page.Project.import_tasks.next_step"
-msgstr "下一步"
-
-msgid "Page.Project.import_tasks.prev_step"
-msgstr "上一步"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.__t__"
-msgstr "数据预览"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.discard_uploaded_file_confirm.confirm_text"
-msgstr "上一步"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.discard_uploaded_file_confirm.description"
-msgstr "返回上一步将删除已经上传的文件"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.discard_uploaded_file_confirm.title"
-msgstr "是否放弃已上传的文件"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.extract_failed"
-msgstr "解析文件失败"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.skip_invalid_data_confirm.confirm_text"
-msgstr "继续导入"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.skip_invalid_data_confirm.description"
-msgstr "有 %{invalid_count} 条错误数据，继续导入将放弃错误数据"
-
-msgid "Page.Project.import_tasks.review_draft_tasks.skip_invalid_data_confirm.title"
-msgstr "是否放弃错误的数据"
-
-msgid "Page.Project.import_tasks.upload_file.__t__"
-msgstr "上传 Excel"
-
-msgid "Page.Project.import_tasks.upload_file.file_accept"
-msgstr "支持 xlsx 文件"
-
-msgid "Page.Project.import_tasks.upload_file.input_file"
-msgstr "选择 Excel 文件"
-
-msgid "Page.Project.import_tasks.upload_file.resolve_exceed"
-msgstr "一次最多导入 %{count} 条任务"
-
-msgid "Page.Project.import_tasks.upload_file.template.download.button"
-msgstr "点击下载导入模板"
-
-msgid "Page.Project.import_tasks.upload_file.template.download.fail"
-msgstr "下载导入模板失败"
-
-msgid "Page.Project.import_tasks.upload_file.template.name"
-msgstr "任务导入模板"
-
-msgid "Page.Project.invite_member.__t__"
-msgstr "邀请新成员"
-
-msgid "Page.Project.manage_project_member.__t__"
-msgstr "管理项目成员"
-
-msgid "Page.Project.manage_task_label"
-msgstr "标签管理"
-
-msgid "Page.Project.move_task.__t__"
-msgstr "移动任务"
-
-msgid "Page.Project.move_task.invalid_target"
-msgstr "不能移动到当前任务下"
-
-msgid "Page.Project.move_task.move_to.__t__"
-msgstr "移动到"
-
-msgid "Page.Project.move_task.move_to.error.blank"
-msgstr "请选择移动到的位置"
-
-msgid "Page.Project.move_task.success"
-msgstr "移动任务成功"
-
-msgid "Page.Project.move_task.view_moved_task"
-msgstr "查看"
-
-msgid "Page.Project.my_tasks.__t__"
-msgstr "我的任务"
-
-msgid "Page.Project.my_tasks.assigned"
-msgstr "我负责的"
-
-msgid "Page.Project.my_tasks.blank"
-msgstr "还没有任务"
-
-msgid "Page.Project.my_tasks.collaborated"
-msgstr "我协作的"
-
-msgid "Page.Project.my_tasks.created"
-msgstr "我创建的"
-
-msgid "Page.Project.my_tasks.filter.completed"
-msgstr "已完成"
-
-msgid "Page.Project.my_tasks.filter.uncomplete"
-msgstr "未完成"
-
-msgid "Page.Project.my_tasks.filter_group.completed"
-msgstr "已完成任务"
-
-msgid "Page.Project.my_tasks.filter_group.uncomplete"
-msgstr "待办任务"
-
-msgid "Page.Project.my_tasks.subscribed"
-msgstr "我关注的"
-
-msgid "Page.Project.no_task_labels.__t__"
-msgstr "没有标签"
-
-msgid "Page.Project.no_task_labels.guidance"
-msgstr "没有标签， %{create_task_label}"
-
-msgid "Page.Project.no_task_labels.to_create"
-msgstr "去新建"
-
-msgid "Page.Project.project_configuration.__t__"
-msgstr "项目设置"
-
-msgid "Page.Project.project_configuration.basic.__t__"
-msgstr "项目基本信息"
-
-msgid "Page.Project.project_configuration.database.__t__"
-msgstr "数据表格设置"
-
-msgid "Page.Project.project_configuration.database.filter.__t__"
-msgstr "数据筛选"
-
-msgid "Page.Project.project_configuration.database.title"
-msgstr "关联数据表格"
-
-msgid "Page.Project.project_configuration.fail"
-msgstr "保存失败"
-
-msgid "Page.Project.project_configuration.success"
-msgstr "保存成功"
-
-msgid "Page.Project.project_configuration.task.__t__"
-msgstr "任务设置"
-
-msgid "Page.Project.project_configuration.task.index_key.description"
-msgstr "设置任务唯一 ID 前缀，默认前缀为项目名称前四位首字母，长度限制 2 ~ 8 个字母。"
-
-msgid "Page.Project.project_configuration.task.index_key.title"
-msgstr "任务ID"
-
-msgid "Page.Project.project_configuration.workflow.__t__"
-msgstr "流程设置"
-
-msgid "Page.Project.project_configuration.workflow.title"
-msgstr "任务中显示的流程"
-
-msgid "Page.Project.project_list.favorite.__t__"
-msgstr "星标项目"
-
-msgid "Page.Project.project_list.favorite.blankslate.description"
-msgstr "你可以将常用的项目标记为星标"
-
-msgid "Page.Project.project_list.favorite.blankslate.title"
-msgstr "你还没有星标项目"
-
-msgid "Page.Project.project_list.status.active.__t__"
-msgstr "我参与的项目"
-
-msgid "Page.Project.project_list.status.active.blankslate.description"
-msgstr "在这里为，团队创建第一个项目，然后开始协作吧 : )"
-
-msgid "Page.Project.project_list.status.archived.__t__"
-msgstr "已归档项目"
-
-msgid "Page.Project.project_list.status.archived.blankslate.description"
-msgstr "暂时还没有已归档项目"
-
-msgid "Page.Project.project_list.status.blank"
-msgstr "还没有项目"
-
-msgid "Page.Project.project_nav.report"
-msgstr "统计"
-
-msgid "Page.Project.project_nav.task"
-msgstr "任务"
-
-msgid "Page.Project.project_nav.workflow"
-msgstr "流程"
-
-msgid "Page.Project.report.cumulative_flow_diagram_report.__t__"
-msgstr "项目进展"
-
-msgid "Page.Project.report.cumulative_flow_diagram_report.task_cumulative_flow_diagram_state.completedCount"
-msgstr "任务完成数"
-
-msgid "Page.Project.report.cumulative_flow_diagram_report.task_cumulative_flow_diagram_state.totalCount"
-msgstr "任务总数"
-
-msgid "Page.Project.report.member_report.__t__"
-msgstr "成员任务统计"
-
-msgid "Page.Project.report.member_report.completed_tasks.label"
-msgstr "已完成任务"
-
-msgid "Page.Project.report.member_report.completed_tasks.legend"
-msgstr "已完成"
-
-msgid "Page.Project.report.member_report.incompleted_tasks.label"
-msgstr "未完成任务"
-
-msgid "Page.Project.report.member_report.incompleted_tasks.legend"
-msgstr "未完成"
-
-msgid "Page.Project.report.member_report.load_more"
-msgstr "加载更多成员"
-
-msgid "Page.Project.report.member_report.overdue_and_incompleted_tasks.label"
-msgstr "已逾期任务"
-
-msgid "Page.Project.report.member_report.overdue_and_incompleted_tasks.legend"
-msgstr "已逾期"
-
-msgid "Page.Project.report.member_report.unassigned"
-msgstr "未指派"
-
-msgid "Page.Project.report.overview.__t__"
-msgstr "总体任务统计"
-
-msgid "Page.Project.report.overview.completed_tasks"
-msgstr "已完成任务"
-
-msgid "Page.Project.report.overview.incompleted_tasks"
-msgstr "未完成任务"
-
-msgid "Page.Project.report.overview.info_boxes.due_and_completed_tasks.__t__"
-msgstr "按时完成任务"
-
-msgid "Page.Project.report.overview.info_boxes.due_and_completed_tasks.short"
-msgstr "完"
-
-msgid "Page.Project.report.overview.info_boxes.due_today_tasks.__t__"
-msgstr "今日到期任务"
-
-msgid "Page.Project.report.overview.info_boxes.due_today_tasks.short"
-msgstr "到"
-
-msgid "Page.Project.report.overview.info_boxes.overdue_and_completed_tasks.__t__"
-msgstr "逾期完成任务"
-
-msgid "Page.Project.report.overview.info_boxes.overdue_and_completed_tasks.short"
-msgstr "完"
-
-msgid "Page.Project.report.overview.info_boxes.overdue_and_incompleted_tasks.__t__"
-msgstr "已逾期任务"
-
-msgid "Page.Project.report.overview.info_boxes.overdue_and_incompleted_tasks.short"
-msgstr "逾"
-
-msgid "Page.Project.report.overview.ratio"
-msgstr "完成数"
-
-msgid "Page.Project.reposition_task.fail"
-msgstr "移动任务失败"
-
-msgid "Page.Project.reposition_task_group.fail"
-msgstr "移动任务分组失败"
-
-msgid "Page.Project.revoke_project_admin.__t__"
-msgstr "取消管理员"
-
-msgid "Page.Project.revoke_project_admin.domain_rule_violation"
-msgstr "至少需要一个管理员"
-
-msgid "Page.Project.revoke_project_admin.fail"
-msgstr "取消管理员失败"
-
-msgid "Page.Project.search.__t__"
-msgstr "搜索"
-
-msgid "Page.Project.search.blank"
-msgstr "暂无搜索结果。"
-
-msgid "Page.Project.search.global"
-msgstr "全局搜索"
-
-msgid "Page.Project.search.view_all"
-msgstr "查看全部结果"
-
-msgid "Page.Project.search_task_label"
-msgstr "搜索标签"
-
-msgid "Page.Project.separately_archived_task_group.title"
-msgstr "归档任务"
-
-msgid "Page.Project.share_task.__t__"
-msgstr "分享任务"
-
-msgid "Page.Project.show_completed_task"
-msgstr "显示"
-
-msgid "Page.Project.task_activity.blank"
-msgstr "暂无相关结果。"
-
-msgid "Page.Project.task_activity.type.all"
-msgstr "所有"
-
-msgid "Page.Project.task_activity.type.comment"
-msgstr "评论"
-
-msgid "Page.Project.task_activity.type.other"
-msgstr "动态"
-
-msgid "Page.Project.task_comment.discard.__t__"
-msgstr "删除"
-
-msgid "Page.Project.task_comment.discard.confirm"
-msgstr "删除评论?"
-
-msgid "Page.Project.task_comment.discard.fail"
-msgstr "删除评论失败"
-
-msgid "Page.Project.task_comment.discarded"
-msgstr "评论已被删除"
-
-msgid "Page.Project.task_comment.reply.__t__"
-msgstr "回复"
-
-msgid "Page.Project.task_comment.update.__t__"
-msgstr "编辑"
-
-msgid "Page.Project.task_comment.update.fail"
-msgstr "更新评论失败"
-
-msgid "Page.Project.task_comment.updated"
-msgstr "已编辑"
-
-msgid "Page.Project.task_description_content"
-msgstr "任务描述内容"
-
-msgid "Page.Project.task_filter.__t__"
-msgstr "任务筛选"
-
-msgid "Page.Project.task_filter.blank"
-msgstr "暂无当前筛选结果"
-
-msgid "Page.Project.task_filter.due_on.current_month"
-msgstr "本月"
-
-msgid "Page.Project.task_filter.due_on.current_week"
-msgstr "本周"
-
-msgid "Page.Project.task_filter.due_on.overdue"
-msgstr "已逾期"
-
-msgid "Page.Project.task_filter.due_on.set"
-msgstr "任意时间"
-
-msgid "Page.Project.task_filter.due_on.today"
-msgstr "今天"
-
-msgid "Page.Project.task_filter.due_on.tomorrow"
-msgstr "明天"
-
-msgid "Page.Project.task_filter.due_on.unset"
-msgstr "未设置"
-
-msgid "Page.Project.task_filter.placeholder.assignee"
-msgstr "负责人"
-
-msgid "Page.Project.task_filter.placeholder.due_on"
-msgstr "截止时间"
-
-msgid "Page.Project.task_filter.placeholder.task_label"
-msgstr "标签"
-
-msgid "Page.Project.task_filter.short"
-msgstr "筛选"
-
-msgid "Page.Project.task_labels_amount_exceeds_max_limitation"
-msgstr "标签数量达到上限"
-
-msgid "Page.Project.task_not_found.__t__"
-msgstr "对不起，找不到此任务"
-
-msgid "Page.Project.task_not_found.description"
-msgstr "任务可能没有权限或者已被删除"
-
-msgid "Page.Project.task_schema.__t__"
-msgstr "任务自定义字段"
-
-msgid "Page.Project.task_schema.blankslate"
-msgstr "点击表单字段以编辑自定义任务字段"
-
-msgid "Page.Project.task_schema.internal_field"
-msgstr "系统字段"
-
-msgid "Page.Project.task_subscription.__t__"
-msgstr "关注任务"
-
-msgid "Page.Project.task_subscription.add"
-msgstr "加关注"
-
-msgid "Page.Project.task_subscription.add_subscribers"
-msgstr "添加关注成员"
-
-msgid "Page.Project.task_subscription.blank"
-msgstr "暂无关注的成员"
-
-msgid "Page.Project.task_subscription.remove"
-msgstr "取消关注"
-
-msgid "Page.Project.task_subscription.subscribed"
-msgstr "已关注"
-
-msgid "Page.Project.task_subscription.subscribed_member"
-msgstr "已关注任务的成员"
-
-msgid "Page.Project.task_subscription.update_subscriber_error"
-msgstr "更新关注者失败"
-
-msgid "Page.Project.task_table.cell.disabled_tooltip"
-msgstr "该字段被逻辑控制，不能填写"
-
-msgid "Page.Project.task_table.cell.empty_text.unset"
-msgstr "请设置"
-
-msgid "Page.Project.task_table.visible_columns"
-msgstr "显示字段"
-
-msgid "Page.Project.title.list"
-msgstr "项目"
-
-msgid "Page.Project.title.project_show"
-msgstr "%{project_name}"
-
-msgid "Page.Project.title.task_show"
-msgstr "%{task_title}"
-
-msgid "Page.Project.unarchive_project.__t__"
-msgstr "取消归档项目"
-
-msgid "Page.Project.unarchive_project.fail"
-msgstr "取消归档项目失败，请重试"
-
-msgid "Page.Project.unarchive_project.success"
-msgstr "取消归档项目"
-
-msgid "Page.Project.unarchive_task.__t__"
-msgstr "恢复任务"
-
-msgid "Page.Project.unarchive_task.fail"
-msgstr "恢复任务失败"
-
-msgid "Page.Project.unarchive_task_group.__t__"
-msgstr "取消归档"
-
-msgid "Page.Project.unarchive_task_group.fail"
-msgstr "取消归档任务分组失败，请重试"
-
-msgid "Page.Project.unarchive_task_group.success"
-msgstr "取消归档任务分组"
-
-msgid "Page.Project.update_collaborators_fail"
-msgstr "修改协作者失败"
-
-msgid "Page.Project.update_project_member.domain_rule_violation"
-msgstr "至少需要一个管理员"
-
-msgid "Page.Project.update_project_member.fail"
-msgstr "更新项目成员失败"
-
-msgid "Page.Project.update_project_member.receive"
-msgstr "添加成员"
-
-msgid "Page.Project.update_project_member.repel.__t__"
-msgstr "移除成员"
-
-msgid "Page.Project.update_project_member.repel.short"
-msgstr "移除"
-
-msgid "Page.Project.update_task_fail"
-msgstr "更新失败"
-
-msgid "Page.Project.update_task_group_fail"
-msgstr "更新任务分组失败"
-
-msgid "Page.Project.upload_task_attachment.__t__"
-msgstr "添加附件"
-
-msgid "Page.Project.upload_task_attachment.drag_upload"
-msgstr "将文件拖动到这里直接上传"
-
-msgid "Page.Workflow.case.executions.completed"
-msgstr "已执行"
-
-msgid "Page.Workflow.case.view"
-msgstr "查看流程"
-
-msgid "Page.Workflow.nodes.automatic_operation.change_operation"
-msgstr "替换"
-
-msgid "Page.Workflow.nodes.automatic_operation.change_operation_confirmation"
-msgstr "替换操作？"
-
-msgid "Page.Workflow.nodes.automatic_operation.change_operation_description"
-msgstr "替换后所有设置不可恢复"
-
-msgid "Page.Workflow.nodes.automatic_operation.database_add_row.__t__"
+msgid "attribute.workflow.node.database_automatic_operation_add_row.operation"
 msgstr "新建数据"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_add_row.choose_table"
-msgstr "选择要执行的数据表格"
+msgid "attribute.workflow.node.database_automatic_operation_add_row.schema_field.row.__t__"
+msgstr "填写记录"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_add_row.no_columns"
-msgstr "没有可用字段"
+msgid "attribute.workflow.node.database_automatic_operation_update_row.__t__"
+msgstr "系统执行"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_operations"
-msgstr "数据表格"
-
-msgid "Page.Workflow.nodes.automatic_operation.database_update_row.__t__"
+msgid "attribute.workflow.node.database_automatic_operation_update_row.operation"
 msgstr "修改字段"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_update_row.choose_row"
-msgstr "选择要执行的填写记录"
+msgid "attribute.workflow.node.database_automatic_operation_update_row.schema_field.row.__t__"
+msgstr "填写记录"
 
-msgid "Page.Workflow.nodes.automatic_operation.database_update_row.no_columns"
-msgstr "没有可用字段"
+msgid "attribute.workflow.node.deferred_choice.__t__"
+msgstr "单条流转"
 
-msgid "Page.Workflow.nodes.automatic_operation.update_case_variables.__t__"
-msgstr "修改流程数据"
+msgid "attribute.workflow.node.end.__t__"
+msgstr "结束"
 
-msgid "Page.Workflow.nodes.automatic_operation.workflow_operations"
-msgstr "流程"
+msgid "attribute.workflow.node.exclusive_choice.__t__"
+msgstr "单条流转"
 
-msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.__t__"
-msgstr "修改所属主体"
+msgid "attribute.workflow.node.form.__t__"
+msgstr "填写节点"
 
-msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.choose_case"
-msgstr "选择要执行的流程数据"
+msgid "attribute.workflow.node.form.schema_field.filled_at.__t__"
+msgstr "填写时间"
 
-msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.current_case"
-msgstr "当前流程数据"
-
-msgid "Page.Workflow.nodes.automatic_operation.workflow_update_subject.subject"
-msgstr "所属主体"
-
-msgid "Page.Workflow.nodes.condition.add_filter"
-msgstr "添加条件"
-
-msgid "Page.Workflow.nodes.condition.add_filter_group"
-msgstr "添加条件组"
-
-msgid "Page.Workflow.nodes.condition.no_available_filter"
-msgstr "没有可添加的条件"
-
-msgid "Page.Workflow.nodes.condition.no_filter"
-msgstr "暂无条件"
-
-msgid "Page.Workflow.nodes.condition.not_set"
-msgstr "未设置"
-
-msgid "Page.Workflow.nodes.condition.operator.AND"
-msgstr "且"
-
-msgid "Page.Workflow.nodes.condition.operator.OR"
-msgstr "或"
-
-msgid "Page.Workflow.nodes.condition.or"
-msgstr "或"
-
-msgid "Page.Workflow.nodes.custom.output.label"
-msgstr "需要输出的信息"
-
-msgid "Page.Workflow.nodes.custom.program.label"
-msgstr "运行文件"
-
-msgid "Page.Workflow.nodes.custom.program.upload.accept"
-msgstr "限制格式为 .wasm"
-
-msgid "Page.Workflow.nodes.custom.program.upload.button"
-msgstr "上传文件"
-
-msgid "Page.Workflow.nodes.custom.program.upload.title"
-msgstr "文件上传"
-
-msgid "Page.Workflow.nodes.custom.source.label"
-msgstr "需要使用的信息"
-
-msgid "Page.Workflow.nodes.deferred_choice.__t__"
-msgstr "延迟流转"
-
-msgid "Page.Workflow.nodes.deferred_choice.description"
-msgstr "流转方式下连接的动作需要一定时间的等待"
-
-msgid "Page.Workflow.nodes.exclusive_choice.__t__"
-msgstr "立即流转"
-
-msgid "Page.Workflow.nodes.exclusive_choice.config.label"
-msgstr "选择流转的方式"
-
-msgid "Page.Workflow.nodes.exclusive_choice.description"
-msgstr "流转方式下连接的条件可以被立即判断"
-
-msgid "Page.Workflow.nodes.form.fields.blank"
-msgstr "暂无内容"
-
-msgid "Page.Workflow.nodes.form.filler"
+msgid "attribute.workflow.node.form.schema_field.fillers.__t__"
 msgstr "填写人"
 
-msgid "Page.Workflow.nodes.form.not_set"
-msgstr "未设置"
-
-msgid "Page.Workflow.nodes.form.settings.basic"
-msgstr "基本设置"
-
-msgid "Page.Workflow.nodes.form.settings.form"
-msgstr "表单设置"
-
-msgid "Page.Workflow.nodes.timer.config.label"
-msgstr "设置定时器"
-
-msgid "Page.Workflow.nodes.timer.not_set"
-msgstr "未设置"
-
-msgid "Page.Workflow.nodes.timer.relativity.AFTER"
-msgstr "后"
-
-msgid "Page.Workflow.nodes.timer.relativity.BEFORE"
-msgstr "前"
-
-msgid "Page.Workflow.nodes.timer.relativity.IS"
-msgstr "当时"
-
-msgid "Page.Workflow.nodes.timer.unit.DAY"
-msgstr "天"
-
-msgid "Page.Workflow.nodes.timer.unit.HOUR"
-msgstr "小时"
-
-msgid "Page.Workflow.nodes.timer.unit.MINUTE"
-msgstr "分钟"
-
-msgid "Page.Workflow.nodes.workflow_case_trigger.schema.add"
-msgstr "添加信息"
-
-msgid "Page.Workflow.nodes.workflow_case_trigger.schema.blank"
-msgstr "暂无信息"
-
-msgid "Page.Workflow.nodes.workflow_case_trigger.schema.label"
-msgstr "需要使用的信息"
-
-msgid "Page.Workflow.nodes.workflow_case_trigger.schema.update"
-msgstr "更改信息"
-
-msgid "Page.Workflow.schema.__t__"
-msgstr "流程表单"
-
-msgid "Page.Workflow.schema.blankslate"
-msgstr "点击表单字段进行添加"
-
-msgid "Page.Workflow.schema.delete_field_confirm.description"
-msgstr "删除后节点中此字段将被删除"
-
-msgid "Page.Workflow.schema.fields.SubmitButtonField.__t__"
-msgstr "按钮"
-
-msgid "Page.Workflow.schema.fields.SubmitButtonField.default_value"
+msgid "attribute.workflow.node.form.state.completed"
 msgstr "提交"
 
-msgid "Page.Workflow.schema.fields.SubmitButtonField.name"
-msgstr "按钮名称"
+msgid "attribute.workflow.node.form.state.started"
+msgstr "等待处理"
 
-msgid "Page.Workflow.validation.buckle"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.multi_merge.__t__"
+msgstr "多条聚合"
 
-msgid "Page.Workflow.validation.dangling_link"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.outputs.__t__"
+msgstr "节点输出"
 
-msgid "Page.Workflow.validation.dangling_node"
-msgstr "有不符合规则的节点"
+msgid "attribute.workflow.node.outputs.common_field_completed_at"
+msgstr "执行时间"
 
-msgid "Page.Workflow.validation.duplicated_end_nodes"
-msgstr "结束节点只能有一个"
+msgid "attribute.workflow.node.simple_merge.__t__"
+msgstr "单条聚合"
 
-msgid "Page.Workflow.validation.duplicated_links"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.start.__t__"
+msgstr "开始"
 
-msgid "Page.Workflow.validation.duplicated_start_nodes"
-msgstr "开始节点只能有一个"
+msgid "attribute.workflow.node.start.schema_field.created_via.__t__"
+msgstr "创建方式"
 
-msgid "Page.Workflow.validation.loop_link"
-msgstr "连线的端点不能相同"
+msgid "attribute.workflow.node.start.schema_field.created_via.candidate_values.clone"
+msgstr "复制"
 
-msgid "Page.Workflow.validation.missing_choice_node"
-msgstr "请在条件节点前添加流转方式"
+msgid "attribute.workflow.node.start.schema_field.created_via.candidate_values.import"
+msgstr "导入"
 
-msgid "Page.Workflow.validation.missing_end_node"
-msgstr "结束节点必须存在"
+msgid "attribute.workflow.node.start.schema_field.created_via.candidate_values.user"
+msgstr "用户创建"
 
-msgid "Page.Workflow.validation.missing_from_node"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.start.schema_field.description.__t__"
+msgstr "任务描述"
 
-msgid "Page.Workflow.validation.missing_start_node"
-msgstr "开始节点必须存在"
+msgid "attribute.workflow.node.start.schema_field.due_on.__t__"
+msgstr "截止时间"
 
-msgid "Page.Workflow.validation.missing_task_node"
-msgstr "请添加更多节点以便流程运行"
+msgid "attribute.workflow.node.start.schema_field.priority.__t__"
+msgstr "优先级"
 
-msgid "Page.Workflow.validation.missing_to_node"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.start.schema_field.priority.candidate_values.high"
+msgstr "紧急"
 
-msgid "Page.Workflow.validation.non_pair_choice_and_merge"
-msgstr "多条流转和多条聚合必须成对出现"
+msgid "attribute.workflow.node.start.schema_field.priority.candidate_values.highest"
+msgstr "非常紧急"
 
-msgid "Page.Workflow.validation.nonexisting_end_node"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.start.schema_field.priority.candidate_values.low"
+msgstr "低"
 
-msgid "Page.Workflow.validation.nonexisting_from_node"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.start.schema_field.priority.candidate_values.medium"
+msgstr "普通"
 
-msgid "Page.Workflow.validation.redundant_links"
-msgstr "有不符合规则的连线"
+msgid "attribute.workflow.node.start.schema_field.title.__t__"
+msgstr "任务标题"
 
-msgid "Page.Workflow.value_presenter.select.date_time_field.literal.title"
-msgstr "时间"
+msgid "attribute.workflow.node.state.completed"
+msgstr "执行"
 
-msgid "Page.Workflow.value_presenter.select.date_time_field.reference.title"
-msgstr "动态时间"
+msgid "attribute.workflow.node.state.started"
+msgstr "等待"
 
-msgid "Page.Workflow.value_presenter.select.single_line_field.literal.title"
-msgstr "文本"
+msgid "attribute.workflow.node.timer.__t__"
+msgstr "定时器"
 
-msgid "Page.Workflow.value_presenter.select.single_line_field.reference.title"
-msgstr "动态文本"
+msgid "attribute.workflow.node.timer.schema_field.end_at.__t__"
+msgstr "执行时间"
 
-msgid "Page.Workflow.value_presenter.select.user_boundary_field.department.title"
-msgstr "部门"
+msgid "attribute.workflow.node.workflow_automatic_operation_update_case_subject.__t__"
+msgstr "系统执行"
 
-msgid "Page.Workflow.value_presenter.select.user_boundary_field.reference.title"
-msgstr "动态角色"
+msgid "attribute.workflow.node.workflow_automatic_operation_update_case_subject.operation"
+msgstr "修改所属主体"
 
-msgid "Page.Workflow.value_presenter.select.user_boundary_field.user.title"
-msgstr "成员"
+msgid "attribute.workflow.node.workflow_automatic_operation_update_case_variables.__t__"
+msgstr "系统执行"
 
-msgid "Page.Workflow.value_presenter_search.blankslate.default"
-msgstr "暂无相关数据"
+msgid "attribute.workflow.node.workflow_automatic_operation_update_case_variables.operation"
+msgstr "修改流程数据"
 
-msgid "Page.Workflow.workflow.case_count_is_executing"
-msgstr "%{ executing_case_count } 条正在运行中"
+msgid "attribute.workflow.node.workflow_case_trigger.__t__"
+msgstr "触发节点"
 
-msgid "Page.Workflow.workflow.create"
-msgstr "新建流程"
+msgid "attribute.workflow.resource.project_project.__t__"
+msgstr "项目"
 
-msgid "Page.Workflow.workflow.editor.back_to_workflow_list"
-msgstr "返回流程列表"
+msgid "attribute.workflow.resource.project_project.title"
+msgstr "项目名称"
 
-msgid "Page.Workflow.workflow.list.__t__"
-msgstr "流程列表"
+msgid "attribute.workflow.resource.project_task.__t__"
+msgstr "任务"
 
-msgid "Page.Workflow.workflow.list.blank"
-msgstr "暂无数据"
+msgid "attribute.workflow.resource.project_task.assignee"
+msgstr "负责人"
 
-msgid "Page.Workflow.workflow.operation.__t__"
-msgstr "流程操作"
+msgid "attribute.workflow.resource.project_task.created_via"
+msgstr "创建方式"
 
-msgid "Page.Workflow.workflow.operation.activate"
-msgstr "开启流程"
+msgid "attribute.workflow.resource.project_task.description"
+msgstr "任务描述"
 
-msgid "Page.Workflow.workflow.operation.suspend"
-msgstr "停用流程"
+msgid "attribute.workflow.resource.project_task.due_on"
+msgstr "截止时间"
 
-msgid "Page.Workflow.workflow.settings.__t__"
-msgstr "流程扩展设置"
+msgid "attribute.workflow.resource.project_task.priority"
+msgstr "优先级"
 
-msgid "Page.Workflow.workflow.settings.workflow_variables.__t__"
-msgstr "流程数据设置"
+msgid "attribute.workflow.resource.project_task.title"
+msgstr "任务标题"
 
-msgid "Page.Workflow.workflow.settings.workflow_variables.add"
-msgstr "点击流程数据字段进行添加"
+msgid "attribute.workflow.trigger.events.project_task_created"
+msgstr "创建任务"
 
-msgid "Page.Workflow.workflow.settings.workflow_variables.edit"
-msgstr "编辑流程数据"
+msgid "attribute.workflow.trigger.events.workflow_case_trigger_node_executed"
+msgstr "触发节点"
 
-msgid "Page.Workflow.workflow.settings.workflow_variables.tooltip"
-msgstr "你可以为流程数据添加字段"
+msgid "attribute.workflow.trigger.outputs"
+msgstr "事件输出"
 
-msgid "Page.Workflow.workflow.state_hint"
-msgstr "有新的修改未发布"
+msgid "attribute.workflow.workflow.__t__"
+msgstr "流程"
 
-msgid "Page.Workflow.workflow.unpublished"
-msgstr "未发布"
+msgid "attribute.workflow.workflow.case_count"
+msgstr "流程记录"
 
-msgid "Page.application"
+msgid "attribute.workflow.workflow.state.__t__"
+msgstr "流程状态"
+
+msgid "attribute.workflow.workflow.state.processing"
+msgstr "进行中"
+
+msgid "attribute.workflow.workflow.state.terminated"
+msgstr "已停用"
+
+msgid "attribute.workflow.workflow.title"
+msgstr "流程名称"
+
+msgid "attribute.workflow.workflow.variables"
+msgstr "流程数据"
+
+msgid "common.collapse.less"
+msgstr "点击收起"
+
+msgid "common.collapse.more"
+msgstr "显示更多"
+
+msgid "common.editor.extension.link.href"
+msgstr "链接地址"
+
+msgid "common.editor.extension.link.text"
+msgstr "链接文字"
+
+msgid "common.errors.format"
+msgstr "%{attribute}%{message}"
+
+msgid "common.errors.messages.absence"
+msgstr "必须为空"
+
+msgid "common.errors.messages.email"
+msgstr "邮箱格式不正确"
+
+msgid "common.errors.messages.format"
+msgstr "格式错误"
+
+msgid "common.errors.messages.inclusion"
+msgstr "必须为 %{list} 其中的一个"
+
+msgid "common.errors.messages.length.in"
+msgstr "%{min} ~ %{max}"
+
+msgid "common.errors.messages.length.is"
+msgstr "%{is}"
+
+msgid "common.errors.messages.length.max"
+msgstr "小于 %{max}"
+
+msgid "common.errors.messages.length.min"
+msgstr "大于 %{min}"
+
+msgid "common.errors.messages.network"
+msgstr "请检查网络连接"
+
+msgid "common.errors.messages.operation_failed"
+msgstr "操作失败"
+
+msgid "common.errors.messages.phone"
+msgstr "请检查手机号码是否正确"
+
+msgid "common.errors.messages.presence"
+msgstr "不能为空"
+
+msgid "common.errors.messages.range.equal_to"
+msgstr "必须等于 %{equal_to}"
+
+msgid "common.errors.messages.range.greater_than_or_equal_to"
+msgstr "必须大于等于 %{lower}"
+
+msgid "common.errors.messages.range.in"
+msgstr "必须处于 %{lower} ~ %{upper} 之间"
+
+msgid "common.errors.messages.range.less_than_or_equal_to"
+msgstr "必须小于等于 %{upper}"
+
+msgid "common.errors.messages.uniqueness"
+msgstr "已存在"
+
+msgid "common.feedback.cancel"
+msgstr "取消"
+
+msgid "common.feedback.confirm"
+msgstr "确定"
+
+msgid "common.feedback.title"
+msgstr "标题"
+
+msgid "common.file.click_to_download"
+msgstr "点击下载"
+
+msgid "common.file.extension.archive"
+msgstr "压缩文件"
+
+msgid "common.file.extension.audio"
+msgstr "音频"
+
+msgid "common.file.extension.excel"
+msgstr "电子表格"
+
+msgid "common.file.extension.image"
+msgstr "图片"
+
+msgid "common.file.extension.pdf"
+msgstr "便携文档"
+
+msgid "common.file.extension.powerpoint"
+msgstr "演示文稿"
+
+msgid "common.file.extension.text"
+msgstr "文稿"
+
+msgid "common.file.extension.unknown"
+msgstr "其他格式"
+
+msgid "common.file.extension.video"
+msgstr "视频"
+
+msgid "common.file.extension.word"
+msgstr "文档"
+
+msgid "common.file.not_support_preview"
+msgstr "暂不支持此类型预览"
+
+msgid "common.form.__t__"
+msgstr "表单"
+
+msgid "common.form.edit.__t__"
+msgstr "编辑表单"
+
+msgid "common.form.field"
+msgstr "%{context}字段"
+
+msgid "common.form.fill.__t__"
+msgstr "填写表单"
+
+msgid "common.form.fill.confirm"
+msgstr "提交"
+
+msgid "common.form.fill.success"
+msgstr "%{confirm}成功"
+
+msgid "common.input.placeholder.default"
+msgstr "请输入"
+
+msgid "common.input.placeholder.phone"
+msgstr "请输入手机号码"
+
+msgid "common.input.placeholder.search"
+msgstr "搜索"
+
+msgid "common.input.placeholder.verification_code"
+msgstr "请输入验证码"
+
+msgid "common.list.blank"
+msgstr "暂无%{target}"
+
+msgid "common.operation.add"
+msgstr "添加"
+
+msgid "common.operation.cancel"
+msgstr "取消"
+
+msgid "common.operation.complete"
+msgstr "完成"
+
+msgid "common.operation.confirm"
+msgstr "确认"
+
+msgid "common.operation.create"
+msgstr "新建"
+
+msgid "common.operation.delete"
+msgstr "删除"
+
+msgid "common.operation.edit"
+msgstr "编辑"
+
+msgid "common.operation.reset"
+msgstr "重置"
+
+msgid "common.operation.save"
+msgstr "保存"
+
+msgid "common.paginator.load_fail"
+msgstr "加载失败"
+
+msgid "common.paginator.load_more"
+msgstr "加载更多"
+
+msgid "common.paginator.reload"
+msgstr "请点击重新加载"
+
+msgid "common.select.clear"
+msgstr "清除所选"
+
+msgid "common.select.date_time.clear"
+msgstr "清除"
+
+msgid "common.select.date_time.confirm"
+msgstr "确定"
+
+msgid "common.select.date_time.mode.date"
+msgstr "选日期"
+
+msgid "common.select.date_time.mode.time"
+msgstr "选时间"
+
+msgid "common.select.date_time.select_now"
+msgstr "立即"
+
+msgid "common.select.placeholder.date"
+msgstr "请选择日期"
+
+msgid "common.select.placeholder.date_time"
+msgstr "请选择日期时间"
+
+msgid "common.select.placeholder.default"
+msgstr "请选择"
+
+msgid "common.select.placeholder.time"
+msgstr "请选择时间"
+
+msgid "common.select.search.blank.default"
+msgstr "暂无搜索结果。"
+
+msgid "common.select.search.blank.department"
+msgstr "暂无匹配的部门"
+
+msgid "common.separator"
+msgstr "、"
+
+msgid "common.unit.time.month"
+msgstr "月"
+
+msgid "common.unit.time.second"
+msgstr "秒"
+
+msgid "common.uploader.again"
+msgstr "重新加载"
+
+msgid "common.uploader.button_text"
+msgstr "文件上传"
+
+msgid "common.uploader.failure"
+msgstr "上传失败"
+
+msgid "common.uploader.too_large"
+msgstr "上传失败，文件大小不得超过 %{max_size}"
+
+msgid "common.uploader.uploading"
+msgstr "上传中"
+
+msgid "page.access_control.application_configuration"
+msgstr "应用管理"
+
+msgid "page.access_control.assign_role.__t__"
+msgstr "添加成员"
+
+msgid "page.access_control.change_permission_fail"
+msgstr "权限更改失败"
+
+msgid "page.access_control.create_role.__t__"
+msgstr "新建角色"
+
+msgid "page.access_control.delete_role.__t__"
+msgstr "删除角色"
+
+msgid "page.access_control.delete_role.description"
+msgstr "删除后不能恢复"
+
+msgid "page.access_control.delete_role.fail"
+msgstr "删除失败"
+
+msgid "page.access_control.delete_role.success"
+msgstr "删除成功"
+
+msgid "page.access_control.empty_actor"
+msgstr "暂无成员。"
+
+msgid "page.access_control.role_management"
+msgstr "角色管理"
+
+msgid "page.access_control.title.role"
+msgstr "角色管理"
+
+msgid "page.access_control.unassign_role.__t__"
+msgstr "移除成员"
+
+msgid "page.access_control.unassign_role.fail"
+msgstr "移除失败"
+
+msgid "page.access_control.unassign_role.short"
+msgstr "移除"
+
+msgid "page.access_control.unassign_role.success"
+msgstr "移除成功"
+
+msgid "page.access_control.update_role.__t__"
+msgstr "修改角色"
+
+msgid "page.access_control.update_role.name"
+msgstr "编辑名称"
+
+msgid "page.account.add_user_field_guidance"
+msgstr "点击表单字段或拖动到此区域以编辑自定义成员属性"
+
+msgid "page.account.my_profile.__t__"
+msgstr "个人设置"
+
+msgid "page.account.my_profile.update_avatar.__t__"
+msgstr "修改头像"
+
+msgid "page.account.my_profile.update_avatar.confirm"
+msgstr "确认修改"
+
+msgid "page.account.my_profile.update_avatar.custom_avatar"
+msgstr "自定义"
+
+msgid "page.account.my_profile.update_avatar.internal_avatar"
+msgstr "系统头像"
+
+msgid "page.account.my_profile.update_avatar.upload"
+msgstr "点击上传"
+
+msgid "page.account.title.my_profile"
+msgstr "个人设置"
+
+msgid "page.account.title.user_schema"
+msgstr "自定义成员属性"
+
+msgid "page.account.user_schema"
+msgstr "自定义成员属性"
+
+msgid "page.activity.notification.all"
+msgstr "全部"
+
+msgid "page.activity.notification.assignment_event.assign.department"
+msgstr "将%{department}设置为任务负责人"
+
+msgid "page.activity.notification.assignment_event.assign.user"
+msgstr "将你设置为任务负责人"
+
+msgid "page.activity.notification.assignment_event.reassign.department"
+msgstr "将%{department}设置为任务负责人"
+
+msgid "page.activity.notification.assignment_event.reassign.user"
+msgstr "将你设置为任务负责人"
+
+msgid "page.activity.notification.collaboration_event"
+msgstr "将你设置为任务协作者"
+
+msgid "page.activity.notification.comment_event.create"
+msgstr "评论了任务"
+
+msgid "page.activity.notification.comment_event.mention"
+msgstr "在任务评论提及了你"
+
+msgid "page.activity.notification.mark_all_read.__t__"
+msgstr "全部标记为已读"
+
+msgid "page.activity.notification.mark_all_read.fail"
+msgstr "操作失败"
+
+msgid "page.activity.notification.new_notification_created"
+msgstr "有新的提醒，点击查看"
+
+msgid "page.activity.notification.no_new_notification"
+msgstr "没有新的提醒"
+
+msgid "page.activity.notification.no_notifications"
+msgstr "暂无提醒"
+
+msgid "page.activity.notification.task_event.complete"
+msgstr "完成了任务"
+
+msgid "page.activity.notification.task_event.uncomplete"
+msgstr "重新打开了任务"
+
+msgid "page.activity.notification.title"
+msgstr "提醒中心"
+
+msgid "page.activity.notification.unread"
+msgstr "未读"
+
+msgid "page.activity.notification.updation_event.clear_due_on"
+msgstr "清空了任务截止时间"
+
+msgid "page.activity.notification.updation_event.due_on"
+msgstr "修改了任务截止时间"
+
+msgid "page.activity.notification.updation_event.update_due_on"
+msgstr "更改时间为 %{time}"
+
+msgid "page.activity.notification.view_all"
+msgstr "查看全部"
+
+msgid "page.activity.task_activity.assignment_event.assign"
+msgstr "设置了任务负责人"
+
+msgid "page.activity.task_activity.assignment_event.reassign"
+msgstr "修改了任务负责人"
+
+msgid "page.activity.task_activity.assignment_event.unassign"
+msgstr "移除了任务负责人"
+
+msgid "page.activity.task_activity.attachment_event.create"
+msgstr "上传了附件"
+
+msgid "page.activity.task_activity.attachment_event.delete"
+msgstr "删除了附件"
+
+msgid "page.activity.task_activity.collaboration_event.add"
+msgstr "添加了任务协作者"
+
+msgid "page.activity.task_activity.collaboration_event.remove"
+msgstr "移除了任务协作者"
+
+msgid "page.activity.task_activity.collaboration_event.update"
+msgstr "添加了任务协作者 %{added_collaborators} 同时移除了任务协作者 %{removed_collaborators}"
+
+msgid "page.activity.task_activity.sub_task_event.complete"
+msgstr "完成了子任务"
+
+msgid "page.activity.task_activity.sub_task_event.create"
+msgstr "创建了子任务"
+
+msgid "page.activity.task_activity.sub_task_event.discard"
+msgstr "删除了子任务"
+
+msgid "page.activity.task_activity.sub_task_event.uncomplete"
+msgstr "重新打开了子任务"
+
+msgid "page.activity.task_activity.subscription_event.add.__t__"
+msgstr "添加了任务关注者"
+
+msgid "page.activity.task_activity.subscription_event.add.self"
+msgstr "关注了任务"
+
+msgid "page.activity.task_activity.subscription_event.remove.__t__"
+msgstr "移除了任务关注者"
+
+msgid "page.activity.task_activity.subscription_event.remove.self"
+msgstr "取消关注任务"
+
+msgid "page.activity.task_activity.task_event.archive"
+msgstr "归档了任务"
+
+msgid "page.activity.task_activity.task_event.change_belonger.__t__"
+msgstr "移动了任务"
+
+msgid "page.activity.task_activity.task_event.change_belonger.full"
+msgstr "将任务从 %{from} 移动到 %{to}"
+
+msgid "page.activity.task_activity.task_event.clone"
+msgstr "复制了任务"
+
+msgid "page.activity.task_activity.task_event.complete"
+msgstr "完成了任务"
+
+msgid "page.activity.task_activity.task_event.create"
+msgstr "创建了任务"
+
+msgid "page.activity.task_activity.task_event.unarchive"
+msgstr "取消了归档"
+
+msgid "page.activity.task_activity.task_event.uncomplete"
+msgstr "重新打开了任务"
+
+msgid "page.activity.task_activity.task_label_event.add"
+msgstr "添加了任务标签"
+
+msgid "page.activity.task_activity.task_label_event.remove"
+msgstr "移除了任务标签"
+
+msgid "page.activity.task_activity.task_label_event.update"
+msgstr "添加了任务标签  %{added_task_labels} 同时移除了任务标签  %{removed_task_labels}"
+
+msgid "page.activity.task_activity.task_profile_updation_event.__t__"
+msgstr "修改了%{field_label}  %{field_value}"
+
+msgid "page.activity.task_activity.task_profile_updation_event.blank"
+msgstr "无"
+
+msgid "page.activity.task_activity.updation_event.update_description"
+msgstr "修改了任务描述"
+
+msgid "page.activity.task_activity.updation_event.update_due_on"
+msgstr "修改了任务截止时间"
+
+msgid "page.activity.task_activity.updation_event.update_priority.add"
+msgstr "设置优先级为"
+
+msgid "page.activity.task_activity.updation_event.update_priority.change"
+msgstr "将优先级由 %{old_priority} 修改为 %{new_priority}"
+
+msgid "page.activity.task_activity.updation_event.update_title"
+msgstr "修改了任务标题"
+
+msgid "page.application"
 msgstr "Jet"
 
-msgid "Page.loading"
+msgid "page.auth.authorize_failed"
+msgstr "登录失败"
+
+msgid "page.auth.generate_verification_code"
+msgstr "获取验证码"
+
+msgid "page.auth.logout.__t__"
+msgstr "退出登录"
+
+msgid "page.auth.logout.fail"
+msgstr "操作失败"
+
+msgid "page.auth.please_check_phone"
+msgstr "请检查手机号码是否正确"
+
+msgid "page.auth.sign_in"
+msgstr "登录"
+
+msgid "page.auth.sign_up"
+msgstr "注册"
+
+msgid "page.auth.sign_up_workspace"
+msgstr "注册团队"
+
+msgid "page.auth.sms_rate_limit_exceeded"
+msgstr "短信发送过于频繁，请稍后再试"
+
+msgid "page.auth.switch_workspace.fail"
+msgstr "操作失败"
+
+msgid "page.auth.terms_of_service.message"
+msgstr "我已阅读并同意%{tos}"
+
+msgid "page.auth.terms_of_service.title"
+msgstr "任务管理隐私条款"
+
+msgid "page.auth.title.sign_in"
+msgstr "登录"
+
+msgid "page.auth.title.sign_up"
+msgstr "注册"
+
+msgid "page.auth.title.sign_up_workspace"
+msgstr "注册团队"
+
+msgid "page.auth.user_name"
+msgstr "您的名字"
+
+msgid "page.auth.user_not_found"
+msgstr "手机号码不存在"
+
+msgid "page.auth.verification_code_receiving"
+msgstr "获取中..."
+
+msgid "page.auth.verification_not_match"
+msgstr "验证码错误"
+
+msgid "page.auth.welcome_to"
+msgstr "欢迎 %{user}"
+
+msgid "page.auth.workspace_name"
+msgstr "团队名称"
+
+msgid "page.error.403.description"
+msgstr "你可以联系管理员授权给你"
+
+msgid "page.error.403.title"
+msgstr "对不起，没有权限访问此页面"
+
+msgid "page.error.404.description"
+msgstr "请检查输入网址后再试"
+
+msgid "page.error.404.title"
+msgstr "对不起，找不到这个页面"
+
+msgid "page.error.back_to_homepage"
+msgstr "返回首页"
+
+msgid "page.form_metal.add_option"
+msgstr "添加选项"
+
+msgid "page.form_metal.add_option_tip"
+msgstr "%{add_other_option} 或者 %{bulk_insert}"
+
+msgid "page.form_metal.add_other_option"
+msgstr "添加其他选项"
+
+msgid "page.form_metal.bulk_insert.__t__"
+msgstr "批量添加"
+
+msgid "page.form_metal.bulk_insert.placeholder"
+msgstr "输入选项"
+
+msgid "page.form_metal.bulk_insert.tip"
+msgstr "请输入选项，使用换行来分割选项"
+
+msgid "page.form_metal.delete_schema_field_confirm.confirm"
+msgstr "删除"
+
+msgid "page.form_metal.delete_schema_field_confirm.description"
+msgstr "删除后%{owner}的此属性将被删除"
+
+msgid "page.form_metal.delete_schema_field_confirm.title"
+msgstr "删除字段？"
+
+msgid "page.form_metal.dependencies.add"
+msgstr "添加逻辑"
+
+msgid "page.form_metal.dependencies.circular_dependencies_error_message"
+msgstr "%{fields}相互控制，可能影响用户填写"
+
+msgid "page.form_metal.dependencies.edit"
+msgstr "编辑"
+
+msgid "page.form_metal.dependencies.radio_button.disable_tip"
+msgstr "请添加更多字段来设置逻辑"
+
+msgid "page.form_metal.dependencies.radio_button.modal.option_dependency.placeholder"
+msgstr "请选择"
+
+msgid "page.form_metal.dependencies.radio_button.modal.title"
+msgstr "逻辑"
+
+msgid "page.form_metal.dependencies.remove"
+msgstr "删除"
+
+msgid "page.form_metal.leave_schema_page_confirm.confirm"
+msgstr "离开"
+
+msgid "page.form_metal.leave_schema_page_confirm.description"
+msgstr "有更改未保存，离开不会保存更改"
+
+msgid "page.form_metal.leave_schema_page_confirm.title"
+msgstr "离开此页？"
+
+msgid "page.identity_access.create_child_department"
+msgstr "新建子部门"
+
+msgid "page.identity_access.create_department"
+msgstr "新建部门"
+
+msgid "page.identity_access.create_user"
+msgstr "新建成员"
+
+msgid "page.identity_access.department.index"
+msgstr "所有成员"
+
+msgid "page.identity_access.department.show"
+msgstr "%{department_name}"
+
+msgid "page.identity_access.department.suspended"
+msgstr "无部门成员"
+
+msgid "page.identity_access.discard_department.__t__"
+msgstr "删除部门"
+
+msgid "page.identity_access.discard_department.confirm.description"
+msgstr "此部门下所有子部门将被删除"
+
+msgid "page.identity_access.discard_department.confirm.title"
+msgstr "删除部门？"
+
+msgid "page.identity_access.discard_user.__t__"
+msgstr "删除成员"
+
+msgid "page.identity_access.discard_user.error.root_can_not_discard"
+msgstr "此成员为空间超级管理员，请先移除超级管理员后再尝试删除"
+
+msgid "page.identity_access.discard_user.fail"
+msgstr "删除成员失败"
+
+msgid "page.identity_access.discard_user.success"
+msgstr "成员删除成功"
+
+msgid "page.identity_access.discard_user.tip"
+msgstr "此成员将不能访问空间内任何信息，此操作不可撤销"
+
+msgid "page.identity_access.draft_user.errors.department.not_match"
+msgstr "找不到匹配的部门"
+
+msgid "page.identity_access.draft_user.errors.email.format"
+msgstr "邮箱格式错误"
+
+msgid "page.identity_access.draft_user.errors.name.presence"
+msgstr "姓名不能为空"
+
+msgid "page.identity_access.draft_user.errors.phone.conflict"
+msgstr "手机号码重复"
+
+msgid "page.identity_access.draft_user.errors.phone.format"
+msgstr "手机号码格式错误"
+
+msgid "page.identity_access.draft_user.errors.phone.presence"
+msgstr "手机号码不能为空"
+
+msgid "page.identity_access.edit_department"
+msgstr "编辑部门"
+
+msgid "page.identity_access.empty_user"
+msgstr "没有成员。"
+
+msgid "page.identity_access.import_users.__t__"
+msgstr "导入成员"
+
+msgid "page.identity_access.import_users.import_draft_users.__t__"
+msgstr "导入数据"
+
+msgid "page.identity_access.import_users.import_draft_users.back_to_user_list"
+msgstr "返回成员列表"
+
+msgid "page.identity_access.import_users.import_draft_users.import_users_successful"
+msgstr "成功导入 %{count} 条成员"
+
+msgid "page.identity_access.import_users.import_draft_users.status.importing"
+msgstr "正在导入"
+
+msgid "page.identity_access.import_users.import_draft_users.status.success"
+msgstr "成员导入成功"
+
+msgid "page.identity_access.import_users.import_draft_users.will_notify_after_import"
+msgstr "正在导入成员，您可以离开此页面，完成后我们将通知您"
+
+msgid "page.identity_access.import_users.invalid_count"
+msgstr "错误数据 %{count} 条"
+
+msgid "page.identity_access.import_users.next_step"
+msgstr "下一步"
+
+msgid "page.identity_access.import_users.prev_step"
+msgstr "上一步"
+
+msgid "page.identity_access.import_users.review_draft_users.__t__"
+msgstr "数据预览"
+
+msgid "page.identity_access.import_users.review_draft_users.discard_uploaded_file_confirm.confirm_text"
+msgstr "上一步"
+
+msgid "page.identity_access.import_users.review_draft_users.discard_uploaded_file_confirm.description"
+msgstr "返回上一步将删除已经上传的文件"
+
+msgid "page.identity_access.import_users.review_draft_users.discard_uploaded_file_confirm.title"
+msgstr "是否放弃已上传的文件"
+
+msgid "page.identity_access.import_users.review_draft_users.extract_failed"
+msgstr "解析文件失败"
+
+msgid "page.identity_access.import_users.review_draft_users.skip_invalid_data_confirm.confirm_text"
+msgstr "继续导入"
+
+msgid "page.identity_access.import_users.review_draft_users.skip_invalid_data_confirm.description"
+msgstr "有 %{invalid_count} 条错误数据，继续导入将放弃错误数据"
+
+msgid "page.identity_access.import_users.review_draft_users.skip_invalid_data_confirm.title"
+msgstr "是否放弃错误的数据"
+
+msgid "page.identity_access.import_users.upload_file.__t__"
+msgstr "上传 Excel"
+
+msgid "page.identity_access.import_users.upload_file.file_accept"
+msgstr "支持 xlsx 文件"
+
+msgid "page.identity_access.import_users.upload_file.input_file"
+msgstr "选择 Excel 文件"
+
+msgid "page.identity_access.import_users.upload_file.resolve_exceed"
+msgstr "一次最多导入 %{count} 名成员"
+
+msgid "page.identity_access.import_users.upload_file.template.download.button"
+msgstr "点击下载导入模板"
+
+msgid "page.identity_access.import_users.upload_file.template.download.fail"
+msgstr "下载导入模板失败"
+
+msgid "page.identity_access.import_users.upload_file.template.name"
+msgstr "成员导入模板"
+
+msgid "page.identity_access.manage_department_users"
+msgstr "管理部门成员"
+
+msgid "page.identity_access.manage_user"
+msgstr "管理部门成员"
+
+msgid "page.identity_access.more_actions_for_department"
+msgstr "更多"
+
+msgid "page.identity_access.more_actions_for_user"
+msgstr "更多"
+
+msgid "page.identity_access.receive_user.__t__"
+msgstr "添加成员"
+
+msgid "page.identity_access.receive_user.short"
+msgstr "添加"
+
+msgid "page.identity_access.repel_user.confirm"
+msgstr "确定将%{user}从%{department}移除?"
+
+msgid "page.identity_access.repel_user.short"
+msgstr "移除"
+
+msgid "page.identity_access.repel_user.title"
+msgstr "从部门移除"
+
+msgid "page.identity_access.search_department"
+msgstr "搜索部门"
+
+msgid "page.identity_access.search_user"
+msgstr "搜索成员"
+
+msgid "page.identity_access.title.department.index"
+msgstr "所有成员"
+
+msgid "page.identity_access.title.department.show"
+msgstr "%{department_name}"
+
+msgid "page.identity_access.title.department.suspended"
+msgstr "无部门成员"
+
+msgid "page.identity_access.user_in_department"
+msgstr "已添加成员"
+
+msgid "page.identity_access.user_table_guidance"
+msgstr "你可以%{create_user}或者%{manage_user}"
+
+msgid "page.identity_access.view_department_members"
+msgstr "查看部门成员"
+
+msgid "page.identity_access.workspace"
+msgstr "团队"
+
+msgid "page.index.subtitle"
+msgstr "JET 用简单的方式，让你完全掌控你的工作"
+
+msgid "page.index.title"
+msgstr "🎉 用 JET 工作，高效、灵活 🎉"
+
+msgid "page.loading"
 msgstr "正在加载中"
+
+msgid "page.project.add_collaborators"
+msgstr "添加协作者"
+
+msgid "page.project.add_task_label"
+msgstr "添加标签"
+
+msgid "page.project.archive_project.__t__"
+msgstr "归档项目"
+
+msgid "page.project.archive_project.fail"
+msgstr "归档项目失败，请重试"
+
+msgid "page.project.archive_project.success"
+msgstr "已归档项目"
+
+msgid "page.project.archive_task.__t__"
+msgstr "归档任务"
+
+msgid "page.project.archive_task.fail"
+msgstr "归档任务失败"
+
+msgid "page.project.archive_task_group.__t__"
+msgstr "归档分组"
+
+msgid "page.project.archive_task_group.fail"
+msgstr "归档任务分组失败，请重试"
+
+msgid "page.project.archive_task_group.success"
+msgstr "已归档任务分组"
+
+msgid "page.project.archive_task_group.view_archived_task_group"
+msgstr "查看"
+
+msgid "page.project.archived_task_description"
+msgstr "任务已归档，不可修改"
+
+msgid "page.project.archived_task_group_description"
+msgstr "任务分组已归档，不可修改"
+
+msgid "page.project.archived_tasks.__t__"
+msgstr "已归档任务"
+
+msgid "page.project.archived_tasks.empty"
+msgstr "没有已归档的任务"
+
+msgid "page.project.archived_tasks.return_active_tasks"
+msgstr "你可以返回 %{project_name}"
+
+msgid "page.project.clone_task.__t__"
+msgstr "复制任务"
+
+msgid "page.project.clone_task.clone_to.__t__"
+msgstr "复制到"
+
+msgid "page.project.clone_task.clone_to.error.blank"
+msgstr "请选择复制到的位置"
+
+msgid "page.project.clone_task.invalid_target"
+msgstr "不能复制到当前任务下"
+
+msgid "page.project.clone_task.success"
+msgstr "复制任务成功"
+
+msgid "page.project.clone_task.view_cloned_task"
+msgstr "查看"
+
+msgid "page.project.completed_sub_task_count"
+msgstr "已完成子任务 ∙ %{count}"
+
+msgid "page.project.completed_task"
+msgstr "已完成任务"
+
+msgid "page.project.completed_task_count"
+msgstr "已完成任务 ∙ %{count}"
+
+msgid "page.project.create_project.__t__"
+msgstr "新建项目"
+
+msgid "page.project.create_project.short"
+msgstr "新建"
+
+msgid "page.project.create_project.upload_cover"
+msgstr "上传封面"
+
+msgid "page.project.create_sub_task.__t__"
+msgstr "新建子任务"
+
+msgid "page.project.create_task.__t__"
+msgstr "新建任务"
+
+msgid "page.project.create_task.guidance"
+msgstr "来为项目创建第一个任务吧"
+
+msgid "page.project.create_task.tip"
+msgstr "在任务前面加上感叹号， 标注重要或者紧急的任务"
+
+msgid "page.project.create_task_group.__t__"
+msgstr "新建分组"
+
+msgid "page.project.create_task_group.button"
+msgstr "确认，新建任务"
+
+msgid "page.project.create_task_group.fail"
+msgstr "创建失败"
+
+msgid "page.project.create_task_group.success"
+msgstr "创建成功"
+
+msgid "page.project.default_task_group_title"
+msgstr "待办任务"
+
+msgid "page.project.delete_attachment.__t__"
+msgstr "删除附件 %{attachment}？"
+
+msgid "page.project.delete_attachment.fail"
+msgstr "附件删除失败"
+
+msgid "page.project.discard_project.__t__"
+msgstr "删除项目"
+
+msgid "page.project.discard_project.confirm.description"
+msgstr "删除项目后，项目及项目有关的信息都将被删除，此操作不可撤销"
+
+msgid "page.project.discard_project.confirm.title"
+msgstr "删除项目？"
+
+msgid "page.project.discard_project.fail"
+msgstr "删除项目失败，请重试"
+
+msgid "page.project.discard_project.success"
+msgstr "项目已删除"
+
+msgid "page.project.discard_task.__t__"
+msgstr "删除任务"
+
+msgid "page.project.discard_task.confirm"
+msgstr "确定要删除这条任务吗?"
+
+msgid "page.project.discard_task.description"
+msgstr "此任务及以下子任务将被删除"
+
+msgid "page.project.discard_task.fail"
+msgstr "删除任务失败"
+
+msgid "page.project.discard_task.short"
+msgstr "删除"
+
+msgid "page.project.discard_task_group.__t__"
+msgstr "删除分组"
+
+msgid "page.project.discard_task_group.confirm.description"
+msgstr "分组及分组内任务都将被删除，此操作不可撤销"
+
+msgid "page.project.discard_task_group.confirm.title"
+msgstr "删除分组？"
+
+msgid "page.project.discard_task_group.fail"
+msgstr "删除任务分组失败，请重试"
+
+msgid "page.project.discard_task_group.success"
+msgstr "删除任务分组成功"
+
+msgid "page.project.discard_task_label.__t__"
+msgstr "删除标签"
+
+msgid "page.project.discard_task_label.confirm.description"
+msgstr "项目中所有的此标签都将被移除"
+
+msgid "page.project.discard_task_label.confirm.title"
+msgstr "删除标签？"
+
+msgid "page.project.discard_task_label.fail"
+msgstr "删除标签失败"
+
+msgid "page.project.discard_task_label.success"
+msgstr "删除标签成功"
+
+msgid "page.project.download_attachment.get_url_fail"
+msgstr "获取附件下载地址失败"
+
+msgid "page.project.draft_task.errors.assignee_user_boundary.not_match"
+msgstr "找不到匹配的成员"
+
+msgid "page.project.draft_task.errors.collaborator_user_boundary.not_match"
+msgstr "有未匹配的成员"
+
+msgid "page.project.draft_task.errors.due_on.format"
+msgstr "日期格式错误"
+
+msgid "page.project.draft_task.errors.parent.not_match"
+msgstr "找不到匹配的任务"
+
+msgid "page.project.draft_task.errors.parent_or_task_group.conflict"
+msgstr "上级任务和任务分组只需要填写其中之一"
+
+msgid "page.project.draft_task.errors.parent_or_task_group.presence"
+msgstr "上级任务和任务分组必须填写一个"
+
+msgid "page.project.draft_task.errors.priority.not_match"
+msgstr "优先级填写错误"
+
+msgid "page.project.draft_task.errors.profile.format"
+msgstr "填写不符合规则"
+
+msgid "page.project.draft_task.errors.profile.invalid"
+msgstr "格式错误"
+
+msgid "page.project.draft_task.errors.profile.length"
+msgstr "填写不符合规则"
+
+msgid "page.project.draft_task.errors.profile.other_option_not_permitted"
+msgstr "找不到匹配的选项"
+
+msgid "page.project.draft_task.errors.profile.range"
+msgstr "填写不符合规则"
+
+msgid "page.project.draft_task.errors.task_group.not_match"
+msgstr "找不到匹配的分组"
+
+msgid "page.project.draft_task.errors.task_labels.not_match"
+msgstr "有未匹配的标签"
+
+msgid "page.project.draft_task.errors.title.presence"
+msgstr "任务标题不能为空"
+
+msgid "page.project.edit_task_group"
+msgstr "编辑分组"
+
+msgid "page.project.empty_task"
+msgstr "还没有任务"
+
+msgid "page.project.exit_project.__t__"
+msgstr "退出项目"
+
+msgid "page.project.export_task.__t__"
+msgstr "导出任务"
+
+msgid "page.project.export_task.config.export_fields.__t__"
+msgstr "请选择导出的列"
+
+msgid "page.project.export_task.config.export_fields.all"
+msgstr "全部列"
+
+msgid "page.project.export_task.config.export_fields.visible"
+msgstr "显示的列"
+
+msgid "page.project.export_task.config.included_archived.__t__"
+msgstr "是否包含已归档的任务"
+
+msgid "page.project.export_task.config.included_archived.exclude"
+msgstr "不包含"
+
+msgid "page.project.export_task.config.included_archived.include"
+msgstr "包含"
+
+msgid "page.project.export_task.exporting.description"
+msgstr "也许需要几分钟，稍后将直接下载"
+
+msgid "page.project.export_task.exporting.title"
+msgstr "正在导出任务"
+
+msgid "page.project.fetch_project.fail"
+msgstr "获取项目失败"
+
+msgid "page.project.fetch_task.fail"
+msgstr "获取任务详情失败"
+
+msgid "page.project.grant_project_admin.__t__"
+msgstr "设置管理员"
+
+msgid "page.project.grant_project_admin.fail"
+msgstr "设置管理员失败"
+
+msgid "page.project.hide_completed_task"
+msgstr "隐藏"
+
+msgid "page.project.import_tasks.__t__"
+msgstr "导入任务"
+
+msgid "page.project.import_tasks.import_draft_tasks.__t__"
+msgstr "导入数据"
+
+msgid "page.project.import_tasks.import_draft_tasks.back_to_task_list"
+msgstr "返回任务列表"
+
+msgid "page.project.import_tasks.import_draft_tasks.import_tasks_successful"
+msgstr "成功导入 %{count} 条任务"
+
+msgid "page.project.import_tasks.import_draft_tasks.status.importing"
+msgstr "正在导入"
+
+msgid "page.project.import_tasks.import_draft_tasks.status.success"
+msgstr "任务导入成功"
+
+msgid "page.project.import_tasks.import_draft_tasks.will_notify_after_import"
+msgstr "正在导入任务，您可以离开此页面，完成后我们将通知您"
+
+msgid "page.project.import_tasks.invalid_count"
+msgstr "错误数据 %{count} 条"
+
+msgid "page.project.import_tasks.next_step"
+msgstr "下一步"
+
+msgid "page.project.import_tasks.prev_step"
+msgstr "上一步"
+
+msgid "page.project.import_tasks.review_draft_tasks.__t__"
+msgstr "数据预览"
+
+msgid "page.project.import_tasks.review_draft_tasks.discard_uploaded_file_confirm.confirm_text"
+msgstr "上一步"
+
+msgid "page.project.import_tasks.review_draft_tasks.discard_uploaded_file_confirm.description"
+msgstr "返回上一步将删除已经上传的文件"
+
+msgid "page.project.import_tasks.review_draft_tasks.discard_uploaded_file_confirm.title"
+msgstr "是否放弃已上传的文件"
+
+msgid "page.project.import_tasks.review_draft_tasks.extract_failed"
+msgstr "解析文件失败"
+
+msgid "page.project.import_tasks.review_draft_tasks.skip_invalid_data_confirm.confirm_text"
+msgstr "继续导入"
+
+msgid "page.project.import_tasks.review_draft_tasks.skip_invalid_data_confirm.description"
+msgstr "有 %{invalid_count} 条错误数据，继续导入将放弃错误数据"
+
+msgid "page.project.import_tasks.review_draft_tasks.skip_invalid_data_confirm.title"
+msgstr "是否放弃错误的数据"
+
+msgid "page.project.import_tasks.upload_file.__t__"
+msgstr "上传 Excel"
+
+msgid "page.project.import_tasks.upload_file.file_accept"
+msgstr "支持 xlsx 文件"
+
+msgid "page.project.import_tasks.upload_file.input_file"
+msgstr "选择 Excel 文件"
+
+msgid "page.project.import_tasks.upload_file.resolve_exceed"
+msgstr "一次最多导入 %{count} 条任务"
+
+msgid "page.project.import_tasks.upload_file.template.download.button"
+msgstr "点击下载导入模板"
+
+msgid "page.project.import_tasks.upload_file.template.download.fail"
+msgstr "下载导入模板失败"
+
+msgid "page.project.import_tasks.upload_file.template.name"
+msgstr "任务导入模板"
+
+msgid "page.project.invite_member.__t__"
+msgstr "邀请新成员"
+
+msgid "page.project.manage_project_member.__t__"
+msgstr "管理项目成员"
+
+msgid "page.project.manage_task_label"
+msgstr "标签管理"
+
+msgid "page.project.move_task.__t__"
+msgstr "移动任务"
+
+msgid "page.project.move_task.invalid_target"
+msgstr "不能移动到当前任务下"
+
+msgid "page.project.move_task.move_to.__t__"
+msgstr "移动到"
+
+msgid "page.project.move_task.move_to.error.blank"
+msgstr "请选择移动到的位置"
+
+msgid "page.project.move_task.success"
+msgstr "移动任务成功"
+
+msgid "page.project.move_task.view_moved_task"
+msgstr "查看"
+
+msgid "page.project.my_tasks.__t__"
+msgstr "我的任务"
+
+msgid "page.project.my_tasks.assigned"
+msgstr "我负责的"
+
+msgid "page.project.my_tasks.blank"
+msgstr "还没有任务"
+
+msgid "page.project.my_tasks.collaborated"
+msgstr "我协作的"
+
+msgid "page.project.my_tasks.created"
+msgstr "我创建的"
+
+msgid "page.project.my_tasks.filter.completed"
+msgstr "已完成"
+
+msgid "page.project.my_tasks.filter.uncomplete"
+msgstr "未完成"
+
+msgid "page.project.my_tasks.filter_group.completed"
+msgstr "已完成任务"
+
+msgid "page.project.my_tasks.filter_group.uncomplete"
+msgstr "待办任务"
+
+msgid "page.project.my_tasks.subscribed"
+msgstr "我关注的"
+
+msgid "page.project.no_task_labels.__t__"
+msgstr "没有标签"
+
+msgid "page.project.no_task_labels.guidance"
+msgstr "没有标签， %{create_task_label}"
+
+msgid "page.project.no_task_labels.to_create"
+msgstr "去新建"
+
+msgid "page.project.project_configuration.__t__"
+msgstr "项目设置"
+
+msgid "page.project.project_configuration.basic.__t__"
+msgstr "项目基本信息"
+
+msgid "page.project.project_configuration.database.__t__"
+msgstr "设置"
+
+msgid "page.project.project_configuration.database.filter.__t__"
+msgstr "数据筛选"
+
+msgid "page.project.project_configuration.database.title"
+msgstr "关联"
+
+msgid "page.project.project_configuration.fail"
+msgstr "保存失败"
+
+msgid "page.project.project_configuration.success"
+msgstr "保存成功"
+
+msgid "page.project.project_configuration.task.__t__"
+msgstr "任务设置"
+
+msgid "page.project.project_configuration.task.index_key.description"
+msgstr "设置任务唯一 ID 前缀，默认前缀为项目名称前四位首字母，长度限制 2 ~ 8 个字母。"
+
+msgid "page.project.project_configuration.task.index_key.title"
+msgstr "任务ID"
+
+msgid "page.project.project_configuration.workflow.__t__"
+msgstr "流程设置"
+
+msgid "page.project.project_configuration.workflow.title"
+msgstr "任务中显示的流程"
+
+msgid "page.project.project_list.favorite.__t__"
+msgstr "星标项目"
+
+msgid "page.project.project_list.favorite.blankslate.description"
+msgstr "你可以将常用的项目标记为星标"
+
+msgid "page.project.project_list.favorite.blankslate.title"
+msgstr "你还没有星标项目"
+
+msgid "page.project.project_list.status.active.__t__"
+msgstr "我参与的项目"
+
+msgid "page.project.project_list.status.active.blankslate.description"
+msgstr "在这里为，团队创建第一个项目，然后开始协作吧 : )"
+
+msgid "page.project.project_list.status.archived.__t__"
+msgstr "已归档项目"
+
+msgid "page.project.project_list.status.archived.blankslate.description"
+msgstr "暂时还没有已归档项目"
+
+msgid "page.project.project_list.status.blank"
+msgstr "还没有项目"
+
+msgid "page.project.project_nav.report"
+msgstr "统计"
+
+msgid "page.project.project_nav.task"
+msgstr "任务"
+
+msgid "page.project.project_nav.workflow"
+msgstr "流程"
+
+msgid "page.project.report.cumulative_flow_diagram_report.__t__"
+msgstr "项目进展"
+
+msgid "page.project.report.cumulative_flow_diagram_report.task_cumulative_flow_diagram_state.completed_count"
+msgstr "任务完成数"
+
+msgid "page.project.report.cumulative_flow_diagram_report.task_cumulative_flow_diagram_state.total_count"
+msgstr "任务总数"
+
+msgid "page.project.report.member_report.__t__"
+msgstr "成员任务统计"
+
+msgid "page.project.report.member_report.completed_tasks.label"
+msgstr "已完成任务"
+
+msgid "page.project.report.member_report.completed_tasks.legend"
+msgstr "已完成"
+
+msgid "page.project.report.member_report.incompleted_tasks.label"
+msgstr "未完成任务"
+
+msgid "page.project.report.member_report.incompleted_tasks.legend"
+msgstr "未完成"
+
+msgid "page.project.report.member_report.load_more"
+msgstr "加载更多成员"
+
+msgid "page.project.report.member_report.overdue_and_incompleted_tasks.label"
+msgstr "已逾期任务"
+
+msgid "page.project.report.member_report.overdue_and_incompleted_tasks.legend"
+msgstr "已逾期"
+
+msgid "page.project.report.member_report.unassigned"
+msgstr "未指派"
+
+msgid "page.project.report.overview.__t__"
+msgstr "总体任务统计"
+
+msgid "page.project.report.overview.completed_tasks"
+msgstr "已完成任务"
+
+msgid "page.project.report.overview.incompleted_tasks"
+msgstr "未完成任务"
+
+msgid "page.project.report.overview.info_boxes.due_and_completed_tasks.__t__"
+msgstr "按时完成任务"
+
+msgid "page.project.report.overview.info_boxes.due_and_completed_tasks.short"
+msgstr "完"
+
+msgid "page.project.report.overview.info_boxes.due_today_tasks.__t__"
+msgstr "今日到期任务"
+
+msgid "page.project.report.overview.info_boxes.due_today_tasks.short"
+msgstr "到"
+
+msgid "page.project.report.overview.info_boxes.overdue_and_completed_tasks.__t__"
+msgstr "逾期完成任务"
+
+msgid "page.project.report.overview.info_boxes.overdue_and_completed_tasks.short"
+msgstr "完"
+
+msgid "page.project.report.overview.info_boxes.overdue_and_incompleted_tasks.__t__"
+msgstr "已逾期任务"
+
+msgid "page.project.report.overview.info_boxes.overdue_and_incompleted_tasks.short"
+msgstr "逾"
+
+msgid "page.project.report.overview.ratio"
+msgstr "完成数"
+
+msgid "page.project.reposition_task.fail"
+msgstr "移动任务失败"
+
+msgid "page.project.reposition_task_group.fail"
+msgstr "移动任务分组失败"
+
+msgid "page.project.revoke_project_admin.__t__"
+msgstr "取消管理员"
+
+msgid "page.project.revoke_project_admin.domain_rule_violation"
+msgstr "至少需要一个管理员"
+
+msgid "page.project.revoke_project_admin.fail"
+msgstr "取消管理员失败"
+
+msgid "page.project.search.__t__"
+msgstr "搜索"
+
+msgid "page.project.search.blank"
+msgstr "暂无搜索结果。"
+
+msgid "page.project.search.global"
+msgstr "全局搜索"
+
+msgid "page.project.search.view_all"
+msgstr "查看全部结果"
+
+msgid "page.project.search_task_label"
+msgstr "搜索标签"
+
+msgid "page.project.separately_archived_task_group.title"
+msgstr "归档任务"
+
+msgid "page.project.share_task.__t__"
+msgstr "分享任务"
+
+msgid "page.project.show_completed_task"
+msgstr "显示"
+
+msgid "page.project.task_activity.blank"
+msgstr "暂无相关结果。"
+
+msgid "page.project.task_activity.type.all"
+msgstr "所有"
+
+msgid "page.project.task_activity.type.comment"
+msgstr "评论"
+
+msgid "page.project.task_activity.type.other"
+msgstr "动态"
+
+msgid "page.project.task_comment.discard.__t__"
+msgstr "删除"
+
+msgid "page.project.task_comment.discard.confirm"
+msgstr "删除评论?"
+
+msgid "page.project.task_comment.discard.fail"
+msgstr "删除评论失败"
+
+msgid "page.project.task_comment.discarded"
+msgstr "评论已被删除"
+
+msgid "page.project.task_comment.reply.__t__"
+msgstr "回复"
+
+msgid "page.project.task_comment.update.__t__"
+msgstr "编辑"
+
+msgid "page.project.task_comment.update.fail"
+msgstr "更新评论失败"
+
+msgid "page.project.task_comment.updated"
+msgstr "已编辑"
+
+msgid "page.project.task_description_content"
+msgstr "任务描述内容"
+
+msgid "page.project.task_filter.__t__"
+msgstr "任务筛选"
+
+msgid "page.project.task_filter.blank"
+msgstr "暂无当前筛选结果"
+
+msgid "page.project.task_filter.due_on.current_month"
+msgstr "本月"
+
+msgid "page.project.task_filter.due_on.current_week"
+msgstr "本周"
+
+msgid "page.project.task_filter.due_on.overdue"
+msgstr "已逾期"
+
+msgid "page.project.task_filter.due_on.set"
+msgstr "任意时间"
+
+msgid "page.project.task_filter.due_on.today"
+msgstr "今天"
+
+msgid "page.project.task_filter.due_on.tomorrow"
+msgstr "明天"
+
+msgid "page.project.task_filter.due_on.unset"
+msgstr "未设置"
+
+msgid "page.project.task_filter.placeholder.assignee"
+msgstr "负责人"
+
+msgid "page.project.task_filter.placeholder.due_on"
+msgstr "截止时间"
+
+msgid "page.project.task_filter.placeholder.task_label"
+msgstr "标签"
+
+msgid "page.project.task_filter.short"
+msgstr "筛选"
+
+msgid "page.project.task_labels_amount_exceeds_max_limitation"
+msgstr "标签数量达到上限"
+
+msgid "page.project.task_not_found.__t__"
+msgstr "对不起，找不到此任务"
+
+msgid "page.project.task_not_found.description"
+msgstr "任务可能没有权限或者已被删除"
+
+msgid "page.project.task_schema.__t__"
+msgstr "任务自定义字段"
+
+msgid "page.project.task_schema.blankslate"
+msgstr "点击表单字段以编辑自定义任务字段"
+
+msgid "page.project.task_schema.internal_field"
+msgstr "系统字段"
+
+msgid "page.project.task_subscription.__t__"
+msgstr "关注任务"
+
+msgid "page.project.task_subscription.add"
+msgstr "加关注"
+
+msgid "page.project.task_subscription.add_subscribers"
+msgstr "添加关注成员"
+
+msgid "page.project.task_subscription.blank"
+msgstr "暂无关注的成员"
+
+msgid "page.project.task_subscription.remove"
+msgstr "取消关注"
+
+msgid "page.project.task_subscription.subscribed"
+msgstr "已关注"
+
+msgid "page.project.task_subscription.subscribed_member"
+msgstr "已关注任务的成员"
+
+msgid "page.project.task_subscription.update_subscriber_error"
+msgstr "更新关注者失败"
+
+msgid "page.project.task_table.cell.disabled_tooltip"
+msgstr "该字段被逻辑控制，不能填写"
+
+msgid "page.project.task_table.cell.empty_text.unset"
+msgstr "请设置"
+
+msgid "page.project.task_table.visible_columns"
+msgstr "显示字段"
+
+msgid "page.project.title.list"
+msgstr "项目"
+
+msgid "page.project.title.project_show"
+msgstr "%{project_name}"
+
+msgid "page.project.title.task_show"
+msgstr "%{task_title}"
+
+msgid "page.project.unarchive_project.__t__"
+msgstr "取消归档项目"
+
+msgid "page.project.unarchive_project.fail"
+msgstr "取消归档项目失败，请重试"
+
+msgid "page.project.unarchive_project.success"
+msgstr "取消归档项目"
+
+msgid "page.project.unarchive_task.__t__"
+msgstr "恢复任务"
+
+msgid "page.project.unarchive_task.fail"
+msgstr "恢复任务失败"
+
+msgid "page.project.unarchive_task_group.__t__"
+msgstr "取消归档"
+
+msgid "page.project.unarchive_task_group.fail"
+msgstr "取消归档任务分组失败，请重试"
+
+msgid "page.project.unarchive_task_group.success"
+msgstr "取消归档任务分组"
+
+msgid "page.project.update_collaborators_fail"
+msgstr "修改协作者失败"
+
+msgid "page.project.update_project_member.domain_rule_violation"
+msgstr "至少需要一个管理员"
+
+msgid "page.project.update_project_member.fail"
+msgstr "更新项目成员失败"
+
+msgid "page.project.update_project_member.receive"
+msgstr "添加成员"
+
+msgid "page.project.update_project_member.repel.__t__"
+msgstr "移除成员"
+
+msgid "page.project.update_project_member.repel.short"
+msgstr "移除"
+
+msgid "page.project.update_task_fail"
+msgstr "更新失败"
+
+msgid "page.project.update_task_group_fail"
+msgstr "更新任务分组失败"
+
+msgid "page.project.upload_task_attachment.__t__"
+msgstr "添加附件"
+
+msgid "page.project.upload_task_attachment.drag_upload"
+msgstr "将文件拖动到这里直接上传"
+
+msgid "page.workflow.case.executions.completed"
+msgstr "已执行"
+
+msgid "page.workflow.case.view"
+msgstr "查看流程"
+
+msgid "page.workflow.nodes.automatic_operation.change_operation"
+msgstr "替换"
+
+msgid "page.workflow.nodes.automatic_operation.change_operation_confirmation"
+msgstr "替换操作？"
+
+msgid "page.workflow.nodes.automatic_operation.change_operation_description"
+msgstr "替换后所有设置不可恢复"
+
+msgid "page.workflow.nodes.automatic_operation.database_add_row.__t__"
+msgstr "新建数据"
+
+msgid "page.workflow.nodes.automatic_operation.database_add_row.choose_table"
+msgstr "选择要执行的"
+
+msgid "page.workflow.nodes.automatic_operation.database_add_row.no_columns"
+msgstr "没有可用字段"
+
+msgid "page.workflow.nodes.automatic_operation.database_operations"
+msgstr ""
+
+msgid "page.workflow.nodes.automatic_operation.database_update_row.__t__"
+msgstr "修改字段"
+
+msgid "page.workflow.nodes.automatic_operation.database_update_row.choose_row"
+msgstr "选择要执行的填写记录"
+
+msgid "page.workflow.nodes.automatic_operation.database_update_row.no_columns"
+msgstr "没有可用字段"
+
+msgid "page.workflow.nodes.automatic_operation.update_case_variables.__t__"
+msgstr "修改流程数据"
+
+msgid "page.workflow.nodes.automatic_operation.workflow_operations"
+msgstr "流程"
+
+msgid "page.workflow.nodes.automatic_operation.workflow_update_subject.__t__"
+msgstr "修改所属主体"
+
+msgid "page.workflow.nodes.automatic_operation.workflow_update_subject.choose_case"
+msgstr "选择要执行的流程数据"
+
+msgid "page.workflow.nodes.automatic_operation.workflow_update_subject.current_case"
+msgstr "当前流程数据"
+
+msgid "page.workflow.nodes.automatic_operation.workflow_update_subject.subject"
+msgstr "所属主体"
+
+msgid "page.workflow.nodes.condition.add_filter"
+msgstr "添加条件"
+
+msgid "page.workflow.nodes.condition.add_filter_group"
+msgstr "添加条件组"
+
+msgid "page.workflow.nodes.condition.no_available_filter"
+msgstr "没有可添加的条件"
+
+msgid "page.workflow.nodes.condition.no_filter"
+msgstr "暂无条件"
+
+msgid "page.workflow.nodes.condition.not_set"
+msgstr "未设置"
+
+msgid "page.workflow.nodes.condition.operator.and"
+msgstr "且"
+
+msgid "page.workflow.nodes.condition.operator.or"
+msgstr "或"
+
+msgid "page.workflow.nodes.condition.or"
+msgstr "或"
+
+msgid "page.workflow.nodes.custom.output.label"
+msgstr "需要输出的信息"
+
+msgid "page.workflow.nodes.custom.program.label"
+msgstr "运行文件"
+
+msgid "page.workflow.nodes.custom.program.upload.accept"
+msgstr "限制格式为 .wasm"
+
+msgid "page.workflow.nodes.custom.program.upload.button"
+msgstr "上传文件"
+
+msgid "page.workflow.nodes.custom.program.upload.title"
+msgstr "文件上传"
+
+msgid "page.workflow.nodes.custom.source.label"
+msgstr "需要使用的信息"
+
+msgid "page.workflow.nodes.deferred_choice.__t__"
+msgstr "延迟流转"
+
+msgid "page.workflow.nodes.deferred_choice.description"
+msgstr "流转方式下连接的动作需要一定时间的等待"
+
+msgid "page.workflow.nodes.exclusive_choice.__t__"
+msgstr "立即流转"
+
+msgid "page.workflow.nodes.exclusive_choice.config.label"
+msgstr "选择流转的方式"
+
+msgid "page.workflow.nodes.exclusive_choice.description"
+msgstr "流转方式下连接的条件可以被立即判断"
+
+msgid "page.workflow.nodes.form.fields.blank"
+msgstr "暂无内容"
+
+msgid "page.workflow.nodes.form.filler"
+msgstr "填写人"
+
+msgid "page.workflow.nodes.form.not_set"
+msgstr "未设置"
+
+msgid "page.workflow.nodes.form.settings.basic"
+msgstr "基本设置"
+
+msgid "page.workflow.nodes.form.settings.form"
+msgstr "表单设置"
+
+msgid "page.workflow.nodes.timer.config.label"
+msgstr "设置定时器"
+
+msgid "page.workflow.nodes.timer.not_set"
+msgstr "未设置"
+
+msgid "page.workflow.nodes.timer.relativity.after"
+msgstr "后"
+
+msgid "page.workflow.nodes.timer.relativity.before"
+msgstr "前"
+
+msgid "page.workflow.nodes.timer.relativity.is"
+msgstr "当时"
+
+msgid "page.workflow.nodes.timer.unit.day"
+msgstr "天"
+
+msgid "page.workflow.nodes.timer.unit.hour"
+msgstr "小时"
+
+msgid "page.workflow.nodes.timer.unit.minute"
+msgstr "分钟"
+
+msgid "page.workflow.nodes.workflow_case_trigger.schema.add"
+msgstr "添加信息"
+
+msgid "page.workflow.nodes.workflow_case_trigger.schema.blank"
+msgstr "暂无信息"
+
+msgid "page.workflow.nodes.workflow_case_trigger.schema.label"
+msgstr "需要使用的信息"
+
+msgid "page.workflow.nodes.workflow_case_trigger.schema.update"
+msgstr "更改信息"
+
+msgid "page.workflow.schema.__t__"
+msgstr "流程表单"
+
+msgid "page.workflow.schema.blankslate"
+msgstr "点击表单字段进行添加"
+
+msgid "page.workflow.schema.delete_field_confirm.description"
+msgstr "删除后节点中此字段将被删除"
+
+msgid "page.workflow.schema.fields.submit_button_field.__t__"
+msgstr "按钮"
+
+msgid "page.workflow.schema.fields.submit_button_field.default_value"
+msgstr "提交"
+
+msgid "page.workflow.schema.fields.submit_button_field.name"
+msgstr "按钮名称"
+
+msgid "page.workflow.validation.buckle"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.validation.dangling_link"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.validation.dangling_node"
+msgstr "有不符合规则的节点"
+
+msgid "page.workflow.validation.duplicated_end_nodes"
+msgstr "结束节点只能有一个"
+
+msgid "page.workflow.validation.duplicated_links"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.validation.duplicated_start_nodes"
+msgstr "开始节点只能有一个"
+
+msgid "page.workflow.validation.loop_link"
+msgstr "连线的端点不能相同"
+
+msgid "page.workflow.validation.missing_choice_node"
+msgstr "请在条件节点前添加流转方式"
+
+msgid "page.workflow.validation.missing_end_node"
+msgstr "结束节点必须存在"
+
+msgid "page.workflow.validation.missing_from_node"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.validation.missing_start_node"
+msgstr "开始节点必须存在"
+
+msgid "page.workflow.validation.missing_task_node"
+msgstr "请添加更多节点以便流程运行"
+
+msgid "page.workflow.validation.missing_to_node"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.validation.non_pair_choice_and_merge"
+msgstr "多条流转和多条聚合必须成对出现"
+
+msgid "page.workflow.validation.nonexisting_end_node"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.validation.nonexisting_from_node"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.validation.redundant_links"
+msgstr "有不符合规则的连线"
+
+msgid "page.workflow.value_presenter.select.date_time_field.literal.title"
+msgstr "时间"
+
+msgid "page.workflow.value_presenter.select.date_time_field.reference.title"
+msgstr "动态时间"
+
+msgid "page.workflow.value_presenter.select.single_line_field.literal.title"
+msgstr "文本"
+
+msgid "page.workflow.value_presenter.select.single_line_field.reference.title"
+msgstr "动态文本"
+
+msgid "page.workflow.value_presenter.select.user_boundary_field.department.title"
+msgstr "部门"
+
+msgid "page.workflow.value_presenter.select.user_boundary_field.reference.title"
+msgstr "动态角色"
+
+msgid "page.workflow.value_presenter.select.user_boundary_field.user.title"
+msgstr "成员"
+
+msgid "page.workflow.value_presenter_search.blankslate.default"
+msgstr "暂无相关数据"
+
+msgid "page.workflow.workflow.case_count_is_executing"
+msgstr "%{ executing_case_count } 条正在运行中"
+
+msgid "page.workflow.workflow.create"
+msgstr "新建流程"
+
+msgid "page.workflow.workflow.editor.back_to_workflow_list"
+msgstr "返回流程列表"
+
+msgid "page.workflow.workflow.list.__t__"
+msgstr "流程列表"
+
+msgid "page.workflow.workflow.list.blank"
+msgstr "暂无数据"
+
+msgid "page.workflow.workflow.operation.__t__"
+msgstr "流程操作"
+
+msgid "page.workflow.workflow.operation.activate"
+msgstr "开启流程"
+
+msgid "page.workflow.workflow.operation.suspend"
+msgstr "停用流程"
+
+msgid "page.workflow.workflow.settings.__t__"
+msgstr "流程扩展设置"
+
+msgid "page.workflow.workflow.settings.workflow_variables.__t__"
+msgstr "流程数据设置"
+
+msgid "page.workflow.workflow.settings.workflow_variables.add"
+msgstr "点击流程数据字段进行添加"
+
+msgid "page.workflow.workflow.settings.workflow_variables.edit"
+msgstr "编辑流程数据"
+
+msgid "page.workflow.workflow.settings.workflow_variables.tooltip"
+msgstr "你可以为流程数据添加字段"
+
+msgid "page.workflow.workflow.state_hint"
+msgstr "有新的修改未发布"
+
+msgid "page.workflow.workflow.unpublished"
+msgstr "未发布"
 
