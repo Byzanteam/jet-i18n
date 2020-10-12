@@ -1,6 +1,6 @@
 {
-  "Attribute": {
-    "Project": {
+  "attribute": {
+    "project": {
       "task": {
         "__t__": "事项",
         "description": "领导批示及要求",
@@ -16,7 +16,7 @@
       }
     }
   },
-  "Page": {
+  "page": {
     "application": "Jet"
   }
 }
