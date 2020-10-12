@@ -362,7 +362,7 @@ msgid "Attribute.Project.task.completed.true"
 msgstr "已完成"
 
 msgid "Attribute.Project.task.completed_time"
-msgstr "时间"
+msgstr "完成时间"
 
 msgid "Attribute.Project.task.created_via.__t__"
 msgstr "创建方式"
