@@ -248,7 +248,7 @@
           "true": "已完成",
           "false": "未完成"
         },
-        "completed_time": "$t(Attribute.Project.task.completed)时间",
+        "completed_time": "$t(Attribute.Project.task.completed.__t__)时间",
         "created_via": {
           "__t__": "创建方式",
           "user": "用户创建",
