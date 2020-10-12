@@ -1678,5 +1678,35 @@
         "unpublished": "未发布"
       }
     }
+  },
+  "server": {
+    "activity": {
+      "notification": {
+        "task_event": {
+          "complete": "完成了$t(attribute.project.task.__t__)",
+          "uncomplete": "重新打开了$t(attribute.project.task.__t__)"
+        },
+        "comment_event": {
+          "create": "评论了$t(attribute.project.task.__t__)",
+          "mention": "在$t(attribute.project.task.__t__)$t(attribute.project.task.comment)提及了你"
+        },
+        "assignment_event": {
+          "assign": {
+            "department": "将{{department}}设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+            "user": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)"
+          },
+          "reassign": {
+            "department": "将{{department}}设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+            "user": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)"
+          }
+        },
+        "collaboration_event": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.collaborator.__t__)",
+        "updation_event": {
+          "clear_due_on": "清空了$t(attribute.project.task.__t__)$t(attribute.project.task.due_on.__t__)",
+          "due_on": "修改了$t(attribute.project.task.__t__)$t(attribute.project.task.due_on.__t__)",
+          "update_due_on": "更改时间为 {{time}}"
+        }
+      }
+    }
   }
 }
