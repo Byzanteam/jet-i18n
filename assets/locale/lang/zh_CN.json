@@ -1,379 +1,57 @@
 {
-  "Attribute": {
-    "Auth": {
-      "verification_code": "验证码"
-    },
-    "IdentityAccess": {
-      "department": {
-        "__t__": "部门",
-        "name": "$t(Attribute.IdentityAccess.department.__t__)名称",
-        "member": "$t(Attribute.IdentityAccess.department.__t__)成员"
-      },
-      "user": {
-        "__t__": "成员",
-        "name": "姓名",
-        "phone": "手机号码",
-        "email": "邮箱"
-      },
-      "workspace": {
-        "__t__": "空间",
-        "name": "$t(Attribute.IdentityAccess.workspace.__t__)名称"
-      }
-    },
-    "Workflow": {
-      "case": {
-        "state": {
-          "ABANDONED": "异常",
-          "COMPLETED": "已完成",
-          "RUNNING": "进行中"
-        }
-      },
-      "workflow": {
-        "__t__": "流程",
-        "title": "$t(Attribute.Workflow.workflow.__t__)名称",
-        "case_count": "$t(Attribute.Workflow.workflow.__t__)记录",
-        "state": {
-          "__t__": "$t(Attribute.Workflow.workflow.__t__)状态",
-          "processing": "进行中",
-          "terminated": "已停用"
-        },
-        "variables": "$t(Attribute.Workflow.workflow.__t__)数据"
-      },
-      "node": {
-        "__t__": "节点",
-        "state": {
-          "COMPLETED": "执行",
-          "STARTED": "等待"
-        },
-        "outputs": {
-          "__t__": "$t(Attribute.Workflow.node.__t__)输出",
-          "common_field_completed_at": "执行时间"
-        },
-        "associations": {
-          "__t__": "关联关系",
-          "attributes": "字段"
-        },
-        "CONDITION": {
-          "__t__": "条件$t(Attribute.Workflow.node.__t__)",
-          "schema_field": {
-            "sufficient": {
-              "__t__": "满足条件",
-              "candidateValues": {
-                "true": "满足",
-                "false": "不满足"
-              }
-            }
-          }
-        },
-        "CUSTOM": {
-          "__t__": "自定义$t(Attribute.Workflow.node.__t__)"
-        },
-        "END": {
-          "__t__": "结束"
-        },
-        "DEFERRED_CHOICE": {
-          "__t__": "单条流转"
-        },
-        "EXCLUSIVE_CHOICE": {
-          "__t__": "单条流转"
-        },
-        "FORM": {
-          "__t__": "填写$t(Attribute.Workflow.node.__t__)",
-          "schema_field": {
-            "filler": {
-              "__t__": "填写人"
-            },
-            "filled_at": {
-              "__t__": "填写时间"
-            }
-          },
-          "state": {
-            "COMPLETED": "提交",
-            "STARTED": "等待处理"
-          }
-        },
-        "MULTI_MERGE": {
-          "__t__": "多条聚合"
-        },
-        "START": {
-          "__t__": "开始",
-          "schema_field": {
-            "created_via": {
-              "__t__": "创建方式",
-              "candidateValues": {
-                "user": "$t(Attribute.Project.task.created_via.user)",
-                "import": "$t(Attribute.Project.task.created_via.import)",
-                "clone": "$t(Attribute.Project.task.created_via.clone)"
-              }
-            },
-            "description": {
-              "__t__": "$t(Attribute.Project.task.description)"
-            },
-            "due_on": {
-              "__t__": "$t(Attribute.Project.task.due_on.__t__)"
-            },
-            "priority": {
-              "__t__": "$t(Attribute.Project.task.priority.__t__)",
-              "candidateValues": {
-                "medium": "$t(Attribute.Project.task.priority.medium)",
-                "highest": "$t(Attribute.Project.task.priority.highest)",
-                "high": "$t(Attribute.Project.task.priority.high)",
-                "low": "$t(Attribute.Project.task.priority.low)"
-              }
-            },
-            "title": {
-              "__t__": "$t(Attribute.Project.task.title)"
-            }
-          }
-        },
-        "SIMPLE_MERGE": {
-          "__t__": "单条聚合"
-        },
-        "TIMER": {
-          "__t__": "定时器",
-          "schema_field": {
-            "end_at": {
-              "__t__": "执行时间"
-            }
-          }
-        },
-        "WORKFLOW_CASE_TRIGGER": {
-          "__t__": "触发$t(Attribute.Workflow.node.__t__)"
-        },
-        "DATABASE_AUTOMATIC_OPERATION_ADD_ROW": {
-          "__t__": "系统执行",
-          "operation": "新建数据",
-          "schema_field": {
-            "row": {
-              "__t__": "填写记录"
-            }
-          }
-        },
-        "DATABASE_AUTOMATIC_OPERATION_UPDATE_ROW": {
-          "__t__": "系统执行",
-          "operation": "修改字段",
-          "schema_field": {
-            "row": {
-              "__t__": "填写记录"
-            }
-          }
-        },
-        "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_SUBJECT": {
-          "__t__": "系统执行",
-          "operation": "修改所属主体"
-        },
-        "WORKFLOW_AUTOMATIC_OPERATION_UPDATE_CASE_VARIABLES": {
-          "__t__": "系统执行",
-          "operation": "修改流程数据"
-        }
-      },
-      "resource": {
-        "PROJECT_TASK": {
-          "__t__": "$t(Attribute.Project.task.__t__)",
-          "title": "$t(Attribute.Project.task.title)",
-          "description": "$t(Attribute.Project.task.description)",
-          "priority": "$t(Attribute.Project.task.priority.__t__)",
-          "due_on": "$t(Attribute.Project.task.due_on.__t__)",
-          "created_via": "$t(Attribute.Project.task.created_via.__t__)",
-          "assignee": "$t(Attribute.Project.task.assignee.__t__)"
-        },
-        "PROJECT_PROJECT": {
-          "__t__": "$t(Attribute.Project.project.__t__)",
-          "title": "$t(Attribute.Project.project.title)"
-        }
-      },
-      "trigger": {
-        "events": {
-          "PROJECT_TASK_CREATED": "创建任务",
-          "WORKFLOW_CASE_TRIGGER_NODE_EXECUTED": "触发节点"
-        },
-        "outputs": "事件输出"
-      },
-      "case_data": {
-        "project_project": {
-          "__t__": "$t(Attribute.Project.project.__t__)"
-        },
-        "project_task": {
-          "__t__": "$t(Attribute.Project.task.__t__)",
-          "attributes": {
-            "completed": "完成情况",
-            "title": "$t(Attribute.Project.task.title)",
-            "description": "$t(Attribute.Project.task.description)",
-            "priority": "$t(Attribute.Project.task.priority.__t__)",
-            "due_on": "$t(Attribute.Project.task.due_on.__t__)",
-            "created_via": "$t(Attribute.Project.task.created_via.__t__)",
-            "assignee": "$t(Attribute.Project.task.assignee.__t__)"
-          }
-        },
-        "workflow_case": {
-          "__t__": "$t(Attribute.Workflow.workflow.__t__)记录"
-        },
-        "trigger_event": {
-          "__t__": "事件输出",
-          "fields": {
-            "created_via": "$t(Attribute.Project.task.created_via.__t__)",
-            "title": "$t(Attribute.Project.task.title)",
-            "description": "$t(Attribute.Project.task.description)",
-            "priority": "$t(Attribute.Project.task.priority.__t__)",
-            "due_on": "$t(Attribute.Project.task.due_on.__t__)",
-            "assignee": "$t(Attribute.Project.task.assignee.__t__)",
-            "completed": "完成情况"
-          }
-        }
-      }
-    },
-    "Project": {
-      "project": {
-        "__t__": "项目",
-        "title": "$t(Attribute.Project.project.__t__)名称",
-        "description": "$t(Attribute.Project.project.__t__)描述",
-        "member": {
-          "__t__": "$t(Attribute.Project.project.__t__)成员",
-          "short": "成员"
-        },
-        "status": {
-          "archived": "已归档"
-        },
-        "report": {
-          "__t__": "$t(Attribute.Project.project.__t__)统计",
-          "short": "统计"
-        }
-      },
-      "task": {
-        "__t__": "任务",
-        "title": "$t(Attribute.Project.task.__t__)标题",
-        "description": "$t(Attribute.Project.task.__t__)描述",
-        "completed": "完成",
-        "completed_time": "$t(Attribute.Project.task.completed)时间",
-        "created_via": {
-          "__t__": "创建方式",
-          "user": "用户创建",
-          "import": "导入",
-          "clone": "复制"
-        },
-        "assignee": {
-          "__t__": "负责人",
-          "blank": "未指派"
-        },
-        "due_on": {
-          "__t__": "截止时间",
-          "blank": "未设置",
-          "empty": "无"
-        },
-        "collaborator": {
-          "__t__": "协作者",
-          "blank": "未指派"
-        },
-        "task_label": {
-          "__t__": "标签",
-          "full": "$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.task_label.__t__)",
-          "blank": "未添加",
-          "name": "$t(Attribute.Project.task.task_label.__t__)名称"
-        },
-        "priority": {
-          "__t__": "优先级",
-          "highest": "非常紧急",
-          "high": "紧急",
-          "medium": "普通",
-          "low": "低",
-          "blank": "未设置"
-        },
-        "attachment": "附件",
-        "sub_task": "子$t(Attribute.Project.task.__t__)",
-        "comment": "评论",
-        "activities": "动态",
-        "overdue": {
-          "__t__": "逾期天数",
-          "in_days": "{{days}}天",
-          "in_hours": "{{hours}}小时",
-          "full": "{{days}}天 {{hours}}小时"
-        },
-        "parent": "上级$t(Attribute.Project.task.__t__)"
-      },
-      "task_group": {
-        "__t__": "$t(Attribute.Project.task.__t__)$t(Attribute.Project.task_group.short)",
-        "short": "分组",
-        "title": "$t(Attribute.Project.task_group.short)名称",
-        "description": "$t(Attribute.Project.task_group.short)描述"
-      }
-    },
-    "Database": {
-      "table": {
-        "__t__": "数据表格"
-      },
-      "row": {
-        "__t__": "数据"
-      }
-    },
-    "AccessControl": {
+  "attribute": {
+    "access_control": {
       "role": {
         "__t__": "角色",
-        "name": "$t(Attribute.AccessControl.role.__t__)名称",
-        "actor": "$t(Attribute.AccessControl.role.__t__)成员",
-        "root": "超级管理员",
+        "actor": "$t(attribute.access_control.role.__t__)成员",
         "admin": "管理员",
+        "name": "$t(attribute.access_control.role.__t__)名称",
         "permission": {
-          "__t__": "$t(Attribute.AccessControl.role.__t__)权限",
+          "__t__": "$t(attribute.access_control.role.__t__)权限",
           "all": "后台管理",
-          "user_management": "成员管理",
-          "role_management": "$t(Attribute.AccessControl.role.__t__)管理",
-          "workspace_configuration": "空间设置",
           "department_management": {
-            "__t__": "$t(Attribute.IdentityAccess.department.__t__)管理",
-            "department_management_full": "全$t(Attribute.IdentityAccess.department.__t__)",
-            "department_management_self_and_descendants": "所在及以下$t(Attribute.IdentityAccess.department.__t__)",
-            "department_edition": "编辑$t(Attribute.IdentityAccess.department.__t__)",
-            "members_management": "$t(Attribute.IdentityAccess.department.member)管理"
+            "__t__": "$t(attribute.identity_access.department.__t__)管理",
+            "department_edition": "编辑$t(attribute.identity_access.department.__t__)",
+            "department_management_full": "全$t(attribute.identity_access.department.__t__)",
+            "department_management_self_and_descendants": "所在及以下$t(attribute.identity_access.department.__t__)",
+            "members_management": "$t(attribute.identity_access.department.member)管理"
           },
           "permissions_management": {
             "__t__": "权限管理",
-            "role_management": "$t(Attribute.AccessControl.role.__t__)管理"
+            "role_management": "$t(attribute.access_control.role.__t__)管理"
           },
+          "role_management": "$t(attribute.access_control.role.__t__)管理",
+          "user_management": "成员管理",
+          "workspace_configuration": "空间设置",
           "workspace_management": {
-            "__t__": "$t(Attribute.IdentityAccess.workspace.__t__)管理",
-            "base_info_management": "管理$t(Attribute.IdentityAccess.workspace.__t__)基本信息",
-            "user_profile_management": "管理$t(Attribute.IdentityAccess.user.__t__)自定义属性",
+            "__t__": "$t(attribute.identity_access.workspace.__t__)管理",
+            "base_info_management": "管理$t(attribute.identity_access.workspace.__t__)基本信息",
+            "user_profile_management": "管理$t(attribute.identity_access.user.__t__)自定义属性",
             "workspace_settings": {
               "remove_workspace": "删除团队"
             }
           }
-        }
+        },
+        "root": "超级管理员"
       }
     },
-    "FormMetal": {
+    "auth": {
+      "verification_code": "验证码"
+    },
+    "database": {
+      "row": {
+        "__t__": "数据"
+      },
+      "table": {
+        "__t__": "数据表格"
+      }
+    },
+    "form_metal": {
       "basic_field": "基本字段",
+      "dependency": {
+        "__t__": "逻辑"
+      },
       "field": {
-        "label": "标题",
-        "description": {
-          "__t__": "描述",
-          "blank": "暂无"
-        },
-        "field_type": {
-          "__t__": "字段类型",
-          "SingleLineField": "单行文本",
-          "MultipleLineField": "多行文本",
-          "RadioButtonField": "单项选择",
-          "CheckboxField": "多项选择",
-          "NumericField": "数字",
-          "DropdownField": "下拉选择",
-          "DateTimeField": "日期",
-          "FileField": "文件上传"
-        },
-        "default_value": "默认值",
-        "position": {
-          "col": "字段占比",
-          "col_options": {
-            "2": [
-              "50%",
-              "100%"
-            ],
-            "3": [
-              "1 / 3",
-              "2 / 3",
-              "整行"
-            ]
-          }
-        },
         "candidate_option": {
           "option": {
             "__t__": "选项",
@@ -384,42 +62,59 @@
             "label": "其他"
           }
         },
+        "default_value": "默认值",
+        "description": {
+          "__t__": "描述",
+          "blank": "暂无"
+        },
+        "field_type": {
+          "__t__": "字段类型",
+          "checkbox_field": "多项选择",
+          "date_time_field": "日期",
+          "dropdown_field": "下拉选择",
+          "file_field": "文件上传",
+          "multiple_line_field": "多行文本",
+          "numeric_field": "数字",
+          "radio_button_field": "单项选择",
+          "single_line_field": "单行文本"
+        },
+        "label": "标题",
+        "position": {
+          "col": "字段占比",
+          "col_options": {
+            "2": ["50%", "100%"],
+            "3": ["1 / 3", "2 / 3", "整行"]
+          }
+        },
         "settings": {
-          "enable_editor": "使用富文本编辑器",
-          "numeric_type": {
-            "__t__": "类型",
-            "integer": "整数",
-            "percent": "百分数",
-            "decimal": "小数"
+          "date_time_type": {
+            "is_date_time": "精确到时分"
           },
-          "scale": "保留小数点后{{scale}}位",
+          "enable_editor": "使用富文本编辑器",
           "layout": {
-            "title": "排版",
             "columns_1": "一排一个",
             "columns_2": "一排两个",
             "columns_4": "一排四个",
-            "side_by_side": "紧凑"
+            "side_by_side": "紧凑",
+            "title": "排版"
           },
-          "date_time_type": {
-            "is_date_time": "精确到时分"
-          }
+          "numeric_type": {
+            "__t__": "类型",
+            "decimal": "小数",
+            "integer": "整数",
+            "percent": "百分数"
+          },
+          "scale": "保留小数点后{{scale}}位"
         },
         "validation": {
-          "presence": "必填",
-          "number": "填写范围",
           "length": {
-            "SingleLineField": "限制字数",
-            "MultipleLineField": "限制字数",
-            "CheckboxField": "限制个数",
-            "ProjectIndexKeyField": "限制字数"
-          }
-        }
-      },
-      "filter_group": {
-        "__t__": "条件组",
-        "operator": {
-          "and": "且",
-          "or": "或"
+            "checkbox_field": "限制个数",
+            "multiple_line_field": "限制字数",
+            "project_index_key_field": "限制字数",
+            "single_line_field": "限制字数"
+          },
+          "number": "填写范围",
+          "presence": "必填"
         }
       },
       "filter": {
@@ -471,411 +166,1433 @@
             "is_not_empty": "不为空"
           }
         },
-        "single_line_filter": {
-          "operator": {
-            "contain": "包含",
-            "is": "等于"
-          }
-        },
         "relation_filter": {
           "operator": {
             "is": "等于",
             "is_not": "不等于"
           }
         },
+        "single_line_filter": {
+          "operator": {
+            "contain": "包含",
+            "is": "等于"
+          }
+        },
         "user_boundary_filter": {}
       },
-      "dependency": {
-        "__t__": "逻辑"
+      "filter_group": {
+        "__t__": "条件组",
+        "operator": {
+          "and": "且",
+          "or": "或"
+        }
+      }
+    },
+    "identity_access": {
+      "department": {
+        "__t__": "部门",
+        "member": "$t(attribute.identity_access.department.__t__)成员",
+        "name": "$t(attribute.identity_access.department.__t__)名称"
+      },
+      "user": {
+        "__t__": "成员",
+        "email": "邮箱",
+        "name": "姓名",
+        "phone": "手机号码"
+      },
+      "workspace": {
+        "__t__": "空间",
+        "name": "$t(attribute.identity_access.workspace.__t__)名称"
+      }
+    },
+    "project": {
+      "project": {
+        "__t__": "项目",
+        "description": "$t(attribute.project.project.__t__)描述",
+        "member": {
+          "__t__": "$t(attribute.project.project.__t__)成员",
+          "short": "成员"
+        },
+        "report": {
+          "__t__": "$t(attribute.project.project.__t__)统计",
+          "short": "统计"
+        },
+        "status": {
+          "archived": "已归档"
+        },
+        "title": "$t(attribute.project.project.__t__)名称"
+      },
+      "task": {
+        "__t__": "任务",
+        "activities": "动态",
+        "assignee": {
+          "__t__": "负责人",
+          "blank": "未指派"
+        },
+        "attachment": "附件",
+        "collaborator": {
+          "__t__": "协作者",
+          "blank": "未指派"
+        },
+        "comment": "评论",
+        "completed": {
+          "__t__": "完成",
+          "false": "未完成",
+          "true": "已完成"
+        },
+        "completed_time": "$t(attribute.project.task.completed.__t__)时间",
+        "created_via": {
+          "__t__": "创建方式",
+          "clone": "复制",
+          "import": "导入",
+          "user": "用户创建"
+        },
+        "description": "$t(attribute.project.task.__t__)描述",
+        "due_on": {
+          "__t__": "截止时间",
+          "blank": "未设置",
+          "empty": "无"
+        },
+        "overdue": {
+          "__t__": "逾期天数",
+          "full": "{{days}}天 {{hours}}小时",
+          "in_days": "{{days}}天",
+          "in_hours": "{{hours}}小时"
+        },
+        "parent": "上级$t(attribute.project.task.__t__)",
+        "priority": {
+          "__t__": "优先级",
+          "blank": "未设置",
+          "high": "紧急",
+          "highest": "非常紧急",
+          "low": "低",
+          "medium": "普通"
+        },
+        "sub_task": "子$t(attribute.project.task.__t__)",
+        "task_label": {
+          "__t__": "标签",
+          "blank": "未添加",
+          "full": "$t(attribute.project.task.__t__)$t(attribute.project.task.task_label.__t__)",
+          "name": "$t(attribute.project.task.task_label.__t__)名称"
+        },
+        "title": "$t(attribute.project.task.__t__)标题"
+      },
+      "task_group": {
+        "__t__": "$t(attribute.project.task.__t__)$t(attribute.project.task_group.short)",
+        "description": "$t(attribute.project.task_group.short)描述",
+        "short": "分组",
+        "title": "$t(attribute.project.task_group.short)名称"
+      }
+    },
+    "workflow": {
+      "case": {
+        "state": {
+          "abandoned": "异常",
+          "completed": "已完成",
+          "running": "进行中"
+        }
+      },
+      "case_data": {
+        "project_project": {
+          "__t__": "$t(attribute.project.project.__t__)"
+        },
+        "project_task": {
+          "__t__": "$t(attribute.project.task.__t__)",
+          "attributes": {
+            "assignee": "$t(attribute.project.task.assignee.__t__)",
+            "completed": "完成情况",
+            "created_via": "$t(attribute.project.task.created_via.__t__)",
+            "description": "$t(attribute.project.task.description)",
+            "due_on": "$t(attribute.project.task.due_on.__t__)",
+            "priority": "$t(attribute.project.task.priority.__t__)",
+            "title": "$t(attribute.project.task.title)"
+          }
+        },
+        "trigger_event": {
+          "__t__": "事件输出",
+          "fields": {
+            "assignee": "$t(attribute.project.task.assignee.__t__)",
+            "completed": "完成情况",
+            "created_via": "$t(attribute.project.task.created_via.__t__)",
+            "description": "$t(attribute.project.task.description)",
+            "due_on": "$t(attribute.project.task.due_on.__t__)",
+            "priority": "$t(attribute.project.task.priority.__t__)",
+            "title": "$t(attribute.project.task.title)"
+          }
+        },
+        "workflow_case": {
+          "__t__": "$t(attribute.workflow.workflow.__t__)记录"
+        }
+      },
+      "node": {
+        "__t__": "节点",
+        "associations": {
+          "__t__": "关联关系",
+          "attributes": "字段"
+        },
+        "condition": {
+          "__t__": "条件$t(attribute.workflow.node.__t__)",
+          "schema_field": {
+            "sufficient": {
+              "__t__": "满足条件",
+              "candidate_values": {
+                "false": "不满足",
+                "true": "满足"
+              }
+            }
+          }
+        },
+        "custom": {
+          "__t__": "自定义$t(attribute.workflow.node.__t__)"
+        },
+        "database_automatic_operation_add_row": {
+          "__t__": "系统执行",
+          "operation": "新建数据",
+          "schema_field": {
+            "row": {
+              "__t__": "填写记录"
+            }
+          }
+        },
+        "database_automatic_operation_update_row": {
+          "__t__": "系统执行",
+          "operation": "修改字段",
+          "schema_field": {
+            "row": {
+              "__t__": "填写记录"
+            }
+          }
+        },
+        "deferred_choice": {
+          "__t__": "单条流转"
+        },
+        "end": {
+          "__t__": "结束"
+        },
+        "exclusive_choice": {
+          "__t__": "单条流转"
+        },
+        "form": {
+          "__t__": "填写$t(attribute.workflow.node.__t__)",
+          "schema_field": {
+            "filled_at": {
+              "__t__": "填写时间"
+            },
+            "fillers": {
+              "__t__": "填写人"
+            }
+          },
+          "state": {
+            "completed": "提交",
+            "started": "等待处理"
+          }
+        },
+        "multi_merge": {
+          "__t__": "多条聚合"
+        },
+        "outputs": {
+          "__t__": "$t(attribute.workflow.node.__t__)输出",
+          "common_field_completed_at": "执行时间"
+        },
+        "simple_merge": {
+          "__t__": "单条聚合"
+        },
+        "start": {
+          "__t__": "开始",
+          "schema_field": {
+            "created_via": {
+              "__t__": "创建方式",
+              "candidate_values": {
+                "clone": "$t(attribute.project.task.created_via.clone)",
+                "import": "$t(attribute.project.task.created_via.import)",
+                "user": "$t(attribute.project.task.created_via.user)"
+              }
+            },
+            "description": {
+              "__t__": "$t(attribute.project.task.description)"
+            },
+            "due_on": {
+              "__t__": "$t(attribute.project.task.due_on.__t__)"
+            },
+            "priority": {
+              "__t__": "$t(attribute.project.task.priority.__t__)",
+              "candidate_values": {
+                "high": "$t(attribute.project.task.priority.high)",
+                "highest": "$t(attribute.project.task.priority.highest)",
+                "low": "$t(attribute.project.task.priority.low)",
+                "medium": "$t(attribute.project.task.priority.medium)"
+              }
+            },
+            "title": {
+              "__t__": "$t(attribute.project.task.title)"
+            }
+          }
+        },
+        "state": {
+          "completed": "执行",
+          "started": "等待"
+        },
+        "timer": {
+          "__t__": "定时器",
+          "schema_field": {
+            "end_at": {
+              "__t__": "执行时间"
+            }
+          }
+        },
+        "workflow_automatic_operation_update_case_subject": {
+          "__t__": "系统执行",
+          "operation": "修改所属主体"
+        },
+        "workflow_automatic_operation_update_case_variables": {
+          "__t__": "系统执行",
+          "operation": "修改流程数据"
+        },
+        "workflow_case_trigger": {
+          "__t__": "触发$t(attribute.workflow.node.__t__)"
+        }
+      },
+      "resource": {
+        "project_project": {
+          "__t__": "$t(attribute.project.project.__t__)",
+          "title": "$t(attribute.project.project.title)"
+        },
+        "project_task": {
+          "__t__": "$t(attribute.project.task.__t__)",
+          "assignee": "$t(attribute.project.task.assignee.__t__)",
+          "created_via": "$t(attribute.project.task.created_via.__t__)",
+          "description": "$t(attribute.project.task.description)",
+          "due_on": "$t(attribute.project.task.due_on.__t__)",
+          "priority": "$t(attribute.project.task.priority.__t__)",
+          "title": "$t(attribute.project.task.title)"
+        }
+      },
+      "trigger": {
+        "events": {
+          "project_task_created": "创建任务",
+          "workflow_case_trigger_node_executed": "触发节点"
+        },
+        "outputs": "事件输出"
+      },
+      "workflow": {
+        "__t__": "流程",
+        "case_count": "$t(attribute.workflow.workflow.__t__)记录",
+        "state": {
+          "__t__": "$t(attribute.workflow.workflow.__t__)状态",
+          "processing": "进行中",
+          "terminated": "已停用"
+        },
+        "title": "$t(attribute.workflow.workflow.__t__)名称",
+        "variables": "$t(attribute.workflow.workflow.__t__)数据"
       }
     }
   },
-  "Common": {
-    "separator": "、",
+  "common": {
+    "collapse": {
+      "less": "点击收起",
+      "more": "显示更多"
+    },
+    "editor": {
+      "extension": {
+        "link": {
+          "href": "链接地址",
+          "text": "链接文字"
+        }
+      }
+    },
     "errors": {
       "format": "{{attribute}}{{message}}",
       "messages": {
         "absence": "必须为空",
+        "email": "邮箱格式不正确",
         "format": "格式错误",
         "inclusion": "必须为 {{list}} 其中的一个",
-        "presence": "不能为空",
         "length": {
-          "min": "大于 {{min}}",
-          "max": "小于 {{max}}",
           "in": "{{min}} ~ {{max}}",
-          "is": "{{is}}"
+          "is": "{{is}}",
+          "max": "小于 {{max}}",
+          "min": "大于 {{min}}"
         },
-        "uniqueness": "已存在",
+        "network": "请检查网络连接",
+        "operation_failed": "操作失败",
         "phone": "请检查手机号码是否正确",
-        "email": "邮箱格式不正确",
+        "presence": "不能为空",
         "range": {
-          "in": "必须处于 {{lower}} ~ {{upper}} 之间",
           "equal_to": "必须等于 {{equal_to}}",
           "greater_than_or_equal_to": "必须大于等于 {{lower}}",
+          "in": "必须处于 {{lower}} ~ {{upper}} 之间",
           "less_than_or_equal_to": "必须小于等于 {{upper}}"
         },
-        "operation_failed": "操作失败",
-        "network": "请检查网络连接"
+        "uniqueness": "已存在"
       }
     },
-    "list": {
-      "blank": "暂无{{target}}"
-    },
-    "uploader": {
-      "button_text": "文件上传",
-      "failure": "上传失败",
-      "too_large": "上传失败，文件大小不得超过 {{max_size}}",
-      "uploading": "上传中",
-      "again": "重新加载"
-    },
-    "select": {
-      "date_time": {
-        "mode": {
-          "date": "选日期",
-          "time": "选时间"
-        },
-        "select_now": "立即",
-        "clear": "清除",
-        "confirm": "确定"
-      },
-      "placeholder": {
-        "default": "请选择",
-        "date": "请选择日期",
-        "time": "请选择时间",
-        "date_time": "请选择日期时间"
-      },
-      "search": {
-        "blank": {
-          "default": "暂无搜索结果。",
-          "department": "暂无匹配的$t(Attribute.IdentityAccess.department.__t__)"
-        }
-      },
-      "clear": "清除所选"
-    },
-    "operation": {
-      "add": "添加",
-      "edit": "编辑",
-      "confirm": "确认",
-      "save": "保存",
+    "feedback": {
       "cancel": "取消",
-      "delete": "删除",
-      "complete": "完成",
-      "create": "新建",
-      "reset": "重置"
+      "confirm": "确定",
+      "title": "标题"
+    },
+    "file": {
+      "click_to_download": "点击下载",
+      "extension": {
+        "archive": "压缩文件",
+        "audio": "音频",
+        "excel": "电子表格",
+        "image": "图片",
+        "pdf": "便携文档",
+        "powerpoint": "演示文稿",
+        "text": "文稿",
+        "unknown": "其他格式",
+        "video": "视频",
+        "word": "文档"
+      },
+      "not_support_preview": "暂不支持此类型预览"
+    },
+    "form": {
+      "__t__": "表单",
+      "edit": {
+        "__t__": "编辑$t(common.form.__t__)"
+      },
+      "field": "{{context}}字段",
+      "fill": {
+        "__t__": "填写$t(common.form.__t__)",
+        "confirm": "提交",
+        "success": "{{confirm}}成功"
+      }
     },
     "input": {
       "placeholder": {
         "default": "请输入",
         "phone": "请输入手机号码",
-        "verification_code": "请输入$t(Attribute.Auth.verification_code)",
-        "search": "搜索"
+        "search": "搜索",
+        "verification_code": "请输入$t(attribute.auth.verification_code)"
       }
     },
-    "unit": {
-      "time": {
-        "second": "秒",
-        "month": "月"
-      },
-      "weeks": [
-        "日",
-        "一",
-        "二",
-        "三",
-        "四",
-        "五",
-        "六"
-      ]
+    "list": {
+      "blank": "暂无{{target}}"
     },
-    "feedback": {
-      "title": "标题",
-      "confirm": "确定",
-      "cancel": "取消"
+    "operation": {
+      "add": "添加",
+      "cancel": "取消",
+      "complete": "完成",
+      "confirm": "确认",
+      "create": "新建",
+      "delete": "删除",
+      "edit": "编辑",
+      "reset": "重置",
+      "save": "保存"
     },
     "paginator": {
-      "load_more": "加载更多",
       "load_fail": "加载失败",
+      "load_more": "加载更多",
       "reload": "请点击重新加载"
     },
-    "file": {
-      "extension": {
-        "word": "文档",
-        "image": "图片",
-        "pdf": "便携文档",
-        "powerpoint": "演示文稿",
-        "excel": "电子表格",
-        "archive": "压缩文件",
-        "video": "视频",
-        "audio": "音频",
-        "text": "文稿",
-        "unknown": "其他格式"
+    "select": {
+      "clear": "清除所选",
+      "date_time": {
+        "clear": "清除",
+        "confirm": "确定",
+        "mode": {
+          "date": "选日期",
+          "time": "选时间"
+        },
+        "select_now": "立即"
       },
-      "not_support_preview": "暂不支持此类型预览",
-      "click_to_download": "点击下载"
-    },
-    "collapse": {
-      "more": "显示更多",
-      "less": "点击收起"
-    },
-    "editor": {
-      "extension": {
-        "link": {
-          "text": "链接文字",
-          "href": "链接地址"
+      "placeholder": {
+        "date": "请选择日期",
+        "date_time": "请选择日期时间",
+        "default": "请选择",
+        "time": "请选择时间"
+      },
+      "search": {
+        "blank": {
+          "default": "暂无搜索结果。",
+          "department": "暂无匹配的$t(attribute.identity_access.department.__t__)"
         }
       }
     },
-    "form": {
-      "__t__": "表单",
-      "field": "{{context}}字段",
-      "edit": {
-        "__t__": "编辑$t(Common.form.__t__)"
+    "separator": "、",
+    "unit": {
+      "time": {
+        "month": "月",
+        "second": "秒"
       },
-      "fill": {
-        "__t__": "填写$t(Common.form.__t__)",
-        "confirm": "提交",
-        "success": "{{confirm}}成功"
-      }
+      "weeks": ["日", "一", "二", "三", "四", "五", "六"]
+    },
+    "uploader": {
+      "again": "重新加载",
+      "button_text": "文件上传",
+      "failure": "上传失败",
+      "too_large": "上传失败，文件大小不得超过 {{max_size}}",
+      "uploading": "上传中"
     }
   },
-  "Page": {
-    "application": "Jet",
-    "loading": "正在加载中",
-    "Index": {
-      "title": "🎉 用 JET 工作，高效、灵活 🎉",
-      "subtitle": "JET 用简单的方式，让你完全掌控你的工作"
-    },
-    "Auth": {
-      "title": {
-        "sign_in": "$t(Page.Auth.sign_in)",
-        "sign_up": "$t(Page.Auth.sign_up)",
-        "sign_up_workspace": "$t(Page.Auth.sign_up_workspace)"
-      },
-      "sign_in": "登录",
-      "sign_up": "注册",
-      "sign_up_workspace": "注册团队",
-      "workspace_name": "团队名称",
-      "terms_of_service": {
-        "title": "任务管理隐私条款",
-        "message": "我已阅读并同意{{tos}}"
-      },
-      "user_name": "您的名字",
-      "welcome_to": "欢迎 {{user}}",
-      "generate_verification_code": "获取$t(Attribute.Auth.verification_code)",
-      "verification_code_receiving": "获取中...",
-      "sms_rate_limit_exceeded": "短信发送过于频繁，请稍后再试",
-      "verification_not_match": "$t(Attribute.Auth.verification_code)错误",
-      "authorize_failed": "登录失败",
-      "user_not_found": "$t(Attribute.IdentityAccess.user.phone)不存在",
-      "please_check_phone": "请检查$t(Attribute.IdentityAccess.user.phone)是否正确",
-      "logout": {
-        "__t__": "退出登录",
-        "fail": "操作失败"
-      },
-      "switch_workspace": {
-        "fail": "操作失败"
-      }
-    },
-    "AccessControl": {
-      "title": {
-        "role": "$t(Page.AccessControl.role_management)"
-      },
-      "role_management": "$t(Attribute.AccessControl.role.__t__)管理",
+  "page": {
+    "access_control": {
       "application_configuration": "应用管理",
-      "create_role": {
-        "__t__": "新建$t(Attribute.AccessControl.role.__t__)"
-      },
-      "update_role": {
-        "__t__": "修改$t(Attribute.AccessControl.role.__t__)",
-        "name": "编辑名称"
-      },
-      "delete_role": {
-        "__t__": "删除$t(Attribute.AccessControl.role.__t__)",
-        "description": "删除后不能恢复",
-        "success": "删除成功",
-        "fail": "删除失败"
-      },
       "assign_role": {
         "__t__": "添加成员"
       },
-      "unassign_role": {
-        "__t__": "移除成员",
-        "short": "移除",
-        "success": "移除成功",
-        "fail": "移除失败"
+      "change_permission_fail": "权限更改失败",
+      "create_role": {
+        "__t__": "新建$t(attribute.access_control.role.__t__)"
+      },
+      "delete_role": {
+        "__t__": "删除$t(attribute.access_control.role.__t__)",
+        "description": "删除后不能恢复",
+        "fail": "删除失败",
+        "success": "删除成功"
       },
       "empty_actor": "暂无成员。",
-      "change_permission_fail": "权限更改失败"
-    },
-    "Account": {
+      "role_management": "$t(attribute.access_control.role.__t__)管理",
       "title": {
-        "user_schema": "$t(Page.Account.user_schema)",
-        "my_profile": "$t(Page.Account.my_profile.__t__)"
+        "role": "$t(page.access_control.role_management)"
       },
-      "user_schema": "自定义$t(Attribute.IdentityAccess.user.__t__)属性",
-      "add_user_field_guidance": "点击表单字段或拖动到此区域以编辑$t(Page.Account.user_schema)",
+      "unassign_role": {
+        "__t__": "移除成员",
+        "fail": "移除失败",
+        "short": "移除",
+        "success": "移除成功"
+      },
+      "update_role": {
+        "__t__": "修改$t(attribute.access_control.role.__t__)",
+        "name": "编辑名称"
+      }
+    },
+    "account": {
+      "add_user_field_guidance": "点击表单字段或拖动到此区域以编辑$t(page.account.user_schema)",
       "my_profile": {
         "__t__": "个人设置",
         "update_avatar": {
           "__t__": "修改头像",
-          "internal_avatar": "系统头像",
+          "confirm": "确认修改",
           "custom_avatar": "自定义",
-          "upload": "点击上传",
-          "confirm": "确认修改"
+          "internal_avatar": "系统头像",
+          "upload": "点击上传"
+        }
+      },
+      "title": {
+        "my_profile": "$t(page.account.my_profile.__t__)",
+        "user_schema": "$t(page.account.user_schema)"
+      },
+      "user_schema": "自定义$t(attribute.identity_access.user.__t__)属性"
+    },
+    "activity": {
+      "notification": {
+        "all": "全部",
+        "assignment_event": {
+          "assign": {
+            "department": "将{{department}}设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+            "user": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)"
+          },
+          "reassign": {
+            "department": "将{{department}}设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+            "user": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)"
+          }
+        },
+        "collaboration_event": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.collaborator.__t__)",
+        "comment_event": {
+          "create": "评论了$t(attribute.project.task.__t__)",
+          "mention": "在$t(attribute.project.task.__t__)$t(attribute.project.task.comment)提及了你"
+        },
+        "mark_all_read": {
+          "__t__": "全部标记为已读",
+          "fail": "操作失败"
+        },
+        "new_notification_created": "有新的提醒，点击查看",
+        "no_new_notification": "没有新的提醒",
+        "no_notifications": "暂无提醒",
+        "task_event": {
+          "complete": "完成了$t(attribute.project.task.__t__)",
+          "uncomplete": "重新打开了$t(attribute.project.task.__t__)"
+        },
+        "title": "提醒中心",
+        "unread": "未读",
+        "updation_event": {
+          "clear_due_on": "清空了$t(attribute.project.task.__t__)$t(attribute.project.task.due_on.__t__)",
+          "due_on": "修改了$t(attribute.project.task.__t__)$t(attribute.project.task.due_on.__t__)",
+          "update_due_on": "更改时间为 {{time}}"
+        },
+        "view_all": "查看全部"
+      },
+      "task_activity": {
+        "assignment_event": {
+          "assign": "设置了$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+          "reassign": "修改了$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+          "unassign": "移除了$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)"
+        },
+        "attachment_event": {
+          "create": "上传了附件",
+          "delete": "删除了附件"
+        },
+        "collaboration_event": {
+          "add": "添加了$t(attribute.project.task.__t__)$t(attribute.project.task.collaborator.__t__)",
+          "remove": "移除了$t(attribute.project.task.__t__)$t(attribute.project.task.collaborator.__t__)",
+          "update": "添加了$t(attribute.project.task.__t__)$t(attribute.project.task.collaborator.__t__) {{added_collaborators}} 同时移除了$t(attribute.project.task.__t__)$t(attribute.project.task.collaborator.__t__) {{removed_collaborators}}"
+        },
+        "sub_task_event": {
+          "complete": "完成了$t(attribute.project.task.sub_task)",
+          "create": "创建了$t(attribute.project.task.sub_task)",
+          "discard": "删除了$t(attribute.project.task.sub_task)",
+          "uncomplete": "重新打开了$t(attribute.project.task.sub_task)"
+        },
+        "subscription_event": {
+          "add": {
+            "__t__": "添加了$t(attribute.project.task.__t__)关注者",
+            "self": "关注了$t(attribute.project.task.__t__)"
+          },
+          "remove": {
+            "__t__": "移除了$t(attribute.project.task.__t__)关注者",
+            "self": "取消关注$t(attribute.project.task.__t__)"
+          }
+        },
+        "task_event": {
+          "archive": "归档了$t(attribute.project.task.__t__)",
+          "change_belonger": {
+            "__t__": "移动了$t(attribute.project.task.__t__)",
+            "full": "将$t(attribute.project.task.__t__)从 {{from}} 移动到 {{to}}"
+          },
+          "clone": "复制了$t(attribute.project.task.__t__)",
+          "complete": "完成了$t(attribute.project.task.__t__)",
+          "create": "创建了$t(attribute.project.task.__t__)",
+          "unarchive": "取消了归档",
+          "uncomplete": "重新打开了$t(attribute.project.task.__t__)"
+        },
+        "task_label_event": {
+          "add": "添加了$t(attribute.project.task.__t__)$t(attribute.project.task.task_label.__t__)",
+          "remove": "移除了$t(attribute.project.task.__t__)$t(attribute.project.task.task_label.__t__)",
+          "update": "添加了$t(attribute.project.task.__t__)$t(attribute.project.task.task_label.__t__)  {{added_task_labels}} 同时移除了$t(attribute.project.task.__t__)$t(attribute.project.task.task_label.__t__)  {{removed_task_labels}}"
+        },
+        "task_profile_updation_event": {
+          "__t__": "修改了{{field_label}}  {{field_value}}",
+          "blank": "无"
+        },
+        "updation_event": {
+          "update_description": "修改了$t(attribute.project.task.description)",
+          "update_due_on": "修改了$t(attribute.project.task.__t__)$t(attribute.project.task.due_on.__t__)",
+          "update_priority": {
+            "add": "设置$t(attribute.project.task.priority.__t__)为",
+            "change": "将$t(attribute.project.task.priority.__t__)由 {{old_priority}} 修改为 {{new_priority}}"
+          },
+          "update_title": "修改了$t(attribute.project.task.title)"
         }
       }
     },
-    "IdentityAccess": {
+    "application": "Jet",
+    "auth": {
+      "authorize_failed": "登录失败",
+      "generate_verification_code": "获取$t(attribute.auth.verification_code)",
+      "logout": {
+        "__t__": "退出登录",
+        "fail": "操作失败"
+      },
+      "please_check_phone": "请检查$t(attribute.identity_access.user.phone)是否正确",
+      "sign_in": "登录",
+      "sign_up": "注册",
+      "sign_up_workspace": "注册团队",
+      "sms_rate_limit_exceeded": "短信发送过于频繁，请稍后再试",
+      "switch_workspace": {
+        "fail": "操作失败"
+      },
+      "terms_of_service": {
+        "message": "我已阅读并同意{{tos}}",
+        "title": "任务管理隐私条款"
+      },
       "title": {
-        "department": {
-          "index": "$t(Page.IdentityAccess.department.index)",
-          "suspended": "$t(Page.IdentityAccess.department.suspended)",
-          "show": "$t(Page.IdentityAccess.department.show)"
-        }
+        "sign_in": "$t(page.auth.sign_in)",
+        "sign_up": "$t(page.auth.sign_up)",
+        "sign_up_workspace": "$t(page.auth.sign_up_workspace)"
       },
+      "user_name": "您的名字",
+      "user_not_found": "$t(attribute.identity_access.user.phone)不存在",
+      "verification_code_receiving": "获取中...",
+      "verification_not_match": "$t(attribute.auth.verification_code)错误",
+      "welcome_to": "欢迎 {{user}}",
+      "workspace_name": "团队名称"
+    },
+    "error": {
+      "403": {
+        "description": "你可以联系管理员授权给你",
+        "title": "对不起，没有权限访问此页面"
+      },
+      "404": {
+        "description": "请检查输入网址后再试",
+        "title": "对不起，找不到这个页面"
+      },
+      "back_to_homepage": "返回首页"
+    },
+    "form_metal": {
+      "add_option": "添加选项",
+      "add_option_tip": "{{add_other_option}} 或者 {{bulk_insert}}",
+      "add_other_option": "添加其他选项",
+      "bulk_insert": {
+        "__t__": "批量添加",
+        "placeholder": "输入选项",
+        "tip": "请输入选项，使用换行来分割选项"
+      },
+      "delete_schema_field_confirm": {
+        "confirm": "删除",
+        "description": "删除后{{owner}}的此属性将被删除",
+        "title": "删除字段？"
+      },
+      "dependencies": {
+        "add": "添加逻辑",
+        "circular_dependencies_error_message": "{{fields}}相互控制，可能影响用户填写",
+        "edit": "编辑",
+        "radio_button": {
+          "disable_tip": "请添加更多字段来设置逻辑",
+          "modal": {
+            "option_dependency": {
+              "placeholder": "请选择"
+            },
+            "title": "逻辑"
+          }
+        },
+        "remove": "删除"
+      },
+      "leave_schema_page_confirm": {
+        "confirm": "离开",
+        "description": "有更改未保存，离开不会保存更改",
+        "title": "离开此页？"
+      }
+    },
+    "identity_access": {
+      "create_child_department": "新建子$t(attribute.identity_access.department.__t__)",
+      "create_department": "新建$t(attribute.identity_access.department.__t__)",
+      "create_user": "新建$t(attribute.identity_access.user.__t__)",
       "department": {
-        "index": "所有$t(Attribute.IdentityAccess.user.__t__)",
-        "suspended": "无$t(Attribute.IdentityAccess.department.__t__)$t(Attribute.IdentityAccess.user.__t__)",
-        "show": "{{department_name}}"
+        "index": "所有$t(attribute.identity_access.user.__t__)",
+        "show": "{{department_name}}",
+        "suspended": "无$t(attribute.identity_access.department.__t__)$t(attribute.identity_access.user.__t__)"
       },
-      "workspace": "团队",
-      "create_user": "新建$t(Attribute.IdentityAccess.user.__t__)",
-      "empty_user": "没有$t(Attribute.IdentityAccess.user.__t__)。",
-      "user_in_department": "已添加$t(Attribute.IdentityAccess.user.__t__)",
-      "user_table_guidance": "你可以{{create_user}}或者{{manage_user}}",
-      "manage_user": "管理$t(Attribute.IdentityAccess.department.__t__)$t(Attribute.IdentityAccess.user.__t__)",
-      "discard_user": {
-        "__t__": "删除$t(Attribute.IdentityAccess.user.__t__)",
-        "tip": "此$t(Attribute.IdentityAccess.user.__t__)将不能访问$t(Attribute.IdentityAccess.workspace.__t__)内任何信息，此操作不可撤销",
-        "success": "$t(Attribute.IdentityAccess.user.__t__)删除成功",
-        "fail": "删除$t(Attribute.IdentityAccess.user.__t__)失败",
-        "error": {
-          "root_can_not_discard": "此$t(Attribute.IdentityAccess.user.__t__)为空间超级管理员，请先移除超级管理员后再尝试删除"
-        }
-      },
-      "receive_user": {
-        "__t__": "添加$t(Attribute.IdentityAccess.user.__t__)",
-        "short": "添加"
-      },
-      "repel_user": {
-        "title": "从$t(Attribute.IdentityAccess.department.__t__)移除",
-        "confirm": "确定将{{user}}从{{department}}移除?",
-        "short": "移除"
-      },
-      "more_actions_for_user": "更多",
-      "create_department": "新建$t(Attribute.IdentityAccess.department.__t__)",
-      "create_child_department": "新建子$t(Attribute.IdentityAccess.department.__t__)",
-      "manage_department_users": "管理$t(Attribute.IdentityAccess.department.__t__)$t(Attribute.IdentityAccess.user.__t__)",
-      "more_actions_for_department": "更多",
-      "edit_department": "编辑$t(Attribute.IdentityAccess.department.__t__)",
       "discard_department": {
-        "__t__": "删除$t(Attribute.IdentityAccess.department.__t__)",
+        "__t__": "删除$t(attribute.identity_access.department.__t__)",
         "confirm": {
-          "title": "$t(Page.IdentityAccess.discard_department.__t__)？",
-          "description": "此$t(Attribute.IdentityAccess.department.__t__)下所有子$t(Attribute.IdentityAccess.department.__t__)将被删除"
+          "description": "此$t(attribute.identity_access.department.__t__)下所有子$t(attribute.identity_access.department.__t__)将被删除",
+          "title": "$t(page.identity_access.discard_department.__t__)？"
         }
       },
-      "search_user": "搜索$t(Attribute.IdentityAccess.user.__t__)",
-      "search_department": "搜索$t(Attribute.IdentityAccess.department.__t__)",
-      "view_department_members": "查看$t(Attribute.IdentityAccess.department.__t__)$t(Attribute.IdentityAccess.user.__t__)",
-      "import_users": {
-        "__t__": "导入$t(Attribute.IdentityAccess.user.__t__)",
-        "upload_file": {
-          "__t__": "上传 Excel",
-          "input_file": "选择 Excel 文件",
-          "file_accept": "支持 xlsx 文件",
-          "resolve_exceed": "一次最多导入 {{count}} 名$t(Attribute.IdentityAccess.user.__t__)",
-          "template": {
-            "name": "$t(Attribute.IdentityAccess.user.__t__)导入模板",
-            "download": {
-              "button": "点击下载导入模板",
-              "fail": "下载导入模板失败"
-            }
-          }
+      "discard_user": {
+        "__t__": "删除$t(attribute.identity_access.user.__t__)",
+        "error": {
+          "root_can_not_discard": "此$t(attribute.identity_access.user.__t__)为空间超级管理员，请先移除超级管理员后再尝试删除"
         },
-        "review_draft_users": {
-          "__t__": "数据预览",
-          "extract_failed": "解析文件失败",
-          "discard_uploaded_file_confirm": {
-            "title": "是否放弃已上传的文件",
-            "description": "返回上一步将删除已经上传的文件",
-            "confirm_text": "上一步"
-          },
-          "skip_invalid_data_confirm": {
-            "title": "是否放弃错误的数据",
-            "description": "有 {{invalid_count}} 条错误数据，继续导入将放弃错误数据",
-            "confirm_text": "继续导入"
-          }
-        },
-        "import_draft_users": {
-          "__t__": "导入数据",
-          "status": {
-            "importing": "正在导入",
-            "success": "$t(Attribute.IdentityAccess.user.__t__)导入成功"
-          },
-          "will_notify_after_import": "正在导入$t(Attribute.IdentityAccess.user.__t__)，您可以离开此页面，完成后我们将通知您",
-          "import_users_successful": "成功导入 {{count}} 条$t(Attribute.IdentityAccess.user.__t__)",
-          "back_to_user_list": "返回$t(Attribute.IdentityAccess.user.__t__)列表"
-        },
-        "invalid_count": "错误数据 {{count}} 条",
-        "prev_step": "上一步",
-        "next_step": "下一步"
+        "fail": "删除$t(attribute.identity_access.user.__t__)失败",
+        "success": "$t(attribute.identity_access.user.__t__)删除成功",
+        "tip": "此$t(attribute.identity_access.user.__t__)将不能访问$t(attribute.identity_access.workspace.__t__)内任何信息，此操作不可撤销"
       },
       "draft_user": {
         "errors": {
-          "name": {
-            "presence": "$t(Attribute.IdentityAccess.user.name)不能为空"
-          },
-          "phone": {
-            "presence": "$t(Attribute.IdentityAccess.user.phone)不能为空",
-            "format": "$t(Attribute.IdentityAccess.user.phone)格式错误",
-            "conflict": "$t(Attribute.IdentityAccess.user.phone)重复"
-          },
           "department": {
-            "not_match": "找不到匹配的$t(Attribute.IdentityAccess.department.__t__)"
+            "not_match": "找不到匹配的$t(attribute.identity_access.department.__t__)"
           },
           "email": {
-            "format": "$t(Attribute.IdentityAccess.user.email)格式错误"
+            "format": "$t(attribute.identity_access.user.email)格式错误"
+          },
+          "name": {
+            "presence": "$t(attribute.identity_access.user.name)不能为空"
+          },
+          "phone": {
+            "conflict": "$t(attribute.identity_access.user.phone)重复",
+            "format": "$t(attribute.identity_access.user.phone)格式错误",
+            "presence": "$t(attribute.identity_access.user.phone)不能为空"
           }
         }
+      },
+      "edit_department": "编辑$t(attribute.identity_access.department.__t__)",
+      "empty_user": "没有$t(attribute.identity_access.user.__t__)。",
+      "import_users": {
+        "__t__": "导入$t(attribute.identity_access.user.__t__)",
+        "import_draft_users": {
+          "__t__": "导入数据",
+          "back_to_user_list": "返回$t(attribute.identity_access.user.__t__)列表",
+          "import_users_successful": "成功导入 {{count}} 条$t(attribute.identity_access.user.__t__)",
+          "status": {
+            "importing": "正在导入",
+            "success": "$t(attribute.identity_access.user.__t__)导入成功"
+          },
+          "will_notify_after_import": "正在导入$t(attribute.identity_access.user.__t__)，您可以离开此页面，完成后我们将通知您"
+        },
+        "invalid_count": "错误数据 {{count}} 条",
+        "next_step": "下一步",
+        "prev_step": "上一步",
+        "review_draft_users": {
+          "__t__": "数据预览",
+          "discard_uploaded_file_confirm": {
+            "confirm_text": "上一步",
+            "description": "返回上一步将删除已经上传的文件",
+            "title": "是否放弃已上传的文件"
+          },
+          "extract_failed": "解析文件失败",
+          "skip_invalid_data_confirm": {
+            "confirm_text": "继续导入",
+            "description": "有 {{invalid_count}} 条错误数据，继续导入将放弃错误数据",
+            "title": "是否放弃错误的数据"
+          }
+        },
+        "upload_file": {
+          "__t__": "上传 Excel",
+          "file_accept": "支持 xlsx 文件",
+          "input_file": "选择 Excel 文件",
+          "resolve_exceed": "一次最多导入 {{count}} 名$t(attribute.identity_access.user.__t__)",
+          "template": {
+            "download": {
+              "button": "点击下载导入模板",
+              "fail": "下载导入模板失败"
+            },
+            "name": "$t(attribute.identity_access.user.__t__)导入模板"
+          }
+        }
+      },
+      "manage_department_users": "管理$t(attribute.identity_access.department.__t__)$t(attribute.identity_access.user.__t__)",
+      "manage_user": "管理$t(attribute.identity_access.department.__t__)$t(attribute.identity_access.user.__t__)",
+      "more_actions_for_department": "更多",
+      "more_actions_for_user": "更多",
+      "receive_user": {
+        "__t__": "添加$t(attribute.identity_access.user.__t__)",
+        "short": "添加"
+      },
+      "repel_user": {
+        "confirm": "确定将{{user}}从{{department}}移除?",
+        "short": "移除",
+        "title": "从$t(attribute.identity_access.department.__t__)移除"
+      },
+      "search_department": "搜索$t(attribute.identity_access.department.__t__)",
+      "search_user": "搜索$t(attribute.identity_access.user.__t__)",
+      "title": {
+        "department": {
+          "index": "$t(page.identity_access.department.index)",
+          "show": "$t(page.identity_access.department.show)",
+          "suspended": "$t(page.identity_access.department.suspended)"
+        }
+      },
+      "user_in_department": "已添加$t(attribute.identity_access.user.__t__)",
+      "user_table_guidance": "你可以{{create_user}}或者{{manage_user}}",
+      "view_department_members": "查看$t(attribute.identity_access.department.__t__)$t(attribute.identity_access.user.__t__)",
+      "workspace": "团队"
+    },
+    "index": {
+      "subtitle": "JET 用简单的方式，让你完全掌控你的工作",
+      "title": "🎉 用 JET 工作，高效、灵活 🎉"
+    },
+    "loading": "正在加载中",
+    "project": {
+      "default_task_group_title": "待办$t(attribute.project.task.__t__)",
+      "task_labels_amount_exceeds_max_limitation": "$t(attribute.project.task.task_label.__t__)数量达到上限",
+      "title": {
+        "list": "$t(attribute.project.project.__t__)",
+        "project_show": "{{project_name}}",
+        "task_show": "{{task_title}}"
+      },
+      "project_list": {
+        "favorite": {
+          "__t__": "星标$t(attribute.project.project.__t__)",
+          "blankslate": {
+            "description": "你可以将常用的$t(attribute.project.project.__t__)标记为星标",
+            "title": "你还没有$t(page.project.project_list.favorite.__t__)"
+          }
+        },
+        "status": {
+          "active": {
+            "__t__": "我参与的$t(attribute.project.project.__t__)",
+            "blankslate": {
+              "description": "在这里为，团队创建第一个$t(attribute.project.project.__t__)，然后开始协作吧 : )"
+            }
+          },
+          "archived": {
+            "__t__": "已归档$t(attribute.project.project.__t__)",
+            "blankslate": {
+              "description": "暂时还没有已归档$t(attribute.project.project.__t__)"
+            }
+          },
+          "blank": "还没有$t(attribute.project.project.__t__)"
+        }
+      },
+      "export_task": {
+        "__t__": "导出$t(attribute.project.task.__t__)",
+        "config": {
+          "export_fields": {
+            "__t__": "请选择导出的列",
+            "all": "全部列",
+            "visible": "显示的列"
+          },
+          "included_archived": {
+            "__t__": "是否包含已归档的$t(attribute.project.task.__t__)",
+            "exclude": "不包含",
+            "include": "包含"
+          }
+        },
+        "exporting": {
+          "description": "也许需要几分钟，稍后将直接下载",
+          "title": "正在导出$t(attribute.project.task.__t__)"
+        }
+      },
+      "import_tasks": {
+        "__t__": "导入$t(attribute.project.task.__t__)",
+        "import_draft_tasks": {
+          "__t__": "导入数据",
+          "back_to_task_list": "返回$t(attribute.project.task.__t__)列表",
+          "import_tasks_successful": "成功导入 {{count}} 条$t(attribute.project.task.__t__)",
+          "status": {
+            "importing": "正在导入",
+            "success": "$t(attribute.project.task.__t__)导入成功"
+          },
+          "will_notify_after_import": "正在导入$t(attribute.project.task.__t__)，您可以离开此页面，完成后我们将通知您"
+        },
+        "invalid_count": "错误数据 {{count}} 条",
+        "next_step": "下一步",
+        "prev_step": "上一步",
+        "review_draft_tasks": {
+          "__t__": "数据预览",
+          "discard_uploaded_file_confirm": {
+            "confirm_text": "上一步",
+            "description": "返回上一步将删除已经上传的文件",
+            "title": "是否放弃已上传的文件"
+          },
+          "extract_failed": "解析文件失败",
+          "skip_invalid_data_confirm": {
+            "confirm_text": "继续导入",
+            "description": "有 {{invalid_count}} 条错误数据，继续导入将放弃错误数据",
+            "title": "是否放弃错误的数据"
+          }
+        },
+        "upload_file": {
+          "__t__": "上传 Excel",
+          "file_accept": "支持 xlsx 文件",
+          "input_file": "选择 Excel 文件",
+          "resolve_exceed": "一次最多导入 {{count}} 条$t(attribute.project.task.__t__)",
+          "template": {
+            "download": {
+              "button": "点击下载导入模板",
+              "fail": "下载导入模板失败"
+            },
+            "name": "$t(attribute.project.task.__t__)导入模板"
+          }
+        }
+      },
+      "update_task_fail": "更新失败",
+      "add_task_label": "添加$t(attribute.project.task.task_label.__t__)",
+      "archived_task_description": "$t(attribute.project.task.__t__)已归档，不可修改",
+      "separately_archived_task_group": {
+        "title": "归档$t(attribute.project.task.__t__)"
+      },
+      "reposition_task_group": {
+        "fail": "移动$t(attribute.project.task_group.__t__)失败"
+      },
+      "fetch_task": {
+        "fail": "获取$t(attribute.project.task.__t__)详情失败"
+      },
+      "hide_completed_task": "隐藏",
+      "discard_task": {
+        "__t__": "删除$t(attribute.project.task.__t__)",
+        "confirm": "确定要删除这条$t(attribute.project.task.__t__)吗?",
+        "description": "此$t(attribute.project.task.__t__)及以下$t(attribute.project.task.sub_task)将被删除",
+        "fail": "$t(page.project.discard_task.__t__)失败",
+        "short": "删除"
+      },
+      "create_project": {
+        "__t__": "新建$t(attribute.project.project.__t__)",
+        "short": "新建",
+        "upload_cover": "上传封面"
+      },
+      "upload_task_attachment": {
+        "__t__": "添加$t(attribute.project.task.attachment)",
+        "drag_upload": "将文件拖动到这里直接上传"
+      },
+      "discard_project": {
+        "__t__": "删除$t(attribute.project.project.__t__)",
+        "confirm": {
+          "description": "删除$t(attribute.project.project.__t__)后，$t(attribute.project.project.__t__)及$t(attribute.project.project.__t__)有关的信息都将被删除，此操作不可撤销",
+          "title": "$t(page.project.discard_project.__t__)？"
+        },
+        "fail": "删除$t(attribute.project.project.__t__)失败，请重试",
+        "success": "$t(attribute.project.project.__t__)已删除"
+      },
+      "report": {
+        "cumulative_flow_diagram_report": {
+          "__t__": "$t(attribute.project.project.__t__)进展",
+          "task_cumulative_flow_diagram_state": {
+            "completed_count": "$t(attribute.project.task.__t__)完成数",
+            "total_count": "$t(attribute.project.task.__t__)总数"
+          }
+        },
+        "member_report": {
+          "__t__": "$t(attribute.project.project.member.short)$t(attribute.project.task.__t__)统计",
+          "completed_tasks": {
+            "label": "已完成$t(attribute.project.task.__t__)",
+            "legend": "已完成"
+          },
+          "incompleted_tasks": {
+            "label": "未完成$t(attribute.project.task.__t__)",
+            "legend": "未完成"
+          },
+          "load_more": "加载更多$t(attribute.project.project.member.short)",
+          "overdue_and_incompleted_tasks": {
+            "label": "已逾期$t(attribute.project.task.__t__)",
+            "legend": "已逾期"
+          },
+          "unassigned": "未指派"
+        },
+        "overview": {
+          "__t__": "总体$t(attribute.project.task.__t__)统计",
+          "completed_tasks": "已完成$t(attribute.project.task.__t__)",
+          "incompleted_tasks": "未完成$t(attribute.project.task.__t__)",
+          "info_boxes": {
+            "due_and_completed_tasks": {
+              "__t__": "按时完成$t(attribute.project.task.__t__)",
+              "short": "完"
+            },
+            "due_today_tasks": {
+              "__t__": "今日到期$t(attribute.project.task.__t__)",
+              "short": "到"
+            },
+            "overdue_and_completed_tasks": {
+              "__t__": "逾期完成$t(attribute.project.task.__t__)",
+              "short": "完"
+            },
+            "overdue_and_incompleted_tasks": {
+              "__t__": "已逾期$t(attribute.project.task.__t__)",
+              "short": "逾"
+            }
+          },
+          "ratio": "完成数"
+        }
+      },
+      "exit_project": {
+        "__t__": "退出$t(attribute.project.project.__t__)"
+      },
+      "completed_task": "已完成$t(attribute.project.task.__t__)",
+      "task_filter": {
+        "__t__": "$t(attribute.project.task.__t__)筛选",
+        "blank": "暂无当前筛选结果",
+        "due_on": {
+          "current_month": "本月",
+          "current_week": "本周",
+          "overdue": "已逾期",
+          "set": "任意时间",
+          "today": "今天",
+          "tomorrow": "明天",
+          "unset": "未设置"
+        },
+        "placeholder": {
+          "assignee": "$t(attribute.project.task.assignee.__t__)",
+          "due_on": "$t(attribute.project.task.due_on.__t__)",
+          "task_label": "$t(attribute.project.task.task_label.__t__)"
+        },
+        "short": "筛选"
+      },
+      "project_nav": {
+        "report": "$t(attribute.project.project.report.short)",
+        "task": "$t(attribute.project.task.__t__)",
+        "workflow": "$t(attribute.workflow.workflow.__t__)"
+      },
+      "empty_task": "还没有$t(attribute.project.task.__t__)",
+      "discard_task_label": {
+        "__t__": "删除$t(attribute.project.task.task_label.__t__)",
+        "confirm": {
+          "description": "$t(attribute.project.project.__t__)中所有的此$t(attribute.project.task.task_label.__t__)都将被移除",
+          "title": "$t(page.project.discard_task_label.__t__)？"
+        },
+        "fail": "删除$t(attribute.project.task.task_label.__t__)失败",
+        "success": "删除$t(attribute.project.task.task_label.__t__)成功"
+      },
+      "completed_sub_task_count": "已完成$t(attribute.project.task.sub_task) ∙ {{count}}",
+      "archive_task": {
+        "__t__": "归档$t(attribute.project.task.__t__)",
+        "fail": "$t(page.project.archive_task.__t__)失败"
+      },
+      "task_table": {
+        "cell": {
+          "disabled_tooltip": "该字段被逻辑控制，不能填写",
+          "empty_text": {
+            "unset": "请设置"
+          }
+        },
+        "visible_columns": "显示字段"
+      },
+      "task_subscription": {
+        "__t__": "关注$t(attribute.project.task.__t__)",
+        "add": "加关注",
+        "add_subscribers": "添加关注成员",
+        "blank": "暂无关注的成员",
+        "remove": "取消关注",
+        "subscribed": "已关注",
+        "subscribed_member": "已关注$t(attribute.project.task.__t__)的成员",
+        "update_subscriber_error": "更新关注者失败"
+      },
+      "delete_attachment": {
+        "__t__": "删除$t(attribute.project.task.attachment) {{attachment}}？",
+        "fail": "$t(attribute.project.task.attachment)删除失败"
+      },
+      "search": {
+        "__t__": "搜索",
+        "blank": "暂无搜索结果。",
+        "global": "全局搜索",
+        "view_all": "查看全部结果"
+      },
+      "manage_task_label": "$t(attribute.project.task.task_label.__t__)管理",
+      "archived_task_group_description": "$t(attribute.project.task_group.__t__)已归档，不可修改",
+      "fetch_project": {
+        "fail": "获取$t(attribute.project.project.__t__)失败"
+      },
+      "clone_task": {
+        "__t__": "复制$t(attribute.project.task.__t__)",
+        "clone_to": {
+          "__t__": "复制到",
+          "error": {
+            "blank": "请选择复制到的位置"
+          }
+        },
+        "invalid_target": "不能复制到当前$t(attribute.project.task.__t__)下",
+        "success": "复制$t(attribute.project.task.__t__)成功",
+        "view_cloned_task": "查看"
+      },
+      "update_project_member": {
+        "domain_rule_violation": "至少需要一个管理员",
+        "fail": "更新$t(attribute.project.project.member.__t__)失败",
+        "receive": "添加$t(attribute.project.project.member.short)",
+        "repel": {
+          "__t__": "移除$t(attribute.project.project.member.short)",
+          "short": "移除"
+        }
+      },
+      "move_task": {
+        "__t__": "移动$t(attribute.project.task.__t__)",
+        "invalid_target": "不能移动到当前$t(attribute.project.task.__t__)下",
+        "move_to": {
+          "__t__": "移动到",
+          "error": {
+            "blank": "请选择移动到的位置"
+          }
+        },
+        "success": "移动$t(attribute.project.task.__t__)成功",
+        "view_moved_task": "查看"
+      },
+      "archived_tasks": {
+        "__t__": "已归档$t(attribute.project.task.__t__)",
+        "empty": "没有已归档的$t(attribute.project.task.__t__)",
+        "return_active_tasks": "你可以返回 {{project_name}}"
+      },
+      "create_task": {
+        "__t__": "新建$t(attribute.project.task.__t__)",
+        "guidance": "来为$t(attribute.project.project.__t__)创建第一个$t(attribute.project.task.__t__)吧",
+        "tip": "在$t(attribute.project.task.__t__)前面加上感叹号， 标注重要或者紧急的$t(attribute.project.task.__t__)"
+      },
+      "edit_task_group": "编辑$t(attribute.project.task_group.short)",
+      "unarchive_task": {
+        "__t__": "恢复$t(attribute.project.task.__t__)",
+        "fail": "$t(page.project.unarchive_task.__t__)失败"
+      },
+      "add_collaborators": "添加$t(attribute.project.task.collaborator.__t__)",
+      "unarchive_task_group": {
+        "__t__": "取消归档",
+        "fail": "取消归档$t(attribute.project.task_group.__t__)失败，请重试",
+        "success": "取消归档$t(attribute.project.task_group.__t__)"
+      },
+      "archive_task_group": {
+        "__t__": "归档$t(attribute.project.task_group.short)",
+        "fail": "归档$t(attribute.project.task_group.__t__)失败，请重试",
+        "success": "已归档$t(attribute.project.task_group.__t__)",
+        "view_archived_task_group": "查看"
+      },
+      "search_task_label": "搜索$t(attribute.project.task.task_label.__t__)",
+      "download_attachment": {
+        "get_url_fail": "获取$t(attribute.project.task.attachment)下载地址失败"
+      },
+      "completed_task_count": "已完成$t(attribute.project.task.__t__) ∙ {{count}}",
+      "task_comment": {
+        "discard": {
+          "__t__": "删除",
+          "confirm": "删除$t(attribute.project.task.comment)?",
+          "fail": "删除$t(attribute.project.task.comment)失败"
+        },
+        "discarded": "$t(attribute.project.task.comment)已被删除",
+        "reply": {
+          "__t__": "回复"
+        },
+        "update": {
+          "__t__": "编辑",
+          "fail": "更新$t(attribute.project.task.comment)失败"
+        },
+        "updated": "已编辑"
+      },
+      "draft_task": {
+        "errors": {
+          "assignee_user_boundary": {
+            "not_match": "找不到匹配的$t(attribute.identity_access.user.__t__)"
+          },
+          "collaborator_user_boundary": {
+            "not_match": "有未匹配的$t(attribute.identity_access.user.__t__)"
+          },
+          "due_on": {
+            "format": "日期格式错误"
+          },
+          "parent": {
+            "not_match": "找不到匹配的$t(attribute.project.task.__t__)"
+          },
+          "parent_or_task_group": {
+            "conflict": "$t(attribute.project.task.parent)和$t(attribute.project.task_group.__t__)只需要填写其中之一",
+            "presence": "$t(attribute.project.task.parent)和$t(attribute.project.task_group.__t__)必须填写一个"
+          },
+          "priority": {
+            "not_match": "$t(attribute.project.task.priority.__t__)填写错误"
+          },
+          "profile": {
+            "format": "填写不符合规则",
+            "invalid": "格式错误",
+            "length": "填写不符合规则",
+            "other_option_not_permitted": "找不到匹配的选项",
+            "range": "填写不符合规则"
+          },
+          "task_group": {
+            "not_match": "找不到匹配的$t(attribute.project.task_group.short)"
+          },
+          "task_labels": {
+            "not_match": "有未匹配的$t(attribute.project.task.task_label.__t__)"
+          },
+          "title": {
+            "presence": "$t(attribute.project.task.title)不能为空"
+          }
+        }
+      },
+      "share_task": {
+        "__t__": "分享$t(attribute.project.task.__t__)"
+      },
+      "discard_task_group": {
+        "__t__": "删除$t(attribute.project.task_group.short)",
+        "confirm": {
+          "description": "分组及分组内$t(attribute.project.task.__t__)都将被删除，此操作不可撤销",
+          "title": "$t(page.project.discard_task_group.__t__)？"
+        },
+        "fail": "删除$t(attribute.project.task_group.__t__)失败，请重试",
+        "success": "删除$t(attribute.project.task_group.__t__)成功"
+      },
+      "task_activity": {
+        "blank": "暂无相关结果。",
+        "type": {
+          "all": "所有",
+          "comment": "$t(attribute.project.task.comment)",
+          "other": "动态"
+        }
+      },
+      "revoke_project_admin": {
+        "__t__": "取消管理员",
+        "domain_rule_violation": "至少需要一个管理员",
+        "fail": "$t(page.project.revoke_project_admin.__t__)失败"
+      },
+      "no_task_labels": {
+        "__t__": "没有$t(attribute.project.task.task_label.__t__)",
+        "guidance": "没有$t(attribute.project.task.task_label.__t__)， {{create_task_label}}",
+        "to_create": "去新建"
+      },
+      "project_configuration": {
+        "__t__": "$t(attribute.project.project.__t__)设置",
+        "basic": {
+          "__t__": "$t(attribute.project.project.__t__)基本信息"
+        },
+        "database": {
+          "__t__": "$t(attribute.Database.table.__t__)设置",
+          "filter": {
+            "__t__": "数据筛选"
+          },
+          "title": "关联$t(attribute.Database.table.__t__)"
+        },
+        "fail": "保存失败",
+        "success": "保存成功",
+        "task": {
+          "__t__": "$t(attribute.project.task.__t__)设置",
+          "index_key": {
+            "description": "设置$t(attribute.project.task.__t__)唯一 ID 前缀，默认前缀为$t(attribute.project.project.title)前四位首字母，长度限制 2 ~ 8 个字母。",
+            "title": "$t(attribute.project.task.__t__)ID"
+          }
+        },
+        "workflow": {
+          "__t__": "$t(attribute.workflow.workflow.__t__)设置",
+          "title": "$t(attribute.project.task.__t__)中显示的$t(attribute.workflow.workflow.__t__)"
+        }
+      },
+      "task_schema": {
+        "__t__": "$t(attribute.project.task.__t__)自定义字段",
+        "blankslate": "点击表单字段以编辑自定义$t(attribute.project.task.__t__)字段",
+        "internal_field": "系统字段"
+      },
+      "update_task_group_fail": "更新$t(attribute.project.task_group.__t__)失败",
+      "grant_project_admin": {
+        "__t__": "设置管理员",
+        "fail": "$t(page.project.grant_project_admin.__t__)失败"
+      },
+      "manage_project_member": {
+        "__t__": "管理$t(attribute.project.project.member.__t__)"
+      },
+      "archive_project": {
+        "__t__": "归档$t(attribute.project.project.__t__)",
+        "fail": "归档$t(attribute.project.project.__t__)失败，请重试",
+        "success": "已归档$t(attribute.project.project.__t__)"
+      },
+      "unarchive_project": {
+        "__t__": "取消归档$t(attribute.project.project.__t__)",
+        "fail": "取消归档$t(attribute.project.project.__t__)失败，请重试",
+        "success": "取消归档$t(attribute.project.project.__t__)"
+      },
+      "task_description_content": "$t(attribute.project.task.description)内容",
+      "my_tasks": {
+        "__t__": "我的$t(attribute.project.task.__t__)",
+        "assigned": "我负责的",
+        "blank": "还没有$t(attribute.project.task.__t__)",
+        "collaborated": "我协作的",
+        "created": "我创建的",
+        "filter": {
+          "completed": "已完成",
+          "uncomplete": "未完成"
+        },
+        "filter_group": {
+          "completed": "已完成$t(attribute.project.task.__t__)",
+          "uncomplete": "待办$t(attribute.project.task.__t__)"
+        },
+        "subscribed": "我关注的"
+      },
+      "invite_member": {
+        "__t__": "邀请新$t(attribute.project.project.member.short)"
+      },
+      "task_not_found": {
+        "__t__": "对不起，找不到此$t(attribute.project.task.__t__)",
+        "description": "$t(attribute.project.task.__t__)可能没有权限或者已被删除"
+      },
+      "show_completed_task": "显示",
+      "reposition_task": {
+        "fail": "移动$t(attribute.project.task.__t__)失败"
+      },
+      "update_collaborators_fail": "修改$t(attribute.project.task.collaborator.__t__)失败",
+      "create_sub_task": {
+        "__t__": "新建$t(attribute.project.task.sub_task)"
+      },
+      "create_task_group": {
+        "__t__": "新建$t(attribute.project.task_group.short)",
+        "button": "确认，新建$t(attribute.project.task.__t__)",
+        "fail": "创建失败",
+        "success": "创建成功"
       }
     },
-    "Workflow": {
+    "workflow": {
       "case": {
-        "view": "查看$t(Attribute.Workflow.workflow.__t__)",
         "executions": {
           "completed": "已执行"
-        }
+        },
+        "view": "查看$t(attribute.workflow.workflow.__t__)"
       },
-      "workflow": {
-        "create": "新建$t(Attribute.Workflow.workflow.__t__)",
-        "editor": {
-          "back_to_workflow_list": "返回$t(Page.Workflow.workflow.list.__t__)"
+      "nodes": {
+        "automatic_operation": {
+          "change_operation": "替换",
+          "change_operation_confirmation": "替换操作？",
+          "change_operation_description": "替换后所有设置不可恢复",
+          "database_add_row": {
+            "__t__": "新建数据",
+            "choose_table": "选择要执行的$t(attribute.Database.table.__t__)",
+            "no_columns": "没有可用字段"
+          },
+          "database_operations": "$t(attribute.Database.table.__t__)",
+          "database_update_row": {
+            "__t__": "修改字段",
+            "choose_row": "选择要执行的填写记录",
+            "no_columns": "没有可用字段"
+          },
+          "update_case_variables": {
+            "__t__": "修改流程数据"
+          },
+          "workflow_operations": "流程",
+          "workflow_update_subject": {
+            "__t__": "修改所属主体",
+            "choose_case": "选择要执行的流程数据",
+            "current_case": "当前流程数据",
+            "subject": "所属主体"
+          }
         },
-        "list": {
-          "__t__": "$t(Attribute.Workflow.workflow.__t__)列表",
-          "blank": "暂无数据"
+        "condition": {
+          "add_filter": "添加条件",
+          "add_filter_group": "添加条件组",
+          "no_available_filter": "没有可添加的条件",
+          "no_filter": "暂无条件",
+          "not_set": "未设置",
+          "operator": {
+            "and": "且",
+            "or": "或"
+          },
+          "or": "或"
         },
-        "unpublished": "未发布",
-        "state_hint": "有新的修改未发布",
-        "case_count_is_executing": "{{ executing_case_count }} 条正在运行中",
-        "operation": {
-          "__t__": "$t(Attribute.Workflow.workflow.__t__)操作",
-          "suspend": "停用$t(Attribute.Workflow.workflow.__t__)",
-          "activate": "开启$t(Attribute.Workflow.workflow.__t__)"
+        "custom": {
+          "output": {
+            "label": "需要输出的信息"
+          },
+          "program": {
+            "label": "运行文件",
+            "upload": {
+              "accept": "限制格式为 .wasm",
+              "button": "上传文件",
+              "title": "文件上传"
+            }
+          },
+          "source": {
+            "label": "需要使用的信息"
+          }
         },
-        "settings": {
-          "__t__": "$t(Attribute.Workflow.workflow.__t__)扩展设置",
-          "workflow_variables": {
-            "__t__": "$t(Attribute.Workflow.workflow.variables)设置",
-            "add": "点击$t(Attribute.Workflow.workflow.variables)字段进行添加",
-            "edit": "编辑$t(Attribute.Workflow.workflow.variables)",
-            "tooltip": "你可以为$t(Attribute.Workflow.workflow.variables)添加字段"
+        "deferred_choice": {
+          "__t__": "延迟流转",
+          "description": "流转方式下连接的动作需要一定时间的等待"
+        },
+        "exclusive_choice": {
+          "__t__": "立即流转",
+          "config": {
+            "label": "选择流转的方式"
+          },
+          "description": "流转方式下连接的条件可以被立即判断"
+        },
+        "form": {
+          "fields": {
+            "blank": "暂无内容"
+          },
+          "filler": "填写人",
+          "not_set": "未设置",
+          "settings": {
+            "basic": "基本设置",
+            "form": "表单设置"
+          }
+        },
+        "timer": {
+          "config": {
+            "label": "设置定时器"
+          },
+          "not_set": "未设置",
+          "relativity": {
+            "after": "后",
+            "before": "前",
+            "is": "当时"
+          },
+          "unit": {
+            "day": "天",
+            "hour": "小时",
+            "minute": "分钟"
+          }
+        },
+        "workflow_case_trigger": {
+          "schema": {
+            "add": "添加信息",
+            "blank": "暂无信息",
+            "label": "需要使用的信息",
+            "update": "更改信息"
           }
         }
       },
-      "value_presenter_search": {
-        "blankslate": {
-          "default": "暂无相关数据"
+      "schema": {
+        "__t__": "$t(attribute.workflow.workflow.__t__)表单",
+        "blankslate": "点击表单字段进行添加",
+        "delete_field_confirm": {
+          "description": "删除后节点中此字段将被删除"
+        },
+        "fields": {
+          "submit_button_field": {
+            "__t__": "按钮",
+            "default_value": "提交",
+            "name": "按钮名称"
+          }
         }
       },
       "validation": {
@@ -885,6 +1602,7 @@
         "duplicated_end_nodes": "结束节点只能有一个",
         "duplicated_links": "有不符合规则的连线",
         "duplicated_start_nodes": "开始节点只能有一个",
+        "loop_link": "连线的端点不能相同",
         "missing_choice_node": "请在条件节点前添加流转方式",
         "missing_end_node": "结束节点必须存在",
         "missing_from_node": "有不符合规则的连线",
@@ -894,135 +1612,10 @@
         "non_pair_choice_and_merge": "多条流转和多条聚合必须成对出现",
         "nonexisting_end_node": "有不符合规则的连线",
         "nonexisting_from_node": "有不符合规则的连线",
-        "redundant_links": "有不符合规则的连线",
-        "loop_link": "连线的端点不能相同"
-      },
-      "schema": {
-        "__t__": "$t(Attribute.Workflow.workflow.__t__)表单",
-        "blankslate": "点击表单字段进行添加",
-        "fields": {
-          "SubmitButtonField": {
-            "__t__": "按钮",
-            "name": "按钮名称",
-            "default_value": "提交"
-          }
-        },
-        "delete_field_confirm": {
-          "description": "删除后节点中此字段将被删除"
-        }
-      },
-      "nodes": {
-        "form": {
-          "settings": {
-            "basic": "基本设置",
-            "form": "表单设置"
-          },
-          "filler": "填写人",
-          "fields": {
-            "blank": "暂无内容"
-          },
-          "not_set": "未设置"
-        },
-        "custom": {
-          "program": {
-            "label": "运行文件",
-            "upload": {
-              "title": "文件上传",
-              "accept": "限制格式为 .wasm",
-              "button": "上传文件"
-            }
-          },
-          "source": {
-            "label": "需要使用的信息"
-          },
-          "output": {
-            "label": "需要输出的信息"
-          }
-        },
-        "condition": {
-          "operator": {
-            "AND": "且",
-            "OR": "或"
-          },
-          "add_filter": "添加条件",
-          "or": "或",
-          "add_filter_group": "添加条件组",
-          "no_filter": "暂无条件",
-          "no_available_filter": "没有可添加的条件",
-          "not_set": "未设置"
-        },
-        "workflow_case_trigger": {
-          "schema": {
-            "label": "需要使用的信息",
-            "add": "添加信息",
-            "update": "更改信息",
-            "blank": "暂无信息"
-          }
-        },
-        "timer": {
-          "config": {
-            "label": "设置定时器"
-          },
-          "relativity": {
-            "AFTER": "后",
-            "BEFORE": "前",
-            "IS": "当时"
-          },
-          "unit": {
-            "DAY": "天",
-            "HOUR": "小时",
-            "MINUTE": "分钟"
-          },
-          "not_set": "未设置"
-        },
-        "exclusive_choice": {
-          "__t__": "立即流转",
-          "description": "流转方式下连接的条件可以被立即判断",
-          "config": {
-            "label": "选择流转的方式"
-          }
-        },
-        "deferred_choice": {
-          "__t__": "延迟流转",
-          "description": "流转方式下连接的动作需要一定时间的等待"
-        },
-        "automatic_operation": {
-          "change_operation": "替换",
-          "change_operation_confirmation": "替换操作？",
-          "change_operation_description": "替换后所有设置不可恢复",
-          "database_operations": "$t(Attribute.Database.table.__t__)",
-          "workflow_operations": "流程",
-          "database_add_row": {
-            "__t__": "新建数据",
-            "choose_table": "选择要执行的$t(Attribute.Database.table.__t__)",
-            "no_columns": "没有可用字段"
-          },
-          "database_update_row": {
-            "__t__": "修改字段",
-            "choose_row": "选择要执行的填写记录",
-            "no_columns": "没有可用字段"
-          },
-          "workflow_update_subject": {
-            "__t__": "修改所属主体",
-            "choose_case": "选择要执行的流程数据",
-            "current_case": "当前流程数据",
-            "subject": "所属主体"
-          },
-          "update_case_variables": {
-            "__t__": "修改流程数据"
-          }
-        }
+        "redundant_links": "有不符合规则的连线"
       },
       "value_presenter": {
         "select": {
-          "single_line_field": {
-            "literal": {
-              "title": "文本"
-            },
-            "reference": {
-              "title": "动态文本"
-            }
-          },
           "date_time_field": {
             "literal": {
               "title": "时间"
@@ -1031,662 +1624,88 @@
               "title": "动态时间"
             }
           },
-          "user_boundary_field": {
-            "user": {
-              "title": "成员"
+          "single_line_field": {
+            "literal": {
+              "title": "文本"
             },
+            "reference": {
+              "title": "动态文本"
+            }
+          },
+          "user_boundary_field": {
             "department": {
               "title": "部门"
             },
             "reference": {
               "title": "动态角色"
-            }
-          }
-        }
-      }
-    },
-    "Project": {
-      "title": {
-        "list": "$t(Attribute.Project.project.__t__)",
-        "project_show": "{{project_name}}",
-        "task_show": "{{task_title}}"
-      },
-      "fetch_project": {
-        "fail": "获取$t(Attribute.Project.project.__t__)失败"
-      },
-      "project_list": {
-        "status": {
-          "active": {
-            "__t__": "我参与的$t(Attribute.Project.project.__t__)",
-            "blankslate": {
-              "description": "在这里为，团队创建第一个$t(Attribute.Project.project.__t__)，然后开始协作吧 : )"
-            }
-          },
-          "archived": {
-            "__t__": "已归档$t(Attribute.Project.project.__t__)",
-            "blankslate": {
-              "description": "暂时还没有已归档$t(Attribute.Project.project.__t__)"
-            }
-          },
-          "blank": "还没有$t(Attribute.Project.project.__t__)"
-        },
-        "favorite": {
-          "__t__": "星标$t(Attribute.Project.project.__t__)",
-          "blankslate": {
-            "title": "你还没有$t(Page.Project.project_list.favorite.__t__)",
-            "description": "你可以将常用的$t(Attribute.Project.project.__t__)标记为星标"
-          }
-        }
-      },
-      "create_project": {
-        "__t__": "新建$t(Attribute.Project.project.__t__)",
-        "short": "新建",
-        "upload_cover": "上传封面"
-      },
-      "discard_project": {
-        "__t__": "删除$t(Attribute.Project.project.__t__)",
-        "confirm": {
-          "title": "$t(Page.Project.discard_project.__t__)？",
-          "description": "删除$t(Attribute.Project.project.__t__)后，$t(Attribute.Project.project.__t__)及$t(Attribute.Project.project.__t__)有关的信息都将被删除，此操作不可撤销"
-        },
-        "success": "$t(Attribute.Project.project.__t__)已删除",
-        "fail": "删除$t(Attribute.Project.project.__t__)失败，请重试"
-      },
-      "archive_project": {
-        "__t__": "归档$t(Attribute.Project.project.__t__)",
-        "success": "已归档$t(Attribute.Project.project.__t__)",
-        "fail": "归档$t(Attribute.Project.project.__t__)失败，请重试"
-      },
-      "unarchive_project": {
-        "__t__": "取消归档$t(Attribute.Project.project.__t__)",
-        "success": "取消归档$t(Attribute.Project.project.__t__)",
-        "fail": "取消归档$t(Attribute.Project.project.__t__)失败，请重试"
-      },
-      "project_nav": {
-        "task": "$t(Attribute.Project.task.__t__)",
-        "workflow": "$t(Attribute.Workflow.workflow.__t__)",
-        "report": "$t(Attribute.Project.project.report.short)"
-      },
-      "manage_project_member": {
-        "__t__": "管理$t(Attribute.Project.project.member.__t__)"
-      },
-      "update_project_member": {
-        "receive": "添加$t(Attribute.Project.project.member.short)",
-        "repel": {
-          "__t__": "移除$t(Attribute.Project.project.member.short)",
-          "short": "移除"
-        },
-        "fail": "更新$t(Attribute.Project.project.member.__t__)失败",
-        "domain_rule_violation": "至少需要一个管理员"
-      },
-      "invite_member": {
-        "__t__": "邀请新$t(Attribute.Project.project.member.short)"
-      },
-      "grant_project_admin": {
-        "__t__": "设置管理员",
-        "fail": "$t(Page.Project.grant_project_admin.__t__)失败"
-      },
-      "revoke_project_admin": {
-        "__t__": "取消管理员",
-        "fail": "$t(Page.Project.revoke_project_admin.__t__)失败",
-        "domain_rule_violation": "至少需要一个管理员"
-      },
-      "exit_project": {
-        "__t__": "退出$t(Attribute.Project.project.__t__)"
-      },
-      "project_configuration": {
-        "__t__": "$t(Attribute.Project.project.__t__)设置",
-        "basic": {
-          "__t__": "$t(Attribute.Project.project.__t__)基本信息"
-        },
-        "task": {
-          "__t__": "$t(Attribute.Project.task.__t__)设置",
-          "index_key": {
-            "title": "$t(Attribute.Project.task.__t__)ID",
-            "description": "设置$t(Attribute.Project.task.__t__)唯一 ID 前缀，默认前缀为$t(Attribute.Project.project.title)前四位首字母，长度限制 2 ~ 8 个字母。"
-          }
-        },
-        "workflow": {
-          "__t__": "$t(Attribute.Workflow.workflow.__t__)设置",
-          "title": "$t(Attribute.Project.task.__t__)中显示的$t(Attribute.Workflow.workflow.__t__)"
-        },
-        "database": {
-          "__t__": "$t(Attribute.Database.table.__t__)设置",
-          "title": "关联$t(Attribute.Database.table.__t__)",
-          "filter": {
-            "__t__": "数据筛选"
-          }
-        },
-        "success": "保存成功",
-        "fail": "保存失败"
-      },
-      "manage_task_label": "$t(Attribute.Project.task.task_label.__t__)管理",
-      "add_task_label": "添加$t(Attribute.Project.task.task_label.__t__)",
-      "discard_task_label": {
-        "__t__": "删除$t(Attribute.Project.task.task_label.__t__)",
-        "confirm": {
-          "title": "$t(Page.Project.discard_task_label.__t__)？",
-          "description": "$t(Attribute.Project.project.__t__)中所有的此$t(Attribute.Project.task.task_label.__t__)都将被移除"
-        },
-        "success": "删除$t(Attribute.Project.task.task_label.__t__)成功",
-        "fail": "删除$t(Attribute.Project.task.task_label.__t__)失败"
-      },
-      "search_task_label": "搜索$t(Attribute.Project.task.task_label.__t__)",
-      "no_task_labels": {
-        "__t__": "没有$t(Attribute.Project.task.task_label.__t__)",
-        "to_create": "去新建",
-        "guidance": "没有$t(Attribute.Project.task.task_label.__t__)， {{create_task_label}}"
-      },
-      "task_labels_amount_exceeds_max_limitation": "$t(Attribute.Project.task.task_label.__t__)数量达到上限",
-      "task_schema": {
-        "__t__": "$t(Attribute.Project.task.__t__)自定义字段",
-        "internal_field": "系统字段",
-        "blankslate": "点击表单字段以编辑自定义$t(Attribute.Project.task.__t__)字段"
-      },
-      "report": {
-        "overview": {
-          "__t__": "总体$t(Attribute.Project.task.__t__)统计",
-          "completed_tasks": "已完成$t(Attribute.Project.task.__t__)",
-          "incompleted_tasks": "未完成$t(Attribute.Project.task.__t__)",
-          "ratio": "完成数",
-          "info_boxes": {
-            "overdue_and_incompleted_tasks": {
-              "__t__": "已逾期$t(Attribute.Project.task.__t__)",
-              "short": "逾"
             },
-            "due_and_completed_tasks": {
-              "__t__": "按时完成$t(Attribute.Project.task.__t__)",
-              "short": "完"
-            },
-            "due_today_tasks": {
-              "__t__": "今日到期$t(Attribute.Project.task.__t__)",
-              "short": "到"
-            },
-            "overdue_and_completed_tasks": {
-              "__t__": "逾期完成$t(Attribute.Project.task.__t__)",
-              "short": "完"
+            "user": {
+              "title": "成员"
             }
           }
-        },
-        "cumulative_flow_diagram_report": {
-          "__t__": "$t(Attribute.Project.project.__t__)进展",
-          "task_cumulative_flow_diagram_state": {
-            "completedCount": "$t(Attribute.Project.task.__t__)完成数",
-            "totalCount": "$t(Attribute.Project.task.__t__)总数"
-          }
-        },
-        "member_report": {
-          "__t__": "$t(Attribute.Project.project.member.short)$t(Attribute.Project.task.__t__)统计",
-          "unassigned": "未指派",
-          "completed_tasks": {
-            "label": "已完成$t(Attribute.Project.task.__t__)",
-            "legend": "已完成"
-          },
-          "incompleted_tasks": {
-            "label": "未完成$t(Attribute.Project.task.__t__)",
-            "legend": "未完成"
-          },
-          "overdue_and_incompleted_tasks": {
-            "label": "已逾期$t(Attribute.Project.task.__t__)",
-            "legend": "已逾期"
-          },
-          "load_more": "加载更多$t(Attribute.Project.project.member.short)"
         }
       },
-      "export_task": {
-        "__t__": "导出$t(Attribute.Project.task.__t__)",
-        "exporting": {
-          "title": "正在导出$t(Attribute.Project.task.__t__)",
-          "description": "也许需要几分钟，稍后将直接下载"
-        },
-        "config": {
-          "included_archived": {
-            "__t__": "是否包含已归档的$t(Attribute.Project.task.__t__)",
-            "include": "包含",
-            "exclude": "不包含"
-          },
-          "export_fields": {
-            "__t__": "请选择导出的列",
-            "all": "全部列",
-            "visible": "显示的列"
-          }
+      "value_presenter_search": {
+        "blankslate": {
+          "default": "暂无相关数据"
         }
       },
-      "fetch_task": {
-        "fail": "获取$t(Attribute.Project.task.__t__)详情失败"
-      },
-      "default_task_group_title": "待办$t(Attribute.Project.task.__t__)",
-      "task_filter": {
-        "__t__": "$t(Attribute.Project.task.__t__)筛选",
-        "short": "筛选",
-        "placeholder": {
-          "assignee": "$t(Attribute.Project.task.assignee.__t__)",
-          "due_on": "$t(Attribute.Project.task.due_on.__t__)",
-          "task_label": "$t(Attribute.Project.task.task_label.__t__)"
+      "workflow": {
+        "case_count_is_executing": "{{ executing_case_count }} 条正在运行中",
+        "create": "新建$t(attribute.workflow.workflow.__t__)",
+        "editor": {
+          "back_to_workflow_list": "返回$t(page.workflow.workflow.list.__t__)"
         },
-        "due_on": {
-          "today": "今天",
-          "tomorrow": "明天",
-          "current_week": "本周",
-          "current_month": "本月",
-          "set": "任意时间",
-          "overdue": "已逾期",
-          "unset": "未设置"
+        "list": {
+          "__t__": "$t(attribute.workflow.workflow.__t__)列表",
+          "blank": "暂无数据"
         },
-        "blank": "暂无当前筛选结果"
-      },
-      "empty_task": "还没有$t(Attribute.Project.task.__t__)",
-      "create_task": {
-        "__t__": "新建$t(Attribute.Project.task.__t__)",
-        "guidance": "来为$t(Attribute.Project.project.__t__)创建第一个$t(Attribute.Project.task.__t__)吧",
-        "tip": "在$t(Attribute.Project.task.__t__)前面加上感叹号， 标注重要或者紧急的$t(Attribute.Project.task.__t__)"
-      },
-      "create_sub_task": {
-        "__t__": "新建$t(Attribute.Project.task.sub_task)"
-      },
-      "upload_task_attachment": {
-        "__t__": "添加$t(Attribute.Project.task.attachment)",
-        "drag_upload": "将文件拖动到这里直接上传"
-      },
-      "show_completed_task": "显示",
-      "hide_completed_task": "隐藏",
-      "completed_task": "已完成$t(Attribute.Project.task.__t__)",
-      "completed_task_count": "已完成$t(Attribute.Project.task.__t__) ∙ {{count}}",
-      "completed_sub_task_count": "已完成$t(Attribute.Project.task.sub_task) ∙ {{count}}",
-      "task_description_content": "$t(Attribute.Project.task.description)内容",
-      "update_task_fail": "更新失败",
-      "task_comment": {
-        "reply": {
-          "__t__": "回复"
+        "operation": {
+          "__t__": "$t(attribute.workflow.workflow.__t__)操作",
+          "activate": "开启$t(attribute.workflow.workflow.__t__)",
+          "suspend": "停用$t(attribute.workflow.workflow.__t__)"
         },
-        "update": {
-          "__t__": "编辑",
-          "fail": "更新$t(Attribute.Project.task.comment)失败"
-        },
-        "discard": {
-          "__t__": "删除",
-          "fail": "删除$t(Attribute.Project.task.comment)失败",
-          "confirm": "删除$t(Attribute.Project.task.comment)?"
-        },
-        "updated": "已编辑",
-        "discarded": "$t(Attribute.Project.task.comment)已被删除"
-      },
-      "add_collaborators": "添加$t(Attribute.Project.task.collaborator.__t__)",
-      "update_collaborators_fail": "修改$t(Attribute.Project.task.collaborator.__t__)失败",
-      "discard_task": {
-        "__t__": "删除$t(Attribute.Project.task.__t__)",
-        "short": "删除",
-        "confirm": "确定要删除这条$t(Attribute.Project.task.__t__)吗?",
-        "description": "此$t(Attribute.Project.task.__t__)及以下$t(Attribute.Project.task.sub_task)将被删除",
-        "fail": "$t(Page.Project.discard_task.__t__)失败"
-      },
-      "archive_task": {
-        "__t__": "归档$t(Attribute.Project.task.__t__)",
-        "fail": "$t(Page.Project.archive_task.__t__)失败"
-      },
-      "unarchive_task": {
-        "__t__": "恢复$t(Attribute.Project.task.__t__)",
-        "fail": "$t(Page.Project.unarchive_task.__t__)失败"
-      },
-      "archived_task_description": "$t(Attribute.Project.task.__t__)已归档，不可修改",
-      "share_task": {
-        "__t__": "分享$t(Attribute.Project.task.__t__)"
-      },
-      "archived_tasks": {
-        "__t__": "已归档$t(Attribute.Project.task.__t__)",
-        "return_active_tasks": "你可以返回 {{project_name}}",
-        "empty": "没有已归档的$t(Attribute.Project.task.__t__)"
-      },
-      "reposition_task": {
-        "fail": "移动$t(Attribute.Project.task.__t__)失败"
-      },
-      "delete_attachment": {
-        "__t__": "删除$t(Attribute.Project.task.attachment) {{attachment}}？",
-        "fail": "$t(Attribute.Project.task.attachment)删除失败"
-      },
-      "download_attachment": {
-        "get_url_fail": "获取$t(Attribute.Project.task.attachment)下载地址失败"
-      },
-      "clone_task": {
-        "__t__": "复制$t(Attribute.Project.task.__t__)",
-        "clone_to": {
-          "__t__": "复制到",
-          "error": {
-            "blank": "请选择复制到的位置"
+        "settings": {
+          "__t__": "$t(attribute.workflow.workflow.__t__)扩展设置",
+          "workflow_variables": {
+            "__t__": "$t(attribute.workflow.workflow.variables)设置",
+            "add": "点击$t(attribute.workflow.workflow.variables)字段进行添加",
+            "edit": "编辑$t(attribute.workflow.workflow.variables)",
+            "tooltip": "你可以为$t(attribute.workflow.workflow.variables)添加字段"
           }
         },
-        "success": "复制$t(Attribute.Project.task.__t__)成功",
-        "view_cloned_task": "查看",
-        "invalid_target": "不能复制到当前$t(Attribute.Project.task.__t__)下"
-      },
-      "move_task": {
-        "__t__": "移动$t(Attribute.Project.task.__t__)",
-        "move_to": {
-          "__t__": "移动到",
-          "error": {
-            "blank": "请选择移动到的位置"
-          }
-        },
-        "success": "移动$t(Attribute.Project.task.__t__)成功",
-        "view_moved_task": "查看",
-        "invalid_target": "不能移动到当前$t(Attribute.Project.task.__t__)下"
-      },
-      "task_not_found": {
-        "__t__": "对不起，找不到此$t(Attribute.Project.task.__t__)",
-        "description": "$t(Attribute.Project.task.__t__)可能没有权限或者已被删除"
-      },
-      "my_tasks": {
-        "__t__": "我的$t(Attribute.Project.task.__t__)",
-        "assigned": "我负责的",
-        "subscribed": "我关注的",
-        "created": "我创建的",
-        "collaborated": "我协作的",
-        "blank": "还没有$t(Attribute.Project.task.__t__)",
-        "filter": {
-          "completed": "已完成",
-          "uncomplete": "未完成"
-        },
-        "filter_group": {
-          "completed": "已完成$t(Attribute.Project.task.__t__)",
-          "uncomplete": "待办$t(Attribute.Project.task.__t__)"
-        }
-      },
-      "import_tasks": {
-        "__t__": "导入$t(Attribute.Project.task.__t__)",
-        "upload_file": {
-          "__t__": "上传 Excel",
-          "input_file": "选择 Excel 文件",
-          "file_accept": "支持 xlsx 文件",
-          "resolve_exceed": "一次最多导入 {{count}} 条$t(Attribute.Project.task.__t__)",
-          "template": {
-            "name": "$t(Attribute.Project.task.__t__)导入模板",
-            "download": {
-              "button": "点击下载导入模板",
-              "fail": "下载导入模板失败"
-            }
-          }
-        },
-        "review_draft_tasks": {
-          "__t__": "数据预览",
-          "extract_failed": "解析文件失败",
-          "discard_uploaded_file_confirm": {
-            "title": "是否放弃已上传的文件",
-            "description": "返回上一步将删除已经上传的文件",
-            "confirm_text": "上一步"
-          },
-          "skip_invalid_data_confirm": {
-            "title": "是否放弃错误的数据",
-            "description": "有 {{invalid_count}} 条错误数据，继续导入将放弃错误数据",
-            "confirm_text": "继续导入"
-          }
-        },
-        "import_draft_tasks": {
-          "__t__": "导入数据",
-          "status": {
-            "importing": "正在导入",
-            "success": "$t(Attribute.Project.task.__t__)导入成功"
-          },
-          "will_notify_after_import": "正在导入$t(Attribute.Project.task.__t__)，您可以离开此页面，完成后我们将通知您",
-          "import_tasks_successful": "成功导入 {{count}} 条$t(Attribute.Project.task.__t__)",
-          "back_to_task_list": "返回$t(Attribute.Project.task.__t__)列表"
-        },
-        "invalid_count": "错误数据 {{count}} 条",
-        "prev_step": "上一步",
-        "next_step": "下一步"
-      },
-      "draft_task": {
-        "errors": {
-          "title": {
-            "presence": "$t(Attribute.Project.task.title)不能为空"
-          },
-          "parent": {
-            "not_match": "找不到匹配的$t(Attribute.Project.task.__t__)"
-          },
-          "task_group": {
-            "not_match": "找不到匹配的$t(Attribute.Project.task_group.short)"
-          },
-          "parent_or_task_group": {
-            "presence": "$t(Attribute.Project.task.parent)和$t(Attribute.Project.task_group.__t__)必须填写一个",
-            "conflict": "$t(Attribute.Project.task.parent)和$t(Attribute.Project.task_group.__t__)只需要填写其中之一"
-          },
-          "priority": {
-            "not_match": "$t(Attribute.Project.task.priority.__t__)填写错误"
-          },
-          "assignee_user_boundary": {
-            "not_match": "找不到匹配的$t(Attribute.IdentityAccess.user.__t__)"
-          },
-          "collaborator_user_boundary": {
-            "not_match": "有未匹配的$t(Attribute.IdentityAccess.user.__t__)"
-          },
-          "task_labels": {
-            "not_match": "有未匹配的$t(Attribute.Project.task.task_label.__t__)"
-          },
-          "due_on": {
-            "format": "日期格式错误"
-          },
-          "profile": {
-            "invalid": "格式错误",
-            "other_option_not_permitted": "找不到匹配的选项",
-            "format": "填写不符合规则",
-            "range": "填写不符合规则",
-            "length": "填写不符合规则"
-          }
-        }
-      },
-      "task_activity": {
-        "type": {
-          "all": "所有",
-          "comment": "$t(Attribute.Project.task.comment)",
-          "other": "动态"
-        },
-        "blank": "暂无相关结果。"
-      },
-      "task_table": {
-        "visible_columns": "显示字段",
-        "cell": {
-          "empty_text": {
-            "unset": "请设置"
-          },
-          "disabled_tooltip": "该字段被逻辑控制，不能填写"
-        }
-      },
-      "task_subscription": {
-        "__t__": "关注$t(Attribute.Project.task.__t__)",
-        "add_subscribers": "添加关注成员",
-        "subscribed_member": "已关注$t(Attribute.Project.task.__t__)的成员",
-        "add": "加关注",
-        "remove": "取消关注",
-        "subscribed": "已关注",
-        "blank": "暂无关注的成员",
-        "update_subscriber_error": "更新关注者失败"
-      },
-      "create_task_group": {
-        "__t__": "新建$t(Attribute.Project.task_group.short)",
-        "button": "确认，新建$t(Attribute.Project.task.__t__)",
-        "success": "创建成功",
-        "fail": "创建失败"
-      },
-      "archive_task_group": {
-        "__t__": "归档$t(Attribute.Project.task_group.short)",
-        "success": "已归档$t(Attribute.Project.task_group.__t__)",
-        "fail": "归档$t(Attribute.Project.task_group.__t__)失败，请重试",
-        "view_archived_task_group": "查看"
-      },
-      "archived_task_group_description": "$t(Attribute.Project.task_group.__t__)已归档，不可修改",
-      "separately_archived_task_group": {
-        "title": "归档$t(Attribute.Project.task.__t__)"
-      },
-      "unarchive_task_group": {
-        "__t__": "取消归档",
-        "success": "取消归档$t(Attribute.Project.task_group.__t__)",
-        "fail": "取消归档$t(Attribute.Project.task_group.__t__)失败，请重试"
-      },
-      "edit_task_group": "编辑$t(Attribute.Project.task_group.short)",
-      "discard_task_group": {
-        "__t__": "删除$t(Attribute.Project.task_group.short)",
-        "success": "删除$t(Attribute.Project.task_group.__t__)成功",
-        "fail": "删除$t(Attribute.Project.task_group.__t__)失败，请重试",
-        "confirm": {
-          "title": "$t(Page.Project.discard_task_group.__t__)？",
-          "description": "分组及分组内$t(Attribute.Project.task.__t__)都将被删除，此操作不可撤销"
-        }
-      },
-      "update_task_group_fail": "更新$t(Attribute.Project.task_group.__t__)失败",
-      "reposition_task_group": {
-        "fail": "移动$t(Attribute.Project.task_group.__t__)失败"
-      },
-      "search": {
-        "__t__": "搜索",
-        "blank": "暂无搜索结果。",
-        "view_all": "查看全部结果",
-        "global": "全局搜索"
+        "state_hint": "有新的修改未发布",
+        "unpublished": "未发布"
       }
-    },
-    "FormMetal": {
-      "add_option": "添加选项",
-      "add_other_option": "添加其他选项",
-      "bulk_insert": {
-        "__t__": "批量添加",
-        "tip": "请输入选项，使用换行来分割选项",
-        "placeholder": "输入选项"
-      },
-      "add_option_tip": "{{add_other_option}} 或者 {{bulk_insert}}",
-      "leave_schema_page_confirm": {
-        "title": "离开此页？",
-        "description": "有更改未保存，离开不会保存更改",
-        "confirm": "离开"
-      },
-      "delete_schema_field_confirm": {
-        "title": "删除字段？",
-        "description": "删除后{{owner}}的此属性将被删除",
-        "confirm": "删除"
-      },
-      "dependencies": {
-        "add": "添加逻辑",
-        "edit": "编辑",
-        "remove": "删除",
-        "circularDependenciesErrorMessage": "{{fields}}相互控制，可能影响用户填写",
-        "radio_button": {
-          "disable_tip": "请添加更多字段来设置逻辑",
-          "modal": {
-            "title": "逻辑",
-            "option_dependency": {
-              "placeholder": "请选择"
-            }
-          }
-        }
-      }
-    },
-    "Error": {
-      "403": {
-        "title": "对不起，没有权限访问此页面",
-        "description": "你可以联系管理员授权给你"
-      },
-      "404": {
-        "title": "对不起，找不到这个页面",
-        "description": "请检查输入网址后再试"
-      },
-      "back_to_homepage": "返回首页"
-    },
-    "Activity": {
-      "TaskActivity": {
-        "TaskEvent": {
-          "create": "创建了$t(Attribute.Project.task.__t__)",
-          "complete": "完成了$t(Attribute.Project.task.__t__)",
-          "uncomplete": "重新打开了$t(Attribute.Project.task.__t__)",
-          "archive": "归档了$t(Attribute.Project.task.__t__)",
-          "unarchive": "取消了归档",
-          "clone": "复制了$t(Attribute.Project.task.__t__)",
-          "change_belonger": {
-            "__t__": "移动了$t(Attribute.Project.task.__t__)",
-            "full": "将$t(Attribute.Project.task.__t__)从 {{from}} 移动到 {{to}}"
-          }
+    }
+  },
+  "weapp": {
+    "activity": {
+      "notification": {
+        "task_event": {
+          "complete": "完成了$t(attribute.project.task.__t__)",
+          "uncomplete": "重新打开了$t(attribute.project.task.__t__)"
         },
-        "SubTaskEvent": {
-          "create": "创建了$t(Attribute.Project.task.sub_task)",
-          "complete": "完成了$t(Attribute.Project.task.sub_task)",
-          "uncomplete": "重新打开了$t(Attribute.Project.task.sub_task)",
-          "discard": "删除了$t(Attribute.Project.task.sub_task)"
+        "comment_event": {
+          "create": "评论了$t(attribute.project.task.__t__)",
+          "mention": "在$t(attribute.project.task.__t__)$t(attribute.project.task.comment)提及了你"
         },
-        "AssignmentEvent": {
-          "assign": "设置了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.assignee.__t__)",
-          "unassign": "移除了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.assignee.__t__)",
-          "reassign": "修改了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.assignee.__t__)"
-        },
-        "UpdationEvent": {
-          "update_description": "修改了$t(Attribute.Project.task.description)",
-          "update_title": "修改了$t(Attribute.Project.task.title)",
-          "update_priority": {
-            "add": "设置$t(Attribute.Project.task.priority.__t__)为",
-            "change": "将$t(Attribute.Project.task.priority.__t__)由 {{old_priority}} 修改为 {{new_priority}}"
-          },
-          "update_due_on": "修改了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.due_on.__t__)"
-        },
-        "AttachmentEvent": {
-          "create": "上传了附件",
-          "delete": "删除了附件"
-        },
-        "CollaborationEvent": {
-          "add": "添加了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.collaborator.__t__)",
-          "remove": "移除了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.collaborator.__t__)",
-          "update": "添加了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.collaborator.__t__) {{added_collaborators}} 同时移除了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.collaborator.__t__) {{removed_collaborators}}"
-        },
-        "SubscriptionEvent": {
-          "add": {
-            "__t__": "添加了$t(Attribute.Project.task.__t__)关注者",
-            "self": "关注了$t(Attribute.Project.task.__t__)"
-          },
-          "remove": {
-            "__t__": "移除了$t(Attribute.Project.task.__t__)关注者",
-            "self": "取消关注$t(Attribute.Project.task.__t__)"
-          }
-        },
-        "TaskLabelEvent": {
-          "add": "添加了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.task_label.__t__)",
-          "remove": "移除了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.task_label.__t__)",
-          "update": "添加了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.task_label.__t__)  {{added_task_labels}} 同时移除了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.task_label.__t__)  {{removed_task_labels}}"
-        },
-        "TaskProfileUpdationEvent": {
-          "__t__": "修改了{{field_label}}  {{field_value}}",
-          "blank": "无"
-        }
-      },
-      "Notification": {
-        "title": "提醒中心",
-        "all": "全部",
-        "unread": "未读",
-        "mark_all_read": {
-          "__t__": "全部标记为已读",
-          "fail": "操作失败"
-        },
-        "view_all": "查看全部",
-        "no_new_notification": "没有新的提醒",
-        "no_notifications": "暂无提醒",
-        "new_notification_created": "有新的提醒，点击查看",
-        "TaskEvent": {
-          "complete": "完成了$t(Attribute.Project.task.__t__)",
-          "uncomplete": "重新打开了$t(Attribute.Project.task.__t__)"
-        },
-        "AssignmentEvent": {
+        "assignment_event": {
           "assign": {
-            "user": "将你设置为$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.assignee.__t__)",
-            "department": "将{{department}}设置为$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.assignee.__t__)"
+            "department": "将{{department}}设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+            "user": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)"
           },
           "reassign": {
-            "user": "将你设置为$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.assignee.__t__)",
-            "department": "将{{department}}设置为$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.assignee.__t__)"
+            "department": "将{{department}}设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)",
+            "user": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.assignee.__t__)"
           }
         },
-        "UpdationEvent": {
-          "due_on": "修改了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.due_on.__t__)",
-          "clear_due_on": "清空了$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.due_on.__t__)",
+        "collaboration_event": "将你设置为$t(attribute.project.task.__t__)$t(attribute.project.task.collaborator.__t__)",
+        "updation_event": {
+          "clear_due_on": "清空了$t(attribute.project.task.__t__)$t(attribute.project.task.due_on.__t__)",
+          "due_on": "修改了$t(attribute.project.task.__t__)$t(attribute.project.task.due_on.__t__)",
           "update_due_on": "更改时间为 {{time}}"
-        },
-        "CommentEvent": {
-          "create": "评论了$t(Attribute.Project.task.__t__)",
-          "mention": "在$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.comment)提及了你"
-        },
-        "CollaborationEvent": "将你设置为$t(Attribute.Project.task.__t__)$t(Attribute.Project.task.collaborator.__t__)"
+        }
       }
     }
   }
