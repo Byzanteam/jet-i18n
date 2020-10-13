@@ -2632,39 +2632,39 @@ msgstr "有新的修改未发布"
 msgid "page.workflow.workflow.unpublished"
 msgstr "未发布"
 
-msgid "server.activity.notification.assignment_event.assign.department"
+msgid "weapp.activity.notification.assignment_event.assign.department"
 msgstr "将%{department}设置为任务负责人"
 
-msgid "server.activity.notification.assignment_event.assign.user"
+msgid "weapp.activity.notification.assignment_event.assign.user"
 msgstr "将你设置为任务负责人"
 
-msgid "server.activity.notification.assignment_event.reassign.department"
+msgid "weapp.activity.notification.assignment_event.reassign.department"
 msgstr "将%{department}设置为任务负责人"
 
-msgid "server.activity.notification.assignment_event.reassign.user"
+msgid "weapp.activity.notification.assignment_event.reassign.user"
 msgstr "将你设置为任务负责人"
 
-msgid "server.activity.notification.collaboration_event"
+msgid "weapp.activity.notification.collaboration_event"
 msgstr "将你设置为任务协作者"
 
-msgid "server.activity.notification.comment_event.create"
+msgid "weapp.activity.notification.comment_event.create"
 msgstr "评论了任务"
 
-msgid "server.activity.notification.comment_event.mention"
+msgid "weapp.activity.notification.comment_event.mention"
 msgstr "在任务评论提及了你"
 
-msgid "server.activity.notification.task_event.complete"
+msgid "weapp.activity.notification.task_event.complete"
 msgstr "完成了任务"
 
-msgid "server.activity.notification.task_event.uncomplete"
+msgid "weapp.activity.notification.task_event.uncomplete"
 msgstr "重新打开了任务"
 
-msgid "server.activity.notification.updation_event.clear_due_on"
+msgid "weapp.activity.notification.updation_event.clear_due_on"
 msgstr "清空了任务截止时间"
 
-msgid "server.activity.notification.updation_event.due_on"
+msgid "weapp.activity.notification.updation_event.due_on"
 msgstr "修改了任务截止时间"
 
-msgid "server.activity.notification.updation_event.update_due_on"
+msgid "weapp.activity.notification.updation_event.update_due_on"
 msgstr "更改时间为 %{time}"
 
