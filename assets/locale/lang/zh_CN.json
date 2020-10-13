@@ -1679,7 +1679,7 @@
       }
     }
   },
-  "server": {
+  "weapp": {
     "activity": {
       "notification": {
         "task_event": {
