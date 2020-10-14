@@ -388,6 +388,9 @@ msgstr "未设置"
 msgid "attribute.project.task.due_on.empty"
 msgstr "无"
 
+msgid "attribute.project.task.index_key.title"
+msgstr "事项ID"
+
 msgid "attribute.project.task.overdue.__t__"
 msgstr "逾期天数"
 

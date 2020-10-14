@@ -275,7 +275,10 @@
           "full": "$t(attribute.project.task.__t__)$t(attribute.project.task.task_label.__t__)",
           "name": "$t(attribute.project.task.task_label.__t__)名称"
         },
-        "title": "$t(attribute.project.task.__t__)标题"
+        "title": "$t(attribute.project.task.__t__)标题",
+        "index_key": {
+          "title": "$t(attribute.project.task.__t__)ID"
+        }
       },
       "task_group": {
         "__t__": "$t(attribute.project.task.__t__)$t(attribute.project.task_group.short)",
