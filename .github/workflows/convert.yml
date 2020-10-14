@@ -2,10 +2,6 @@ name: Convert CI
 
 on:
   push:
-    branch: [ master ]
-    paths:
-      - 'assets/locale/lang/*.json'
-  pull_request:
     paths:
       - 'assets/locale/lang/*.json'
 
