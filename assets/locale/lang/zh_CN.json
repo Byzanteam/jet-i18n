@@ -308,7 +308,7 @@
             "description": "$t(attribute.project.task.description)",
             "due_on": "$t(attribute.project.task.due_on.__t__)",
             "priority": "$t(attribute.project.task.priority.__t__)",
-            "title": "$t(attribute.project.task.title)"
+            "title": "$t(attribute.project.task.title)TestCI"
           }
         },
         "trigger_event": {
