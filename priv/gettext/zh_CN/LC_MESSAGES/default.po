@@ -488,7 +488,7 @@ msgid "attribute.workflow.case_data.project_task.attributes.priority"
 msgstr "优先级"
 
 msgid "attribute.workflow.case_data.project_task.attributes.title"
-msgstr "任务标题"
+msgstr "任务标题TestCI"
 
 msgid "attribute.workflow.case_data.trigger_event.__t__"
 msgstr "事件输出"
