@@ -1393,11 +1393,11 @@
           "__t__": "$t(attribute.project.project.__t__)基本信息"
         },
         "database": {
-          "__t__": "$t(attribute.Database.table.__t__)设置",
+          "__t__": "$t(attribute.database.table.__t__)设置",
           "filter": {
             "__t__": "数据筛选"
           },
-          "title": "关联$t(attribute.Database.table.__t__)"
+          "title": "关联$t(attribute.database.table.__t__)"
         },
         "fail": "保存失败",
         "success": "保存成功",
@@ -1489,10 +1489,10 @@
           "change_operation_description": "替换后所有设置不可恢复",
           "database_add_row": {
             "__t__": "新建数据",
-            "choose_table": "选择要执行的$t(attribute.Database.table.__t__)",
+            "choose_table": "选择要执行的$t(attribute.database.table.__t__)",
             "no_columns": "没有可用字段"
           },
-          "database_operations": "$t(attribute.Database.table.__t__)",
+          "database_operations": "$t(attribute.database.table.__t__)",
           "database_update_row": {
             "__t__": "修改字段",
             "choose_row": "选择要执行的填写记录",
