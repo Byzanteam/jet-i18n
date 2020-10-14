@@ -1970,13 +1970,13 @@ msgid "page.project.project_configuration.basic.__t__"
 msgstr "项目基本信息"
 
 msgid "page.project.project_configuration.database.__t__"
-msgstr "设置"
+msgstr "数据表格设置"
 
 msgid "page.project.project_configuration.database.filter.__t__"
 msgstr "数据筛选"
 
 msgid "page.project.project_configuration.database.title"
-msgstr "关联"
+msgstr "关联数据表格"
 
 msgid "page.project.project_configuration.fail"
 msgstr "保存失败"
@@ -2354,13 +2354,13 @@ msgid "page.workflow.nodes.automatic_operation.database_add_row.__t__"
 msgstr "新建数据"
 
 msgid "page.workflow.nodes.automatic_operation.database_add_row.choose_table"
-msgstr "选择要执行的"
+msgstr "选择要执行的数据表格"
 
 msgid "page.workflow.nodes.automatic_operation.database_add_row.no_columns"
 msgstr "没有可用字段"
 
 msgid "page.workflow.nodes.automatic_operation.database_operations"
-msgstr ""
+msgstr "数据表格"
 
 msgid "page.workflow.nodes.automatic_operation.database_update_row.__t__"
 msgstr "修改字段"
