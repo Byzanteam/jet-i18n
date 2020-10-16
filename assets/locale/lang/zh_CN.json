@@ -289,6 +289,7 @@
     },
     "workflow": {
       "case": {
+        "__t__": "$t(attribute.workflow.workflow.__t__)记录",
         "state": {
           "abandoned": "异常",
           "completed": "已完成",
