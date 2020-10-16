@@ -454,6 +454,9 @@ msgstr "分组"
 msgid "attribute.project.task_group.title"
 msgstr "分组名称"
 
+msgid "attribute.workflow.case.__t__"
+msgstr "流程记录"
+
 msgid "attribute.workflow.case.state.abandoned"
 msgstr "异常"
 
