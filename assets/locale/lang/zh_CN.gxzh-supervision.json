@@ -32,7 +32,7 @@
             "short": "完"
           },
           "incompleted_tasks": {
-            "__t__": "未完成$t(attribute.project.task.__t___)"
+            "__t__": "未完成$t(attribute.project.task.__t__)"
           },
           "will_overdue_tasks": {
             "__t__": "即将逾期$t(attribute.project.task.__t__)",
