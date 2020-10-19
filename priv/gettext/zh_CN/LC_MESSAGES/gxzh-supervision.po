@@ -1208,7 +1208,7 @@ msgid "page.activity.task_activity.updation_event.update_title"
 msgstr "修改了事项标题"
 
 msgid "page.application"
-msgstr "Jet"
+msgstr "成都高新区桂溪街道目标督办（问责问效）智能管理系统"
 
 msgid "page.auth.authorize_failed"
 msgstr "登录失败"
@@ -2070,6 +2070,33 @@ msgstr "已逾期"
 
 msgid "page.project.report.member_report.unassigned"
 msgstr "未指派"
+
+msgid "page.project.report.my_report.__t__"
+msgstr "个人完成情况统计"
+
+msgid "page.project.report.my_report.completed_tasks.__t__"
+msgstr "已完成事项"
+
+msgid "page.project.report.my_report.completed_tasks.short"
+msgstr "完"
+
+msgid "page.project.report.my_report.incompleted_tasks.__t__"
+msgstr "未完成"
+
+msgid "page.project.report.my_report.ratio"
+msgstr "完成数"
+
+msgid "page.project.report.my_report.tasks.__t__"
+msgstr "总计事项"
+
+msgid "page.project.report.my_report.tasks.short"
+msgstr "总"
+
+msgid "page.project.report.my_report.will_overdue_tasks.__t__"
+msgstr "即将逾期事项"
+
+msgid "page.project.report.my_report.will_overdue_tasks.short"
+msgstr "逾"
 
 msgid "page.project.report.overview.__t__"
 msgstr "总体事项统计"
