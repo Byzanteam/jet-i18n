@@ -2081,7 +2081,7 @@ msgid "page.project.report.my_report.completed_tasks.short"
 msgstr "完"
 
 msgid "page.project.report.my_report.incompleted_tasks.__t__"
-msgstr "未完成"
+msgstr "未完成事项"
 
 msgid "page.project.report.my_report.ratio"
 msgstr "完成数"
