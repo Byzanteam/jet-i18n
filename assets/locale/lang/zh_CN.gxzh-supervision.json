@@ -17,6 +17,29 @@
     }
   },
   "page": {
-    "application": "Jet"
+    "application": "成都高新区桂溪街道目标督办（问责问效）智能管理系统",
+    "project": {
+      "report": {
+        "my_report": {
+          "__t__": "个人完成情况统计",
+          "ratio": "完成数",
+          "tasks": {
+            "__t__": "总计$t(attribute.project.task.__t__)",
+            "short": "总"
+          },
+          "completed_tasks": {
+            "__t__": "已完成$t(attribute.project.task.__t__)",
+            "short": "完"
+          },
+          "incompleted_tasks": {
+            "__t__": "未完成$t(attribute.project.task.__t___)"
+          },
+          "will_overdue_tasks": {
+            "__t__": "即将逾期$t(attribute.project.task.__t__)",
+            "short": "逾"
+          }
+        }
+      }
+    }
   }
 }
