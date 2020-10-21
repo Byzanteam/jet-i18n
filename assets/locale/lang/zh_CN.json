@@ -985,7 +985,7 @@
       "title": {
         "list": "$t(attribute.project.project.__t__)",
         "project_show": "{{project_name}}",
-        "task_show": "{{task_title}}"
+        "task_show": "{{- task_title}}"
       },
       "project_list": {
         "favorite": {
