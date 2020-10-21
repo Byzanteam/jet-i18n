@@ -2282,7 +2282,7 @@ msgid "page.project.title.project_show"
 msgstr "%{project_name}"
 
 msgid "page.project.title.task_show"
-msgstr "%{task_title}"
+msgstr "{{- task_title}}"
 
 msgid "page.project.unarchive_project.__t__"
 msgstr "取消归档项目"
