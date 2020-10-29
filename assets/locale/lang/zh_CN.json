@@ -43,7 +43,8 @@
         "__t__": "数据"
       },
       "table": {
-        "__t__": "数据表格"
+        "__t__": "数据表格",
+        "title": "$t(attribute.database.table.__t__)名称"
       }
     },
     "form_metal": {
@@ -575,6 +576,7 @@
       "blank": "暂无{{target}}"
     },
     "operation": {
+      "__t__": "操作",
       "add": "添加",
       "cancel": "取消",
       "complete": "完成",
@@ -1474,6 +1476,13 @@
         "button": "确认，新建$t(attribute.project.task.__t__)",
         "fail": "创建失败",
         "success": "创建成功"
+      }
+    },
+    "database": {
+      "table": {
+        "list": {
+          "blank": "暂无数据"
+        }
       }
     },
     "workflow": {
