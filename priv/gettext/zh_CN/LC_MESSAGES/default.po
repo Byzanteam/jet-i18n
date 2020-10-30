@@ -70,6 +70,9 @@ msgstr "数据"
 msgid "attribute.database.table.__t__"
 msgstr "数据表格"
 
+msgid "attribute.database.table.title"
+msgstr "数据表格名称"
+
 msgid "attribute.form_metal.basic_field"
 msgstr "基本字段"
 
@@ -865,6 +868,9 @@ msgstr "请输入验证码"
 msgid "common.list.blank"
 msgstr "暂无%{target}"
 
+msgid "common.operation.__t__"
+msgstr "操作"
+
 msgid "common.operation.add"
 msgstr "添加"
 
@@ -1272,6 +1278,9 @@ msgstr "欢迎 %{user}"
 
 msgid "page.auth.workspace_name"
 msgstr "团队名称"
+
+msgid "page.database.table.list.blank"
+msgstr "暂无数据"
 
 msgid "page.error.403.description"
 msgstr "你可以联系管理员授权给你"
