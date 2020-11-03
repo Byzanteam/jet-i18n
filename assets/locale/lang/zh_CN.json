@@ -114,7 +114,16 @@
             "project_index_key_field": "限制字数",
             "single_line_field": "限制字数"
           },
-          "number": "填写范围",
+          "number": {
+            "__t__": "填写范围",
+            "lower": "最小",
+            "upper": "最大"
+          },
+          "range": {
+            "__t__": "填写范围",
+            "lower": "最小",
+            "upper": "最大"
+          },
           "presence": "必填"
         }
       },
