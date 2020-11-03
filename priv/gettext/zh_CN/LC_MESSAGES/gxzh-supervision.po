@@ -181,11 +181,26 @@ msgstr "限制字数"
 msgid "attribute.form_metal.field.validation.length.single_line_field"
 msgstr "限制字数"
 
-msgid "attribute.form_metal.field.validation.number"
+msgid "attribute.form_metal.field.validation.number.__t__"
 msgstr "填写范围"
+
+msgid "attribute.form_metal.field.validation.number.lower"
+msgstr "最小"
+
+msgid "attribute.form_metal.field.validation.number.upper"
+msgstr "最大"
 
 msgid "attribute.form_metal.field.validation.presence"
 msgstr "必填"
+
+msgid "attribute.form_metal.field.validation.range.__t__"
+msgstr "填写范围"
+
+msgid "attribute.form_metal.field.validation.range.lower"
+msgstr "最小"
+
+msgid "attribute.form_metal.field.validation.range.upper"
+msgstr "最大"
 
 msgid "attribute.form_metal.filter.__t__"
 msgstr "条件"
