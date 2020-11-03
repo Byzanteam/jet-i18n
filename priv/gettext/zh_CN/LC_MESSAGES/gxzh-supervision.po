@@ -475,6 +475,9 @@ msgstr "分组名称"
 msgid "attribute.workflow.case.__t__"
 msgstr "流程记录"
 
+msgid "attribute.workflow.case.serial_number"
+msgstr "流程编号"
+
 msgid "attribute.workflow.case.state.abandoned"
 msgstr "异常"
 
@@ -2647,6 +2650,21 @@ msgstr "暂无相关数据"
 msgid "page.workflow.workflow.case_count_is_executing"
 msgstr "%{ executing_case_count } 条正在运行中"
 
+msgid "page.workflow.workflow.case_table.columns.current_execution"
+msgstr "当前流程状态"
+
+msgid "page.workflow.workflow.case_table.columns.operation"
+msgstr ""
+
+msgid "page.workflow.workflow.case_table.columns.serial_number"
+msgstr "流程编号"
+
+msgid "page.workflow.workflow.case_table.state.all"
+msgstr "全部数据"
+
+msgid "page.workflow.workflow.case_table.state.running"
+msgstr "未完成"
+
 msgid "page.workflow.workflow.create"
 msgstr "新建流程"
 
@@ -2664,6 +2682,12 @@ msgstr "流程操作"
 
 msgid "page.workflow.workflow.operation.activate"
 msgstr "开启流程"
+
+msgid "page.workflow.workflow.operation.delete"
+msgstr "删除流程"
+
+msgid "page.workflow.workflow.operation.edit"
+msgstr "编辑流程"
 
 msgid "page.workflow.workflow.operation.suspend"
 msgstr "停用流程"
