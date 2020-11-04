@@ -2627,7 +2627,7 @@ msgid "page.workflow.workflow.case_table.columns.current_execution"
 msgstr "当前流程状态"
 
 msgid "page.workflow.workflow.case_table.columns.operation"
-msgstr ""
+msgstr "操作"
 
 msgid "page.workflow.workflow.case_table.columns.serial_number"
 msgstr "流程编号"
@@ -2656,7 +2656,7 @@ msgstr "流程操作"
 msgid "page.workflow.workflow.operation.activate"
 msgstr "开启流程"
 
-msgid "page.workflow.workflow.operation.delete"
+msgid "page.workflow.workflow.operation.discard"
 msgstr "删除流程"
 
 msgid "page.workflow.workflow.operation.edit"
