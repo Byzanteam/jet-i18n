@@ -304,7 +304,8 @@
           "abandoned": "异常",
           "completed": "已完成",
           "running": "进行中"
-        }
+        },
+        "serial_number": "流程编号"
       },
       "case_data": {
         "project_project": {
@@ -1682,10 +1683,23 @@
           "__t__": "$t(attribute.workflow.workflow.__t__)列表",
           "blank": "暂无数据"
         },
+        "case_table": {
+          "state": {
+            "running": "未完成",
+            "all": "全部数据"
+          },
+          "columns": {
+            "serial_number": "$t(attribute.workflow.case.serial_number)",
+            "current_execution": "当前$t(attribute.workflow.workflow.__t__)状态",
+            "operation": "$t(common.operation)"
+          }
+        },
         "operation": {
           "__t__": "$t(attribute.workflow.workflow.__t__)操作",
           "activate": "开启$t(attribute.workflow.workflow.__t__)",
-          "suspend": "停用$t(attribute.workflow.workflow.__t__)"
+          "suspend": "停用$t(attribute.workflow.workflow.__t__)",
+          "edit": "编辑$t(attribute.workflow.workflow.__t__)",
+          "delete": "删除$t(attribute.workflow.workflow.__t__)"
         },
         "settings": {
           "__t__": "$t(attribute.workflow.workflow.__t__)扩展设置",
