@@ -1691,7 +1691,7 @@
           "columns": {
             "serial_number": "$t(attribute.workflow.case.serial_number)",
             "current_execution": "当前$t(attribute.workflow.workflow.__t__)状态",
-            "operation": "$t(common.operation)"
+            "operation": "$t(common.operation.__t__)"
           }
         },
         "operation": {
@@ -1699,7 +1699,7 @@
           "activate": "开启$t(attribute.workflow.workflow.__t__)",
           "suspend": "停用$t(attribute.workflow.workflow.__t__)",
           "edit": "编辑$t(attribute.workflow.workflow.__t__)",
-          "delete": "删除$t(attribute.workflow.workflow.__t__)"
+          "discard": "删除$t(attribute.workflow.workflow.__t__)"
         },
         "settings": {
           "__t__": "$t(attribute.workflow.workflow.__t__)扩展设置",
