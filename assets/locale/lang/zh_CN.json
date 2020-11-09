@@ -869,6 +869,11 @@
         "confirm": "离开",
         "description": "有更改未保存，离开不会保存更改",
         "title": "离开此页？"
+      },
+      "field": {
+        "fill": {
+          "empty": "未填写"
+        }
       }
     },
     "identity_access": {
