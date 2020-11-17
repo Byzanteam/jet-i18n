@@ -353,13 +353,13 @@ msgid "attribute.project.task.activities"
 msgstr "动态"
 
 msgid "attribute.project.task.assignee.__t__"
-msgstr "牵头单位"
+msgstr "承办单位"
 
 msgid "attribute.project.task.assignee.blank"
 msgstr "未指派"
 
 msgid "attribute.project.task.attachment"
-msgstr "附件"
+msgstr "任务附件"
 
 msgid "attribute.project.task.collaborator.__t__"
 msgstr "协办单位"
@@ -395,10 +395,10 @@ msgid "attribute.project.task.created_via.user"
 msgstr "用户创建"
 
 msgid "attribute.project.task.description"
-msgstr "领导批示及要求"
+msgstr "事项要求"
 
 msgid "attribute.project.task.due_on.__t__"
-msgstr "办理时限要求"
+msgstr "完成时间"
 
 msgid "attribute.project.task.due_on.blank"
 msgstr "未设置"
@@ -458,7 +458,7 @@ msgid "attribute.project.task.task_label.name"
 msgstr "标签名称"
 
 msgid "attribute.project.task.title"
-msgstr "事项标题"
+msgstr "事项名称"
 
 msgid "attribute.project.task_group.__t__"
 msgstr "事项分组"
@@ -494,7 +494,7 @@ msgid "attribute.workflow.case_data.project_task.__t__"
 msgstr "事项"
 
 msgid "attribute.workflow.case_data.project_task.attributes.assignee"
-msgstr "牵头单位"
+msgstr "承办单位"
 
 msgid "attribute.workflow.case_data.project_task.attributes.completed"
 msgstr "完成情况"
@@ -503,22 +503,22 @@ msgid "attribute.workflow.case_data.project_task.attributes.created_via"
 msgstr "创建方式"
 
 msgid "attribute.workflow.case_data.project_task.attributes.description"
-msgstr "领导批示及要求"
+msgstr "事项要求"
 
 msgid "attribute.workflow.case_data.project_task.attributes.due_on"
-msgstr "办理时限要求"
+msgstr "完成时间"
 
 msgid "attribute.workflow.case_data.project_task.attributes.priority"
 msgstr "优先级"
 
 msgid "attribute.workflow.case_data.project_task.attributes.title"
-msgstr "事项标题"
+msgstr "事项名称"
 
 msgid "attribute.workflow.case_data.trigger_event.__t__"
 msgstr "事件输出"
 
 msgid "attribute.workflow.case_data.trigger_event.fields.assignee"
-msgstr "牵头单位"
+msgstr "承办单位"
 
 msgid "attribute.workflow.case_data.trigger_event.fields.completed"
 msgstr "完成情况"
@@ -527,16 +527,16 @@ msgid "attribute.workflow.case_data.trigger_event.fields.created_via"
 msgstr "创建方式"
 
 msgid "attribute.workflow.case_data.trigger_event.fields.description"
-msgstr "领导批示及要求"
+msgstr "事项要求"
 
 msgid "attribute.workflow.case_data.trigger_event.fields.due_on"
-msgstr "办理时限要求"
+msgstr "完成时间"
 
 msgid "attribute.workflow.case_data.trigger_event.fields.priority"
 msgstr "优先级"
 
 msgid "attribute.workflow.case_data.trigger_event.fields.title"
-msgstr "事项标题"
+msgstr "事项名称"
 
 msgid "attribute.workflow.case_data.workflow_case.__t__"
 msgstr "流程记录"
@@ -635,10 +635,10 @@ msgid "attribute.workflow.node.start.schema_field.created_via.candidate_values.u
 msgstr "用户创建"
 
 msgid "attribute.workflow.node.start.schema_field.description.__t__"
-msgstr "领导批示及要求"
+msgstr "事项要求"
 
 msgid "attribute.workflow.node.start.schema_field.due_on.__t__"
-msgstr "办理时限要求"
+msgstr "完成时间"
 
 msgid "attribute.workflow.node.start.schema_field.priority.__t__"
 msgstr "优先级"
@@ -656,7 +656,7 @@ msgid "attribute.workflow.node.start.schema_field.priority.candidate_values.medi
 msgstr "普通"
 
 msgid "attribute.workflow.node.start.schema_field.title.__t__"
-msgstr "事项标题"
+msgstr "事项名称"
 
 msgid "attribute.workflow.node.state.completed"
 msgstr "执行"
@@ -695,22 +695,22 @@ msgid "attribute.workflow.resource.project_task.__t__"
 msgstr "事项"
 
 msgid "attribute.workflow.resource.project_task.assignee"
-msgstr "牵头单位"
+msgstr "承办单位"
 
 msgid "attribute.workflow.resource.project_task.created_via"
 msgstr "创建方式"
 
 msgid "attribute.workflow.resource.project_task.description"
-msgstr "领导批示及要求"
+msgstr "事项要求"
 
 msgid "attribute.workflow.resource.project_task.due_on"
-msgstr "办理时限要求"
+msgstr "完成时间"
 
 msgid "attribute.workflow.resource.project_task.priority"
 msgstr "优先级"
 
 msgid "attribute.workflow.resource.project_task.title"
-msgstr "事项标题"
+msgstr "事项名称"
 
 msgid "attribute.workflow.trigger.events.project_task_created"
 msgstr "创建任务"
@@ -1070,16 +1070,16 @@ msgid "page.activity.notification.all"
 msgstr "全部"
 
 msgid "page.activity.notification.assignment_event.assign.department"
-msgstr "将%{department}设置为事项牵头单位"
+msgstr "将%{department}设置为事项承办单位"
 
 msgid "page.activity.notification.assignment_event.assign.user"
-msgstr "将你设置为事项牵头单位"
+msgstr "将你设置为事项承办单位"
 
 msgid "page.activity.notification.assignment_event.reassign.department"
-msgstr "将%{department}设置为事项牵头单位"
+msgstr "将%{department}设置为事项承办单位"
 
 msgid "page.activity.notification.assignment_event.reassign.user"
-msgstr "将你设置为事项牵头单位"
+msgstr "将你设置为事项承办单位"
 
 msgid "page.activity.notification.collaboration_event"
 msgstr "将你设置为事项协办单位"
@@ -1118,10 +1118,10 @@ msgid "page.activity.notification.unread"
 msgstr "未读"
 
 msgid "page.activity.notification.updation_event.clear_due_on"
-msgstr "清空了事项办理时限要求"
+msgstr "清空了事项完成时间"
 
 msgid "page.activity.notification.updation_event.due_on"
-msgstr "修改了事项办理时限要求"
+msgstr "修改了事项完成时间"
 
 msgid "page.activity.notification.updation_event.update_due_on"
 msgstr "更改时间为 %{time}"
@@ -1130,13 +1130,13 @@ msgid "page.activity.notification.view_all"
 msgstr "查看全部"
 
 msgid "page.activity.task_activity.assignment_event.assign"
-msgstr "设置了事项牵头单位"
+msgstr "设置了事项承办单位"
 
 msgid "page.activity.task_activity.assignment_event.reassign"
-msgstr "修改了事项牵头单位"
+msgstr "修改了事项承办单位"
 
 msgid "page.activity.task_activity.assignment_event.unassign"
-msgstr "移除了事项牵头单位"
+msgstr "移除了事项承办单位"
 
 msgid "page.activity.task_activity.attachment_event.create"
 msgstr "上传了附件"
@@ -1217,10 +1217,10 @@ msgid "page.activity.task_activity.task_profile_updation_event.blank"
 msgstr "无"
 
 msgid "page.activity.task_activity.updation_event.update_description"
-msgstr "修改了领导批示及要求"
+msgstr "修改了事项要求"
 
 msgid "page.activity.task_activity.updation_event.update_due_on"
-msgstr "修改了事项办理时限要求"
+msgstr "修改了事项完成时间"
 
 msgid "page.activity.task_activity.updation_event.update_priority.add"
 msgstr "设置优先级为"
@@ -1229,7 +1229,7 @@ msgid "page.activity.task_activity.updation_event.update_priority.change"
 msgstr "将优先级由 %{old_priority} 修改为 %{new_priority}"
 
 msgid "page.activity.task_activity.updation_event.update_title"
-msgstr "修改了事项标题"
+msgstr "修改了事项名称"
 
 msgid "page.application"
 msgstr "成都高新区桂溪街道目标督办（问责问效）智能管理系统"
@@ -1691,10 +1691,10 @@ msgid "page.project.default_task_group_title"
 msgstr "待办事项"
 
 msgid "page.project.delete_attachment.__t__"
-msgstr "删除附件 %{attachment}？"
+msgstr "删除任务附件 %{attachment}？"
 
 msgid "page.project.delete_attachment.fail"
-msgstr "附件删除失败"
+msgstr "任务附件删除失败"
 
 msgid "page.project.discard_project.__t__"
 msgstr "删除项目"
@@ -1757,7 +1757,7 @@ msgid "page.project.discard_task_label.success"
 msgstr "删除标签成功"
 
 msgid "page.project.download_attachment.get_url_fail"
-msgstr "获取附件下载地址失败"
+msgstr "获取任务附件下载地址失败"
 
 msgid "page.project.draft_task.errors.assignee_user_boundary.not_match"
 msgstr "找不到匹配的成员"
@@ -1802,7 +1802,7 @@ msgid "page.project.draft_task.errors.task_labels.not_match"
 msgstr "有未匹配的标签"
 
 msgid "page.project.draft_task.errors.title.presence"
-msgstr "事项标题不能为空"
+msgstr "事项名称不能为空"
 
 msgid "page.project.edit_task_group"
 msgstr "编辑分组"
@@ -2240,7 +2240,7 @@ msgid "page.project.task_comment.updated"
 msgstr "已编辑"
 
 msgid "page.project.task_description_content"
-msgstr "领导批示及要求内容"
+msgstr "事项要求内容"
 
 msgid "page.project.task_filter.__t__"
 msgstr "事项筛选"
@@ -2270,10 +2270,10 @@ msgid "page.project.task_filter.due_on.unset"
 msgstr "未设置"
 
 msgid "page.project.task_filter.placeholder.assignee"
-msgstr "牵头单位"
+msgstr "承办单位"
 
 msgid "page.project.task_filter.placeholder.due_on"
-msgstr "办理时限要求"
+msgstr "完成时间"
 
 msgid "page.project.task_filter.placeholder.task_label"
 msgstr "标签"
@@ -2390,7 +2390,7 @@ msgid "page.project.update_task_group_fail"
 msgstr "更新事项分组失败"
 
 msgid "page.project.upload_task_attachment.__t__"
-msgstr "添加附件"
+msgstr "添加任务附件"
 
 msgid "page.project.upload_task_attachment.drag_upload"
 msgstr "将文件拖动到这里直接上传"
@@ -2717,16 +2717,16 @@ msgid "page.workflow.workflow.unpublished"
 msgstr "未发布"
 
 msgid "weapp.activity.notification.assignment_event.assign.department"
-msgstr "将%{department}设置为事项牵头单位"
+msgstr "将%{department}设置为事项承办单位"
 
 msgid "weapp.activity.notification.assignment_event.assign.user"
-msgstr "将你设置为事项牵头单位"
+msgstr "将你设置为事项承办单位"
 
 msgid "weapp.activity.notification.assignment_event.reassign.department"
-msgstr "将%{department}设置为事项牵头单位"
+msgstr "将%{department}设置为事项承办单位"
 
 msgid "weapp.activity.notification.assignment_event.reassign.user"
-msgstr "将你设置为事项牵头单位"
+msgstr "将你设置为事项承办单位"
 
 msgid "weapp.activity.notification.collaboration_event"
 msgstr "将你设置为事项协办单位"
@@ -2744,10 +2744,10 @@ msgid "weapp.activity.notification.task_event.uncomplete"
 msgstr "重新打开了事项"
 
 msgid "weapp.activity.notification.updation_event.clear_due_on"
-msgstr "清空了事项办理时限要求"
+msgstr "清空了事项完成时间"
 
 msgid "weapp.activity.notification.updation_event.due_on"
-msgstr "修改了事项办理时限要求"
+msgstr "修改了事项完成时间"
 
 msgid "weapp.activity.notification.updation_event.update_due_on"
 msgstr "更改时间为 %{time}"
