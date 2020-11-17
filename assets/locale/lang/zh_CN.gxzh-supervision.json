@@ -3,16 +3,18 @@
     "project": {
       "task": {
         "__t__": "事项",
-        "description": "领导批示及要求",
+        "description": "事项要求",
         "assignee": {
-          "__t__": "牵头单位"
+          "__t__": "承办单位"
         },
+        "attachment": "任务附件",
         "due_on": {
-          "__t__": "办理时限要求"
+          "__t__": "完成时间"
         },
         "collaborator": {
           "__t__": "协办单位"
-        }
+        },
+        "title": "$t(attribute.project.task.__t__)名称"
       }
     }
   },
