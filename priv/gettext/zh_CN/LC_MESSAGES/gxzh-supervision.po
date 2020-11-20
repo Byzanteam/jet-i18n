@@ -2626,11 +2626,23 @@ msgstr "有不符合规则的连线"
 msgid "page.workflow.validation.redundant_links"
 msgstr "有不符合规则的连线"
 
+msgid "page.workflow.value_presenter.select.checkbox_field.literal.title"
+msgstr "选择"
+
+msgid "page.workflow.value_presenter.select.checkbox_field.reference.title"
+msgstr "动态选择"
+
 msgid "page.workflow.value_presenter.select.date_time_field.literal.title"
 msgstr "时间"
 
 msgid "page.workflow.value_presenter.select.date_time_field.reference.title"
 msgstr "动态时间"
+
+msgid "page.workflow.value_presenter.select.radio_button_field.literal.title"
+msgstr "选择"
+
+msgid "page.workflow.value_presenter.select.radio_button_field.reference.title"
+msgstr "动态选择"
 
 msgid "page.workflow.value_presenter.select.single_line_field.literal.title"
 msgstr "文本"
