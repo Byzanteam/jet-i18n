@@ -1644,12 +1644,28 @@
       },
       "value_presenter": {
         "select": {
+          "checkbox_field": {
+            "literal": {
+              "title": "选择"
+            },
+            "reference": {
+              "title": "动态选择"
+            }
+          },
           "date_time_field": {
             "literal": {
               "title": "时间"
             },
             "reference": {
               "title": "动态时间"
+            }
+          },
+          "radio_button_field": {
+            "literal": {
+              "title": "选择"
+            },
+            "reference": {
+              "title": "动态选择"
             }
           },
           "single_line_field": {
